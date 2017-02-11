@@ -14,25 +14,23 @@
 export default [
   // Home
   {
-    path: '/home',
+    path: '/contact',
     name: 'home.index',
     component: require('pages/home/index/index.vue'),
-
-
   },
 
   // Account
   {
-    path: '/cards',
+    path: '/',
     name: 'cards.index',
     component: require('pages/cards/index/index.vue'),
   },
   {
     path: '/',
-    redirect: '/home',
+    redirect: '/',
   },
   {
     path: '/*',
-    redirect: '/home',
+    redirect: '/',
   },
 ];
