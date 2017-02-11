@@ -11,24 +11,25 @@
 <h2>Filter</h2>
 <fieldset>
   <!-- Multiple Checkboxes (inline) -->
+  <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="yearlyfee">Ohne Jahresgebühr</label>
+  <label class="col-md-4 control-label" for="yearlyFee">Jahresgebühr</label>
   <div class="col-md-4">
-    <label class="checkbox-inline" for="yearlyfee-0">
-      <input type="checkbox" v-model="yearlyFee.selected" name="yearlyfee" id="yearlyfee-0" value="true">
-      Ja
-    </label>
+    <select id="yearlyFee" name="yearlyFee" class="form-control" v-model="yearlyFee">
+      <option v-bind:value="{ selected: false, inSelection: 0 }">Egal</option>
+      <option v-bind:value="{ selected: true, inSelection: 0 }" >Nein</option>
+    </select>
   </div>
 </div>
 
-<!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="bankaccount">Mit Girokonto</label>
+  <label class="col-md-4 control-label" for="selectbasic">Mit Girokonto</label>
   <div class="col-md-4">
-    <label class="checkbox-inline" for="bankaccount-0">
-      <input type="checkbox" v-model="withChecking.selected" name="bankaccount" id="bankaccount-0" value="true">
-      Ja
-    </label>
+    <select id="selectbasic" name="withChecking" class="form-control" v-model="withChecking">
+      <option v-bind:value="{ selected: false, inSelection: 'true' }">Egal</option>
+      <option v-bind:value="{ selected: true, inSelection: 'true' }">Ja</option>
+      <option v-bind:value="{ selected: true, inSelection: 'false' }" >Nein</option>
+    </select>
   </div>
 </div>
 
@@ -74,16 +75,17 @@
   </div>
 </div>
 
-<!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="pinfirst">PIN-First</label>
+  <label class="col-md-4 control-label" for="selectbasic">Erste CVM-Methode</label>
   <div class="col-md-4">
-    <label class="checkbox-inline" for="pinfirst-0">
-      <input type="checkbox" v-model="pinfirst.selected" name="pinfirst" id="pinfirst-0" value="true">
-      Ja
-    </label>
+    <select id="selectbasic" name="pinfirst" class="form-control" v-model="pinfirst">
+      <option v-bind:value="{ selected: false, inSelection: 'true' }">Egal</option>
+      <option v-bind:value="{ selected: true, inSelection: 'true' }">PIN first</option>
+      <option v-bind:value="{ selected: true, inSelection: 'false' }" >Sign first</option>
+    </select>
   </div>
 </div>
+
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
@@ -253,7 +255,7 @@
 
           </td>
           <td>
-                        {{card.contactless ? "Ja" : "Nein"}}
+                        {{card.contactless == "true" ? "Ja" : "Nein"}}
 
           </td>
 
