@@ -15,7 +15,8 @@ export default {
   },
 
   created() {
-    cardService.find();
+    var that = this;
+    cardService.find()
   },
   data() {
     return {
@@ -40,8 +41,8 @@ export default {
     filteredCards: function () {
       let result = this.$store.state.cards.cards;
 
-      if(!result|| result.length == 0)
-        return result
+      if(!result|| result.length == 0 || !result.filter)
+        return []
 
       const filterCard = function(property, compareValue) {
         return function(card) {

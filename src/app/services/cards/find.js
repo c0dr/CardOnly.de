@@ -11,7 +11,7 @@ const failed = () => {};
 
 export default function () {
   return new Promise(function (resolve, reject) {
-    Vue.$http.get('https://rawgit.com/c0dr/2f7f070540873aa0d8d6b54be1dae74e/raw/a8ad060fb70174df9f4be67b5dc48eb32853e613/cards.json')
+    Vue.$http.get('https://gist.githubusercontent.com/c0dr/2f7f070540873aa0d8d6b54be1dae74e/raw/b1179ede39323147f472868d274a51c4f07b885b/cards.json')
       .then((response) => {
         resolve(response);
         success(response);

@@ -1,18 +1,16 @@
 <v-layout>
 
-  <div class="jumbotron">
-  <h1>Immer die richtige Karte</h1>
-   <p>Egal ob für den Tankautomaten in Frankreich, die U-Bahn in London oder das Modegeschäft in Deutschland - finde jetzt die ideale Karte für dich!</p>
-</div>
+    <div class="container-fluid" >
+      <div class="row">
+      
+
+<div class="col-xs-2 sidebar">
 
 
 <form class="form-horizontal">
+<h2>Filter</h2>
 <fieldset>
-
-<!-- Form Name -->
-<legend>Basisdaten</legend>
-
-<!-- Multiple Checkboxes (inline) -->
+  <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="yearlyfee">Ohne Jahresgebühr</label>
   <div class="col-md-4">
@@ -33,8 +31,6 @@
     </label>
   </div>
 </div>
-
-
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
@@ -67,7 +63,6 @@
   </div>
 </div>
 
-<legend>CVM</legend>
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="offlinepin">Offline-PIN Support</label>
@@ -89,9 +84,6 @@
     </label>
   </div>
 </div>
-
-<legend>Einsatz</legend>
-
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
@@ -129,10 +121,6 @@
 </div>
 
 
-<legend>Gebühren</legend>
-
-
-<!-- Multiple Checkboxes -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="atm">ATM gratis in:</label>
   <div class="col-md-4">
@@ -145,7 +133,7 @@
   <div class="checkbox">
     <label for="atm-1">
       <input type="checkbox" v-model="fees_atm_eur.selected" name="atm" id="atm-1" value="eu">
-      Euro-Zone (ohne DE)
+      Euro Zone
     </label>
 	</div>
   <div class="checkbox">
@@ -167,8 +155,6 @@
     </label>
   </div>
 </div>
-
-<legend>Benefits</legend>
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
@@ -196,9 +182,19 @@
 </fieldset>
 </form>
 
+</div>
+
+<div class="clearfix"><div>
+<div class="col-xs-10 col-xs-offset-2">
 
 
-      <table class="table table-striped" v-if="filteredCards">
+  <div class="jumbotron">
+  <h1>Immer die richtige Karte</h1>
+   <p>Egal ob für den Tankautomaten in Frankreich, die U-Bahn in London oder das Modegeschäft in Deutschland - finde jetzt die ideale Karte für dich!</p>
+</div>
+
+
+      <table class="table table-striped table-responsive" v-if="filteredCards">
         <thead>
         <tr>
           <th>
@@ -272,7 +268,8 @@
         </tr>
         </tbody>
       </table>
-    </div>
+
+
     <div id='footer'>
       <hr/>
     <small>CVM-Daten teils von <a href="http://emv.maxontour.com"> maxontour</a> 
@@ -281,8 +278,12 @@
           >
             <a>
              -  Kontakt
-            </a>
+            </a> - <a href="https://github.com/c0dr/CardOnly.de">View on GitHub</a>
           </router-link></small>
     
+    </div>
+
+    </div>  
   </v-panel>
+    </div>
 </v-layout>
