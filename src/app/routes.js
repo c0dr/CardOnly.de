@@ -26,6 +26,11 @@ export default [
     component: require('pages/cards/index/index.vue'),
   },
   {
+    path: '/suggest',
+    name: 'contact.index',
+    component: require('pages/contact/index/index.vue'),
+  },
+  {
     path: '/',
     redirect: '/',
   },
