@@ -59,7 +59,7 @@ export default {
           result = result.filter(filterCard(propertyName, this._data[propertyName].inSelection));
         }
       }
-      return result
+      return result.sort((a, b) => a.Issuer.localeCompare(b.Issuer));
     }
   }
 };
