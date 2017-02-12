@@ -108,7 +108,7 @@
 		"fees_pos_foreign": 0,
 		"pinfirst": "false",
 		"insurance": "true",
-		"miles": "false",
+		"miles": "true",
 		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz"
 	},
 
