@@ -13,8 +13,8 @@
   <!-- Multiple Checkboxes (inline) -->
   <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="yearlyFee">Jahresgebühr</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="yearlyFee">Jahresgebühr</label>
+  <div class="col-md-6">
     <select id="yearlyFee" name="yearlyFee" class="form-control" v-model="yearlyFee">
       <option v-bind:value="{ selected: false, inSelection: 0 }">Egal</option>
       <option v-bind:value="{ selected: true, inSelection: 0 }" >Nein</option>
@@ -23,8 +23,8 @@
 </div>
 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Mit Girokonto</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="selectbasic">Mit Girokonto</label>
+  <div class="col-md-6">
     <select id="selectbasic" name="withChecking" class="form-control" v-model="withChecking">
       <option v-bind:value="{ selected: false, inSelection: 'true' }">Egal</option>
       <option v-bind:value="{ selected: true, inSelection: 'true' }">Ja</option>
@@ -35,8 +35,8 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="charge">Abrechnung</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="charge">Abrechnung</label>
+  <div class="col-md-6">
   <div class="checkbox">
     <label for="charge-0">
       <input type="checkbox" v-model="charge.inSelection" id="charge-0" value="credit">
@@ -66,8 +66,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="offlinepin">Offline-PIN Support</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="offlinepin">Offline-PIN Support</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="offlinepin-0">
       <input type="checkbox" v-model="offlinepin.selected" name="offlinepin" id="offlinepin-0" value="true">
       Ja
@@ -76,8 +76,8 @@
 </div>
 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="selectbasic">Erste CVM-Methode</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="selectbasic">Erste CVM-Methode</label>
+  <div class="col-md-6">
     <select id="selectbasic" name="pinfirst" class="form-control" v-model="pinfirst">
       <option v-bind:value="{ selected: false, inSelection: 'true' }">Egal</option>
       <option v-bind:value="{ selected: true, inSelection: 'true' }">PIN first</option>
@@ -89,8 +89,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="offlinetrx">Offline-Transaktionen</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="offlinetrx">Offline-Transaktionen</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="offlinetrx-0">
       <input type="checkbox" v-model="offlinetrx.selected" name="offlinetrx" id="offlinetrx-0" value="true">
       Ja
@@ -100,8 +100,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="nfc">NFC</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="nfc">NFC</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="nfc-0">
       <input type="checkbox" v-model="contactless.selected" name="nfc" id="nfc-0" value="Ja">
       Ja
@@ -111,11 +111,11 @@
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="3dsecure">3D-Secure</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="3dsecure">3D-Secure</label>
+  <div class="col-md-6">
   <div class="checkbox">
     <label for="3dsecure-0">
-      <input type="checkbox" name="3dsecure" id="3dsecure-0" value="true">
+      <input type="checkbox" v-model="secure.selected" name="3dsecure" id="3dsecure-0" value="true">
       Ja
     </label>
 	</div>
@@ -124,8 +124,8 @@
 
 
 <div class="form-group">
-  <label class="col-md-4 control-label" for="atm">ATM gratis in:</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="atm">ATM gratis in:</label>
+  <div class="col-md-6">
   <div class="checkbox">
     <label for="atm-0">
       <input type="checkbox" v-model="fees_atm_de.selected" name="atm" id="atm-0" value="de">
@@ -149,8 +149,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="posfees">POS gratis im Ausland</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="posfees">POS gratis im Ausland</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="posfees-0">
       <input type="checkbox" v-model="fees_pos_foreign.selected" name="posfees" id="posfees-0" value="true">
       Ja
@@ -160,8 +160,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="insurance">Versicherungen</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="insurance">Versicherungen</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="insurance-0">
       <input type="checkbox" v-model="insurance.selected" name="insurance" id="insurance-0" value="true">
       Ja
@@ -172,8 +172,8 @@
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="miles">Meilen sammeln</label>
-  <div class="col-md-4">
+  <label class="col-md-6 control-label" for="miles">Meilen sammeln</label>
+  <div class="col-md-6">
     <label class="checkbox-inline" for="miles-0">
       <input type="checkbox" v-model="miles.selected" name="miles" id="miles-0" value="true">
       Ja
