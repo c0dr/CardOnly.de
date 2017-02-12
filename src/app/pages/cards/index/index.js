@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      '3DSecure': {selected: false, inSelection: "true"},
+      'secure': {selected: false, inSelection: "true"},
       'charge': {selected: true, inSelection: ["charge", "credit", "debit", "prepaid"]},
       'contactless': {selected: false, inSelection: "true"},
       'fees_atm_de': {selected: false, inSelection: 0},
