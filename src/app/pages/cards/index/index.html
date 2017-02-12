@@ -191,7 +191,7 @@
 
 
   <div class="jumbotron">
-  <h1> <i class="fa fa-credit-card"></i>Immer die richtige Karte</h1>
+  <h1> <i class="fa fa-credit-card"></i> Immer die richtige Karte</h1>
    <p>Egal ob für den Tankautomaten in Frankreich, die U-Bahn in London oder das Modegeschäft in Deutschland - finde jetzt die ideale Karte für dich!</p>
 </div>
 
@@ -274,7 +274,8 @@
 
           </td>
           <td>
-                        {{card.notes}}
+                       <span v-html="card.notes"></span>
+
 
           </td>
         </tr>

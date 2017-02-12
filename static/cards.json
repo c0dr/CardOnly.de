@@ -33,7 +33,7 @@
 		"pinfirst": "true",
 		"insurance": "true",
 		"miles": "false",
-		"notes": "Maestro als Zusatzkarte, Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung bei Zahlung über N26 Konto für Privatreise "
+		"notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
 	}, {
 		"Issuer": "ICS Visa",
 		"yearlyFee": 0,
@@ -89,7 +89,7 @@
 		"pinfirst": "false",
 		"insurance": "false",
 		"miles": "true",
-		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, Benefits auf EW Fluegen"
+		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>"
 	},
 
 	{
@@ -109,7 +109,7 @@
 		"pinfirst": "false",
 		"insurance": "true",
 		"miles": "false",
-		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung - bei Karteneinsatz"
+		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz"
 	},
 
 
@@ -130,7 +130,7 @@
 		"pinfirst": "false",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, gratis ab 3k im Jahr, Reiserabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung"
+		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, gratis ab 3k im Jahr, <span class='text-success'> Reiserabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>"
 	},
 
 	{
@@ -150,7 +150,7 @@
 		"pinfirst": "false",
 		"insurance": "true",
 		"miles": "false",
-		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung"
+		"notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>"
 	},
 
 	{
@@ -260,7 +260,7 @@
 		"pinfirst": "true",
 		"insurance": "true",
 		"miles": "false",
-		"notes": "VPay girocard als Zusatzkarte, ATM direkt abgerechnet, Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsaty, Krankenversicherung"
+		"notes": "VPay girocard als Zusatzkarte, ATM direkt abgerechnet, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung</span>"
 	}, 
     
     {
@@ -280,7 +280,7 @@
 		"pinfirst": "true",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "Inoffiziell kostenlos ab 10k/Jahr, 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance"
+		"notes": "Inoffiziell kostenlos ab 10k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>"
 	},
 
     {
@@ -300,7 +300,7 @@
 		"pinfirst": "true",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "kostenlos ab 4k/Jahr, 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz"
+		"notes": "kostenlos ab 4k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz</span>"
 	},
     
     
@@ -321,7 +321,7 @@
 		"pinfirst": "true",
 		"insurance": "false",
 		"miles": "true",
-		"notes": "2EUR = 1 Payback-Punkt = 1 Miles & More Meile"
+		"notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>"
 	}, {
 		"Issuer": "Santander 1plus Visa Card",
 		"yearlyFee": 0,
@@ -339,7 +339,7 @@
 		"pinfirst": 0,
 		"insurance": "false",
 		"miles": "false",
-		"notes": "Erstattung von ATM-Entgelten"
+		"notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>"
 	}, {
 		"Issuer": "comdirect Visa",
 		"yearlyFee": 0,
@@ -393,7 +393,7 @@
 		"pinfirst": "false",
 		"insurance": "false",
 		"miles": "false",
-		"notes": "Teilzahlung möglich, ATM sofort verzinst!"
+		"notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>"
 	}, {
 		"Issuer": "LBB AirBerlin",
 		"yearlyFee": "0 bis 90 EUR",
@@ -411,7 +411,7 @@
 		"pinfirst": "false",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "Girocard als Zusatzkarte, Teilzahlung zu 16,77%, ATM nur aus Guthaben gratis, sonst 3% mind 7.50EUR"
+		"notes": "Girocard als Zusatzkarte, Teilzahlung zu 16,77%, <span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 7.50EUR</span>"
 	}, {
 		"Issuer": "Fidor Debit MasterCard",
 		"yearlyFee": "14,95",
@@ -465,7 +465,7 @@
 		"pinfirst": "true",
 		"insurance": "false",
 		"miles": "false",
-		"notes": "2EUR nach 2 Abhebungen im Monat, Maestro App"
+		"notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte"
 	}, {
 		"Issuer": "DKB Visa",
 		"yearlyFee": 0,
@@ -503,6 +503,6 @@
 		"pinfirst": "true",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket Aufpreis"
+		"notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis"
 	}
 ]
