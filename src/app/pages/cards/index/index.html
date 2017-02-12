@@ -191,7 +191,7 @@
 
 
   <div class="jumbotron">
-  <h1>Immer die richtige Karte</h1>
+  <h1> <i class="fa fa-credit-card"></i>Immer die richtige Karte</h1>
    <p>Egal ob für den Tankautomaten in Frankreich, die U-Bahn in London oder das Modegeschäft in Deutschland - finde jetzt die ideale Karte für dich!</p>
 </div>
 
@@ -200,13 +200,10 @@
         <thead>
         <tr>
           <th>
-            Issuer
+            Karte
           </th>
           <th>
             Jahresgebühr
-          </th>
-          <th>
-            POS Euro
           </th>
             <th>
             POS Fremdwährung
@@ -219,6 +216,9 @@
           </th>
             <th>
             NFC
+          </th>
+            <th>
+            Meilen
           </th>
            <th>
             Abrechnung
@@ -235,27 +235,37 @@
             {{card.Issuer}}
           </td>
           <td>
-                      {{card.yearlyFee}}
+
+          <span v-bind:class="{'label label-success': card.yearlyFee == 0}">{{card.yearlyFee}}</span>
 
           </td>
           <td>
-                        {{card.fees_pos_eur}}
+
+                      <span v-bind:class="{'label label-success': card.fees_pos_foreign == 0}">{{card.fees_pos_foreign}}</span>
+
 
           </td>
           <td>
-                        {{card.fees_pos_foreign}}
+
+                                  <span v-bind:class="{'label label-success': card.fees_atm_eur == 0}">{{card.fees_atm_eur}}</span>
+
 
           </td>
           <td>
-                        {{card.fees_atm_eur}}
+                                  <span v-bind:class="{'label label-success': card.fees_atm_foreign == 0}">{{card.fees_atm_foreign}}</span>
 
           </td>
           <td>
-                        {{card.fees_atm_foreign}}
+                        
+                        
+                         <span v-bind:class="{'label label-success': card.contactless == 'true', 'label label-danger': card.contactless != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.contactless == 'true', 'fa-times fa-fw': card.contactless !='true' }"/></span>
 
           </td>
-          <td>
-                        {{card.contactless == "true" ? "Ja" : "Nein"}}
+
+                    <td>
+                        
+                        
+                         <span v-bind:class="{'label label-success': card.miles == 'true', 'label label-info': card.miles != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.miles == 'true', 'fa-times fa-fw': card.miles !='true' }"/></span>
 
           </td>
 
@@ -276,7 +286,7 @@
       <hr/>
     <small>CVM-Daten teils von <a href="http://emv.maxontour.com"> maxontour</a> 
      <router-link
-            :to="{ name: 'home.index' }"
+            :to="{ name: 'contact.index' }"
           >
             <a>
              -  Kontakt

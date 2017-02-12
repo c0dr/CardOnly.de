@@ -12,27 +12,24 @@
  * @type {object} The routes
  */
 export default [
-  // Home
+  // Legal
   {
-    path: '/contact',
-    name: 'home.index',
-    component: require('pages/home/index/index.vue'),
+    path: '/legal',
+    name: 'legal.index',
+    component: require('pages/legal/index/index.vue'),
   },
 
-  // Account
+  // Index
   {
     path: '/',
     name: 'cards.index',
     component: require('pages/cards/index/index.vue'),
   },
+  // Suggest new cards
   {
     path: '/suggest',
     name: 'contact.index',
     component: require('pages/contact/index/index.vue'),
-  },
-  {
-    path: '/',
-    redirect: '/',
   },
   {
     path: '/*',
