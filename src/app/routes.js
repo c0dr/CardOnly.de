@@ -25,12 +25,6 @@ export default [
     name: 'cards.index',
     component: require('pages/cards/index/index.vue'),
   },
-  // Suggest new cards
-  {
-    path: '/suggest',
-    name: 'contact.index',
-    component: require('pages/contact/index/index.vue'),
-  },
   {
     path: '/*',
     redirect: '/',
