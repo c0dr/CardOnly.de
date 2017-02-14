@@ -8,7 +8,7 @@
 
 
 <form class="form-horizontal">
-<h2>Filter</h2>
+<h2>Karten filtern</h2>
 <fieldset>
   <!-- Multiple Checkboxes (inline) -->
   <!-- Multiple Checkboxes (inline) -->
@@ -63,6 +63,68 @@
 	</div>
   </div>
 </div>
+
+
+
+<div class="form-group">
+  <label class="col-md-6 control-label" for="atm">Abheben gratis in:</label>
+  <div class="col-md-6">
+  <div class="checkbox">
+    <label for="atm-0">
+      <input type="checkbox" v-model="fees_atm_de.selected" name="atm" id="atm-0" value="de">
+      Deutschland
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="atm-1">
+      <input type="checkbox" v-model="fees_atm_eur.selected" name="atm" id="atm-1" value="eu">
+      Euro Zone
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="atm-2">
+      <input type="checkbox" v-model="fees_atm_foreign.selected" name="atm" id="atm-2" value="all">
+      Weltweit
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-6 control-label" for="posfees">Gratis in Fremdwährung zahlen</label>
+  <div class="col-md-6">
+    <label class="checkbox-inline" for="posfees-0">
+      <input type="checkbox" v-model="fees_pos_foreign.selected" name="posfees" id="posfees-0" value="true">
+      Ja
+    </label>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-6 control-label" for="insurance">Versicherungen</label>
+  <div class="col-md-6">
+    <label class="checkbox-inline" for="insurance-0">
+      <input type="checkbox" v-model="insurance.selected" name="insurance" id="insurance-0" value="true">
+      Ja
+    </label>
+  </div>
+</div>
+
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-6 control-label" for="miles">Meilen sammeln</label>
+  <div class="col-md-6">
+    <label class="checkbox-inline" for="miles-0">
+      <input type="checkbox" v-model="miles.selected" name="miles" id="miles-0" value="true">
+      Ja
+    </label>
+  </div>
+</div>
+<hr/>
+<small>Expertenfilter:</small>
 
 <!-- Multiple Checkboxes (inline) -->
 <div class="form-group">
@@ -123,165 +185,130 @@
 </div>
 
 
-<div class="form-group">
-  <label class="col-md-6 control-label" for="atm">ATM gratis in:</label>
-  <div class="col-md-6">
-  <div class="checkbox">
-    <label for="atm-0">
-      <input type="checkbox" v-model="fees_atm_de.selected" name="atm" id="atm-0" value="de">
-      Deutschland
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="atm-1">
-      <input type="checkbox" v-model="fees_atm_eur.selected" name="atm" id="atm-1" value="eu">
-      Euro Zone
-    </label>
-	</div>
-  <div class="checkbox">
-    <label for="atm-2">
-      <input type="checkbox" v-model="fees_atm_foreign.selected" name="atm" id="atm-2" value="all">
-      Weltweit
-    </label>
-	</div>
-  </div>
-</div>
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="form-group">
-  <label class="col-md-6 control-label" for="posfees">POS gratis im Ausland</label>
-  <div class="col-md-6">
-    <label class="checkbox-inline" for="posfees-0">
-      <input type="checkbox" v-model="fees_pos_foreign.selected" name="posfees" id="posfees-0" value="true">
-      Ja
-    </label>
-  </div>
-</div>
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="form-group">
-  <label class="col-md-6 control-label" for="insurance">Versicherungen</label>
-  <div class="col-md-6">
-    <label class="checkbox-inline" for="insurance-0">
-      <input type="checkbox" v-model="insurance.selected" name="insurance" id="insurance-0" value="true">
-      Ja
-    </label>
-  </div>
-</div>
-
-
-<!-- Multiple Checkboxes (inline) -->
-<div class="form-group">
-  <label class="col-md-6 control-label" for="miles">Meilen sammeln</label>
-  <div class="col-md-6">
-    <label class="checkbox-inline" for="miles-0">
-      <input type="checkbox" v-model="miles.selected" name="miles" id="miles-0" value="true">
-      Ja
-    </label>
-  </div>
-</div>
-
 </fieldset>
 </form>
 
 </div>
-
-<div class="clearfix"><div>
-<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
 
-  <div class="jumbotron">
-  <h1> <i class="fa fa-credit-card"></i> Immer die richtige Karte</h1>
-   <p>Egal ob für den Tankautomaten in Frankreich, die U-Bahn in London oder das Modegeschäft in Deutschland - finde jetzt die ideale Karte für dich!</p>
-</div>
+      <div style="padding-top:3%" class="well">
+        <h2 style="margin-top:0%"> <i class="fa fa-credit-card"></i> Egal ob Supermarkt in Köln, U-Bahn in London oder Geldautomat in NYC</h2>
+        <h4>Habe immer gute Karten mit unserem Kreditkartenvergleich</h4>
+      </div>
+
+<!--
+      <div class="panel panel-success">
+        <div class="panel-heading">Unsere Empfehlung</div>
+        <div class="panel-body">
+          <h3 style="margin-top:0%">Die ideale Kombi mit dauerhaft 0€ Jahresgebühr</h3>
+
+          <div class="col-lg-2">
+            <h4>Barclaycard New Visa</h4>
+            <div class="">
+              <img style="height: 60px" src="http://i.imgur.com/gSXOf5o.png">
+            </div>
+            <ul class="fa-ul" style="display: inline-block">
+
+              <li><i class="fa-li fa fa-check-square text-success "></i>0€ Jahresgebühr</li>
+              <li><i class="fa-li fa fa-check-square text-success"></i>0€ Abhebungen in Euro</li>
+            </ul>
+          </div>
+          <div class="col-lg-1">
+            <h1>+</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Payback Amex</h4>
+            <div class="">
+              <img style="height: 60px" src="http://i.imgur.com/w2t85Jk.png">
+            </div>
+            <ul class="fa-ul" style="display: inline-block">
+
+              <li><i class="fa-li fa fa-check-square text-success"></i>0€ Jahresgebühr</li>
+              <li><i class="fa-li fa fa-check-square text-success"></i>Wertvolle Payback Punkte sammeln</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+          <p>Mit der Payback-Amex bei REWE, real, dm, Rossmann, IKEA uvm. <strong>wertvolle Punkte beim Zahlen sammeln</strong>, mit der Barclaycard <strong>gratis Euros abheben</strong> und bequem zahlen.</p>
+
+        </div>
+        <div class="panel-footer">
+          <button class="btn btn-success btn-sm">Kostenlose Barclaycard beantragen</button>
+
+          <button class="btn btn-success btn-sm">Kostenlose Payback Amex beantragen</button>
+        </div>
+      </div> -->
+<table class="table table-striped table-responsive" v-if="filteredCards && filteredCards.length > 0 ">
+  <thead>
+    <tr>
+      <th>
+        Karte
+      </th>
+      <th>
+        Jahresgebühr
+      </th>
+      <th>
+        POS Fremdwährung
+      </th>
+      <th>
+        ATM Euro
+      </th>
+      <th>
+        ATM Fremdwährung
+      </th>
+      <th>
+        NFC
+      </th>
+      <th>
+        Meilen
+      </th>
+      <th>
+        Abrechnung
+      </th>
+      <th>
+        Notes
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr v-for="card in filteredCards">
+      <td>
+        {{card.Issuer}}
+        <span v-html="card.Label"></span>
+      </td>
+      <td>
+        <span v-bind:class="{'label label-success': card.yearlyFee == 0}">{{card.yearlyFee}}</span>
+      </td>
+      <td>
+        <span v-bind:class="{'label label-success': card.fees_pos_foreign == 0}">{{card.fees_pos_foreign}}</span>
+      </td>
+      <td>
+        <span v-bind:class="{'label label-success': card.fees_atm_eur == 0}">{{card.fees_atm_eur}}</span>
+      </td>
+      <td>
+        <span v-bind:class="{'label label-success': card.fees_atm_foreign == 0}">{{card.fees_atm_foreign}}</span>
+      </td>
+      <td>
+        <span v-bind:class="{'label label-success': card.contactless == 'true', 'label label-danger': card.contactless != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.contactless == 'true', 'fa-times fa-fw': card.contactless !='true' }"/></span>
+      </td>
+
+      <td>
+        <span v-bind:class="{'label label-success': card.miles == 'true', 'label label-info': card.miles != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.miles == 'true', 'fa-times fa-fw': card.miles !='true' }"/></span>
+      </td>
+
+      <td>
+        {{card.charge}}
+      </td>
+      <td>
+        <span v-html="card.notes"></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
-      <table class="table table-striped table-responsive" v-if="filteredCards && filteredCards.length > 0 ">
-        <thead>
-        <tr>
-          <th>
-            Karte
-          </th>
-          <th>
-            Jahresgebühr
-          </th>
-            <th>
-            POS Fremdwährung
-          </th>
-            <th>
-            ATM Euro
-          </th>
-            <th>
-            ATM Fremdwährung
-          </th>
-            <th>
-            NFC
-          </th>
-            <th>
-            Meilen
-          </th>
-           <th>
-            Abrechnung
-          </th>
-          <th>
-            Notes
-          </th>
-        </tr>
-        </thead>
-        <tbody>
-          
-        <tr v-for="card in filteredCards">
-          <td>
-            {{card.Issuer}}
-          </td>
-          <td>
-
-          <span v-bind:class="{'label label-success': card.yearlyFee == 0}">{{card.yearlyFee}}</span>
-
-          </td>
-          <td>
-
-                      <span v-bind:class="{'label label-success': card.fees_pos_foreign == 0}">{{card.fees_pos_foreign}}</span>
-
-
-          </td>
-          <td>
-
-                                  <span v-bind:class="{'label label-success': card.fees_atm_eur == 0}">{{card.fees_atm_eur}}</span>
-
-
-          </td>
-          <td>
-                                  <span v-bind:class="{'label label-success': card.fees_atm_foreign == 0}">{{card.fees_atm_foreign}}</span>
-
-          </td>
-          <td>
-                        
-                        
-                         <span v-bind:class="{'label label-success': card.contactless == 'true', 'label label-danger': card.contactless != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.contactless == 'true', 'fa-times fa-fw': card.contactless !='true' }"/></span>
-
-          </td>
-
-                    <td>
-                        
-                        
-                         <span v-bind:class="{'label label-success': card.miles == 'true', 'label label-info': card.miles != 'true'}"> <i class="fa" v-bind:class="{ 'fa-check fa-fw ': card.miles == 'true', 'fa-times fa-fw': card.miles !='true' }"/></span>
-
-          </td>
-
-                    <td>
-                        {{card.charge}}
-
-          </td>
-          <td>
-                       <span v-html="card.notes"></span>
-
-
-          </td>
-        </tr>
-        </tbody>
-      </table>
-      <div v-else>
+      <div class="alert alert-warning" v-else>
         Leider entsprechen keine Karten den Kriterien.
       </div>
 

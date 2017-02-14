@@ -18,7 +18,12 @@ export default [
     name: 'legal.index',
     component: require('pages/legal/index/index.vue'),
   },
-
+   // Recommended cards
+  {
+    path: '/recommended',
+    name: 'cards.recommended',
+    component: require('pages/cards/recommended/index.vue'),
+  },
   // Index
   {
     path: '/',

@@ -54,6 +54,7 @@
 		"notes": "Teilzahlung zu 15,90%/Jahr möglich"
 	}, {
 		"Issuer": "Barclaycard New Visa",
+				"Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
 		"yearlyFee": 0,
 		"withChecking": "false",
 		"offlinepin": "true",
@@ -306,6 +307,8 @@
     
     {
 		"Issuer": "American Express Payback",
+				"Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
+
 		"yearlyFee": 0,
 		"withChecking": "false",
 		"offlinepin": "false",
@@ -324,6 +327,8 @@
 		"notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>"
 	}, {
 		"Issuer": "Santander 1plus Visa Card",
+				"Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
+
 		"yearlyFee": 0,
 		"withChecking": "false",
 		"offlinepin": "false",
@@ -378,6 +383,8 @@
 		"notes": "Abrechnung deferred debit, gratis je nach Kontenmodell"
 	}, {
 		"Issuer": "Advanzia",
+				"Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
+
 		"yearlyFee": 0,
 		"withChecking": "false",
 		"offlinepin": "true",
@@ -395,7 +402,7 @@
 		"miles": "false",
 		"notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>"
 	}, {
-		"Issuer": "LBB AirBerlin",
+		"Issuer": "LBB airberlin Visa",
 		"yearlyFee": "0 bis 90 EUR",
 		"withChecking": "false",
 		"offlinepin": "false",
@@ -411,8 +418,31 @@
 		"pinfirst": "false",
 		"insurance": "true",
 		"miles": "true",
-		"notes": "Girocard als Zusatzkarte, Teilzahlung zu 16,77%, <span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 7.50EUR</span>"
-	}, {
+		"notes": "Girocard als Zusatzkarte, Teilzahlung zu 16,77%, <span class='text-success'>1-2 Meilen je nach Karte pro Euro</span>, <span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 7.50EUR</span>"
+	}, 
+	
+	{
+		"Issuer": "LBB Amazon.de Visa",
+		"yearlyFee": "19,99EUR",
+		"withChecking": "false",
+		"offlinepin": "false",
+		"offlinetrx": "true",
+		"contactless": "true",
+		"secure": "true",
+		"charge": "credit",
+		"fees_atm_de": 0,
+		"fees_atm_eur": 0,
+		"fees_atm_foreign": 0,
+		"fees_pos_eur": 0,
+		"fees_pos_foreign": "1,75 %",
+		"pinfirst": "false",
+		"insurance": "false",
+		"miles": "true",
+		"notes": "Girocard als Zusatzkarte, <span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
+	},
+	
+	
+	{
 		"Issuer": "Fidor Debit MasterCard",
 		"yearlyFee": "14,95",
 		"withChecking": "true",
