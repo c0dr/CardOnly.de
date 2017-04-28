@@ -389,7 +389,7 @@
 		"withChecking": "false",
 		"offlinepin": "true",
 		"offlinetrx": "true",
-		"contactless": "false",
+		"contactless": "true",
 		"secure": "null",
 		"charge": "credit",
 		"fees_atm_de": 0,
