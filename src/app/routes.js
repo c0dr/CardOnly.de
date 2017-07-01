@@ -30,6 +30,12 @@ export default [
     name: 'cards.index',
     component: require('pages/cards/index/index.vue'),
   },
+  //  News
+  {
+    path: '/news',
+    name: 'news.index',
+    component: require('pages/news/index/index.vue'),
+  },
   {
     path: '/*',
     redirect: '/',

@@ -15,7 +15,7 @@
 		"pinfirst": "true",
 		"insurance": "false",
 		"miles": "false",
-		"notes": "Maestro als Zusatzkarte, Auslandseinsatzentgelt wird derzeit wohl nicht berechnet."
+		"notes": "Maestro als Zusatzkarte"
 	}, {
 		"Issuer": "N26 Black",
 		"yearlyFee": "70,80 EUR",
@@ -165,7 +165,7 @@
 		"charge": "debit",
 		"fees_atm_de": 0,
 		"fees_atm_eur": 0,
-		"fees_atm_foreign": 0,
+		"fees_atm_foreign": "1,75%",
 		"fees_pos_eur": 0,
 		"fees_pos_foreign": "1,75 %",
 		"pinfirst": "true",

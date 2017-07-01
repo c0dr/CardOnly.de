@@ -22,6 +22,25 @@
               Kartenvergleich
             </a>
           </router-link>
+
+           <router-link
+            :to="{ name: 'cards.recommended' }"
+            class="nav-item"
+            tag="li"
+          >
+            <a>
+              Empfehlungen
+            </a>
+          </router-link>
+           <router-link
+            :to="{ name: 'news.index' }"
+            class="nav-item"
+            tag="li"
+          >
+            <a>
+              News
+            </a>
+          </router-link>
           <router-link
             :to="{ name: 'legal.index' }"
             class="nav-item"
