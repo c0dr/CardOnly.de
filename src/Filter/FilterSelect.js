@@ -37,7 +37,7 @@ export default class FilterSelect extends React.Component {
     return (
       <div>
         <FormGroup row>
-          <Label sm={6} for={this.props.config.elmentName}>{this.props.config.label}</Label>
+          <Label sm={6} for={this.props.config.elmentName}><strong>{this.props.config.label}</strong></Label>
           <Col sm={6}>
             <Form innerRef={(ref) => this.form = ref}>
               <FormGroup check>
