@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Karte",
+    "value": "Issuer"
+  },
+  {
+    "label": "Jahresgebühr",
+    "value": "yearlyFee"
+  },
+  {
+    "label": "POS Fremdwährung",
+    "value": "fees_pos_foreign"
+  },
+  {
+    "label": "ATM Euro",
+    "value": "fees_atm_eur"
+  },
+  {
+    "label": "ATM Fremdwährung",
+    "value": "fees_atm_foreign"
+  },
+  {
+    "label": "NFC",
+    "value": "contactless"
+  },
+  {
+    "label": "Meilen",
+    "value": "miles"
+  },
+  {
+    "label": "Abrechnung",
+    "value": "charge"
+  },
+  {
+    "label": "Notes",
+    "value": "notes"
+  }
+]
