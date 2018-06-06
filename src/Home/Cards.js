@@ -26,16 +26,16 @@ class Filter extends Component {
         <Table bordered striped>
           <thead>
             <tr>
-              {this.props.cols.map(col => {
-                return <th>{col.label}</th>
+              {this.props.cols.map((col, index) => {
+                return <th key={index}>{col.label}</th>
               })}
             </tr>
           </thead>
           <tbody>
-            {this.props.cards.map(card => {
-              return <tr>
-                {this.props.cols.map(col => {
-                  return <td dangerouslySetInnerHTML={{ __html: this.generateTemplate(card[col.value]) }}></td>
+            {this.props.cards.map((card, index) => {
+              return <tr key={index}>
+                {this.props.cols.map((col, index) => {
+                  return <td key={index} dangerouslySetInnerHTML={{ __html: this.generateTemplate(card[col.value]) }}></td>
                 })}
               </tr>
             })}
