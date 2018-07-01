@@ -26,9 +26,17 @@ body {
   display:none;
 }
 
+/* Ugly hack */
+body.modal-open {
+  overflow: visible !important;
+}
 /* Screensize adapted from Bootstrap */
 @media (max-width: 767.98px) { 
   .screenSizeAlert {
     display: block;
   }
+
+  .modal, .modal-open {
+    overflow: hidden !important;
+ }
 }
