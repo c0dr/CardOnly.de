@@ -21,7 +21,7 @@ class Germany extends Component {
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> Gratis Punkte sammeln in Europa</CardHeader>
           <CardBody>
-            <img className="cardImg" src="http://i.imgur.com/w2t85Jk.png" alt="American Express Payback" />
+            <img className="cardImg" src="https://i.imgur.com/w2t85Jk.png" alt="American Express Payback" />
             <CardTitle>American Express Payback</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr dauerhaft</li>
