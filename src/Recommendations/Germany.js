@@ -7,14 +7,14 @@ class Germany extends Component {
       <div>
         <h3>Die Kombi für Deutschland</h3>
         <Card>
-          <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben in Europa</CardHeader>
+          <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben</CardHeader>
           <CardBody>
-            <img className="cardImg" src="http://i.imgur.com/gSXOf5o.png" alt="Barclaycard New Visa" />
-            <CardTitle>Barclaycard New Visa</CardTitle>
+            <img className="cardImg" src="https://i.imgur.com/MH6MguZ.png" alt="Barclaycard Visa" />
+            <CardTitle>Barclaycard Visa</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Jahresgebühr und <strong> 0€&nbsp; EUR-Abhebungen</strong></li>
+              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Jahresgebühr und <strong> 0€&nbsp; Abhebungen</strong></li>
               <li><i className="fa-li fa fa-check-square text-success"></i>Langes Zahlungsziel, hohes Limit erreichbar</li>
-              <li><i className="fa-li fa fa-check-square text-info"></i>1.99% bei Zahlung in Fremdwährung</li>
+              <li><i className="fa-li fa fa-check-square text-info"></i>Manueller Rechnungsausgleich</li>
             </ul>
           </CardBody>
         </Card>
