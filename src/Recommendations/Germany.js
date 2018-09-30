@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardHeader, CardBody } from 'reactstrap';
+import Barclaycard from '../img/barclaycard.png';
+import Amex from '../img/amex.png';
 
 class Germany extends Component {
   render() {
@@ -9,7 +11,7 @@ class Germany extends Component {
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben</CardHeader>
           <CardBody>
-            <img className="cardImg" src="https://i.imgur.com/MH6MguZ.png" alt="Barclaycard Visa" />
+            <img className="cardImg" src={Barclaycard} alt="Barclaycard Visa" />
             <CardTitle>Barclaycard Visa</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Jahresgebühr und <strong> 0€&nbsp; Abhebungen</strong></li>
@@ -21,7 +23,7 @@ class Germany extends Component {
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> Gratis Punkte sammeln in Europa</CardHeader>
           <CardBody>
-            <img className="cardImg" src="https://i.imgur.com/w2t85Jk.png" alt="American Express Payback" />
+            <img className="cardImg" src={Amex} alt="American Express Payback" />
             <CardTitle>American Express Payback</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr dauerhaft</li>

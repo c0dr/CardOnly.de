@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardHeader, CardBody } from 'reactstrap';
-
+import Advanzia from '../img/advanzia.gif';
+import Santander from '../img/santander.png';
 
 class Worldwide extends Component {
   render() {
@@ -10,7 +11,7 @@ class Worldwide extends Component {
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben weltweit</CardHeader>
           <CardBody>
-            <img className="cardImg" src="https://i.imgur.com/ayft08o.gif" alt="Barclaycard New Visa" />
+            <img className="cardImg" src={Advanzia} alt="Advanzia" />
             <CardTitle>Advanzia Gold</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr</li>
@@ -22,7 +23,7 @@ class Worldwide extends Component {
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben weltweit</CardHeader>
           <CardBody>
-            <img className="cardImg" src="https://i.imgur.com/zr7aYbJ.png" alt="Santander 1plus" />
+            <img className="cardImg" src={Santander} alt="Santander 1plus" />
             <CardTitle>Santander 1plus</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr dauerhaft</li>
