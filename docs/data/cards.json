@@ -438,7 +438,26 @@
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "Girocard als Zusatzkarte, <span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
+    "notes": "<span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
+  },
+  {
+    "Issuer": "LBB Amazon.de Visa Prime",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": false,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1,75 %",
+    "pinfirst": false,
+    "insurance": false,
+    "miles": true,
+    "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
   },
   {
     "Issuer": "Fidor Debit MasterCard",
