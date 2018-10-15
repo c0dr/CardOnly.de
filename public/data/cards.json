@@ -20,7 +20,7 @@
   },
   {
     "Issuer": "N26 Black",
-    "yearlyFee": "118,80 EUR",
+    "yearlyFee": "94,80 EUR",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -35,7 +35,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, 118.80€/Jahr laut Website, in App günstiger "
   },
   {
     "Issuer": "ICS Visa",
@@ -629,5 +629,23 @@
     "insurance": false,
     "miles": false,
     "notes": "Google Pay"
+  }, {
+    "Issuer": "1822mobile",
+    "yearlyFee": "0",
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen"
   }
 ]
