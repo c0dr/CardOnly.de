@@ -372,15 +372,15 @@
     "contactless": true,
     "secure": true,
     "charge": "charge",
-    "fees_atm_de": "3%, mind. 5,90EUR",
-    "fees_atm_eur": "3%, mind. 5,90EUR",
+    "fees_atm_de": "0",
+    "fees_atm_eur": "0",
     "fees_atm_foreign": "0",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,75 %",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>"
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span> "
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
