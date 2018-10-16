@@ -647,5 +647,43 @@
     "insurance": false,
     "miles": false,
     "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen"
+  },
+   {
+    "Issuer": "Lufthansa M&M Card Gold",
+    "yearlyFee": "109.92€",
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": "2%, mind. 5€",
+    "fees_atm_eur": "2%, mind. 5€",
+    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": true,
+    "miles": true,
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
+  },
+   {
+    "Issuer": "Lufthansa M&M Card Blue",
+    "yearlyFee": "54.96€",
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": "2%, mind. 5€",
+    "fees_atm_eur": "2%, mind. 5€",
+    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": true,
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
   }
 ]
