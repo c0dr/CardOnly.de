@@ -20,7 +20,7 @@
   },
   {
     "Issuer": "N26 Black",
-    "yearlyFee": "94,80 EUR",
+    "yearlyFee": "118,80 EUR",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -35,7 +35,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, 118.80€/Jahr laut Website, in App günstiger "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
   },
   {
     "Issuer": "ICS Visa",
