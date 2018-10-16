@@ -16,7 +16,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis"
+    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis, Google Pay"
   },
   {
     "Issuer": "N26 Black",
@@ -35,7 +35,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, Google Pay "
   },
   {
     "Issuer": "ICS Visa",
@@ -245,7 +245,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), "
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Google Pay "
   },
   {
     "Issuer": "Revolut Premium Prepaid MasterCard",
@@ -264,7 +264,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Google Pay"
   },
   {
     "Issuer": "consorsbank Visa Gold",
@@ -361,7 +361,7 @@
     "pinfirst": 0,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>"
+    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>, manueller Ausgleich per Überweisung notwendig"
   },
   {
     "Issuer": "comdirect Visa",
@@ -380,7 +380,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span> "
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>, Google Pay "
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
