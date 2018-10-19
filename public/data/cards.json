@@ -468,7 +468,7 @@
     "contactless": true,
     "secure": false,
     "charge": "debit",
-    "fees_atm_de": "2.50€,
+    "fees_atm_de": "2.50€",
     "fees_atm_eur": "2.50€",
     "fees_atm_foreign": "2.50€ + 1.5%",
     "fees_pos_eur": 0,
