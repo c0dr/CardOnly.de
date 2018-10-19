@@ -74,7 +74,7 @@
     "pinfirst": false,
     "insurance": false,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Teilzahlung zu 18,38%/Jahr, 100% Ausgleich nur maneull"
+    "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich nur maneull"
   },
   {
     "Issuer": "Barclaycard EW Classic",
@@ -93,7 +93,7 @@
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>"
+    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>"
   },
   {
     "Issuer": "Barclaycard EW Gold",
@@ -112,7 +112,7 @@
     "pinfirst": false,
     "insurance": true,
     "miles": true,
-    "notes": "Maestro als Zusatzkarte, Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz"
+    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz"
   },
   {
     "Issuer": "Barclaycard Gold",
@@ -131,7 +131,7 @@
     "pinfirst": false,
     "insurance": true,
     "miles": true,
-    "notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, gratis ab 3k im Jahr, <span class='text-success'> Reiserabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>"
+    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, gratis ab 3k im Jahr, <span class='text-success'> Reiserabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>"
   },
   {
     "Issuer": "Barclaycard Platinum",
@@ -150,7 +150,7 @@
     "pinfirst": false,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>"
+    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>"
   },
   {
     "Issuer": "consorsbank Visa Debit",
@@ -245,7 +245,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Google Pay "
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Google Pay, Maestro-Zusatzkarte erhältlich "
   },
   {
     "Issuer": "Revolut Premium Prepaid MasterCard",
@@ -264,7 +264,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Google Pay"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Google Pay, Maestro-Zusatzkarte erhältlich"
   },
   {
     "Issuer": "consorsbank Visa Gold",
