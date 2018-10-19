@@ -16,7 +16,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis"
+    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis, Google Pay"
   },
   {
     "Issuer": "N26 Black",
@@ -35,7 +35,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, Google Pay "
   },
   {
     "Issuer": "ICS Visa",
@@ -245,7 +245,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), "
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Google Pay "
   },
   {
     "Issuer": "Revolut Premium Prepaid MasterCard",
@@ -264,7 +264,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Google Pay"
   },
   {
     "Issuer": "consorsbank Visa Gold",
@@ -361,7 +361,7 @@
     "pinfirst": 0,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>"
+    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>, manueller Ausgleich per Überweisung notwendig"
   },
   {
     "Issuer": "comdirect Visa",
@@ -372,15 +372,15 @@
     "contactless": true,
     "secure": true,
     "charge": "charge",
-    "fees_atm_de": "3%, mind. 5,90EUR",
-    "fees_atm_eur": "3%, mind. 5,90EUR",
+    "fees_atm_de": "0",
+    "fees_atm_eur": "0",
     "fees_atm_foreign": "0",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,75 %",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>"
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>, Google Pay "
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
@@ -468,11 +468,11 @@
     "contactless": true,
     "secure": false,
     "charge": "debit",
-    "fees_atm_de": 2.50,
-    "fees_atm_eur": 2.50,
-    "fees_atm_foreign": 2.50,
+    "fees_atm_de": "2.50€",
+    "fees_atm_eur": "2.50€",
+    "fees_atm_foreign": "2.50€ + 1.5%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "1.5%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
@@ -508,9 +508,9 @@
     "charge": "debit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_foreign": "1.5%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "1.5%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
@@ -648,5 +648,61 @@
     "insurance": false,
     "miles": false,
     "notes": "Google Pay"
+  }, {
+    "Issuer": "1822mobile",
+    "yearlyFee": "0",
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen"
+  },
+   {
+    "Issuer": "Lufthansa M&M Card Gold",
+    "yearlyFee": "109.92€",
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": "2%, mind. 5€",
+    "fees_atm_eur": "2%, mind. 5€",
+    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": true,
+    "miles": true,
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
+  },
+   {
+    "Issuer": "Lufthansa M&M Card Blue",
+    "yearlyFee": "54.96€",
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": "2%, mind. 5€",
+    "fees_atm_eur": "2%, mind. 5€",
+    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.75%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": true,
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
   }
 ]
