@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Filter from '../Filter/Filter';
-import Cards from './Cards';
+import Cards from '../CardComponents/Cards';
+import Header from './Header';
 
 class Home extends Component {
 
@@ -99,9 +100,10 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
+        <Header/>
         <Row>
-          <Col xs="2"><Filter filterChange={this.filterChange} filterOptions={this.state.filterOptions} /></Col>
-          <Col xs="10"><Cards cards={this.filteredCards()} cols={this.state.cols} /></Col>
+          <Col sm="2"><Filter filterChange={this.filterChange} filterOptions={this.state.filterOptions} /></Col>
+          <Col sm="10"><Cards cards={this.filteredCards()} cols={this.state.cols} /></Col>
         </Row>
       </Container>
     );

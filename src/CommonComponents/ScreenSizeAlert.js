@@ -33,8 +33,8 @@ export default class ScreenSizeAlert extends React.Component {
           <ModalHeader toggle={this.toggle}>Bildschrimgröße</ModalHeader>
           <ModalBody>
             <Alert color="warning">
-              Leider ist die Bildschirmauflösung zu klein, um die große Menge an Daten optimal darzustellen. 
-              Wir empfehlen die Nutzung am Desktop.
+              <p>Vielen Dank für Ihr Interesse an dem umfangreichen Kreditkartenvergleich von CardOnly.de</p>
+              <p>Für das bessere Benutzererlebnis empfehlen wir den Besuch mit einem großen Bildschirm.</p>
             </Alert>
           </ModalBody>
           <ModalFooter>
