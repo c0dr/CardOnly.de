@@ -18,11 +18,11 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis, Google Pay"
+    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis"
   },
   {
     "Issuer": "N26 Black",
-    "yearlyFee": "118,80 EUR",
+    "yearlyFee": 118.80,
     "withChecking": true,
     "applepay": true,
     "googlepay": true,
@@ -39,11 +39,11 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, Google Pay "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
   },
   {
     "Issuer": "N26 Metal",
-    "yearlyFee": "202,80 EUR",
+    "yearlyFee": 202.80,
     "withChecking": true,
     "applepay": true,
     "googlepay": true,
@@ -60,7 +60,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise, Google Pay "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise "
   },
   {
     "Issuer": "ICS Visa",
@@ -254,7 +254,7 @@
   },
   {
     "Issuer": "Wirecard mycard2go Visa Prepaid",
-    "yearlyFee": "9,95",
+    "yearlyFee": 9.95,
     "withChecking": false,
     "offlinepin": false,
     "offlinetrx": "null",
@@ -460,7 +460,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>, Google Pay "
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>"
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
@@ -507,7 +507,7 @@
   },
   {
     "Issuer": "LBB Amazon.de Visa",
-    "yearlyFee": "19,99EUR",
+    "yearlyFee": "19,99",
     "withChecking": false,
     "offlinepin": false,
     "offlinetrx": true,
@@ -633,7 +633,7 @@
   },
   {
     "Issuer": "DKB Hilton Visa",
-    "yearlyFee": "ab 48EUR",
+    "yearlyFee": "ab 48",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -818,5 +818,26 @@
     "insurance": false,
     "miles": true,
     "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
+  },
+  {
+    "Issuer": "bunq Premium",
+    "yearlyFee": 95.88,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": false,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "MasterCard & Maestro, kostenlose Abhebungen auf 10 pro Monat begrenzt"
   }
 ]
