@@ -175,6 +175,34 @@
         "parseAsBoolean": true
     },
     {
+        "label": "Apple Pay",
+        "elementName": "applepay",
+        "options": [
+            {
+                "label": "Ja",
+                "value": true
+            }
+        ],
+        "type": "select",
+        "match": "all",
+        "filterName": "applepay",
+        "parseAsBoolean": true
+    },
+    {
+        "label": "Google Pay",
+        "elementName": "googlepay",
+        "options": [
+            {
+                "label": "Ja",
+                "value": true
+            }
+        ],
+        "type": "select",
+        "match": "all",
+        "filterName": "googlepay",
+        "parseAsBoolean": true
+    },
+    {
         "label": "Offline-Transaktionen",
         "elementName": "offlinetrx",
         "options": [

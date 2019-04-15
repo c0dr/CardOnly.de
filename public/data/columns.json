@@ -28,6 +28,14 @@
     "value": "miles"
   },
   {
+    "label": "G Pay",
+    "value": "googlepay"
+  },
+  {
+    "label": "Apple Pay",
+    "value": "applepay"
+  },
+  {
     "label": "Abrechnung",
     "value": "charge"
   },
