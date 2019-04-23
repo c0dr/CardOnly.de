@@ -274,7 +274,7 @@
     "notes": "Offline-PIN nur auf Vpay-Applikaiton"
   },
   {
-    "Issuer": "Revolut Prepaid MasterCard",
+    "Issuer": "Revolut MasterCard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -292,15 +292,17 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Google Pay, Maestro-Zusatzkarte erhältlich "
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Maestro-Zusatzkarte erhältlich "
   },
   {
-    "Issuer": "Revolut Premium Prepaid MasterCard",
+    "Issuer": "Revolut Premium MasterCard",
     "yearlyFee": 82,
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": false,
     "contactless": true,
+    "applepay": false,
+    "googlepay": true,
     "secure": false,
     "charge": "prepaid",
     "fees_atm_de": 0,
@@ -311,7 +313,28 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Google Pay, Maestro-Zusatzkarte erhältlich"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich"
+  },
+  {
+    "Issuer": "Revolut Metal MasterCard",
+    "yearlyFee": 125,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "contactless": true,
+    "secure": false,
+    "applepay": false,
+    "googlepay": true,
+    "charge": "prepaid",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": true,
+    "miles": false,
+    "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb"
   },
   {
     "Issuer": "consorsbank Visa Gold",
@@ -858,7 +881,8 @@
     "fees_pos_foreign": "1%",
     "pinfirst": true,
     "insurance": false,
-    "miles": false
+    "miles": false,
+    "notes": "zzgl. Kosten Konto"
   },
   {
     "Issuer": "Deutsche Bank MasterCard Travel",
@@ -949,7 +973,7 @@
     "link": "https://www.klarna.com/de/card/"
   },
   {
-    "Issuer": " VimPAY",
+    "Issuer": "VimPAY",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
