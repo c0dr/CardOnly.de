@@ -21,7 +21,7 @@
     "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis"
   },
   {
-    "Issuer": "N26 Black",
+    "Issuer": "N26 You",
     "yearlyFee": 118.80,
     "withChecking": true,
     "applepay": true,
@@ -60,7 +60,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise, Karte aus Metall"
   },
   {
     "Issuer": "ICS Visa",
@@ -400,6 +400,27 @@
     "notes": "kostenlos ab 4k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz</span>"
   },
   {
+    "Issuer": "American Express Blue",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "applepay": true,
+    "googlepay": false,
+    "charge": "charge",
+    "fees_atm_de": "4%, mind 5EUR",
+    "fees_atm_eur": "4%, mind 5EUR",
+    "fees_atm_foreign": "4%, mind 5EUR",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "2 %",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Membership Rewards optional für 30€/Jahr"
+  },
+  {
     "Issuer": "American Express Payback",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
@@ -441,6 +462,27 @@
     "insurance": true,
     "miles": true,
     "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung,  "
+  },
+  {
+    "Issuer": "American Express Platinum",
+    "yearlyFee": 660,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "secure": true,
+    "applepay": true,
+    "googlepay": false,
+    "charge": "charge",
+    "fees_atm_de": "4%, mind 5EUR",
+    "fees_atm_eur": "4%, mind 5EUR",
+    "fees_atm_foreign": "4%, mind 5EUR",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "2 %",
+    "pinfirst": true,
+    "insurance": true,
+    "miles": true,
+    "notes": "<span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Reiserücktritt-, Abbruch-, Komfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance, Loungezugang, 200€ Reiseguthaben, Sixt-Gutscheine</span>, Karte aus Metall"
   },
   {
     "Issuer": "Santander 1plus Visa Card",
@@ -955,7 +997,7 @@
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": false,
-    "applepay": false,
+    "applepay": true,
     "googlepay": true,
     "contactless": true,
     "secure": false,
