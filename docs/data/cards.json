@@ -641,7 +641,7 @@
     "offlinetrx": true,
     "contactless": true,
     "applepay": false,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "debit",
     "fees_atm_de": 0,
