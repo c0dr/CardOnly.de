@@ -613,8 +613,8 @@
     "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
   },
   {
-    "Issuer": "Fidor Debit MasterCard",
-    "yearlyFee": "74,95",
+    "Issuer": "Fidor Debit MasterCard Digital",
+    "yearlyFee": "72",
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": false,
@@ -631,7 +631,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen (somit nur 14.95€ für die Karte ab 1.11)"
+    "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen,1€/Monat Aufpreis für physische Karte"
   },
   {
     "Issuer": "ING-DiBa Visa",
@@ -656,7 +656,7 @@
   },
   {
     "Issuer": "Fidor SmartCard",
-    "yearlyFee": "60",
+    "yearlyFee": "74",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -673,7 +673,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11)"
+    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, Konto 5€/Monat, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11), Karte trotzdem 2€/Monat"
   },
   {
     "Issuer": "DKB Visa",
