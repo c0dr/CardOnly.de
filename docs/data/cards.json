@@ -656,7 +656,7 @@
   },
   {
     "Issuer": "Fidor SmartCard",
-    "yearlyFee": "74",
+    "yearlyFee": "84",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
