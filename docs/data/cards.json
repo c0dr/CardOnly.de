@@ -614,7 +614,7 @@
   },
   {
     "Issuer": "Fidor Debit MasterCard",
-    "yearlyFee": "14,95",
+    "yearlyFee": "74,95",
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": false,
@@ -631,7 +631,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "1 Abhebung gratis pro Monat"
+    "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen (somit nur 14.95€ für die Karte ab 1.11)"
   },
   {
     "Issuer": "ING-DiBa Visa",
@@ -656,7 +656,7 @@
   },
   {
     "Issuer": "Fidor SmartCard",
-    "yearlyFee": 0,
+    "yearlyFee": "60",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -673,7 +673,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte"
+    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11)"
   },
   {
     "Issuer": "DKB Visa",
