@@ -1070,7 +1070,7 @@
     "googlepay": false,
     "contactless": true,
     "secure": true,
-    "charge": "charge",
+    "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
     "fees_atm_foreign": 0,
