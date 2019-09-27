@@ -229,10 +229,10 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich zu 16,90%/Jahr"
+    "notes": "Teilzahlung möglich zu 16,90%/Jahr,<span class='text-warning'>Teilzahlung default, nur per Hotline anpassbar<span>"
   },
   {
-    "Issuer": "Ikano Bank Rote MasterCard",
+    "Issuer": "Ikano Bank Rote Mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -274,7 +274,7 @@
     "notes": "Offline-PIN nur auf Vpay-Applikaiton"
   },
   {
-    "Issuer": "Revolut MasterCard",
+    "Issuer": "Revolut Mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -295,7 +295,7 @@
     "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Maestro-Zusatzkarte erhältlich "
   },
   {
-    "Issuer": "Revolut Premium MasterCard",
+    "Issuer": "Revolut Premium Mastercard",
     "yearlyFee": 82,
     "withChecking": true,
     "offlinepin": true,
@@ -316,7 +316,7 @@
     "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich"
   },
   {
-    "Issuer": "Revolut Metal MasterCard",
+    "Issuer": "Revolut Metal Mastercard",
     "yearlyFee": 125,
     "withChecking": true,
     "offlinepin": true,
@@ -504,7 +504,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>, manueller Ausgleich per Überweisung notwendig"
+    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span><span class='text-warning'>Nur Teilzahlung per Lastschrift<span>"
   },
   {
     "Issuer": "comdirect Visa",
@@ -568,7 +568,7 @@
     "pinfirst": false,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>"
+    "notes": "<span class='text-warning'>Abhebungen werden sofort verzinst, manueller Ausgleich notwendig</span>"
   },
   {
     "Issuer": "LBB Amazon.de Visa",
@@ -613,7 +613,7 @@
     "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
   },
   {
-    "Issuer": "Fidor Debit MasterCard Digital",
+    "Issuer": "Fidor Debit Mastercard Digital",
     "yearlyFee": "72",
     "withChecking": true,
     "offlinepin": false,
@@ -718,7 +718,7 @@
     "notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis"
   },
   {
-    "Issuer": "Denizen MasterCard",
+    "Issuer": "Denizen Mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -739,7 +739,7 @@
     "notes": ""
   },
   {
-    "Issuer": "Monese Debit MasterCard",
+    "Issuer": "Monese Debit Mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -760,7 +760,7 @@
     "notes": "Karte 4.95€ einmalig, gegen monatlichen Aufpreis leicht bessere Konditionen"
   },
   {
-    "Issuer": "Consorsfinanz EC Debit MasterCard",
+    "Issuer": "Consorsfinanz EC Debit Mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -781,7 +781,7 @@
     "notes": "Teilzahlung Standard, Abhebungen nur ab 300€ kostenlos, Auslandsgebühren nicht in PLV festgelegt"
   },
   {
-    "Issuer": "Targobank Visa Online CLassic",
+    "Issuer": "Targobank Visa Online Classic",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -802,7 +802,7 @@
     "notes": "ATM unter speziellen Bedingungen kostenfrei"
   },
   {
-    "Issuer": "DiPocket MasterCard",
+    "Issuer": "DiPocket Mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -927,7 +927,7 @@
     "notes": "zzgl. Kosten Konto"
   },
   {
-    "Issuer": "Deutsche Bank MasterCard Travel",
+    "Issuer": "Deutsche Bank Mastercard Travel",
     "yearlyFee": 94,
     "withChecking": true,
     "offlinepin": true,
@@ -948,7 +948,7 @@
     "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto" 
   },
   {
-    "Issuer": "TF Bank MasterCard Gold",
+    "Issuer": "TF Bank Mastercard Gold",
     "yearlyFee": 94,
     "withChecking": false,
     "offlinepin": false,
@@ -960,9 +960,9 @@
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": "1.75%",
+    "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.75%",
+    "fees_pos_foreign": 0,
     "pinfirst": false,
     "insurance": false,
     "miles": false,
@@ -1059,5 +1059,28 @@
     "notes": "In Fitbit Pay nutzbar, Informationen zu PIN und Online-Fähigkeit unsicher",
     "image": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/3/wr?wodata=Media%2FWhiteLabel%2FFitbit%2Fde%2FMedia%2FBilder%2Fbanner%2F1%2FFitbit_Versa_Lifestyle_SE_Charcoal_Male_Pay_GenericCard.jpg",
     "link": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wa?path=/WhiteLabel/fitbit#stay"
+  },
+   {
+    "Issuer": "Payback Visa Flex",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": false,
+    "offlinetrx": true,
+    "applepay": false,
+    "googlepay": false,
+    "contactless": true,
+    "secure": true,
+    "charge": "charge",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": true,
+    "notes": "1 Payback-Punkt/5€, Informationen zu PIN und Online-Fähigkeit unsicher, eventuell GPay/Fitbit Pay, <span class='text-warning'>Nur Teilzahlung per Lastschrift<span>",
+    "image": "https://www.payback.de/resources/blob/133772/102e4988f6bb0a367cec520e5fa0e3a8/visa-flex-kreditkarte-resdata4.png",
+    "link": "https://www.payback.de/info/visa"
   }
 ]
