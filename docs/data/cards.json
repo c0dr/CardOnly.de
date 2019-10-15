@@ -634,13 +634,13 @@
     "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen,1€/Monat Aufpreis für physische Karte"
   },
   {
-    "Issuer": "ING-DiBa Visa",
+    "Issuer": "ING Visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": true,
     "contactless": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": true,
     "secure": true,
     "charge": "debit",
