@@ -84,7 +84,8 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung zu 15,90%/Jahr möglich"
+    "notes": "Teilzahlung zu 15,90%/Jahr möglich",
+    "link" : "https://www.icscards.de/kreditkarten/visa-world-card"
   },
   {
     "Issuer": "Barclaycard Visa",

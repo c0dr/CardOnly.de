@@ -18,7 +18,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, Abhebungen mit Maestro 2€, Abhebungen DE 3x gratis"
+    "notes": "Maestro als Zusatzkarte, Abhebungen DE 3x ohne Hauptkonto, sonst 5x gratis",
+    "image": "https://i.imgur.com/GMrkJXs.png",
+    "link" : "https://n26.com/de-de"
   },
   {
     "Issuer": "N26 You",
@@ -39,7 +41,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise "
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, max 5 ATM/Monat in DE",
+    "image": "https://i.imgur.com/udA7Drw.png",
+    "link" : "https://n26.com/de-de"
   },
   {
     "Issuer": "N26 Metal",
@@ -60,10 +64,12 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise, Karte aus Metall"
+    "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise, Karte aus Metall, max 8 ATM/Monat in DE",
+    "image": "https://i.imgur.com/Ng5bPrM.png",
+    "link" : "https://n26.com/de-de"
   },
   {
-    "Issuer": "ICS Visa",
+    "Issuer": "ICS Visa World",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -73,15 +79,16 @@
     "googlepay": false,
     "secure": "null",
     "charge": "credit",
-    "fees_atm_de": "4%, mind. 5% auf Kredit, sonst 1% max. 1.50 EUR",
+    "fees_atm_de": "4%, mind. 5€ auf Kredit, sonst 1% max. 1.50 EUR",
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 2,
+    "fees_atm_foreign": "1.85% innerhalb EWR, 2% außerhalb",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 2,
+    "fees_pos_foreign": "1.85% innerhalb EWR, 2% außerhalb",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung zu 15,90%/Jahr möglich"
+    "notes": "Teilzahlung zu 15,90%/Jahr möglich",
+    "link" : "https://www.icscards.de/kreditkarten/visa-world-card"
   },
   {
     "Issuer": "Barclaycard Visa",
@@ -89,8 +96,8 @@
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "offlinetrx": true,
     "contactless": true,
     "secure": true,
@@ -103,16 +110,18 @@
     "pinfirst": false,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich nur maneull"
+    "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich nur manuell, Abhebungen in EUR ab 50€ möglich",
+    "image": "https://i.imgur.com/8gkctVv.png",
+    "link": "https://www.barclaycard.de/kreditkarten/visa-kreditkarte"
   },
   {
-    "Issuer": "Barclaycard EW Classic",
-    "yearlyFee": 19.99,
+    "Issuer": "Barclaycard Eurowings Classic",
+    "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "contactless": true,
     "secure": true,
     "charge": "credit",
@@ -122,17 +131,19 @@
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,99 %",
     "pinfirst": false,
-    "insurance": false,
+    "insurance": true,
     "miles": true,
-    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>"
+    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
+    "image": "https://i.imgur.com/8OEiMWY.png",
+    "link": "https://www2.barclaycard.de/eurowings/"
   },
   {
-    "Issuer": "Barclaycard EW Gold",
+    "Issuer": "Barclaycard Eurowings Gold",
     "yearlyFee": 69,
     "withChecking": false,
     "offlinepin": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "offlinetrx": true,
     "contactless": true,
     "secure": true,
@@ -145,37 +156,41 @@
     "pinfirst": false,
     "insurance": true,
     "miles": true,
-    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz"
+    "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz",
+    "image": "https://i.imgur.com/ke6U1zu.png",
+    "link": "https://www2.barclaycard.de/eurowings/"
   },
   {
     "Issuer": "Barclaycard Gold",
     "yearlyFee": 59,
     "withChecking": false,
     "offlinepin": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "offlinetrx": true,
     "contactless": true,
     "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 1.99,
+    "fees_atm_foreign": "1.99%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 1.99,
+    "fees_pos_foreign": "1.99%",
     "pinfirst": false,
     "insurance": true,
     "miles": true,
-    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, gratis ab 3k im Jahr, <span class='text-success'> Reiserabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>"
+    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
+    "image": "https://i.imgur.com/ln1eVHN.png",
+    "link": "https://www.barclaycard.de/kreditkarten/visa-card-gold-kreditkarte"
   },
   {
-    "Issuer": "Barclaycard Platinum",
+    "Issuer": "Barclaycard Platinum Double",
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "contactless": true,
     "secure": true,
     "charge": "credit",
@@ -187,7 +202,9 @@
     "pinfirst": false,
     "insurance": true,
     "miles": false,
-    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>"
+    "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
+    "image": "https://i.imgur.com/R34UcX1.png",
+    "link": "https://www.barclaycard.de/kreditkarten/visa-und-mastercard-platinum-doppel"
   },
   {
     "Issuer": "consorsbank Visa Debit",
@@ -195,7 +212,7 @@
     "withChecking": true,
     "offlinepin": false,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "offlinetrx": true,
     "contactless": true,
     "secure": true,
@@ -208,73 +225,35 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "VPay girocard als Zusatzkarte, <span class='text-warning'>Abhebungen erst ab 50€</span>"
+    "notes": "VPay girocard als Zusatzkarte, <span class='text-warning'>Abhebungen erst ab 50€</span>",
+    "image": "https://i.imgur.com/uNT9cAG.jpg",
+    "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
   },
   {
     "Issuer": "Hanseatic Bank GenialCard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
-    "offlinetrx": true,
+    "offlinetrx": false,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": "null",
     "charge": "credit",
-    "fees_atm_de": "3%, mind 5.95EUR",
-    "fees_atm_eur": "3%, mind 5.95EUR",
-    "fees_atm_foreign": "3%, mind 5.95EUR",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1,75 %",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "Teilzahlung möglich zu 16,90%/Jahr"
-  },
-  {
-    "Issuer": "Ikano Bank Rote MasterCard",
-    "yearlyFee": 0,
-    "withChecking": false,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "contactless": false,
-    "applepay": false,
-    "googlepay": false,
-    "secure": "null",
-    "charge": "credit",
-    "fees_atm_de": "2,75%, mind 4.75EUR",
-    "fees_atm_eur": "2,75%, mind 4.75EUR",
-    "fees_atm_foreign": "2,75%, mind 4.75EUR",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1,5 %",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "Teilzahlung möglich zu 11,90%/Jahr"
-  },
-  {
-    "Issuer": "Wirecard mycard2go Visa Prepaid",
-    "yearlyFee": 9.95,
-    "withChecking": false,
-    "offlinepin": false,
-    "offlinetrx": "null",
-    "contactless": false,
-    "applepay": false,
-    "googlepay": false,
-    "secure": "null",
-    "charge": "prepaid",
-    "fees_atm_de": "4,95EUR",
-    "fees_atm_eur": "4,95EUR",
-    "fees_atm_foreign": "4,95EUR",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign":0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Offline-PIN nur auf Vpay-Applikaiton"
+    "notes": "Teilzahlung möglich zu 16,90%/Jahr, Vollausgleich per App einstellbar",
+    "image": "https://i.imgur.com/dWdCnvl.jpg",
+    "link": "https://www.hanseaticbank.de/kreditkarte/genialcard"
   },
-  {
-    "Issuer": "Revolut MasterCard",
+ {
+    "Issuer": "Revolut Card",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -292,7 +271,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€), Maestro-Zusatzkarte erhältlich "
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€) und Fremdwährung (1000€), Maestro-Zusatzkarte erhältlich",
+    "image": "https://i.imgur.com/Izufd9A.png",
+   "link": "https://www.revolut.com/de-DE/"
   },
   {
     "Issuer": "Revolut Premium MasterCard",
@@ -313,7 +294,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich",
+    "image": "https://i.imgur.com/0ZCGEAK.png",
+    "link": "https://www.revolut.com/de-DE/"
   },
   {
     "Issuer": "Revolut Metal MasterCard",
@@ -334,7 +317,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb"
+    "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb",
+    "image": "https://i.imgur.com/5XsusmV.png",
+    "link": "https://www.revolut.com/de-DE/"
   },
   {
     "Issuer": "consorsbank Visa Gold",
@@ -344,7 +329,7 @@
     "offlinetrx": true,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "charge",
     "fees_atm_de": 0,
@@ -355,7 +340,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "VPay girocard als Zusatzkarte, ATM direkt abgerechnet, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung</span>"
+    "notes": "VPay girocard als Zusatzkarte, Abhebungen direkt vom Girokonto, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung, Handyversicherung</span>, 10ct Cashback pro Kartenzahlung",
+    "image": "https://i.imgur.com/07Armmp.png",
+    "link": "https://www.consorsbank.de/ev/Girokonto/-/VISA-Card-Gold"
   },
   {
     "Issuer": "American Express Gold",
@@ -376,7 +363,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "Inoffiziell kostenlos ab 10k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>"
+    "notes": "Inoffiziell kostenlos ab 10k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>",
+    "image": "https://i.imgur.com/jD3Opcw.png",
+    "link" : "https://www.americanexpress.com/de/vorteile/willkommen/gold-card/"
   },
   {
     "Issuer": "American Express Green",
@@ -397,7 +386,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "kostenlos ab 4k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz</span>"
+    "notes": "kostenlos ab 9k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz</span>",
+    "image": "https://i.imgur.com/4Bf5F38.png",
+    "link": "https://www.americanexpress.com/de/kreditkarte/american-express-card/"
   },
   {
     "Issuer": "American Express Blue",
@@ -418,7 +409,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Membership Rewards optional für 30€/Jahr"
+    "notes": "Membership Rewards optional für 30€/Jahr",
+    "image": "https://i.imgur.com/6fcaXRW.png",
+    "link" : "https://www.americanexpress.com/de/kreditkarte/blue-card/"
   },
   {
     "Issuer": "American Express Payback",
@@ -440,7 +433,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>"
+    "notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>",
+    "image": "https://i.imgur.com/wTnuKbD.png",
+    "link": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
   },
   {
     "Issuer": "American Express BMW Card",
@@ -461,7 +456,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung,  "
+    "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung",
+    "link": "https://www.americanexpress.com/de/kreditkarte/bmw-card/",
+    "image": "https://i.imgur.com/KO8p96n.png"
   },
   {
     "Issuer": "American Express Platinum",
@@ -482,11 +479,12 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "<span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Reiserücktritt-, Abbruch-, Komfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance, Loungezugang, 200€ Reiseguthaben, Sixt-Gutscheine</span>, Karte aus Metall"
+    "notes": "<span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Reiserücktritt-, Abbruch-, Komfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance, Loungezugang, 200€ Reiseguthaben, Sixt-Gutscheine</span>, Karte aus Metall",
+    "image": "https://i.imgur.com/G4DBFHb.png",
+    "link": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
   },
   {
     "Issuer": "Santander 1plus Visa Card",
-    "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
@@ -498,20 +496,22 @@
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_foreign": "1.5%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "1.5%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-success'> Erstattung von ATM-Entgelten</span>, manueller Ausgleich per Überweisung notwendig"
+    "notes": "manueller Ausgleich per Überweisung notwendig, 4 kostenlose Abhebungen, danach 3.5%, mind 5.75EUR aus Kredit ",
+    "image": "https://i.imgur.com/BwvcrG6.jpg",
+    "link" : "https://www.santander.de/privatkunden/konten-karten/karten/1plus-visa/"
   },
   {
     "Issuer": "comdirect Visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
-    "offlinetrx": "null",
+    "offlinetrx": true,
     "contactless": true,
     "applepay": true,
     "googlepay": true,
@@ -525,7 +525,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>"
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>",
+    "link": "https://www.comdirect.de/konto/girokonto.html",
+    "image": "https://i.imgur.com/9QS6ONN.jpg"
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
@@ -546,10 +548,11 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung deferred debit, gratis je nach Kontenmodell"
+    "notes": "Abrechnung deferred debit, gratis je nach Kontenmodell",
+    "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/kreditkarten/mastercard"
   },
   {
-    "Issuer": "Advanzia",
+    "Issuer": "Advanzia Geburenfrei",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
@@ -557,18 +560,20 @@
     "offlinetrx": true,
     "contactless": true,
     "applepay": false,
-    "googlepay": false,
-    "secure": "null",
+    "googlepay": true,
+    "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>"
+    "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>, einige Cobrands mit  Lastschrift",
+    "image": "https://i.imgur.com/fhVxy3c.png",
+    "link" : "https://www.gebuhrenfrei.com/Home/"
   },
   {
     "Issuer": "LBB Amazon.de Visa",
@@ -583,13 +588,15 @@
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_foreign": "1.75 %",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,75 %",
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
+    "notes": "<span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
+    "link": "https://www.amazon.de/b?ie=UTF8&node=15425878031",
+    "image": "https://i.imgur.com/HrZJ48T.jpg"
   },
   {
     "Issuer": "LBB Amazon.de Visa Prime",
@@ -604,17 +611,19 @@
     "charge": "credit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_foreign": "1.75 %",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,75 %",
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>"
+    "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
+    "link": "https://www.amazon.de/b?ie=UTF8&node=15425878031",
+    "image": "https://i.imgur.com/HrZJ48T.jpg"
   },
   {
-    "Issuer": "Fidor Debit MasterCard",
-    "yearlyFee": "14,95",
+    "Issuer": "Fidor Debit MasterCard Digital",
+    "yearlyFee": "72",
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": false,
@@ -631,17 +640,18 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "1 Abhebung gratis pro Monat"
+    "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen,1€/Monat Aufpreis für physische Karte",
+    "link": "https://www.fidor.de/account-card/card"
   },
   {
-    "Issuer": "ING-DiBa Visa",
+    "Issuer": "ING Visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": true,
     "contactless": true,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "secure": true,
     "charge": "debit",
     "fees_atm_de": 0,
@@ -652,11 +662,12 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Girocard als Zusatzkarte, <span class='text-warning'>Abhebungen in EUR erst ab 50€</span>"
+    "notes": "Girocard als Zusatzkarte, <span class='text-warning'>Abhebungen in EUR erst ab 50€</span>, ohne 700€ Eingang 4.90€/Monat",
+    "link": "https://www.ing.de/girokonto/"
   },
   {
     "Issuer": "Fidor SmartCard",
-    "yearlyFee": 0,
+    "yearlyFee": "84",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -673,7 +684,8 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte"
+    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, Konto 5€/Monat, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11), Karte trotzdem 2€/Monat",
+     "link": "https://www.fidor.de/account-card/card"
   },
   {
     "Issuer": "DKB Visa",
@@ -694,7 +706,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "1.75% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>"
+    "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>",
+    "image": "https://i.imgur.com/wNh2LoN.jpg",
+    "link": "https://www.dkb.de/privatkunden/visa-card/"
   },
   {
     "Issuer": "DKB Hilton Visa",
@@ -715,28 +729,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis"
-  },
-  {
-    "Issuer": "Denizen MasterCard",
-    "yearlyFee": 0,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": false,
-    "contactless": true,
-    "applepay": false,
-    "googlepay": false,
-    "secure": false,
-    "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": ""
+    "notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis, gratis Hilton Gold und nach 20k Umsatz Diamond",
+    "image": "https://www.dkb.de/binary-content.xhtml?id=5132838749",
+    "link": "https://www.dkb.de/privatkunden/hilton-honors/"
   },
   {
     "Issuer": "Monese Debit MasterCard",
@@ -757,7 +752,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Karte 4.95€ einmalig, gegen monatlichen Aufpreis leicht bessere Konditionen"
+    "notes": "physische Karte 4.95€ einmalig, gegen monatlichen Aufpreis leicht bessere Konditionen",
+    "link": "https://monese.com/eu/features/debit-card",
+    "image": "https://static.dev.monese.com/s/pricing/simple-pricing.png"
   },
   {
     "Issuer": "Consorsfinanz EC Debit MasterCard",
@@ -778,10 +775,12 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung Standard, Abhebungen nur ab 300€ kostenlos, Auslandsgebühren nicht in PLV festgelegt"
+    "notes": "Teilzahlung Standard, Abhebungen nur ab 300€ kostenlos, Auslandsgebühren nicht in PLV festgelegt",
+    "image": "https://www.mastercard.de/content/dam/mccom/de-de/privatkunden/cards/consors-finanz-dmc-card2.jpg",
+    "link" : "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
   },
   {
-    "Issuer": "Targobank Visa Online CLassic",
+    "Issuer": "Targobank Visa Online Classic",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -799,7 +798,8 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "ATM unter speziellen Bedingungen kostenfrei"
+    "notes": "ATM unter speziellen Bedingungen kostenfrei",
+    "link" : "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
   },
   {
     "Issuer": "DiPocket MasterCard",
@@ -808,10 +808,10 @@
     "offlinepin": true,
     "offlinetrx": true,
     "contactless": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": true,
     "secure": false,
-    "charge": "credit",
+    "charge": "debit",
     "fees_atm_de": "0.75€",
     "fees_atm_eur": "0.75€",
     "fees_atm_foreign": "0.75€ + 1%",
@@ -820,9 +820,10 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Google Pay"
+    "notes": "Google Pay",
+    "link": "https://dipocket.org/"
   }, {
-    "Issuer": "1822mobile",
+    "Issuer": "1822direkt Girokonto Klassik",
     "yearlyFee": "0",
     "withChecking": true,
     "offlinepin": true,
@@ -831,7 +832,7 @@
     "googlepay": false,
     "contactless": true,
     "secure": true,
-    "charge": "credit",
+    "charge": "charge",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
     "fees_atm_foreign": 0,
@@ -840,15 +841,16 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen"
+    "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen, Mindestgeldeingang teils notwendig",
+    "link": "https://www.1822direkt.de/"
   },
    {
     "Issuer": "Lufthansa M&M Card Gold",
-    "yearlyFee": "109.92€",
+    "yearlyFee": "109.92",
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": false,
     "contactless": true,
     "secure": true,
@@ -861,15 +863,17 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar",
+    "link": "https://www.miles-and-more-kreditkarte.com/",
+    "image": "https://i.imgur.com/0BB6EjF.jpg"
   },
    {
     "Issuer": "Lufthansa M&M Card Blue",
-    "yearlyFee": "54.96€",
+    "yearlyFee": "54.96",
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": false,
     "contactless": true,
     "secure": true,
@@ -882,7 +886,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": true,
-    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar"
+    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar",
+    "link": "https://www.miles-and-more-kreditkarte.com/",
+    "image": "https://i.imgur.com/0BB6EjF.jpg"
   },
   {
     "Issuer": "bunq Premium",
@@ -893,7 +899,7 @@
     "applepay": true,
     "googlepay": true,
     "contactless": true,
-    "secure": false,
+    "secure": true,
     "charge": "debit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
@@ -903,7 +909,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "MasterCard & Maestro, kostenlose Abhebungen auf 10 pro Monat begrenzt"
+    "notes": "MasterCard & Maestro, kostenlose Abhebungen auf 10 pro Monat begrenzt",
+    "image": "https://www.bunq.com/assets/elements/contentElements/free-atm-withdrawals/Cards.png",
+    "link" : "https://www.bunq.com/"
   },
   {
     "Issuer": "Deutsche Bank Card Plus",
@@ -924,7 +932,8 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "zzgl. Kosten Konto"
+    "notes": "zzgl. Kosten Konto",
+    "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html"
   },
   {
     "Issuer": "Deutsche Bank MasterCard Travel",
@@ -943,16 +952,18 @@
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
     "pinfirst": true,
-    "insurance": false,
+    "insurance": true,
     "miles": false,
-    "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto" 
+    "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto",
+    "image": "https://cache.pressmailing.net/thumbnail/story_big/e577cadd-0d5a-4869-bec4-ccb5e50da5de/deutsche-bank-mit-neuer-kreditkarte-speziell-f-r-reise-und-urlaub-deutsche-bank-mastercard-travel-mi",
+    "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
   },
   {
     "Issuer": "TF Bank MasterCard Gold",
-    "yearlyFee": 94,
+    "yearlyFee": 0,
     "withChecking": false,
-    "offlinepin": false,
-    "offlinetrx": false,
+    "offlinepin": true,
+    "offlinetrx": true,
     "applepay": false,
     "googlepay": false,
     "contactless": false,
@@ -963,11 +974,12 @@
     "fees_atm_foreign": "1.75%",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1.75%",
-    "pinfirst": false,
-    "insurance": false,
+    "pinfirst": true,
+    "insurance": true,
     "miles": false,
     "image": "https://i.imgur.com/7BKZFx4.png",
-    "notes": "<span class='text-success'Diverse Reiseversicherungen</span>, Abhebungen werden sofort mit 22,80% verzinst, Informationen zu PIN unbekannt" 
+    "notes": "<span class='text-success'Diverse Reiseversicherungen</span>, Abhebungen werden sofort mit 22,80% verzinst",
+    "link" : "https://www.tfbank.de/tf-mastercard-gold/"
   },
   {
     "Issuer": "Transferwise Debit MasterCard",
@@ -975,8 +987,8 @@
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": false,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "contactless": true,
     "secure": false,
     "charge": "debit",
@@ -989,7 +1001,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Gebühr im Ausland varriert je nach Währung",
-    "image": "https://i.imgur.com/HAO7MI7.jpg"
+    "image": "https://i.imgur.com/HAO7MI7.jpg",
+    "link" : "https://transferwise.com/gb/borderless/"
   },
   {
     "Issuer": "Klarna Card",
@@ -1057,7 +1070,139 @@
     "insurance": false,
     "miles": false,
     "notes": "In Fitbit Pay nutzbar, Informationen zu PIN und Online-Fähigkeit unsicher",
-    "image": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/3/wr?wodata=Media%2FWhiteLabel%2FFitbit%2Fde%2FMedia%2FBilder%2Fbanner%2F1%2FFitbit_Versa_Lifestyle_SE_Charcoal_Male_Pay_GenericCard.jpg",
+    "image": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wr?wodata=Media%2FWhiteLabel%2FFitbit%2Fde%2FLandingPages%2FMedia%2FFitbit+Visa+Card+Design_Landingpagel_315%2F1%2FFitbit+Visa+Card+Design_Landingpagel_315.png",
     "link": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wa?path=/WhiteLabel/fitbit#stay"
+  },
+   {
+    "Issuer": "Tomorrow",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": "1.5%",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Regenwaldschutz mit jeder Kartenzahlung, 2€/Abhebung nach 3 kostenlosen, ",
+    "link": "https://www.tomorrow.one/en-de/"
+  },
+   {
+    "Issuer": "Tomorrow One",
+    "yearlyFee": 180,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation ",
+    "link": "https://www.tomorrow.one/en-de/"
+  },
+   {
+    "Issuer": "Vivid Standard",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "ATM 200€, danach 3%. Abhebungen unter 50€ mit Aufpreis, Fremdwährung mit bis zu 1% Aufschlag auf Wechselkurs",
+    "link": "https://vivid.money/en-eu/compare/"
+  },
+   {
+    "Issuer": "Vivid Prime",
+    "yearlyFee": 118.80,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "ATM 100€, danach 3%. Abhebungen unter 50€ mit Aufpreis, Fremdwährung mit bis zu 1% Aufschlag auf Wechselkurs, 1% Cashback ausserhalb Europa",
+    "link": "https://vivid.money/en-eu/compare/"
+  },
+   {
+    "Issuer": "Bitwala",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "",
+    "link": "https://www.bitwala.com/de/bank-account/"
+  },
+   {
+    "Issuer": "Moneyou Go",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": false,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": "1.7%",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1.7%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "ATM 2x kostenlos, danach 2€",
+    "link": "https://www.moneyou.de/girokonto/"
   }
 ]
