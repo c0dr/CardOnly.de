@@ -28,7 +28,8 @@ class CardCard extends Component {
         <tbody>
           {this.props.cards.map((card, index) => {
             return <tr key={index}>
-              {this.props.cols.map((col, index) => {
+              <td key={index}><a href={card.link}>{{card.Issuer}}</a></td>
+              {this.props.cols.slice(1).map((col, index) => {
                 return <td key={index} dangerouslySetInnerHTML={{ __html: this.generateTemplate(card[col.value]) }}></td>
               })}
             </tr>
