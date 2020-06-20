@@ -20,18 +20,6 @@ class Worldwide extends Component {
             </ul>
           </CardBody>
         </Card>
-        <Card>
-          <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Gratis Bezahlen und Abheben weltweit</CardHeader>
-          <CardBody>
-            <img className="cardImg" src={Santander} alt="Santander 1plus" />
-            <CardTitle>Santander 1plus</CardTitle>
-            <ul className="fa-ul" style={{ display: 'inline-block' }}>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr dauerhaft</li>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Gebühren für Einsatz weltweit</li>
-              <li><i className="fa-li fa fa-check-square text-success"></i>Erstattung von ATM-Gebühren (einzigartig!)</li>
-            </ul>
-          </CardBody>
-        </Card>
       </div>
     );
   }
