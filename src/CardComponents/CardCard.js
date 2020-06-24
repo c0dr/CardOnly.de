@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, CardSubtitle, UncontrolledCollapse } from 'reactstrap';
+import ApplePay from './ApplePay';
+import GooglePay from './GooglePay';
+import FeeLabel from './FeeLabel';
+import CurrentAccount from './CurrentAccount';
+import WorldWideFeeLabel from './WorldWideFeeLabel';
+import Contactless from './Contactless';
+
 
 class CardCard extends Component {
 
@@ -20,11 +27,16 @@ class CardCard extends Component {
       <Card style={{marginBottom: '1rem'}}>
         <CardBody>
           <CardTitle>{this.props.card.Issuer}</CardTitle>
-          <CardText>{this.props.card.yearlyFee}€/Jahr</CardText>
-          <ul>
-          <li><CardText>Abhebungen Eurozone {this.props.card.fees_atm_eur}</CardText></li>
-          <li><CardText>Abhebungen Ausland {this.props.card.fees_atm_foreign}</CardText></li>
-          <li><CardText>POS Ausland {this.props.card.fees_pos_foreign}</CardText></li>
+          <ul style={{listStyle: 'none'}}>
+          <li><strong>Jahresgebühr </strong> <FeeLabel value={this.props.card.yearlyFee} euro={true}/></li>
+          <li><strong>Abhebungen </strong> <WorldWideFeeLabel eur={this.props.card.fees_atm_eur} foreign={this.props.card.fees_atm_foreign}/></li>
+          <li><strong>Fremdwährung </strong><FeeLabel value={this.props.card.fees_pos_foreign}/></li>
+          <li><strong>Offline-PIN </strong><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.offlinepin)}}></span></li>
+          <li><CurrentAccount card={this.props.card}/></li>
+          <li> <ApplePay card={this.props.card}/>
+          <GooglePay card={this.props.card}/>
+          <Contactless card={this.props.card}/></li>
+
           </ul>
           <ButtonGroup>
           <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen</Button>
