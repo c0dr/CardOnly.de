@@ -40,3 +40,8 @@ body.modal-open {
     overflow: hidden !important;
  }
 }
+
+.cardimg {
+  width: 10%;
+  float: left;
+}

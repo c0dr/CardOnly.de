@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Card, CardTitle, CardBody, CardText, Button, CardSubtitle, UncontrolledCollapse } from 'reactstrap';
+import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, CardSubtitle, UncontrolledCollapse } from 'reactstrap';
 
 class CardCard extends Component {
 
@@ -20,8 +20,16 @@ class CardCard extends Component {
       <Card style={{marginBottom: '1rem'}}>
         <CardBody>
           <CardTitle>{this.props.card.Issuer}</CardTitle>
-          <CardSubtitle>{this.props.card.yearlyFee}€/Jahr</CardSubtitle>
-          <Button style={{marginBottom: '1rem'}} color="primary" id={'card' + this.props.index}>Details</Button>
+          <CardText>{this.props.card.yearlyFee}€/Jahr</CardText>
+          <ul>
+          <li><CardText>Abhebungen Eurozone {this.props.card.fees_atm_eur}</CardText></li>
+          <li><CardText>Abhebungen Ausland {this.props.card.fees_atm_foreign}</CardText></li>
+          <li><CardText>POS Ausland {this.props.card.fees_pos_foreign}</CardText></li>
+          </ul>
+          <ButtonGroup>
+          <Button color="success">Jetzt beantragen</Button>
+          <Button color="primary" id={'card' + this.props.index}>Details</Button>
+          </ButtonGroup>
           <UncontrolledCollapse toggler={'#card' + this.props.index}>
             <CardText> <span key={this.props.index}>
               <Table bordered striped>
