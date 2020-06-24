@@ -27,7 +27,7 @@ class CardCard extends Component {
           <li><CardText>POS Ausland {this.props.card.fees_pos_foreign}</CardText></li>
           </ul>
           <ButtonGroup>
-          <Button color="success">Jetzt beantragen</Button>
+          <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen</Button>
           <Button color="primary" id={'card' + this.props.index}>Details</Button>
           </ButtonGroup>
           <UncontrolledCollapse toggler={'#card' + this.props.index}>

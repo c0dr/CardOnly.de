@@ -19,7 +19,7 @@ class Germany extends Component {
               <li><i className="fa-li fa fa-check-square text-info"></i>100% Lastschrift einstellbar</li>
             </ul>
           </CardBody>
-          <Button color="success" href="https://www.barclaycard.de/kreditkarten/visa-kreditkarte">Jetzt beantragen</Button>
+          <Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.barclaycard.de/kreditkarten/visa-kreditkarte">Jetzt beantragen</Button>
         </Card>
         <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> Gratis Punkte sammeln in Europa</CardHeader>
@@ -32,7 +32,7 @@ class Germany extends Component {
               <li><i className="fa-li fa fa-check-square text-info"></i>2% bei Zahlung in Fremdwährung</li>
             </ul>
           </CardBody>
-          <Button color="success" href="http://barclaycard.de">Jetzt beantragen</Button>
+          <Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.payback.de/info/american-express">Jetzt beantragen</Button>
 
         </Card>
       </div>
