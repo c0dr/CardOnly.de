@@ -88,7 +88,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung zu 15,90%/Jahr möglich",
-    "link" : "https://www.icscards.de/kreditkarten/visa-world-card"
+    "link" : "https://www.icscards.de/kreditkarten/visa-world-card",
+    "image": "https://www.icscards.de/binaries/product/content/gallery/ics_de/product-imageset/visa_worldcard_vz-1.png"
   },
   {
     "Issuer": "Barclaycard Visa",
@@ -549,7 +550,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Abrechnung deferred debit, gratis je nach Kontenmodell",
-    "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/kreditkarten/mastercard"
+    "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/kreditkarten/mastercard",
+    "image": "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/image/kreditkarten/HVB-Kreditkarte-Mastercard-608x342.jpg"
   },
   {
     "Issuer": "Advanzia Geburenfrei",
@@ -656,14 +658,15 @@
     "charge": "debit",
     "fees_atm_de": 0,
     "fees_atm_eur": 0,
-    "fees_atm_foreign": "1,75 %",
+    "fees_atm_foreign": "1,99 %",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": "1,75 %",
+    "fees_pos_foreign": "1,99 %",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
     "notes": "Girocard als Zusatzkarte, <span class='text-warning'>Abhebungen in EUR erst ab 50€</span>, ohne 700€ Eingang 4.90€/Monat",
-    "link": "https://www.ing.de/girokonto/"
+    "link": "https://www.ing.de/girokonto/",
+    "image": "https://www.ing.de/binaries/SixteenToNineM/content/gallery/assets/girokonto/teaser-m/visacard___freistellerweiss_teaserm.jpg"
   },
   {
     "Issuer": "Fidor SmartCard",
@@ -821,7 +824,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Google Pay",
-    "link": "https://dipocket.org/"
+    "link": "https://dipocket.org/",
+    "image": "https://dipocket.org/img/hero-phone.png?v=1"
   }, {
     "Issuer": "1822direkt Girokonto Klassik",
     "yearlyFee": "0",
@@ -842,7 +846,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Girocard als Zusatzkarte, in Deutschland nur Abhebungen bei Sparkassen, Mindestgeldeingang teils notwendig",
-    "link": "https://www.1822direkt.de/"
+    "link": "https://www.1822direkt.de/",
+    "image": "https://www.1822direkt.de/fileadmin/Home/Karten/Kreditkarten/1822_Karte_Blau_Visa_191x120.png"
   },
    {
     "Issuer": "Lufthansa M&M Card Gold",
@@ -1093,7 +1098,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Regenwaldschutz mit jeder Kartenzahlung, 2€/Abhebung nach 3 kostenlosen, ",
-    "link": "https://www.tomorrow.one/en-de/"
+    "link": "https://www.tomorrow.one/en-de/",
+    "image": "https://www.tomorrow.one/img/new-visacard.png"
   },
    {
     "Issuer": "Tomorrow One",
@@ -1115,7 +1121,8 @@
     "insurance": false,
     "miles": false,
     "notes": "Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation ",
-    "link": "https://www.tomorrow.one/en-de/"
+    "link": "https://www.tomorrow.one/en-de/",
+    "image": "https://www.tomorrow.one/img/new-visacard.png"
   },
    {
     "Issuer": "Vivid Standard",
@@ -1137,7 +1144,8 @@
     "insurance": false,
     "miles": false,
     "notes": "ATM 200€, danach 3%. Abhebungen unter 50€ mit Aufpreis, Fremdwährung mit bis zu 1% Aufschlag auf Wechselkurs",
-    "link": "https://vivid.money/en-eu/compare/"
+    "link": "https://vivid.money/en-eu/compare/",
+    "image" : "https://acdn.tinkoff.ru/static/pages/files/4f81a34d-82b0-49f0-881a-abc81bd493f1.png"
   },
    {
     "Issuer": "Vivid Prime",
@@ -1159,7 +1167,8 @@
     "insurance": false,
     "miles": false,
     "notes": "ATM 100€, danach 3%. Abhebungen unter 50€ mit Aufpreis, Fremdwährung mit bis zu 1% Aufschlag auf Wechselkurs, 1% Cashback ausserhalb Europa",
-    "link": "https://vivid.money/en-eu/compare/"
+    "link": "https://vivid.money/en-eu/compare/",
+    "image": "https://acdn.tinkoff.ru/static/pages/files/4f81a34d-82b0-49f0-881a-abc81bd493f1.png"
   },
    {
     "Issuer": "Bitwala",
@@ -1181,7 +1190,8 @@
     "insurance": false,
     "miles": false,
     "notes": "",
-    "link": "https://www.bitwala.com/de/bank-account/"
+    "link": "https://www.bitwala.com/de/bank-account/",
+    "image": "https://www.bitwala.com/static/bitwala-debit-card-f745f88f0130dab7e26742d39255babf.jpg"
   },
    {
     "Issuer": "Moneyou Go",
@@ -1203,6 +1213,7 @@
     "insurance": false,
     "miles": false,
     "notes": "ATM 2x kostenlos, danach 2€",
-    "link": "https://www.moneyou.de/girokonto/"
+    "link": "https://www.moneyou.de/girokonto/",
+    "image": "https://www.moneyou.de/-/media/MoneYou-DE/go/web/girokonto/20200512-DE-Card-Plain-90-2.png?h=627&w=1199&la=de-DE&hash=9833501B2B4BE5C99593502D78B863F913980B2C"
   }
 ]
