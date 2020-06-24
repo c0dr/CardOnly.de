@@ -33,10 +33,10 @@ class CardCard extends Component {
           <li><strong>Fremdwährung </strong><FeeLabel value={this.props.card.fees_pos_foreign}/></li>
           <li><strong>Offline-PIN </strong><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.offlinepin)}}></span></li>
           <li><CurrentAccount card={this.props.card}/></li>
+          <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.notes)}}></span></li>
           <li> <ApplePay card={this.props.card}/>
           <GooglePay card={this.props.card}/>
           <Contactless card={this.props.card}/></li>
-
           </ul>
           <ButtonGroup>
           <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen</Button>
