@@ -162,13 +162,15 @@ class Recommended extends Component {
    <li><i className="fa-li fa fa-check-square text-success"></i>MC Wechselkurs</li>
    <li><i className="fa-li fa fa-check-square text-success"></i>Google Pay und Apple Pay</li>
    <li><i className="fa-li fa fa-check-square text-danger"></i>9.90€ pro Karte, 0.99€ für Abhebungen</li>
+   <li><i className="fa-li fa fa-check-square text-danger"></i>Kein Zahlungskonto, nur Prepaid-Karte</li>
+
 
  </ul>
 </CardBody>
 <Button color="info" target="_blank" rel="noopener noreferrer" href="https://www.bunq.com/de/benefits">Jetzt beantragen</Button>
 </Card>
 
-<p>Ohne monatliche Gebühr kommt diese Mastercard. Sie bucht vom Kartenkonto direkt ab, ist aber als Credit gebrandet. Mit Offline-PIN und 201 Service-Code ist sie ganz gut nutzbar. </p>
+<p>Ohne monatliche Gebühr kommt diese Mastercard. Sie bucht vom Kartenkonto direkt ab, ist aber als Credit gebrandet. Das Konto kann keine Überweisungen und dient nur als Guthaben. Mit Offline-PIN und 201 Service-Code ist sie ganz gut nutzbar. </p>
 <p>Als Wallet werden Google Pay und Apple Pay unterstützt. Abhebungen sind kostenpflichtig, ebenso die Karte selber. Zahlungen im Ausland kostenlos, der faire MC-Wechselkurs wird genutzt. </p>
 <p>Die App kann viel benachrichtigen, die PIN kann wunschgemäß festgelegt werden. Das Design ist gewöhnungsbedürftig. Niederländische Bankenabsicherung ist vorhanden, Karte kann instant mit SOFORT und giropay aufgeladen werden, KK mit Gebühr. </p>
 
