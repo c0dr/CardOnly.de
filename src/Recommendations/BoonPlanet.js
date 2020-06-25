@@ -149,9 +149,32 @@ class Recommended extends Component {
 <p>Insgesamt ein akzeptables Produkt</p>
 
 
+ <h2>Openbank Girokonto</h2>
+<Card>
+<CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit Schufa-Anfrage</CardHeader>
+<CardBody>
+ <img className="cardImg" src="https://www.openbank.de/assets/2019-12/tarjeta_r42_pasaporte_D.jpg" alt="Barclaycard Visa" />
+ <CardTitle>Openbank Konto</CardTitle>
+ <ul className="fa-ul" style={{ display: 'inline-block' }}>
+   <li><i className="fa-li fa fa-check-square text-info"></i>Okaye App, Debit MasterCard</li>
+   <li><i className="fa-li fa fa-check-square text-success"></i>Kostenlose Abhebungen und Zahlungen, keine Jahresgebühr</li>
+   <li><i className="fa-li fa fa-check-square text-success"></i>Google Pay, Apple Pay, Fitbit und Garmin Pay</li>
+   <li><i className="fa-li fa fa-check-square text-success"></i>2% Zinsen auf 5k€ beim Tagesgeld </li>
+   <li><i className="fa-li fa fa-check-square text-info"></i>Schufa-Anfrage, aber kein Eintrag</li>
+   <li><i className="fa-li fa fa-check-square text-info"></i>Spanische IBAN</li>
+
+
+ </ul>
+</CardBody>
+<Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.openbank.de/tagesgeldkonto">Jetzt beantragen</Button>
+</Card>
+
+<p>Mit spanischer IBAN kommt das Girokonto der Openbank. Die Я42-Debitkarte erlaubt 5 Abhebungen weltweit bei Eröffnung bis zum 31.7, Offline-PIN und 201 machen sie gut nutzbar.</p>
+<p>Die Schufa wird angefragt, aber das Konto nicht eingetragen. Übersetzungen sind teilweise etwas hakelig, aber es läuft</p>
+<p>Das Tagesgeldkonto bietet dazu 2% auf 5k€ für Neukunden. Spanische Einlagensicherung sichert das Guthaben ab.</p>
+<p>Push-Benachrichtigungen gibt es einige, im Ausland wird der faire MasterCard-Kurs genutzt.</p>
+
  <h2>bunq Travel Card</h2>
-
-
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Karte mit App und ohne Schufa</CardHeader>
 <CardBody>
@@ -172,7 +195,8 @@ class Recommended extends Component {
 
 <p>Ohne monatliche Gebühr kommt diese Mastercard. Sie bucht vom Kartenkonto direkt ab, ist aber als Credit gebrandet. Das Konto kann keine Überweisungen und dient nur als Guthaben. Mit Offline-PIN und 201 Service-Code ist sie ganz gut nutzbar. </p>
 <p>Als Wallet werden Google Pay und Apple Pay unterstützt. Abhebungen sind kostenpflichtig, ebenso die Karte selber. Zahlungen im Ausland kostenlos, der faire MC-Wechselkurs wird genutzt. </p>
-<p>Die App kann viel benachrichtigen, die PIN kann wunschgemäß festgelegt werden. Das Design ist gewöhnungsbedürftig. Niederländische Bankenabsicherung ist vorhanden, Karte kann instant mit SOFORT und giropay aufgeladen werden, KK mit Gebühr. </p>
+<p>Die App kann viel benachrichtigen, die PIN kann wunschgemäß festgelegt werden. Das Design ist gewöhnungsbedürftig. Niederländische Bankenabsicherung ist vorhanden, Karte kann instant mit SOFORT, giropay und SEPA Inst aufgeladen werden, KK-Aufladung mit Gebühr. </p>
+
 
  <h2>Mit Abstrichen: Monese</h2>
   
