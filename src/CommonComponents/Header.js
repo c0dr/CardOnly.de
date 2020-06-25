@@ -40,6 +40,9 @@ export default class Example extends React.Component {
                 <NavLink tag={Link} to="/recommended">Empfehlungen</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink tag={Link} to="/boon">Boon Planet Ersatz</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink tag={Link} to="/contact">Kontakt</NavLink>
               </NavItem>
             </Nav>

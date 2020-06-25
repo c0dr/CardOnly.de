@@ -14,6 +14,7 @@ class App extends Component {
       <HashRouter>
         <div>
           <ScreenSizeAlert/>
+          <Header/>
           <Route exact path="/" component={Home} />
           <Route path="/recommended" component={Recommended} />
           <Route path="/contact" component={Contact} />
