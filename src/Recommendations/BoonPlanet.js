@@ -149,6 +149,29 @@ class Recommended extends Component {
 <p>Insgesamt ein akzeptables Produkt</p>
 
 
+ <h2>bunq Travel Card</h2>
+
+
+<Card>
+<CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Karte mit App und ohne Schufa</CardHeader>
+<CardBody>
+ <img className="cardImg" src="https://i.imgur.com/lzagueK.png" alt="Barclaycard Visa" />
+ <CardTitle>bunq Travel Card</CardTitle>
+ <ul className="fa-ul" style={{ display: 'inline-block' }}>
+   <li><i className="fa-li fa fa-check-square text-info"></i>Mäßige App, pseudo-Credit Mastercard</li>
+   <li><i className="fa-li fa fa-check-square text-success"></i>MC Wechselkurs</li>
+   <li><i className="fa-li fa fa-check-square text-success"></i>Google Pay und Apple Pay</li>
+   <li><i className="fa-li fa fa-check-square text-danger"></i>9.90€ pro Karte, 0.99€ für Abhebungen</li>
+
+ </ul>
+</CardBody>
+<Button color="info" target="_blank" rel="noopener noreferrer" href="https://www.bunq.com/de/benefits">Jetzt beantragen</Button>
+</Card>
+
+<p>Ohne monatliche Gebühr kommt diese Mastercard. Sie bucht vom Kartenkonto direkt ab, ist aber als Credit gebrandet. Mit Offline-PIN und 201 Service-Code ist sie ganz gut nutzbar. </p>
+<p>Als Wallet werden Google Pay und Apple Pay unterstützt. Abhebungen sind kostenpflichtig, ebenso die Karte selber. Zahlungen im Ausland kostenlos, der faire MC-Wechselkurs wird genutzt. </p>
+<p>Die App kann viel benachrichtigen, die PIN kann wunschgemäß festgelegt werden. Das Design ist gewöhnungsbedürftig. Niederländische Bankenabsicherung ist vorhanden, Karte kann instant mit SOFORT und giropay aufgeladen werden, KK mit Gebühr. </p>
+
  <h2>Mit Abstrichen: Monese</h2>
   
  <Card>
