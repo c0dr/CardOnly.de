@@ -25,6 +25,10 @@
                 "value": "dontcare"
             },
             {
+                "label": "Ja",
+                "value": true
+            },
+            {
                 "label": "Nein",
                 "value": false
             }

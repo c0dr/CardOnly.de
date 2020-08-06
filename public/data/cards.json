@@ -19,7 +19,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Maestro als Zusatzkarte, Abhebungen DE 3x ohne Hauptkonto, sonst 5x gratis",
-    "image": "https://i.imgur.com/GMrkJXs.png",
+    "image": "img/n26.png",
     "link" : "https://n26.com/de-de"
   },
   {
@@ -42,7 +42,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung</span> bei Zahlung über N26 Konto für Privatreise, max 5 ATM/Monat in DE",
-    "image": "https://i.imgur.com/udA7Drw.png",
+    "image": "img/n26you.png",
     "link" : "https://n26.com/de-de"
   },
   {
@@ -65,7 +65,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Maestro als Zusatzkarte, <span class='text-success'> Reisekomfort-, Reiseabbruch- und Reisekrankenversicherung, CDW und Handydiebstahlversicherung </span> bei Zahlung über N26 Konto für Privatreise, Karte aus Metall, max 8 ATM/Monat in DE",
-    "image": "https://i.imgur.com/Ng5bPrM.png",
+    "image": "img/n26metal.png",
     "link" : "https://n26.com/de-de"
   },
   {
@@ -89,7 +89,7 @@
     "miles": false,
     "notes": "Teilzahlung zu 15,90%/Jahr möglich",
     "link" : "https://www.icscards.de/kreditkarten/visa-world-card",
-    "image": "https://www.icscards.de/binaries/product/content/gallery/ics_de/product-imageset/visa_worldcard_vz-1.png"
+    "image": "img/icsvisa.png"
   },
   {
     "Issuer": "Barclaycard Visa",
@@ -111,8 +111,8 @@
     "pinfirst": false,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich nur manuell, Abhebungen in EUR ab 50€ möglich",
-    "image": "https://i.imgur.com/8gkctVv.png",
+    "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich einstellbar, Abhebungen in EUR ab 50€ möglich",
+    "image": "img/barclaycardvisa.png",
     "link": "https://www.barclaycard.de/kreditkarten/visa-kreditkarte"
   },
   {
@@ -135,7 +135,7 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
-    "image": "https://i.imgur.com/8OEiMWY.png",
+    "image": "img/eurowingsclassic.png",
     "link": "https://www2.barclaycard.de/eurowings/"
   },
   {
@@ -158,11 +158,11 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz",
-    "image": "https://i.imgur.com/ke6U1zu.png",
+    "image": "/img/eurowingsgold.png",
     "link": "https://www2.barclaycard.de/eurowings/"
   },
   {
-    "Issuer": "Barclaycard Gold",
+    "Issuer": "Barclaycard Gold Visa",
     "yearlyFee": 59,
     "withChecking": false,
     "offlinepin": true,
@@ -181,7 +181,7 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
-    "image": "https://i.imgur.com/ln1eVHN.png",
+    "image": "img/barclaycardgoldvisa.png",
     "link": "https://www.barclaycard.de/kreditkarten/visa-card-gold-kreditkarte"
   },
   {
@@ -204,7 +204,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
-    "image": "https://i.imgur.com/R34UcX1.png",
+    "image": "/img/barclaycardplatinumdouble.png",
     "link": "https://www.barclaycard.de/kreditkarten/visa-und-mastercard-platinum-doppel"
   },
   {
@@ -227,7 +227,7 @@
     "insurance": false,
     "miles": false,
     "notes": "VPay girocard als Zusatzkarte, <span class='text-warning'>Abhebungen erst ab 50€</span>",
-    "image": "https://i.imgur.com/uNT9cAG.jpg",
+    "image": "/img/consorsbankclassic.jpg",
     "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
   },
   {
@@ -250,8 +250,31 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung möglich zu 16,90%/Jahr, Vollausgleich per App einstellbar",
-    "image": "https://i.imgur.com/dWdCnvl.jpg",
+    "image": "img/hanseaticgenialcard.png",
     "link": "https://www.hanseaticbank.de/kreditkarte/genialcard"
+  },
+  {
+    "Issuer": "Hanseatic Bank GoldCard",
+    "yearlyFee": 35,
+    "withChecking": false,
+    "offlinepin": false,
+    "offlinetrx": false,
+    "contactless": true,
+    "applepay": true,
+    "googlepay": true,
+    "secure": "null",
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign":0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "2%",
+    "pinfirst": true,
+    "insurance": true,
+    "miles": false,
+    "notes": "Teilzahlung möglich zu 16,90%/Jahr, Vollausgleich per App einstellbar, ab 3000€ kostenlos, Reiseversicherungen",
+    "image": "img/hanseaticgoldcard.png",
+    "link": "https://www.hanseaticbank.de/kreditkarte/goldcard"
   },
  {
     "Issuer": "Revolut Card",
@@ -342,7 +365,7 @@
     "insurance": true,
     "miles": false,
     "notes": "VPay girocard als Zusatzkarte, Abhebungen direkt vom Girokonto, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung, Handyversicherung</span>, 10ct Cashback pro Kartenzahlung",
-    "image": "https://i.imgur.com/07Armmp.png",
+    "image": "/img/consorsbankgold.jpg",
     "link": "https://www.consorsbank.de/ev/Girokonto/-/VISA-Card-Gold"
   },
   {
@@ -574,7 +597,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen werden sofort verzinst</span>, einige Cobrands mit  Lastschrift",
-    "image": "https://i.imgur.com/fhVxy3c.png",
+    "image": "img/advanzia.png",
     "link" : "https://www.gebuhrenfrei.com/Home/"
   },
   {
@@ -643,7 +666,8 @@
     "insurance": false,
     "miles": false,
     "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen,1€/Monat Aufpreis für physische Karte",
-    "link": "https://www.fidor.de/account-card/card"
+    "link": "https://www.fidor.de/account-card/card",
+    "image": "/img/fidordebit.png"
   },
   {
     "Issuer": "ING Visa",
@@ -688,7 +712,9 @@
     "insurance": false,
     "miles": false,
     "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, Konto 5€/Monat, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11), Karte trotzdem 2€/Monat",
-     "link": "https://www.fidor.de/account-card/card"
+     "link": "https://www.fidor.de/account-card/card",
+     "image": "/img/fidorsmart.png"
+
   },
   {
     "Issuer": "DKB Visa",
@@ -716,7 +742,7 @@
   {
     "Issuer": "DKB Hilton Visa",
     "yearlyFee": "ab 48",
-    "withChecking": true,
+    "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
     "applepay": false,
@@ -733,7 +759,7 @@
     "insurance": true,
     "miles": true,
     "notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis, gratis Hilton Gold und nach 20k Umsatz Diamond",
-    "image": "https://www.dkb.de/binary-content.xhtml?id=5132838749",
+    "image": "/img/hilton.png",
     "link": "https://www.dkb.de/privatkunden/hilton-honors/"
   },
   {
@@ -825,9 +851,10 @@
     "miles": false,
     "notes": "Google Pay",
     "link": "https://dipocket.org/",
-    "image": "https://dipocket.org/img/hero-phone.png?v=1"
+    "image": "https://dipocket.org/img/hero-phone.png?v=1",
+    "notes": "Polnische Karte, somit in Polen ohne DCC"
   }, {
-    "Issuer": "1822direkt Girokonto Klassik",
+    "Issuer": "Girokonto Klassik 1822direkt",
     "yearlyFee": "0",
     "withChecking": true,
     "offlinepin": true,
@@ -915,7 +942,30 @@
     "insurance": false,
     "miles": false,
     "notes": "MasterCard & Maestro, kostenlose Abhebungen auf 10 pro Monat begrenzt",
-    "image": "https://www.bunq.com/assets/elements/contentElements/free-atm-withdrawals/Cards.png",
+    "image": "/img/bunqmc.png",
+    "link" : "https://www.bunq.com/"
+  },
+  {
+    "Issuer": "bunq Travel Card",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": "0.99€",
+    "fees_atm_eur": "0.99€",
+    "fees_atm_foreign": "0.99€",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "0.5% Kosten Aufladungen per KK, 9,99€ Ausstellungsgebühr ",
+    "image": "/img/bunqtravel.png",
     "link" : "https://www.bunq.com/"
   },
   {
@@ -982,7 +1032,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "image": "https://i.imgur.com/7BKZFx4.png",
+    "image": "/img/tfgold.png",
     "notes": "<span class='text-success'Diverse Reiseversicherungen</span>, Abhebungen werden sofort mit 22,80% verzinst",
     "link" : "https://www.tfbank.de/tf-mastercard-gold/"
   },
@@ -1005,8 +1055,8 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Gebühr im Ausland varriert je nach Währung",
-    "image": "https://i.imgur.com/HAO7MI7.jpg",
+    "notes": "Gebühr im Ausland varriert je nach Währung, ATM 200 Pfund pro Monat gratis, danach 2%, 6 Euro Kartenausstellung",
+    "image": "/img/transferwise.png",
     "link" : "https://transferwise.com/gb/borderless/"
   },
   {
@@ -1191,7 +1241,7 @@
     "miles": false,
     "notes": "",
     "link": "https://www.bitwala.com/de/bank-account/",
-    "image": "https://www.bitwala.com/static/bitwala-debit-card-f745f88f0130dab7e26742d39255babf.jpg"
+    "image": "/img/bitwala.png"
   },
    {
     "Issuer": "Moneyou Go",

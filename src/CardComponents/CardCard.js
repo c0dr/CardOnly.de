@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, CardSubtitle, UncontrolledCollapse } from 'reactstrap';
+import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, CardSubtitle, UncontrolledCollapse, Row, Col, Container } from 'reactstrap';
 import ApplePay from './ApplePay';
 import GooglePay from './GooglePay';
 import FeeLabel from './FeeLabel';
@@ -27,11 +27,24 @@ class CardCard extends Component {
       <Card style={{marginBottom: '1rem'}}>
         <CardBody>
           <CardTitle>{this.props.card.Issuer}</CardTitle>
-          <ul style={{listStyle: 'none'}}>
+          <Container fluid>
+            <Row>
+              <Col xs="1">
+          <img className='cardimg' src={this.props.card.image}/>
+          </Col>
+        <Col xs="10">
+          <ul style={{listStyle: 'none'}} className='features features-padding'>
+          
           <li><strong>Jahresgebühr </strong> <FeeLabel value={this.props.card.yearlyFee} euro={true}/></li>
           <li><strong>Abhebungen </strong> <WorldWideFeeLabel eur={this.props.card.fees_atm_eur} foreign={this.props.card.fees_atm_foreign}/></li>
           <li><strong>Fremdwährung </strong><FeeLabel value={this.props.card.fees_pos_foreign}/></li>
           <li><strong>Offline-PIN </strong><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.offlinepin)}}></span></li>
+          </ul>
+          </Col>
+          </Row>
+          </Container>
+          <ul style={{listStyle: 'none'}} className='features'>
+
           <li><CurrentAccount card={this.props.card}/></li>
           <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.notes)}}></span></li>
           <li> <ApplePay card={this.props.card}/>

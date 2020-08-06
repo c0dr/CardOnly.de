@@ -6,8 +6,6 @@ body {
 
 .cardImg {
   float: left;
-  width: 100px;
-  margin-right: 20px;
 }
 
 
@@ -42,6 +40,15 @@ body.modal-open {
 }
 
 .cardimg {
-  width: 10%;
-  float: left;
+  max-width: 10rem;
+}
+
+
+.features {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.features-padding {
+  margin-left: 4%;
 }
