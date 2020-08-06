@@ -26,9 +26,6 @@ class Header extends Component {
         <h1>
           Finde jetzt die richtige Karte </h1>
           <p>Egal ob Reise, Meilen oder Bargeld abheben, schnell zur passenden Karte für dich!</p>
-      <Button onClick={this.freeAtm} color="success">Weltweit kostenlos abheben</Button>
-      <Button onClick={this.miles} color="success">Meilen sammeln</Button>
-      <Button onClick={this.applePay} color="success">Apple Pay</Button>
       </div>
     );
   }
