@@ -100,7 +100,7 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
-        <Header/>
+        <Header filterChange={this.filterChange}/>
         <Row>
           <Col sm="2"><Filter filterChange={this.filterChange} filterOptions={this.state.filterOptions} /></Col>
           <Col sm="10"><Cards cards={this.filteredCards()} cols={this.state.cols} /></Col>

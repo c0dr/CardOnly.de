@@ -29,13 +29,10 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="primary" dark expand="md"> 
-          <NavbarBrand href="/">CardOnly.de</NavbarBrand>
+          <NavbarBrand tag={Link} to="/">CardOnly.de</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav className="mr-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to="/">Home</NavLink>
-              </NavItem>
+            <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink tag={Link} to="/recommended">Empfehlungen</NavLink>
               </NavItem>

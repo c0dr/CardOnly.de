@@ -52,3 +52,11 @@ body.modal-open {
 .features-padding {
   margin-left: 4%;
 }
+
+.well {
+  text-align: center;
+}
+
+.well button {
+  margin-left: 1%;
+}
