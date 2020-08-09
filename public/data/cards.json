@@ -577,14 +577,14 @@
     "image": "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/image/kreditkarten/HVB-Kreditkarte-Mastercard-608x342.jpg"
   },
   {
-    "Issuer": "Advanzia Geburenfrei",
+    "Issuer": "Advanzia Mastercard Gold",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
     "contactless": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": true,
     "secure": true,
     "charge": "credit",
