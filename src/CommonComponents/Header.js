@@ -32,6 +32,8 @@ export default class Example extends React.Component {
           <NavbarBrand tag={Link} to="/">CardOnly.de</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
+
+              <ul class="navbar-nav"><li class="nav-item"><a class="nav-link" target="_blank"  href="https://blog.cardonly.de">Blog</a></li></ul>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink tag={Link} to="/recommended">Empfehlungen</NavLink>

@@ -29,7 +29,7 @@ class CardCard extends Component {
           <CardTitle>{this.props.card.Issuer}</CardTitle>
           <Container fluid>
             <Row>
-              <Col xs="1">
+              <Col xs="2">
           <img className='cardimg' src={this.props.card.image}/>
           </Col>
         <Col xs="10">
