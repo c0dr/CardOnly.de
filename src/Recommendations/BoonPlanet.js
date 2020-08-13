@@ -15,10 +15,8 @@ class Recommended extends Component {
 
 
         <h2>Ersatz für boon.PLANET</h2>
-        <p> Nach Anmeldung der Insolvez der Wirecard AG, der Holding der Wirecard Bank AG, die noch keine Insolvenz angemeldet hat, bleibt für Kunden von boon.PLANET die Frage,
-          wo in der Zukunft ein Konto geführt wird. </p>
-          <p>Die Einlagen sind bei boon.PLANET gesetzlich geschützt, die Zukunft des Kontos aber vollkommen unklar.</p> 
-          <p>Wir suchen nach Banken mit folgenden Features:
+        <p> Nach der Insolvenz von Wirecard war das EGeld-Produkt boon sehr schnell zu. Das boon.PLANET von der Wirecard Bank konnte noch weiterbestehen, aber auch dort wurde jetzt die Einstellung bekannt. </p>
+          <p>Welche Alternativen gibt es? Wir suchen nach Banken mit folgenden Features:
           <ul>
             <li>Debitkarte (Mastercard oder Visa)</li>
             <li>Deutsche IBAN</li>
