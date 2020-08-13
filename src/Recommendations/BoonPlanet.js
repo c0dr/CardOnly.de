@@ -49,31 +49,6 @@ class Recommended extends Component {
         <p>  Bis zu 5 Abhebungen sind in Deutschland pro Monat kostenlos, im Ausland fallen 1.75% an. Die App liefert schnelle Pushs bei Zahlungen. </p>
         <p> Allerdings arbeitetet N26 mit der Schufa zusammen, was das Konto als Drittkonto wenig attraktiv macht </p>
 
-          <h2>Moneyou Go</h2>
-
-           <Card>
-          <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
-          <CardBody>
-            <img className="cardImg" src="https://www.moneyou.de/-/media/MoneYou-DE/go/web/girokonto/20200512-DE-Card-Plain-90-2.png?h=627&w=1199&la=de-DE&hash=9833501B2B4BE5C99593502D78B863F913980B2C" alt="Barclaycard Visa" />
-            <CardTitle>Moneyou Go</CardTitle>
-            <ul className="fa-ul" style={{ display: 'inline-block' }}>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen in Eurozone</strong></li>
-              <li><i className="fa-li fa fa-check-square text-success"></i>Ohne Schufa</li>
-              <li><i className="fa-li fa fa-check-square text-warning"></i>Okaye App, Debit MC</li>
-              <li><i className="fa-li fa fa-minus-square text-danger"></i>Kein Push</li>
-              <li><i className="fa-li fa fa-minus-square text-danger"></i>1.75% AEE</li>
-            </ul>
-          </CardBody>
-          <Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.moneyou.de/girokonto">Jetzt beantragen</Button>
-        </Card>
-
-        <p>Ohne Schufa ist Moneyou Go unterwegs. </p> <p>Das deutsche Angebot der ABN AMRO bietet ein schlichtes Konto per App mit Debit MasterCard. Die App sendet leider keine Push-Notifications.</p>
-        <p>In der Eurozone sind 2 Abhebungen kostenlos, danach 2 Euro. Im Ausland fallen 1.75% am POS und am ATM an. </p>
-        <p> Die Karte bietet Offline-PIN, allerdings nur einen 221 Service Code und anscheinend keinen Wunsch-PIN.
-           Insgesamt ein akzeptables Produkt.
-           </p>
-
-
   <h2>Bitwala</h2>
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
