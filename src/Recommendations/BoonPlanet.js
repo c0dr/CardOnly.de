@@ -33,7 +33,7 @@ class Recommended extends Component {
       <Card>
           <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit guter App und Debitkarte</CardHeader>
           <CardBody>
-            <img className="cardImg" src="https://images.ctfassets.net/q33z48p65a6w/2DqC4xSMtayA6kmOo64I0E/18fd114ab3cf1ba654e5b4c203ebc461/n26-cards-mastercard-de.png?fit=thumb&fm=png&q=90&w=320" alt="Barclaycard Visa" />
+            <img className="cardImg cardimg-small" src="https://images.ctfassets.net/q33z48p65a6w/2DqC4xSMtayA6kmOo64I0E/18fd114ab3cf1ba654e5b4c203ebc461/n26-cards-mastercard-de.png?fit=thumb&fm=png&q=90&w=320" alt="Barclaycard Visa" />
             <CardTitle>N26 Konto</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen in Eurozone</strong></li>
@@ -53,7 +53,7 @@ class Recommended extends Component {
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://www.bitwala.com/static/bankaccount_intext_card-1cdd5b353c6355bfebbb80bc3c4cfb37.png" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://www.bitwala.com/static/bankaccount_intext_card-1cdd5b353c6355bfebbb80bc3c4cfb37.png" alt="Barclaycard Visa" />
  <CardTitle>Bitwala</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen weltweit</strong></li>
@@ -81,7 +81,7 @@ class Recommended extends Component {
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://www.tomorrow.one/img/new-visacard.png" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://www.tomorrow.one/img/new-visacard.png" alt="Barclaycard Visa" />
  <CardTitle>Tomorrow</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen Eurozone</strong></li>
@@ -105,7 +105,7 @@ class Recommended extends Component {
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://website-static.vivid.money/static/images/acquisition/en/pockets-and-cards.png" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://website-static.vivid.money/static/images/acquisition/en/pockets-and-cards.png" alt="Barclaycard Visa" />
  <CardTitle>Vivid Money</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-info"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen bis 200€ kostenlos</strong></li>
@@ -124,11 +124,19 @@ class Recommended extends Component {
 <p>Insgesamt ein akzeptables Produkt</p>
 
 
+ <Alert color="success">
+        <strong>20€ Bonus über Freunde-werben-Freunde</strong>
+        <p>Über Freunde-werben-Freunde gibt es für beide 15€ Guthaben nach der Eröffnung. Nutze dazu den Link hier:</p>
+        <Button color="primary" target="_blank" rel="noopener noreferrer" href="https://vivid.money/r/simonF5G">Mit Bonus beantragen</Button>
+      </Alert>
+
+
+
  <h2>Openbank Girokonto</h2>
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit Schufa-Anfrage</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://www.openbank.de/assets/2019-12/tarjeta_r42_pasaporte_D.jpg" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://www.openbank.de/assets/2019-12/tarjeta_r42_pasaporte_D.jpg" alt="Barclaycard Visa" />
  <CardTitle>Openbank Konto</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-info"></i>Okaye App, Debit MasterCard</li>
@@ -153,7 +161,7 @@ class Recommended extends Component {
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Karte mit App und ohne Schufa</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://i.imgur.com/lzagueK.png" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://i.imgur.com/lzagueK.png" alt="Barclaycard Visa" />
  <CardTitle>bunq Travel Card</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-info"></i>Mäßige App, pseudo-Credit Mastercard</li>
@@ -178,7 +186,7 @@ class Recommended extends Component {
  <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> E-Geld-Konto mit App und ohne Schufa</CardHeader>
 <CardBody>
- <img className="cardImg" src="https://static.dev.monese.com/s/pricing/simple-pricing.png" alt="Barclaycard Visa" />
+ <img className="cardImg cardimg-small" src="https://static.dev.monese.com/s/pricing/simple-pricing.png" alt="Barclaycard Visa" />
  <CardTitle>Monese</CardTitle>
  <ul className="fa-ul" style={{ display: 'inline-block' }}>
    <li><i className="fa-li fa fa-check-square text-info"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen bis 200€ kostenlos</strong></li>
@@ -202,7 +210,7 @@ class Recommended extends Component {
   <Card>
  <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> E-Geld-Konto mit App und ohne Schufa</CardHeader>
  <CardBody>
-  <img className="cardImg" src="https://lienzo.s3.amazonaws.com/images/TransferWisecard4@2x.png" alt="Barclaycard Visa" />
+  <img className="cardImg cardimg-small" src="https://lienzo.s3.amazonaws.com/images/TransferWisecard4@2x.png" alt="Barclaycard Visa" />
   <CardTitle>Transferwise Borderless</CardTitle>
   <ul className="fa-ul" style={{ display: 'inline-block' }}>
     <li><i className="fa-li fa fa-check-square text-info"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen bis 200 Pfund kostenlos</strong></li>

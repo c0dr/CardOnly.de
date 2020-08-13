@@ -8,6 +8,10 @@ body {
   float: left;
 }
 
+.cardimg-small {
+    max-width: 200px
+}
+
 
 .well {
   min-height: 20px;
