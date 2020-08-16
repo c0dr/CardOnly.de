@@ -9,9 +9,9 @@ import { Card, CardTitle, CardHeader, CardBody, Button, Alert } from 'reactstrap
 class Recommended extends Component {
   render() {
     return (
-      <Container>
+      <Container fluid>
                 <Row>
-          <Col  xs={{size: 6, offset: 3}}>
+          <Col  md={{size: 8, offset: 2}}>
 
 
         <h2>Ersatz für boon.PLANET</h2>
@@ -206,8 +206,8 @@ class Recommended extends Component {
  <p>Bei Fremdwährungen fällt eine Gebühr von 0.3%-1% an, abhängig von der Währung. Absicherung nur E-Geld</p>
  
  
-
-<h3>N26 als Empfehlungen haben wir erst mal entfernt, nachdem N26 eine Wahl eines Betriebsrates mehrfach versucht hat zu verhindern. Details zum N26-Konto gibts auf der Hauptseite. </h3>
+<hr/>
+<strong>N26 als Empfehlungen haben wir erst mal entfernt, nachdem N26 eine Wahl eines Betriebsrates mehrfach versucht hat zu verhindern. Details zum N26-Konto gibts auf der Hauptseite. </strong>
 </Col>
 </Row>
       </Container>
