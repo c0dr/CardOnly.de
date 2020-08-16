@@ -26,27 +26,6 @@ class Recommended extends Component {
           </ul>
           </p>
 
-          <h2>Erster Kandidat: N26</h2>
-
-      <Card>
-          <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit guter App und Debitkarte</CardHeader>
-          <CardBody>
-            <img className="cardImg cardimg-small" src="https://images.ctfassets.net/q33z48p65a6w/2DqC4xSMtayA6kmOo64I0E/18fd114ab3cf1ba654e5b4c203ebc461/n26-cards-mastercard-de.png?fit=thumb&fm=png&q=90&w=320" alt="Barclaycard Visa" />
-            <CardTitle>N26 Konto</CardTitle>
-            <ul className="fa-ul" style={{ display: 'inline-block' }}>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€</strong> Kontoführung und <strong> 0€&nbsp; Abhebungen in Eurozone</strong></li>
-              <li><i className="fa-li fa fa-check-square text-success"></i>Gute App, Debit MC</li>
-              <li><i className="fa-li fa fa-check-square text-success"></i>Apple Pay und Google Pay</li>
-              <li><i className="fa-li fa fa-check-square text-danger"></i>Mit Schufa</li>
-            </ul>
-          </CardBody>
-          <Button color="success" target="_blank" rel="noopener noreferrer" href="https://n26.com/en-de/bank-account">Jetzt beantragen</Button>
-        </Card>
-        
-        <p> Der offensichtliche Kandidat ist N26. Mit der Debit Mastercard kann weltweit kostenlos bezahlt werden, die Karte unterstützt wie boon.PLANET Offline-PIN, 201 Service Code und Wunschpin. </p>
-        <p>  Bis zu 5 Abhebungen sind in Deutschland pro Monat kostenlos, im Ausland fallen 1.75% an. Die App liefert schnelle Pushs bei Zahlungen. </p>
-        <p> Allerdings arbeitetet N26 mit der Schufa zusammen, was das Konto als Drittkonto wenig attraktiv macht </p>
-
   <h2>Bitwala</h2>
 <Card>
 <CardHeader><i aria-hidden="true" className="fa fa-shopping-bag"></i> + <i aria-hidden="true" className="fa fa-money"></i> Konto mit App und ohne Schufa</CardHeader>
@@ -228,7 +207,7 @@ class Recommended extends Component {
  
  
 
-<h3>Die Liste wird koninuierlich erweitert. </h3>
+<h3>N26 als Empfehlungen haben wir erst mal entfernt, nachdem N26 eine Wahl eines Betriebsrates mehrfach versucht hat zu verhindern. Details zum N26-Konto gibts auf der Hauptseite. </h3>
 </Col>
 </Row>
       </Container>
