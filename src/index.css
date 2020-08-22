@@ -53,8 +53,10 @@ body.modal-open {
   padding-left: 0;
 }
 
-.features-padding {
-  margin-left: 4%;
+@media (min-width: 576px) {
+ .features-padding {
+    margin-left: 4%;
+  }
 }
 
 .well {

@@ -29,10 +29,10 @@ class CardCard extends Component {
           <CardTitle>{this.props.card.Issuer}</CardTitle>
           <Container fluid>
             <Row>
-              <Col xs="2">
+              <Col sm="2">
           <img className='cardimg' src={this.props.card.image}/>
           </Col>
-        <Col xs="10">
+        <Col sm="10">
           <ul style={{listStyle: 'none'}} className='features features-padding'>
           
           <li><strong>Jahresgebühr </strong> <FeeLabel value={this.props.card.yearlyFee} euro={true}/></li>
