@@ -52,7 +52,7 @@ class CardCard extends Component {
           <Contactless card={this.props.card}/></li>
           </ul>
           <ButtonGroup>
-          <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen</Button>
+          <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen *</Button>
           <Button color="primary" id={'card' + this.props.index}>Details</Button>
           </ButtonGroup>
           <UncontrolledCollapse toggler={'#card' + this.props.index}>

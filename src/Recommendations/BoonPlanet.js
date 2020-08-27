@@ -11,7 +11,7 @@ class Recommended extends Component {
     return (
       <Container fluid>
                 <Row>
-          <Col  md={{size: 8, offset: 2}}>
+          <Col md={{size: 6, offset: 3}}>
 
 
         <h2>Ersatz für boon.PLANET</h2>
@@ -25,6 +25,7 @@ class Recommended extends Component {
             <li>ATM kostengünstig</li>
           </ul>
           </p>
+          
 
   <h2>Bitwala</h2>
 <Card>
@@ -38,19 +39,14 @@ class Recommended extends Component {
    <li><i className="fa-li fa fa-check-square text-success"></i>Ohne Schufa</li>
  </ul>
 </CardBody>
-<Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.bitwala.com/bank-account/">Jetzt beantragen</Button>
+<Button color="success" target="_blank" rel="noopener noreferrer" href="https://financeads.net/tc.php?t=39323C289459670T">Jetzt beantragen</Button>
+<p className="text-muted">Hinweis: Bei Eröffnung über den Link erhalten wir eine Provision, die uns hilft diese Seite am laufen zu halten. Die Karte wurde aber unabhängig davon hier einsortiert.</p>
 </Card>
 
 <p>Zusammen mit der solarisBank bietet die Cryptobörse Bitwala ein kostenloses Girokonto an. Abhebungen sind weltweit kostenlos, Gebühren fallen auch am POS keine an. </p><p>Die Debit MasterCard kann Offline-PIN, aber nur einen 221 Service Code.
   Die Kontoauszüge sind leider wenig aussagekräftig, als Empfänger steht nur "MasterCard" statt dem richtigen Händler.
   Bitwala arbeitet derzeit nicht mit der Schufa zusammen.
 </p>
-
- <Alert color="success">
-        <strong>15€ Bonus über Freunde-werben-Freunde</strong>
-        <p>Über Freunde-werben-Freunde gibt es für beide 15€ Guthaben nach der Eröffnung. Nutze dazu den Link hier:</p>
-        <Button color="primary" target="_blank" rel="noopener noreferrer" href="https://app.bitwala.com/r/y5B6uWZwMjI">Mit Bonus beantragen</Button>
-      </Alert>
 
  <h2>Tomorrow</h2>
 

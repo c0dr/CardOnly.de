@@ -10,6 +10,7 @@ class Recommended extends Component {
     return (
       <Container>
         <h2>Unsere Kreditkartenempfehlungen</h2>
+        <p>Wir empfehlen folgende Karten. Die Auswahl wurde unabhängig von den Provisionen getroffen, die die Anbieter uns bei Eröffnung zahlen. Diese Produkte sind kostenlos und lohnen sich durch ihre Konditionen.</p>
         <Row offset="3">
           <Col>
             <Germany />

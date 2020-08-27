@@ -27,9 +27,9 @@ class Germany extends Component {
             <img className="cardImg" src={Amex} alt="American Express Payback" />
             <CardTitle>American Express Payback</CardTitle>
             <ul className="fa-ul" style={{ display: 'inline-block' }}>
-              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr dauerhaft</li>
+              <li><i className="fa-li fa fa-check-square text-success"></i><strong>0€ </strong> Jahresgebühr</li>
               <li><i className="fa-li fa fa-check-square text-success"></i><strong>1 Payback Punkt pro 2 Euro</strong></li>
-              <li><i className="fa-li fa fa-check-square text-info"></i>2% bei Zahlung in Fremdwährung</li>
+              <li><i className="fa-li fa fa-check-square text-info"></i>2% Gebühren bei Zahlung in Fremdwährung</li>
             </ul>
           </CardBody>
           <Button color="success" target="_blank" rel="noopener noreferrer" href="https://www.payback.de/info/american-express">Jetzt beantragen</Button>
