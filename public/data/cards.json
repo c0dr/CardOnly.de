@@ -736,7 +736,7 @@
     "insurance": false,
     "miles": false,
     "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>",
-    "image": "https://i.imgur.com/wNh2LoN.jpg",
+    "image": "/img/dkb.jpg",
     "link": "https://financeads.net/tc.php?t=39323C10310001B"
   },
   {
@@ -849,7 +849,6 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Google Pay",
     "link": "https://dipocket.org/",
     "image": "https://dipocket.org/img/hero-phone.png?v=1",
     "notes": "Polnische Karte, somit in Polen ohne DCC"
@@ -874,53 +873,7 @@
     "miles": false,
     "notes": "Girocard als Zusatzkarte, in Deutschland 6 Abhebungen bei Sparkassen kostenlos, 3.90€/Monat wenn nicht 700€ Eingang, Visa 29.90€ im 2. Jahr, wenn nicht 4k Umsatz ",
     "link": "https://financeads.net/tc.php?t=39323C10710165T",
-    "image": "https://financeads.net/tb.php?t=39323V10722508B&https=1"
-  },
-   {
-    "Issuer": "Lufthansa M&M Card Gold",
-    "yearlyFee": "109.92",
-    "withChecking": false,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "applepay": true,
-    "googlepay": false,
-    "contactless": true,
-    "secure": true,
-    "charge": "credit",
-    "fees_atm_de": "2%, mind. 5€",
-    "fees_atm_eur": "2%, mind. 5€",
-    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.75%",
-    "pinfirst": true,
-    "insurance": true,
-    "miles": true,
-    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar",
-    "link": "https://www.miles-and-more-kreditkarte.com/",
-    "image": "https://i.imgur.com/0BB6EjF.jpg"
-  },
-   {
-    "Issuer": "Lufthansa M&M Card Blue",
-    "yearlyFee": "54.96",
-    "withChecking": false,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "applepay": true,
-    "googlepay": false,
-    "contactless": true,
-    "secure": true,
-    "charge": "credit",
-    "fees_atm_de": "2%, mind. 5€",
-    "fees_atm_eur": "2%, mind. 5€",
-    "fees_atm_foreign": "2%, mind. 5€ + 1.75% AEE",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.75%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": true,
-    "notes": "2€ = 1 Meile, 1€ = 1 Meile mit Business-Karte, Reiserücktritt-, Reiseabbruch-, Auslandskranken- & Mietwagenvollkaskoversicherung, Offline-PIN-Support unklar",
-    "link": "https://www.miles-and-more-kreditkarte.com/",
-    "image": "https://i.imgur.com/0BB6EjF.jpg"
+    "image": "/img/1822direkt.png"
   },
   {
     "Issuer": "bunq Premium",
@@ -1325,7 +1278,7 @@
     "charge": "credit",
     "fees_atm_de": "2%, mind. 5EUR",
     "fees_atm_eur": "2%, mind. 5EUR",
-    "fees_atm_foreign": "2%, mind. 5EUR + 1.95%",
+    "fees_atm_foreign": "2%, mind. 5EUR + 1.95% AEE",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1.95%",
     "pinfirst": true,
@@ -1333,7 +1286,7 @@
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
     "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-more-blue-credit-card/",
-    "image": "https://www.miles-and-more-kreditkarte.com/export/sites/lhmmcc/.bilder/offer-info/milesandmore-1906-de-base-blue-cc-base-blue-cc-stoerer-5-2.jpg_46589411.jpg"
+    "image": "/img/mmblue.png"
   },
   {
     "Issuer": "Miles & More Gold Credit Card",
@@ -1348,7 +1301,7 @@
     "charge": "credit",
     "fees_atm_de": "2%, mind. 5EUR",
     "fees_atm_eur": "2%, mind. 5EUR",
-    "fees_atm_foreign": "2%, mind. 5EUR + 1.95%",
+    "fees_atm_foreign": "2%, mind. 5EUR + 1.95% AEE",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1.95%",
     "pinfirst": true,
@@ -1356,6 +1309,6 @@
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiserücktrittskosten- und Reiseabbruchversicherung, Mietwagenvollkaskoversicherung und Auslandsreisekrankenversicherung teils bei Einsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
     "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-more-gold-credit-card/",
-    "image": "https://www.miles-and-more-kreditkarte.com/export/sites/lhmmcc/.bilder/offer-info/milesandmore-1906-de-base-gold-cc-base-gold-cc-stoerer-5-2.jpg_46589411.jpg"
+    "image": "/img/mmgold.jpg"
   }
 ]
