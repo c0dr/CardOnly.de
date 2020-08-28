@@ -272,7 +272,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</p>, Google Pay angekündigt, kein AEE im EWR",
+    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, Google Pay angekündigt, kein AEE im EWR",
     "image": "img/hanseaticgoldcard.png",
     "link": "https://www.hanseaticbank.de/kreditkarte/goldcard"
   },
