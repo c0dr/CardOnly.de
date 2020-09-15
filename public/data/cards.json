@@ -238,7 +238,7 @@
     "offlinetrx": false,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
@@ -249,9 +249,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff. 13,6%/Jahr, Vollausgleich per App einstellbar, Google Pay angekündigt",
+    "notes": "Teilzahlung möglich zu eff. 13,6%/Jahr, Vollausgleich per App einstellbar",
     "image": "img/hanseaticgenialcard.png",
-    "link": "https://www.hanseaticbank.de/kreditkarte/genialcard"
+    "link": "https://financeads.net/tc.php?t=39323C32816509T"
   },
   {
     "Issuer": "Hanseatic Bank GoldCard",
@@ -261,7 +261,7 @@
     "offlinetrx": false,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
@@ -272,9 +272,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, Google Pay angekündigt, kein AEE im EWR",
+    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, kein AEE im EWR",
     "image": "img/hanseaticgoldcard.png",
-    "link": "https://www.hanseaticbank.de/kreditkarte/goldcard"
+    "link": "https://financeads.net/tc.php?t=39323C32824680T"
   },
  {
     "Issuer": "Revolut Card",
