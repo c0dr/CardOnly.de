@@ -88,7 +88,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung zu 15,90%/Jahr möglich",
-    "link" : "https://financeads.net/tc.php?t=39323C52918222B",
+    "link" : "//financeads.net/tc.php?t=39323C52918222B",
     "image": "img/icsvisa.png"
   },
   {
@@ -113,7 +113,7 @@
     "miles": false,
     "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich einstellbar, Abhebungen in EUR ab 50€ möglich",
     "image": "img/barclaycardvisa.png",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-kreditkarte"
+    "link": "//financeads.net/tc.php?t=39323C14332500T"
   },
   {
     "Issuer": "Barclaycard Eurowings Classic",
@@ -136,7 +136,7 @@
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
     "image": "img/eurowingsclassic.png",
-    "link": "https://www2.barclaycard.de/eurowings/"
+    "link": "//financeads.net/tc.php?t=39323C14316358T"
   },
   {
     "Issuer": "Barclaycard Eurowings Gold",
@@ -159,7 +159,7 @@
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz",
     "image": "/img/eurowingsgold.png",
-    "link": "https://www2.barclaycard.de/eurowings/"
+    "link": "//financeads.net/tc.php?t=39323C14316304B"
   },
   {
     "Issuer": "Barclaycard Gold Visa",
@@ -182,7 +182,7 @@
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
     "image": "img/barclaycardgoldvisa.png",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-card-gold-kreditkarte"
+    "link": "//financeads.net/tc.php?t=39323C14313528T"
   },
   {
     "Issuer": "Barclaycard Platinum Double",
@@ -205,7 +205,7 @@
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
     "image": "/img/barclaycardplatinumdouble.png",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-und-mastercard-platinum-doppel"
+    "link": "//financeads.net/tc.php?t=39323C14313523T"
   },
   {
     "Issuer": "consorsbank Visa Debit",
@@ -238,7 +238,7 @@
     "offlinetrx": false,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
@@ -249,9 +249,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff. 13,6%/Jahr, Vollausgleich per App einstellbar, Google Pay angekündigt",
+    "notes": "Teilzahlung möglich zu eff. 13,6%/Jahr, Vollausgleich per App einstellbar",
     "image": "img/hanseaticgenialcard.png",
-    "link": "https://www.hanseaticbank.de/kreditkarte/genialcard"
+    "link": "//financeads.net/tc.php?t=39323C32816509T"
   },
   {
     "Issuer": "Hanseatic Bank GoldCard",
@@ -261,7 +261,7 @@
     "offlinetrx": false,
     "contactless": true,
     "applepay": true,
-    "googlepay": false,
+    "googlepay": true,
     "secure": true,
     "charge": "credit",
     "fees_atm_de": 0,
@@ -272,9 +272,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, Google Pay angekündigt, kein AEE im EWR",
+    "notes": "Teilzahlung möglich zu eff 18,79 %/Jahr, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, kein AEE im EWR",
     "image": "img/hanseaticgoldcard.png",
-    "link": "https://www.hanseaticbank.de/kreditkarte/goldcard"
+    "link": "//financeads.net/tc.php?t=39323C32824680T"
   },
  {
     "Issuer": "Revolut Card",
@@ -297,7 +297,7 @@
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (200€) und Fremdwährung (1000€), Maestro-Zusatzkarte erhältlich",
     "image": "https://i.imgur.com/Izufd9A.png",
-   "link": "https://www.revolut.com/de-DE/"
+   "link": "//revolut.ngih.net/c/2025513/584909/9626"
   },
   {
     "Issuer": "Revolut Premium MasterCard",
@@ -320,7 +320,7 @@
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich",
     "image": "https://i.imgur.com/0ZCGEAK.png",
-    "link": "https://www.revolut.com/de-DE/"
+    "link": "//revolut.ngih.net/c/2025513/584909/9626"
   },
   {
     "Issuer": "Revolut Metal MasterCard",
@@ -343,7 +343,7 @@
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb",
     "image": "https://i.imgur.com/5XsusmV.png",
-    "link": "https://www.revolut.com/de-DE/"
+    "link": "//revolut.ngih.net/c/2025513/584909/9626"
   },
   {
     "Issuer": "consorsbank Visa Gold",
@@ -598,7 +598,7 @@
     "miles": false,
     "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen sind nicht ganz kostenlos, sie werden sofort verzinst</span>, einige Cobrands mit Lastschrift",
     "image": "img/advanzia.png",
-    "link" : "https://financeads.net/tc.php?t=39323C13814262B"
+    "link" : "//financeads.net/tc.php?t=39323C13814262B"
   },
   {
     "Issuer": "LBB Amazon.de Visa",
@@ -737,7 +737,7 @@
     "miles": false,
     "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>",
     "image": "/img/dkb.jpg",
-    "link": "https://financeads.net/tc.php?t=39323C10310001B"
+    "link": "//financeads.net/tc.php?t=39323C10310001B"
   },
   {
     "Issuer": "DKB Hilton Visa",
@@ -760,7 +760,7 @@
     "miles": true,
     "notes": "ATM nur mit DKB Konto gratis, sonst 2%, mind. 5EUR plus Ausland, Versicherungspaket gegen Aufpreis, gratis Hilton Gold und nach 20k Umsatz Diamond",
     "image": "/img/hilton.png",
-    "link": "https://financeads.net/tc.php?t=39323C209939822T"
+    "link": "//financeads.net/tc.php?t=39323C209939822T"
   },
   {
     "Issuer": "Monese Debit MasterCard",
@@ -872,7 +872,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Girocard als Zusatzkarte, in Deutschland 6 Abhebungen bei Sparkassen kostenlos, 3.90€/Monat wenn nicht 700€ Eingang, Visa 29.90€ im 2. Jahr, wenn nicht 4k Umsatz ",
-    "link": "https://financeads.net/tc.php?t=39323C10710165T",
+    "link": "//financeads.net/tc.php?t=39323C10710165T",
     "image": "/img/1822direkt.png"
   },
   {
@@ -896,7 +896,7 @@
     "miles": false,
     "notes": "MasterCard & Maestro, kostenlose Abhebungen auf 10 pro Monat begrenzt",
     "image": "/img/bunqmc.png",
-    "link" : "https://financeads.net/tc.php?t=39323C315658608T"
+    "link" : "//financeads.net/tc.php?t=39323C315658608T"
   },
   {
     "Issuer": "bunq Travel Card",
@@ -919,7 +919,7 @@
     "miles": false,
     "notes": "0.5% Kosten Aufladungen per KK, 9,99€ Ausstellungsgebühr ",
     "image": "/img/bunqtravel.png",
-    "link" : "https://financeads.net/tc.php?t=39323C315658614T"
+    "link" : "//financeads.net/tc.php?t=39323C315658614T"
   },
   {
     "Issuer": "Deutsche Bank Card Plus",
@@ -987,7 +987,7 @@
     "miles": false,
     "image": "/img/tfgold.png",
     "notes": "<span class='text-success'>Diverse Reiseversicherungen</span>, Abhebungen werden sofort mit 19,39% p.a effektiv verzinst",
-    "link" : "https://financeads.net/tc.php?t=39323C213342473B"
+    "link" : "//financeads.net/tc.php?t=39323C213342473B"
   },
   {
     "Issuer": "Transferwise Debit MasterCard",
@@ -1101,7 +1101,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Regenwaldschutz mit jeder Kartenzahlung, 2€/Abhebung nach 3 kostenlosen, ",
-    "link": "https://www.tomorrow.one/en-de/",
+    "link": "//financeads.net/tc.php?t=39323C313858156T",
     "image": "https://www.tomorrow.one/img/new-visacard.png"
   },
    {
@@ -1124,7 +1124,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation ",
-    "link": "https://www.tomorrow.one/en-de/",
+    "link": "//financeads.net/tc.php?t=39323C313858156T",
     "image": "https://www.tomorrow.one/img/new-visacard.png"
   },
    {
@@ -1193,7 +1193,7 @@
     "insurance": false,
     "miles": false,
     "notes": "",
-    "link": "https://financeads.net/tc.php?t=39323C289459670T",
+    "link": "//financeads.net/tc.php?t=39323C289459670T",
     "image": "/img/bitwala.png"
   },
    {
@@ -1285,7 +1285,7 @@
     "insurance": false,
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
-    "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-more-blue-credit-card/",
+    "link": "//financeads.net/tc.php?t=39323C54524631T",
     "image": "/img/mmblue.png"
   },
   {
@@ -1308,7 +1308,7 @@
     "insurance": true,
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiserücktrittskosten- und Reiseabbruchversicherung, Mietwagenvollkaskoversicherung und Auslandsreisekrankenversicherung teils bei Einsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
-    "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-more-gold-credit-card/",
+    "link": "//financeads.net/tc.php?t=39323C54524632T",
     "image": "/img/mmgold.jpg"
   }
 ]
