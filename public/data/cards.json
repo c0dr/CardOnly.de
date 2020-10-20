@@ -550,7 +550,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>",
-    "link": "https://www.comdirect.de/konto/girokonto.html",
+    "link": "//financeads.net/tc.php?t=39323C87024061B",
     "image": "https://i.imgur.com/9QS6ONN.jpg"
   },
   {
@@ -1010,7 +1010,7 @@
     "miles": false,
     "notes": "Gebühr im Ausland varriert je nach Währung, ATM 200 Pfund pro Monat gratis, danach 2%, 6 Euro Kartenausstellung",
     "image": "/img/transferwise.png",
-    "link" : "https://transferwise.com/gb/borderless/"
+    "link" : "transferwise.prf.hn/l/K3jbBaz"
   },
   {
     "Issuer": "Klarna Card",
@@ -1102,7 +1102,7 @@
     "miles": false,
     "notes": "Regenwaldschutz mit jeder Kartenzahlung, 2€/Abhebung nach 3 kostenlosen, ",
     "link": "//financeads.net/tc.php?t=39323C313858156T",
-    "image": "https://www.tomorrow.one/img/new-visacard.png"
+    "image": "/img/tomorrow.png"
   },
    {
     "Issuer": "Tomorrow One",
@@ -1123,9 +1123,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation ",
+    "notes": "Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation, entspricht etwa dem CO2-Abdruck eines Bürgers ",
     "link": "//financeads.net/tc.php?t=39323C313858156T",
-    "image": "https://www.tomorrow.one/img/new-visacard.png"
+    "image": "/img/tomorrow.png"
   },
    {
     "Issuer": "Vivid Standard",
