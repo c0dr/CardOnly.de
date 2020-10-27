@@ -304,7 +304,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (200€) und Fremdwährung (1000€), Maestro-Zusatzkarte erhältlich",
-    "image": "https://i.imgur.com/Izufd9A.png",
+    "image": "/img/revolutvisa.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
    "link": "//revolut.com"
  },
@@ -328,7 +328,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich",
-    "image": "https://i.imgur.com/0ZCGEAK.png",
+    "image": "/img/revolutpremium.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
     "link": "//revolut.com"
   },
@@ -352,7 +352,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb",
-    "image": "https://i.imgur.com/5XsusmV.png",
+    "image": "/img/revolutmetal.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
     "link": "//revolut.com"
   },
@@ -399,7 +399,7 @@
     "insurance": true,
     "miles": true,
     "notes": "Inoffiziell kostenlos ab 10k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>",
-    "image": "https://i.imgur.com/jD3Opcw.png",
+    "image": "/img/amexgold.png",
     "link" : "https://www.americanexpress.com/de/vorteile/willkommen/gold-card/"
   },
   {
@@ -422,7 +422,7 @@
     "insurance": true,
     "miles": true,
     "notes": "kostenlos ab 9k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Verkehrsmittelunfall und Reisekomfort-Versicherung bei Einsatz</span>",
-    "image": "https://i.imgur.com/4Bf5F38.png",
+    "image": "/img/amexgreen.png",
     "link": "https://www.americanexpress.com/de/kreditkarte/american-express-card/"
   },
   {
@@ -445,7 +445,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Membership Rewards optional für 30€/Jahr",
-    "image": "https://i.imgur.com/6fcaXRW.png",
+    "image": "/img/amexblue.png",
     "link" : "https://www.americanexpress.com/de/kreditkarte/blue-card/"
   },
   {
@@ -469,7 +469,7 @@
     "insurance": false,
     "miles": true,
     "notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>",
-    "image": "https://i.imgur.com/wTnuKbD.png",
+    "image": "/img/amexpayback.de",
     "link": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
   },
   {
@@ -493,7 +493,7 @@
     "miles": true,
     "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung",
     "link": "https://www.americanexpress.com/de/kreditkarte/bmw-card/",
-    "image": "https://i.imgur.com/KO8p96n.png"
+    "image": "/img/amexmbw.png"
   },
   {
     "Issuer": "American Express Platinum",
@@ -515,7 +515,7 @@
     "insurance": true,
     "miles": true,
     "notes": "<span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Reiserücktritt-, Abbruch-, Komfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance, Loungezugang, 200€ Reiseguthaben, Sixt-Gutscheine</span>, Karte aus Metall",
-    "image": "https://i.imgur.com/G4DBFHb.png",
+    "image": "/img/amexplatinum.png",
     "link": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
   },
   {
@@ -538,7 +538,7 @@
     "insurance": false,
     "miles": false,
     "notes": "manueller Ausgleich per Überweisung notwendig, 4 kostenlose Abhebungen, danach 3.5%, mind 5.75EUR aus Kredit ",
-    "image": "https://i.imgur.com/BwvcrG6.jpg",
+    "image": "/img/santander1plus.jpg",
     "link" : "https://www.santander.de/privatkunden/konten-karten/karten/1plus-visa/"
   },
   {
@@ -563,7 +563,7 @@
     "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>",
     "adlink": "//financeads.net/tc.php?t=39323C87024061B",
     "link": "https://www.comdirect.de/konto/girokonto.html",
-    "image": "https://i.imgur.com/9QS6ONN.jpg"
+    "image": "/img/comdirect.jpg"
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
@@ -586,7 +586,7 @@
     "miles": false,
     "notes": "Abrechnung deferred debit, gratis je nach Kontenmodell",
     "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/kreditkarten/mastercard",
-    "image": "https://www.hypovereinsbank.de/content/dam/hypovereinsbank/privatkunden/image/kreditkarten/HVB-Kreditkarte-Mastercard-608x342.jpg"
+    "image": "/img/hvb.jpg"
   },
   {
     "Issuer": "Advanzia Mastercard Gold",
@@ -634,7 +634,7 @@
     "miles": true,
     "notes": "<span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
     "link": "https://www.amazon.de/b?ie=UTF8&node=15425878031",
-    "image": "https://i.imgur.com/HrZJ48T.jpg"
+    "image": "/img/lbbamazon.jpg"
   },
   {
     "Issuer": "LBB Amazon.de Visa Prime",
@@ -657,7 +657,7 @@
     "miles": true,
     "notes": "Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
     "link": "https://www.amazon.de/b?ie=UTF8&node=15425878031",
-    "image": "https://i.imgur.com/HrZJ48T.jpg"
+    "image": "/img/lbbamazon.jpg"
   },
   {
     "Issuer": "Fidor Debit MasterCard Digital",
@@ -703,7 +703,7 @@
     "miles": false,
     "notes": "Girocard als Zusatzkarte, <span class='text-warning'>Abhebungen in EUR erst ab 50€</span>, ohne 700€ Eingang 4.90€/Monat",
     "link": "https://www.ing.de/girokonto/",
-    "image": "https://www.ing.de/binaries/SixteenToNineM/content/gallery/assets/girokonto/teaser-m/visacard___freistellerweiss_teaserm.jpg"
+    "image": "/img/ing.jpg"
   },
   {
     "Issuer": "Fidor SmartCard",
@@ -778,7 +778,7 @@
     "link": "https://www.dkb.de/privatkunden/hilton-honors/"
   },
   {
-    "Issuer": "Monese Debit MasterCard",
+    "Issuer": "Monese Simple Debit MasterCard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -798,7 +798,7 @@
     "miles": false,
     "notes": "physische Karte 4.95€ einmalig, gegen monatlichen Aufpreis leicht bessere Konditionen",
     "link": "https://monese.com/eu/features/debit-card",
-    "image": "https://static.dev.monese.com/s/pricing/simple-pricing.png"
+    "image": "/img/monesesimple.png"
   },
   {
     "Issuer": "Consorsfinanz EC Debit MasterCard",
@@ -820,7 +820,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung Standard, Abhebungen nur ab 300€ kostenlos, Auslandsgebühren nicht in PLV festgelegt",
-    "image": "https://www.mastercard.de/content/dam/mccom/de-de/privatkunden/cards/consors-finanz-dmc-card2.jpg",
+    "image": "/img/consorsfinanz.jpg",
     "link" : "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
   },
   {
@@ -865,7 +865,7 @@
     "insurance": false,
     "miles": false,
     "link": "https://dipocket.org/",
-    "image": "https://dipocket.org/img/hero-phone.png?v=1",
+    "image": "/img/dipocket.png",
     "notes": "Polnische Karte, somit in Polen ohne DCC"
   }, {
     "Issuer": "Girokonto Klassik 1822direkt",
@@ -981,7 +981,7 @@
     "insurance": true,
     "miles": false,
     "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto",
-    "image": "https://cache.pressmailing.net/thumbnail/story_big/e577cadd-0d5a-4869-bec4-ccb5e50da5de/deutsche-bank-mit-neuer-kreditkarte-speziell-f-r-reise-und-urlaub-deutsche-bank-mastercard-travel-mi",
+    "image": "/img/dbtravel.jpeg",
     "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
   },
   {
@@ -1052,7 +1052,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Keine ATM-Nutzung möglich, Ausgleich per Lastschrift oder auf Rechnung, dynamisch in der App einstellbar",
-    "image": "https://i.imgur.com/DR5fLjX.jpg",
+    "image": "/img/klarna.jpg",
     "link": "https://www.klarna.com/de/card/"
   },
   {
@@ -1075,7 +1075,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Ohne deutsches Konto mit HBCI eingschränkt nutzbar, mehrere Prepaid-Konten, Kartenausgabe 15€, Prepaid",
-    "image": "https://www.vimpay.de/wp-content/uploads/elementor/thumbs/vimpay_home-nwot0kuwt98e3j1ef1bnmdzspkpty5h0id37j640zk.png",
+    "image": "/img/vimpay.png",
     "link": "https://www.vimpay.de/"
   },
   {
@@ -1098,7 +1098,7 @@
     "insurance": false,
     "miles": false,
     "notes": "In Fitbit Pay nutzbar, Informationen zu PIN und Online-Fähigkeit unsicher",
-    "image": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wr?wodata=Media%2FWhiteLabel%2FFitbit%2Fde%2FLandingPages%2FMedia%2FFitbit+Visa+Card+Design_Landingpagel_315%2F1%2FFitbit+Visa+Card+Design_Landingpagel_315.png",
+    "image": "/img/fitbit.png",
     "link": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wa?path=/WhiteLabel/fitbit#stay"
   },
    {
@@ -1242,7 +1242,7 @@
     "miles": false,
     "notes": "ATM 2x kostenlos, danach 2€",
     "link": "https://www.moneyou.de/girokonto/",
-    "image": "https://www.moneyou.de/-/media/MoneYou-DE/go/web/girokonto/20200512-DE-Card-Plain-90-2.png?h=627&w=1199&la=de-DE&hash=9833501B2B4BE5C99593502D78B863F913980B2C"
+    "image": "/img/moneyou.png"
   },
   {
     "Issuer": "Openbank Girokonto ohne Travel-Abo",
@@ -1265,7 +1265,7 @@
     "miles": false,
     "notes": "ATM 5x kostenlos pro Monat, Konditionen bei Überschreitung unklar",
     "link": "https://www.openbank.de/girokonto",
-    "image": "https://www.openbank.de/assets/2019-12/tarjeta_r42_pasaporte_D.jpg"
+    "image": "/img/openbank.jpg"
   },
   {
     "Issuer": "Openbank Girokonto mit Travel-Abo",
@@ -1288,7 +1288,7 @@
     "miles": false,
     "notes": "ATM 5x kostenlos pro Monat, Reiseversicherungen bei Karteneinsatz, ATM-Konditionen bei Überschreitung unklar",
     "link": "https://www.openbank.de/girokonto",
-    "image": "https://www.openbank.de/assets/2019-12/tarjeta_r42_pasaporte_D.jpg"
+    "image": "/img/openbank.jpg"
   },
   {
     "Issuer": "Miles & More Blue Credit Card",

@@ -1,4 +1,4 @@
-The code of CardOnly.de is licensed under GPL 3.0, the data itself under CC-BY-SA 4.0.
+The code of CardOnly.de is licensed under GPL 3.0, the data itself under CC-BY-SA 4.0, the card images are owned by the issuers.
 
 
 # GNU GENERAL PUBLIC LICENSE
