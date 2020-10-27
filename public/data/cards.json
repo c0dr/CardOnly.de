@@ -1333,5 +1333,28 @@
     "notes": "<span class='text-success'>CDW, Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz. Inklusive Priority Pass mit unbegrezten Zugängen</span>",
     "link": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/",
     "image": "/img/spardahessen.jpg"
+  },
+  {
+    "Issuer": "Payback Visa Flex",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": false,
+    "offlinetrx": false,
+    "applepay": false,
+    "googlepay": false,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": false,
+    "insurance": false,
+    "miles": true,
+    "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, manueller Ausgleich notwendig, Service Code und PIN-Liste unbekannt, vermutlich nur Online-PIN",
+    "link": "https://www.payback.de/info/visa",
+    "image": "/img/paybackvisa.webp"
   }
 ]
