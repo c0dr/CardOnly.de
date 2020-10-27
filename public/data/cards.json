@@ -1310,5 +1310,28 @@
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiserücktrittskosten- und Reiseabbruchversicherung, Mietwagenvollkaskoversicherung und Auslandsreisekrankenversicherung teils bei Einsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
     "link": "//financeads.net/tc.php?t=39323C54524632T",
     "image": "/img/mmgold.jpg"
+  },
+  {
+    "Issuer": "Sparda Hessen Mastercard Platinum",
+    "yearlyFee": 99,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "applepay": false,
+    "googlepay": false,
+    "contactless": true,
+    "secure": true,
+    "charge": "charge",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": true,
+    "miles": false,
+    "notes": "<span class='text-success'>CDW, Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz. Inklusive Priority Pass mit unbegrezten Zugängen</span>",
+    "link": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/",
+    "image": "/img/spardahessen.jpg"
   }
 ]
