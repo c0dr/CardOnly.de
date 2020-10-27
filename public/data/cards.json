@@ -1383,5 +1383,28 @@
     "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, manueller Ausgleich notwendig, Service Code und PIN-Liste unbekannt, vermutlich nur Online-PIN",
     "link": "https://www.payback.de/info/visa",
     "image": "/img/paybackvisa.webp"
+  },
+  {
+    "Issuer": "BNC10",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "prepaid",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "<span class='text-success'>Erstattung von ATM-Entgelten</span>, 3 Abhebungen kostenlos, danach mindesten 80ct, mehr in Fremdwährung, ES_IBAN",
+    "link": "https://bnc10.com/en/",
+    "image": "/img/bnc10.png"
   }
 ]
