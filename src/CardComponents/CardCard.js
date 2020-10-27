@@ -52,8 +52,16 @@ class CardCard extends Component {
           <Contactless card={this.props.card}/></li>
           </ul>
           <ButtonGroup>
-          <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt beantragen *</Button>
-          <Button color="primary" id={'card' + this.props.index}>Details</Button>
+            {(() => {
+              if(this.props.card.adlink) {
+                return ([
+                  <Button color="success" href={this.props.card.adlink} target="_blank" rel="noopener noreferrer" >Beantragen und CardOnly.de unterstützen*</Button>,
+                  <Button color="primary" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Direkt beantragen</Button>])
+              } else {
+                return <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt direkt beantragen</Button>
+              }
+            })()}
+            <Button color="primary" id={'card' + this.props.index}>Details</Button>
           </ButtonGroup>
           <UncontrolledCollapse toggler={'#card' + this.props.index}>
             <CardText> <span key={this.props.index}>
