@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CardCard from './CardCard';
-import CardsTable from './CardsTable';
 
 class CardComponents extends Component {
 

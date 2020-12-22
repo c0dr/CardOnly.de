@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardHeader, CardBody, CardText, Button } from 'reactstrap';
-import Advanzia from '../img/advanzia.gif';
 import Barclaycard from '../img/barclaycard.png';
 
 class Worldwide extends Component {

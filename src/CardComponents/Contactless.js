@@ -4,7 +4,7 @@ class Contactless extends Component {
 
   generateHtml() {
     if(this.props.card.contactless) {
-      return <img width="25px" src={ContactlessImage}/>;
+      return <img width="25px" alt="Contactless logo"src={ContactlessImage}/>;
     } else {
       return null;
     }

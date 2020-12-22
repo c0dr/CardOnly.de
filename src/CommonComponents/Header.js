@@ -33,14 +33,8 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
 
-              <ul class="navbar-nav"><li class="nav-item"><a class="nav-link" target="_blank"  href="https://blog.cardonly.de">Blog</a></li></ul>
+              <ul className="navbar-nav"><li className="nav-item"><a className="nav-link" target="_blank" rel="noreferrer" href="https://blog.cardonly.de">Blog</a></li></ul>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to="/recommended">Empfehlungen</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/boon">Boon Planet Ersatz</NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/contact">Kontakt</NavLink>
               </NavItem>

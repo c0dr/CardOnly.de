@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, CardSubtitle, UncontrolledCollapse, Row, Col, Container } from 'reactstrap';
+import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, UncontrolledCollapse, Row, Col, Container } from 'reactstrap';
 import ApplePay from './ApplePay';
 import GooglePay from './GooglePay';
 import FeeLabel from './FeeLabel';
@@ -30,7 +30,7 @@ class CardCard extends Component {
           <Container fluid>
             <Row>
               <Col sm="2">
-          <img className='cardimg' src={this.props.card.image}/>
+          <img alt="Bild der Karte" className='cardimg' src={this.props.card.image}/>
           </Col>
         <Col sm="10">
           <ul style={{listStyle: 'none'}} className='features features-padding'>

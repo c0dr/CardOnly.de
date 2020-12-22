@@ -4,7 +4,7 @@ class GooglePay extends Component {
 
   generateHtml() {
     if(this.props.card.googlepay) {
-      return <img width="50px" src={GooglePayImg}/>;
+      return <img width="50px" alt="Google Pay logo" src={GooglePayImg}/>;
     } else {
       return null;
     }

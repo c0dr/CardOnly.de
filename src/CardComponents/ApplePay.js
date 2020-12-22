@@ -4,7 +4,7 @@ class ApplePay extends Component {
 
   generateHtml() {
     if(this.props.card.applepay) {
-      return <img width="50px" src={ApplePayImg}/>;
+      return <img width="50px" alt="Apple Pay logo" src={ApplePayImg}/>;
     } else {
       return null;
     }

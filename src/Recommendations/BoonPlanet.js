@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Germany from './Germany';
-import Worldwide from './Worldwide';
 import { Card, CardTitle, CardHeader, CardBody, Button, Alert } from 'reactstrap';
 
 

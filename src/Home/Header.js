@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import {   
-  Button, ButtonGroup
- } from 'reactstrap';
-
 
 class Header extends Component {
-
-  
 
     freeAtm = () => {
       this.props.filterChange("freeATM", ["fees_atm_foreign"])
