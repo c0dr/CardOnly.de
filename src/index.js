@@ -4,7 +4,7 @@ import './index.css';
 import './CookieConsent.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/flatly/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.css'
+import 'font-awesome/css/font-awesome.min.css'
 import App from './App';
 import { unregister } from './registerServiceWorker';
 

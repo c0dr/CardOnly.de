@@ -16,7 +16,6 @@ class App extends Component {
           <ScreenSizeAlert/>
           <Header/>
           <Route exact path="/" component={Home} />
-          <Route path="/recommended" component={Recommended} />
           <Route path="/contact" component={Contact} />
           <Route path="/boon" component={BoonPlanet} />
         </div>
