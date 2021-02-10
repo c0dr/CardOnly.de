@@ -469,7 +469,7 @@
     "insurance": false,
     "miles": true,
     "notes": "<span class='text-success'> 2EUR = 1 Payback-Punkt = 1 Miles & More Meile</span>",
-    "image": "/img/amexpayback.de",
+    "image": "/img/amexpayback.png",
     "link": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
   },
   {
@@ -493,7 +493,7 @@
     "miles": true,
     "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung",
     "link": "https://www.americanexpress.com/de/kreditkarte/bmw-card/",
-    "image": "/img/amexmbw.png"
+    "image": "/img/amexmbmw.png"
   },
   {
     "Issuer": "American Express Platinum",
