@@ -24,6 +24,10 @@
     "value": "contactless"
   },
   {
+    "label": "PIN-first",
+    "value": "pinfirst"
+  },
+  {
     "label": "Meilen",
     "value": "miles"
   },
