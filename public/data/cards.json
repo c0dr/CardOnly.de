@@ -232,7 +232,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "VPay girocard als Zusatzkarte, <span class='text-warning'>Abhebungen erst ab 50€</span>",
+    "notes": "VPay girocard als Zusatzkarte für 12€/Jahr, <span class='text-warning'>Abhebungen erst ab 50€</span>",
     "image": "/img/consorsbankclassic.jpg",
     "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
   },
@@ -493,7 +493,7 @@
     "miles": true,
     "notes": "<span class='text-success'>Kostenlos ab 4k/Jahr, 1% Cashback auf Tankumsätze in DE bei einigen Ketten, 1EUR=1MR, etwa 0.8 Meilen</span>, Auslandskrankenversicherung",
     "link": "https://www.americanexpress.com/de/kreditkarte/bmw-card/",
-    "image": "/img/amexmbmw.png"
+    "image": "/img/amexbmw.png"
   },
   {
     "Issuer": "American Express Platinum",
@@ -542,7 +542,31 @@
     "link" : "https://www.santander.de/privatkunden/konten-karten/karten/1plus-visa/"
   },
   {
-    "Issuer": "comdirect Visa",
+    "Issuer": "comdirect Visa Credit",
+    "yearlyFee": 22.8,
+    "withChecking": true,
+    "offlinepin": false,
+    "offlinetrx": true,
+    "contactless": true,
+    "applepay": true,
+    "googlepay": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": "4.90€",
+    "fees_atm_eur": "4.90€",
+    "fees_atm_foreign": "4.90€",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, ggfs. zusätzlich Kontoführungsentgelte",
+    "adlink": "//financeads.net/tc.php?t=39323C87024061B",
+    "link": "https://www.comdirect.de/konto/girokonto.html",
+    "image": "/img/comdirect-credit.svg"
+  },
+  {
+    "Issuer": "comdirect Visa Debit",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -551,19 +575,19 @@
     "applepay": true,
     "googlepay": true,
     "secure": true,
-    "charge": "charge",
-    "fees_atm_de": "0",
-    "fees_atm_eur": "0",
-    "fees_atm_foreign": "0",
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
-    "fees_pos_foreign": "1,75 %",
+    "fees_pos_foreign": "1.75%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Abrechnung kalendermonatlich, <span class='text-warning'>Abhebungen erst ab 50€</span>, Abhebungen DE nur mit girocard bei Cashgroup 0€, <span class='text-warning'>Abhebungen mit falscher Karte (Visa statt girocard und umgekehrt) 9.90€</span>",
+    "notes": "ggfs. zusätzlich Kontoführungsentgelte, maximal 3 Abhebungen pro Monat kostenlos, danach 4.90€ Monat, eigener Wechselkurs",
     "adlink": "//financeads.net/tc.php?t=39323C87024061B",
     "link": "https://www.comdirect.de/konto/girokonto.html",
-    "image": "/img/comdirect.jpg"
+    "image": "/img/comdirect-debit.svg"
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
@@ -587,6 +611,29 @@
     "notes": "Abrechnung deferred debit, gratis je nach Kontenmodell",
     "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/kreditkarten/mastercard",
     "image": "/img/hvb.jpg"
+  },
+  {
+    "Issuer": "HypoVereinsbank Debit",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "applepay": true,
+    "googlepay": false,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": "2.50€ an Nicht-HVB",
+    "fees_atm_eur": "2.50€ an Nicht-Unicredit",
+    "fees_atm_foreign": "2.50€ an Nicht-Unicredit",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1,75 %",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Abrechnung deferred debit, Gebühren je nach Kontomodell leicht anders, CO2-Kompensation für Online-Einkäufe",
+    "link" : "https://www.hypovereinsbank.de/hvb/privatkunden/girokonten/bankkarten/visa-debit-card",
+    "image": "/img/hvb-debit.jpg"
   },
   {
     "Issuer": "Advanzia Mastercard Gold",
@@ -959,7 +1006,8 @@
     "insurance": false,
     "miles": false,
     "notes": "zzgl. Kosten Konto",
-    "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html"
+    "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html",
+    "image": "/img/dbplus.png"
   },
   {
     "Issuer": "Deutsche Bank MasterCard Travel",
@@ -981,7 +1029,7 @@
     "insurance": true,
     "miles": false,
     "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto",
-    "image": "/img/dbtravel.jpeg",
+    "image": "/img/db-travel.jpeg",
     "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
   },
   {
@@ -1221,29 +1269,6 @@
      "link": "https://www.bitwala.com/",
     "image": "/img/bitwala.png"
   },
-   {
-    "Issuer": "Moneyou Go - keine Neukunden mehr",
-    "yearlyFee": 0,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": false,
-    "applepay": false,
-    "googlepay": false,
-    "contactless": true,
-    "secure": true,
-    "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": "1.7%",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.7%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "ATM 2x kostenlos, danach 2€",
-    "link": "https://www.moneyou.de/girokonto/",
-    "image": "/img/moneyou.png"
-  },
   {
     "Issuer": "Openbank Girokonto ohne Travel-Abo",
     "yearlyFee": 0,
@@ -1357,7 +1382,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "<span class='text-success'>CDW, Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz. Inklusive Priority Pass mit unbegrezten Zugängen</span>",
+    "notes": "<span class='text-success'>Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz. Inklusive Priority Pass mit unbegrezten Zugängen</span>",
     "link": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/",
     "image": "/img/spardahessen.jpg"
   },
