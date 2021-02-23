@@ -11,7 +11,7 @@ class Recommended extends Component {
     this.state = {
       cards: [],
     };
-    this.allowedIssuers = ["N26", "Revolut Premium MasterCard", "Monese Simple Debit MasterCard", "Consorsfinanz EC Debit MasterCard", "bunq Premium", "Transferwise Debit MasterCard", "Bitwala", "Openbank Girokonto ohne Travel-Abo"]
+    this.allowedIssuers = ["N26", "Revolut Premium MasterCard", "Monese Simple Debit MasterCard", "Consorsfinanz EC Debit MasterCard", "bunq Premium", "Transferwise Debit MasterCard", "Openbank Girokonto ohne Travel-Abo"];
   }
 
   componentDidMount() {
@@ -32,15 +32,15 @@ class Recommended extends Component {
         backgroundSize: 'cover',
         borderRadius: 'none',
         marginBottom: '0' }}>
-      <h2 style={{color: '#fefefe', paddingTop: '25rem'}}>Jetzt eine Debit MasterCard (ec-Karte) holen</h2>
-      <h3 style={{color: '#fefefe'}}>Egal ob Online shoppen oder stationär - jetzt ist alles möglich</h3>
+      <h2 style={{color: '#fefefe', paddingTop: '25rem'}}>Jetzt eine Debit Mastercard (ec-Karte) holen</h2>
+      <h3 style={{color: '#fefefe'}}>Egal ob online shoppen oder stationär - jetzt ist alles möglich</h3>
       </Jumbotron>
 
     <Jumbotron style={{ 
       backgroundColor: '#2c3e50', 
       borderRadius: 'none',
       textAlign: 'center' }}>
-    <h4 style={{color: '#fefefe'}}>Viele deutsche Banken bieten schon eine praktische DMC an. Unsere Empfehlungen:</h4>
+    <h4 style={{color: '#fefefe'}}>Viele deutsche Banken bieten schon eine praktische Deibt Mastercard  an. Unsere Empfehlungen:</h4>
 
     <Container>
         <Row>
