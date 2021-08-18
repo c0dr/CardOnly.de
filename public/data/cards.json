@@ -920,7 +920,7 @@
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": false,
     "contactless": true,
     "secure": true,
