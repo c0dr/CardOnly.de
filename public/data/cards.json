@@ -113,9 +113,9 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich einstellbar, Abhebungen in EUR ab 50€ möglich",
-    "image": "img/barclaycardvisa.png",
+    "image": "img/barclays_black.png",
     "adlink": "//financeads.net/tc.php?t=39323C14332500T",
-    "link": "https://www.barclays.de/kreditkarten/visa-kreditkarte/
+    "link": "https://www.barclays.de/kreditkarten/visa-kreditkarte/"
   },
   {
     "Issuer": "Barclays Eurowings Classic",
@@ -185,7 +185,7 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
-    "image": "img/barclaycardgoldvisa.png",
+    "image": "img/barclays_gold.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313528T",
     "link": "https://www.barclays.de/kreditkarten/visa-card-gold-kreditkarte/"
   },
@@ -209,7 +209,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
-    "image": "/img/barclaycardplatinumdouble.png",
+    "image": "/img/barclays_platinum.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313523T",
     "link": "https://www.barclays.de/kreditkarten/visa-mastercard-platinum-double/"
   },
