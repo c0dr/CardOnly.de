@@ -1246,7 +1246,7 @@
      "image": "/img/vivid.png"
   },
    {
-    "Issuer": "Bitwala",
+    "Issuer": "Nuri (früher Bitwala)",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1266,8 +1266,8 @@
     "miles": false,
     "notes": "",
     "adlink": "//financeads.net/tc.php?t=39323C289459670T",
-     "link": "https://www.bitwala.com/",
-    "image": "/img/bitwala.png"
+     "link": "https://nuri.com/de/bank/",
+    "image": "/img/nuri.png"
   },
   {
     "Issuer": "Openbank Girokonto ohne Travel-Abo",
