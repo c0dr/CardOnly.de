@@ -93,7 +93,7 @@
     "image": "img/icsvisa.png"
   },
   {
-    "Issuer": "Barclaycard Visa",
+    "Issuer": "Barclays Visa",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
@@ -109,16 +109,16 @@
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung zu 18,38%/Jahr, 100% Ausgleich einstellbar, Abhebungen in EUR ab 50€ möglich",
     "image": "img/barclaycardvisa.png",
     "adlink": "//financeads.net/tc.php?t=39323C14332500T",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-kreditkarte"
+    "link": "https://www.barclays.de/kreditkarten/visa-kreditkarte/
   },
   {
-    "Issuer": "Barclaycard Eurowings Classic",
+    "Issuer": "Barclays Eurowings Classic",
     "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": true,
@@ -133,16 +133,16 @@
     "fees_atm_foreign": "1,99 %",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,99 %",
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
     "image": "img/eurowingsclassic.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316358T",
-    "link": "https://www.barclaycard.de/kreditkarten/eurowings-classic"
+    "link": "https://www.barclays.de/kreditkarten/eurowings-classic/"
   },
   {
-    "Issuer": "Barclaycard Eurowings Gold",
+    "Issuer": "Barclays Eurowings Gold",
     "yearlyFee": 69,
     "withChecking": false,
     "offlinepin": true,
@@ -157,16 +157,16 @@
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz",
     "image": "/img/eurowingsgold.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316304B",
-    "link": "https://www.barclaycard.de/kreditkarten/eurowings-gold"
+    "link": "https://www.barclays.de/kreditkarten/eurowings-gold/"
   },
   {
-    "Issuer": "Barclaycard Gold Visa",
+    "Issuer": "Barclays Gold Visa",
     "yearlyFee": 59,
     "withChecking": false,
     "offlinepin": true,
@@ -181,16 +181,16 @@
     "fees_atm_foreign": "1.99%",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1.99%",
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
     "image": "img/barclaycardgoldvisa.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313528T",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-card-gold-kreditkarte"
+    "link": "https://www.barclays.de/kreditkarten/visa-card-gold-kreditkarte/"
   },
   {
-    "Issuer": "Barclaycard Platinum Double",
+    "Issuer": "Barclays Platinum Double",
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
@@ -205,13 +205,13 @@
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": true,
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
     "image": "/img/barclaycardplatinumdouble.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313523T",
-    "link": "https://www.barclaycard.de/kreditkarten/visa-und-mastercard-platinum-doppel"
+    "link": "https://www.barclays.de/kreditkarten/visa-mastercard-platinum-double/"
   },
   {
     "Issuer": "consorsbank Visa Debit",
