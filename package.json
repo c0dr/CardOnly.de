@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.4.0",
     "bootstrap": "^4.5.3",
     "bootswatch": "^4.5.2",
     "font-awesome": "^4.7.0",
     "react": "^17.0.0",
+    "react-contentful": "^2.0.31",
     "react-dev-utils": "^11.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0",
