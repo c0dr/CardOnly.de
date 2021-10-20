@@ -6,7 +6,6 @@ import AktuelleAktionen from './Recommendations/AktuelleAktionen';
 import Contact from './Contact/Contact';
 import Header from './CommonComponents/Header';
 import ScreenSizeAlert from './CommonComponents/ScreenSizeAlert';
-import Comdirect from './Recommendations/Comdirect';
 import Sparkasse from './Recommendations/JetztIstAllesMoeglich';
 import { ContentfulClient, ContentfulProvider } from 'react-contentful';
 const contentfulClient = new ContentfulClient({
