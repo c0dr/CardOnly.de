@@ -916,7 +916,7 @@
     "notes": "Polnische Karte, somit in Polen ohne DCC"
   }, {
     "Issuer": "Girokonto Klassik 1822direkt",
-    "yearlyFee": "0",
+    "yearlyFee": "29.90",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -933,7 +933,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Girocard als Zusatzkarte, in Deutschland 6 Abhebungen bei Sparkassen kostenlos, 3.90€/Monat wenn nicht 700€ Eingang, Visa 29.90€ im 2. Jahr, wenn nicht 4k Umsatz ",
+    "notes": "Girocard als Zusatzkarte, in Deutschland 6 Abhebungen bei Sparkassen kostenlos, 3.90€/Monat wenn nicht 700€ Eingang",
     "adlink": "//financeads.net/tc.php?t=39323C10710165T",
   "link": "https://www.1822direkt.de/girokonto/",
     "image": "/img/1822direkt.png"
