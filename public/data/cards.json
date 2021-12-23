@@ -1039,7 +1039,7 @@
     "offlinepin": true,
     "offlinetrx": true,
     "applepay": false,
-    "googlepay": false,
+    "googlepay": true,
     "contactless": false,
     "secure": false,
     "charge": "credit",
