@@ -7,7 +7,7 @@
     "bootswatch": "^4.5.2",
     "font-awesome": "^4.7.0",
     "react": "^17.0.0",
-    "react-dev-utils": "^11.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
