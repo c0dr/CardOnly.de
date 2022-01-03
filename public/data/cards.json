@@ -728,7 +728,7 @@
     "image": "/img/fidordebit.png"
   },
   {
-    "Issuer": "ING Visa",
+    "Issuer": "ING Visa Debit",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
