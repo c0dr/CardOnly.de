@@ -1079,7 +1079,7 @@
     "link": "https://www.tfbank.de/tf-mastercard-gold/"
   },
   {
-    "Issuer": "Transferwise Debit MasterCard",
+    "Issuer": "Wise Debit",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1098,9 +1098,9 @@
     "insurance": false,
     "miles": false,
     "notes": "Gebühr im Ausland varriert je nach Währung, ATM 200 Pfund pro Monat gratis, danach 2%, 6 Euro Kartenausstellung",
-    "image": "/img/transferwise.png",
+    "image": "/img/wise.png",
     "adlink" : "//transferwise.prf.hn/l/K3jbBaz",
-    "link": "https://transferwise.com/gb/borderless/card"
+    "link": "https://wise.com/gb/borderless/card"
   },
   {
     "Issuer": "Klarna Card",
