@@ -519,7 +519,7 @@
     "link": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
   },
   {
-    "Issuer": "Santander 1plus Visa Card",
+    "Issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
@@ -538,8 +538,8 @@
     "insurance": false,
     "miles": false,
     "notes": "manueller Ausgleich per Überweisung notwendig, 4 kostenlose Abhebungen, danach 3.5%, mind 5.75EUR aus Kredit ",
-    "image": "/img/santander1plus.jpg",
-    "link" : "https://www.santander.de/privatkunden/konten-karten/karten/1plus-visa/"
+    "image": "/img/santander.png",
+    "link" : "https://www.santander.de/privatkunden/konten-karten/karten/#panel2_190597b"
   },
   {
     "Issuer": "comdirect Visa Credit",
