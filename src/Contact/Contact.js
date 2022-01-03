@@ -14,9 +14,8 @@ class Contact extends Component {
                     
                     <strong>Angaben gemäß § 5 TMG:</strong><br/>
                     Simon Schraeder <br/>
-                    A306<br/>
-                    Ernsthaldenstr. 47<br/>
-                    70565 Stuttgart
+                    Auf der Steig 52<br/>
+                    70376 Stuttgart<br/>
                     
         </code></pre>
 
@@ -25,7 +24,7 @@ class Contact extends Component {
 
                     Telefon:    +49 (0) 1575 7031306<br/>
                     Telefax:    -<br/>
-                    E-Mail:    cardonly@simon-schraeder.de<br/>
+                    E-Mail:    info@simon-schraeder.de<br/>
 
                     </code></pre>
 
@@ -35,9 +34,9 @@ class Contact extends Component {
                     <pre><code>
 
                     <p>Simon Schraeder<br/>
-                    A306<br/>
-                    Ernsthaldenstr. 47<br/>
-                    70565 Stuttgart<br/>
+                    <br/>
+                    Auf der Steig 52<br/>
+                    70376 Stuttgart<br/>
         Germany</p>
         </code></pre>
 
@@ -139,8 +138,8 @@ class Contact extends Component {
 <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:</p>
 
 <p>Simon Schräder</p>
-<p>Ernsthaldenstr. 47, A306</p>
-<p>70565 Stuttgart</p>
+<p>Auf der Steig 52</p>
+<p>70376 Stuttgart</p>
 <p>Deutschland</p>
 <p>Tel.: 015757031306</p>
 <p>E-Mail: info@simon-schraeder.de</p>
