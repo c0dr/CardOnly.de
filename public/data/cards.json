@@ -777,8 +777,31 @@
 
   },
   {
-    "Issuer": "DKB Visa",
+    "Issuer": "DKB Visa Debit",
     "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": false,
+    "offlinetrx": true,
+    "contactless": true,
+    "applepay": true,
+    "googlepay": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Wunschpin, <span class='text-warning'>Abhebungen erst ab 50€</span>",
+    "image": "/img/dkb.jpg",
+    "link": "https://dkb.de"
+  },
+  {
+    "Issuer": "DKB Visa Credit",
+    "yearlyFee": "29.88",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -797,7 +820,6 @@
     "miles": false,
     "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>",
     "image": "/img/dkb.jpg",
-    "adlink": "//financeads.net/tc.php?t=39323C10310001B",
     "link": "https://dkb.de"
   },
   {
