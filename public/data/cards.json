@@ -1495,7 +1495,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "bei aktiver Kontonutzung 4 Abhebungen im EWR, ansonsten nur 2",
+    "notes": "<span class='text-warning'>bei aktiver Kontonutzung 4 Abhebungen im EWR pro Monat, ansonsten nur 2</span>",
     "link": "https://www.c24.de/smart",
     "image": "/img/c24_smart.jpg"
   },
@@ -1518,7 +1518,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "nur 6 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro",
+    "notes": "<span class='text-warning'>nur 6 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro</span>",
     "link": "https://www.c24.de/plus",
     "image": "/img/c24_plus.jpg"
   },
@@ -1541,8 +1541,31 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "nur 8 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro",
+    "notes": "<span class='text-warning'>nur 8 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro</span>",
     "link": "https://www.c24.de/max",
     "image": "/img/c24_max.jpg"
+  },
+  {
+    "Issuer": "Bank Norwegian",
+    "yearlyFee": 0,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "credit",
+    "fees_atm_de": 0,
+    "fees_atm_eur": 0,
+    "fees_atm_foreign": 0,
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "<span class='text-warning'>manueller Rechnungsausgleich per Überweisung notwendig</span>",
+    "link": "https://www.banknorwegian.de/kreditkarte/",
+    "image": "/img/banknorwegian.svg"
   }
 ]
