@@ -1497,7 +1497,7 @@
     "miles": false,
     "notes": "<span class='text-warning'>bei aktiver Kontonutzung 4 Abhebungen im EWR pro Monat, ansonsten nur 2</span>",
     "link": "https://www.c24.de/smart",
-    "image": "/img/c24_smart.jpg"
+    "image": "/img/c24_smart.png"
   },
   {
     "Issuer": "C24 Plus",
@@ -1520,7 +1520,7 @@
     "miles": false,
     "notes": "<span class='text-warning'>nur 6 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro</span>",
     "link": "https://www.c24.de/plus",
-    "image": "/img/c24_plus.jpg"
+    "image": "/img/c24_plus.png"
   },
   {
     "Issuer": "C24 Max",
@@ -1543,7 +1543,7 @@
     "miles": false,
     "notes": "<span class='text-warning'>nur 8 kostenlose Abhebungen pro Monat weltweit, danach je 2 Euro</span>",
     "link": "https://www.c24.de/max",
-    "image": "/img/c24_max.jpg"
+    "image": "/img/c24_max.png"
   },
   {
     "Issuer": "Bank Norwegian",
