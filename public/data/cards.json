@@ -1564,7 +1564,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "<span class='text-warning'>manueller Rechnungsausgleich per Überweisung notwendig</span>",
+    "notes": "<span class='text-warning'>manueller Rechnungsausgleich per Überweisung notwendig, Abhebungen werden wohl sofort verzinst</span>",
     "link": "https://www.banknorwegian.de/kreditkarte/",
     "image": "/img/banknorwegian.svg"
   }
