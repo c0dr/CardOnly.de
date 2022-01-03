@@ -57,7 +57,7 @@ class CardCard extends Component {
                 return ([
                   <Button color="success" href={this.props.card.adlink} target="_blank" rel="noopener noreferrer" >Beantragen und CardOnly.de unterstützen*</Button>,
                   <Button color="primary" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Direkt beantragen</Button>])
-              } else {
+              } else if(this.props.card.link) {
                 return <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt direkt beantragen</Button>
               }
             })()}
