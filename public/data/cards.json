@@ -794,7 +794,7 @@
     "insurance": false,
     "miles": false,
     "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Wunschpin, <span class='text-warning'>Abhebungen erst ab 50€</span>",
-    "image": "/img/dkb.jpg",
+    "image": "/img/dkb_debit.png",
     "link": "https://dkb.de"
   },
   {
@@ -817,7 +817,7 @@
     "insurance": false,
     "miles": false,
     "notes": "2.2% im Ausland, wenn nicht mindestens 700EUR/Monat Eingang, Abrechnung monatlich deferred debit, <span class='text-warning'>Abhebungen erst ab 50€</span>",
-    "image": "/img/dkb.jpg",
+    "image": "/img/dkb_credit.jpg",
     "link": "https://dkb.de"
   },
   {
