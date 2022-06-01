@@ -1432,7 +1432,7 @@
   },
   {
     "Issuer": "Payback Visa Flex",
-    "yearlyFee": 0,
+    "yearlyFee": 18,
     "withChecking": false,
     "offlinepin": false,
     "offlinetrx": false,
