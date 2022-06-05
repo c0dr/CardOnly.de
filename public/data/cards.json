@@ -1472,7 +1472,7 @@
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, manueller Ausgleich notwendig, Service Code und PIN-Liste unbekannt, vermutlich nur Online-PIN",
+    "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, manueller Ausgleich notwendig, nur Online-PIN",
     "link": "https://www.payback.de/info/visa",
     "image": "/img/paybackvisa.webp"
   },
