@@ -22,7 +22,7 @@ class Contact extends Component {
                     <p>Kontakt:</p>
                     <pre><code>
 
-                    Telefon:    +49 (0) 1575 7031306<br/>
+                    Telefon:    (+49) 15678 750749<br/>
                     Telefax:    -<br/>
                     E-Mail:    info@simon-schraeder.de<br/>
 
@@ -141,7 +141,7 @@ class Contact extends Component {
 <p>Auf der Steig 52</p>
 <p>70376 Stuttgart</p>
 <p>Deutschland</p>
-<p>Tel.: 015757031306</p>
+<p>Tel.: (+49) 15678 750749</p>
 <p>E-Mail: info@simon-schraeder.de</p>
 <p>Website: www.cardonly.de</p>
 
