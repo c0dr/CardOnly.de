@@ -379,8 +379,8 @@
     "link": "//revolut.com"
   },
   {
-    "Issuer": "consorsbank Visa Gold",
-    "yearlyFee": 60,
+    "Issuer": "consorsbank Visa Gold (im Konto Unlimited)",
+    "yearlyFee": 108,
     "withChecking": true,
     "offlinepin": false,
     "offlinetrx": true,
@@ -397,9 +397,9 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "VPay girocard als Zusatzkarte, Abhebungen direkt vom Girokonto, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung, Handyversicherung</span>, 10ct Cashback pro Kartenzahlung",
+    "notes": "Abhebungen direkt vom Girokonto, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung, Handyversicherung</span>",
     "image": "/img/consorsbankgold.jpg",
-    "link": "https://www.consorsbank.de/ev/Girokonto/-/VISA-Card-Gold"
+    "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto-Unlimited"
   },
   {
     "Issuer": "American Express Gold",
