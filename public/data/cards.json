@@ -919,7 +919,7 @@
     "offlinepin": true,
     "offlinetrx": false,
     "contactless": true,
-    "applepay": false,
+    "applepay": true,
     "googlepay": false,
     "secure": false,
     "charge": "credit",
@@ -932,6 +932,7 @@
     "insurance": false,
     "miles": false,
     "notes": "ATM unter speziellen Bedingungen kostenfrei",
+    "image": "/img/targobank_classic.png",
     "link" : "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
   },
   {
@@ -1072,7 +1073,7 @@
     "miles": false,
     "notes": "zzgl. Kosten Konto",
     "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html",
-    "image": "/img/dbplus.png"
+    "image": "/img/db-plus.png"
   },
   {
     "Issuer": "Deutsche Bank MasterCard Travel",
@@ -1094,7 +1095,7 @@
     "insurance": true,
     "miles": false,
     "notes": "<span class='text-success'>Auslandskranken-, Reiserücktritt-, Reiseabbruchversicherung, Reisegepäckverlustversicherung</span>, zzgl. Kosten Konto",
-    "image": "/img/db-travel.jpeg",
+    "image": "/img/db-travel.png",
     "link" : "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
   },
   {
