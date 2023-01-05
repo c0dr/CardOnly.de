@@ -592,7 +592,7 @@
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
-    "offlinetrx": true,
+    "offlinetrx": false,
     "contactless": true,
     "applepay": true,
     "googlepay": true,
