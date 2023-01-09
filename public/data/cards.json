@@ -573,7 +573,7 @@
     "applepay": true,
     "googlepay": true,
     "secure": true,
-    "charge": "credit",
+    "charge": "charge",
     "fees_atm_de": "4.90€",
     "fees_atm_eur": "4.90€",
     "fees_atm_foreign": "4.90€",
