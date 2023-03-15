@@ -659,7 +659,6 @@
   },
   {
     "Issuer": "Advanzia Mastercard Gold",
-    "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -677,7 +676,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich, <span class='text-warning'>Abhebungen sind nicht ganz kostenlos, sie werden sofort verzinst</span>, einige Cobrands mit Lastschrift",
+    "notes": "Teilzahlung zu effektiv 20,63 % Zinsen möglich, <span class='text-warning'>Abhebungen sind nicht ganz kostenlos, sie werden sofort verzinst</span>, einige Cobrands mit Lastschrift",
     "image": "img/advanzia.png",
     "adlink" : "//financeads.net/tc.php?t=39323C13814262B",
     "link": "https://www.gebuhrenfrei.com/Home/"
@@ -1493,7 +1492,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "<span class='text-success'>Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz. Inklusive Priority Pass mit unbegrezten Zugängen</span>",
+    "notes": "<span class='text-success'>Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz</span>, für Neukunden Priority Pass mit Gebühren pro Eintritt",
     "link": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/",
     "image": "/img/spardahessen.jpg"
   },
