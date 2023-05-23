@@ -1427,7 +1427,7 @@
   },
   {
     "Issuer": "Miles & More Blue Credit Card",
-    "yearlyFee": 54.96,
+    "yearlyFee": 66,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
@@ -1444,14 +1444,14 @@
     "pinfirst": true,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
+    "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, Teilzahlung auf Antrag, mit Status billiger, ab 1.8 kein Meilenverfall mehr ohne Mindestumsatz",
     "adlink": "//financeads.net/tc.php?t=39323C54524631T",
     "link": "https://www.miles-and-more-kreditkarte.com/",
     "image": "/img/mmblue.png"
   },
   {
     "Issuer": "Miles & More Gold Credit Card",
-    "yearlyFee": 109.92,
+    "yearlyFee": 138,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
@@ -1468,7 +1468,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiserücktrittskosten- und Reiseabbruchversicherung, Mietwagenvollkaskoversicherung und Auslandsreisekrankenversicherung teils bei Einsatz</span>, Teilzahlung auf Antrag, mit Status billiger",
+    "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiserücktrittskosten- und Reiseabbruchversicherung, Mietwagenvollkaskoversicherung und Auslandsreisekrankenversicherung teils bei Einsatz</span>, Teilzahlung auf Antrag, mit Status billiger, ab 1.8 2x pro Jahr kostenlos ATM außerhalb Deutschland aber mit AEE und 3x1GB Flexiroam Datenvolumen",
     "adlink": "//financeads.net/tc.php?t=39323C54524632T",
     "link": "https://www.miles-and-more-kreditkarte.com/",
     "image": "/img/mmgold.jpg"
