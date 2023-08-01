@@ -277,7 +277,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff. 16,45 % Zinsen, Vollausgleich per App einstellbar, neuerdings mit Offline-PIN",
+    "notes": "Teilzahlung möglich zu eff. 18,18% Zinsen, Vollausgleich per App einstellbar, neuerdings mit Offline-PIN",
     "image": "img/hanseatic_genial.png",
     "adlink": "//financeads.net/tc.php?t=39323C32816509T",
     "link": "https://www.hanseaticbank.de/kreditkarte/genialcard"
@@ -301,7 +301,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Teilzahlung möglich zu eff 21,79 % Zinsen, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, kein AEE im EWR, neuerdings mit Offline-PIN",
+    "notes": "Teilzahlung möglich zu eff 23,62% Zinsen, Vollausgleich per App einstellbar, <span class='text-success'>ab 3k POS-Umsatz kostenlos, Reiseversicherungen teils bei Karteneinsatz</span>, kein AEE im EWR, neuerdings mit Offline-PIN",
     "image": "img/hanseatic_gold.png",
     "adlink": "//financeads.net/tc.php?t=39323C32824680T",
     "link": "https://www.hanseaticbank.de/kreditkarte/goldcard"
@@ -676,7 +676,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung zu effektiv 22,89 % Zinsen möglich, <span class='text-warning'>Abhebungen sind nicht ganz kostenlos, sie werden sofort verzinst</span>, einige Cobrands mit Lastschrift",
+    "notes": "Teilzahlung zu effektiv 24,39% p.A. möglich, <span class='text-warning'>Abhebungen sind nicht ganz kostenlos, sie werden sofort mit höherem Zinssatz verzinst</span>, einige Cobrands mit Lastschrift",
     "image": "img/advanzia.png",
     "adlink" : "//financeads.net/tc.php?t=39323C13814262B",
     "link": "https://www.gebuhrenfrei.com/Home/"
