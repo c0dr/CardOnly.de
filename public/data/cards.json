@@ -94,7 +94,6 @@
   },
   {
     "Issuer": "Barclays Visa",
-    "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -140,28 +139,6 @@
     "image": "img/eurowingsclassic.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316358T",
     "link": "https://www.barclays.de/kreditkarten/eurowings-classic/"
-  },
-  {
-    "Issuer": "Barclays Eurowings Gold (Bestandskunden)",
-    "yearlyFee": 69,
-    "withChecking": false,
-    "offlinepin": true,
-    "applepay": true,
-    "googlepay": true,
-    "offlinetrx": true,
-    "contactless": true,
-    "secure": true,
-    "charge": "credit",
-    "fees_atm_de": "4%, mind 5.95EUR",
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
-    "pinfirst": true,
-    "insurance": true,
-    "miles": true,
-    "notes": "Nur noch für Bestandskunden, <span class='text-success'> Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung</span> - bei Karteneinsatz",
-    "image": "/img/eurowingsgold.png"
   },
   {
     "Issuer": "Barclays Eurowings Premium",
@@ -325,7 +302,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (200€) und Fremdwährung (1000€), Maestro-Zusatzkarte erhältlich",
+    "notes": "Fair-Use-Limits für ATM-Nutzung (200€) und Fremdwährung (1000€)",
     "image": "/img/revolutvisa.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
    "link": "//revolut.com"
@@ -349,7 +326,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen, Maestro-Zusatzkarte erhältlich",
+    "notes": "Fair-Use-Limits für ATM-Nutzung (400€), Versicherungen",
     "image": "/img/revolutpremium.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
     "link": "//revolut.com"
@@ -373,7 +350,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
-    "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Maestro-Zusatzkarte erhältlich, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb",
+    "notes": "Fair-Use-Limits für ATM-Nutzung (600€), Versicherungen, Karte aus Metall, 1 gratis Loungebesuch, 0.1% Cashback EU, 1% außerhalb",
     "image": "/img/revolutmetal.png",
     "adlink": "//revolut.ngih.net/c/2025513/584909/9626",
     "link": "//revolut.com"
@@ -700,7 +677,7 @@
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-error'>Derzeit nicht für Neukunden erhältlich. </span> <span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
+    "notes": "<span class='text-error'> Nicht für Neukunden erhältlich. </span> <span class='text-success'>bei Amazon 2 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
     "image": "/img/lbbamazon.jpg"
   },
   {
@@ -722,31 +699,8 @@
     "pinfirst": false,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-error'>Derzeit nicht für Neukunden erhältlich. </span> Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
+    "notes": "<span class='text-error'>Nicht für Neukunden erhältlich. </span> Nur für Prime-Kunden, <span class='text-success'>bei Amazon 3 Punkte/1EUR, sonst 1 Punkt/2EUR, 1000 Punkte = 10 EUR Amazon GS, </span><span class='text-warning'> ATM nur aus Guthaben gratis, sonst 3% mind 5-7.50EUR</span>",
     "image": "/img/lbbamazon.jpg"
-  },
-  {
-    "Issuer": "Fidor Debit MasterCard Digital",
-    "yearlyFee": "72",
-    "withChecking": true,
-    "offlinepin": false,
-    "offlinetrx": false,
-    "contactless": true,
-    "applepay": true,
-    "googlepay": false,
-    "secure": false,
-    "charge": "debit",
-    "fees_atm_de": "2.50€",
-    "fees_atm_eur": "2.50€",
-    "fees_atm_foreign": "2.50€ + 1.5%",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.5%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "1 Abhebung gratis pro Monat, Konto 5€ Monat, kostenlos ab 10 Transaktionen,1€/Monat Aufpreis für physische Karte",
-    "link": "https://www.fidor.de/account-card/card",
-    "image": "/img/fidordebit.png"
   },
   {
     "Issuer": "ING Visa Debit",
@@ -770,30 +724,6 @@
     "notes": "Girocard als Zusatzkarte, <span class='text-warning'>Abhebungen in EUR erst ab 50€</span>, ohne 700€ Eingang 4.90€/Monat",
     "link": "https://www.ing.de/girokonto/",
     "image": "/img/ing.jpg"
-  },
-  {
-    "Issuer": "Fidor SmartCard",
-    "yearlyFee": "84",
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "contactless": true,
-    "applepay": true,
-    "googlepay": false,
-    "secure": false,
-    "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": "1.5%",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.5%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "<span class='text-warning'>2EUR nach 2 Abhebungen im Monat</span>, Maestro und MasterCard Kombikarte, Konto 5€/Monat, ab 10 Kontotransaktionen/Monat rechnerisch kostenlos durch 0.50€ Aktivitätsbonus (ab 1.11), Karte trotzdem 2€/Monat",
-     "link": "https://www.fidor.de/account-card/card",
-     "image": "/img/fidorsmart.png"
-
   },
   {
     "Issuer": "DKB Visa Debit",
@@ -981,7 +911,7 @@
     "image": "/img/1822direkt.jpg"
   },
   {
-    "Issuer": "Meine Bank DirectCard",
+    "Issuer": "Meine Bank girocard DMC",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1022,7 +952,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "MasterCard & Maestro, ersten 4 Abhebungen im Monat kostenlos, Abhebung 5-9 je 0.99€, danach 2.99€/Abhebung",
+    "notes": "MasterCard, ersten 4 Abhebungen im Monat kostenlos, Abhebung 5-9 je 0.99€, danach 2.99€/Abhebung",
     "image": "/img/bunqmc.png",
     "adlink" : "//financeads.net/tc.php?t=39323C315658608T",
     "link": "https://www.bunq.com/de/"
@@ -1355,28 +1285,6 @@
      "link": "https://vivid.money/en-eu/",
      "image": "/img/vivid.png"
   },
-   {
-    "Issuer": "Nuri (früher Bitwala)",
-    "yearlyFee": 0,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": false,
-    "applepay": false,
-    "googlepay": true,
-    "contactless": true,
-    "secure": true,
-    "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "insolvent, nur noch für Bestandskunden",
-    "image": "/img/nuri.png"
-  },
   {
     "Issuer": "Openbank Girokonto ohne Travel-Abo",
     "yearlyFee": 0,
@@ -1611,6 +1519,7 @@
   },
   {
     "Issuer": "Bank Norwegian",
+    "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -1626,9 +1535,9 @@
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
     "pinfirst": true,
-    "insurance": false,
+    "insurance": true,
     "miles": false,
-    "notes": "<span class='text-warning'>manueller Rechnungsausgleich per Überweisung notwendig</span>",
+    "notes": "<span class='text-success'>Lastschrifteinzug einstellbar, gute Reiseversicherungen inklusive</span>",
     "link": "https://www.banknorwegian.de/kreditkarte/",
     "image": "/img/banknorwegian.svg"
   }
