@@ -10,7 +10,7 @@ class Contact extends Component {
                 <Container>
                     <h2>Kontakt</h2>
                 <pre><code>
-                    Kontakt per Email: cardonly@simon-schraeder.de <br/>
+                    Kontakt per Email: info@simon-schraeder.de <br/>
                     
                     <strong>Angaben gemäß § 5 TMG:</strong><br/>
                     Simon Schraeder <br/>
