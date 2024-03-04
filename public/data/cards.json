@@ -935,7 +935,7 @@
   },
   {
     "Issuer": "bunq Easy Money",
-    "yearlyFee": 107.88,
+    "yearlyFee": 119.88,
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
@@ -959,7 +959,7 @@
   },
   {
     "Issuer": "bunq Easy Bank",
-    "yearlyFee": "35.88",
+    "yearlyFee": "47.88",
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": true,
