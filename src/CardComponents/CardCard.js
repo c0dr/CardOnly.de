@@ -47,6 +47,13 @@ class CardCard extends Component {
 
           <li><CurrentAccount card={this.props.card}/></li>
           <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.notes)}}></span></li>
+              {(() => {
+              if(this.props.card.legalnotes) {
+                return ([
+                  <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}}></span></li>
+              }
+            })()}
+          <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}}></span></li>
           <li> <ApplePay card={this.props.card}/>
           <GooglePay card={this.props.card}/>
           <Contactless card={this.props.card}/></li>
