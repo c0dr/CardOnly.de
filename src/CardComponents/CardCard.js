@@ -49,8 +49,7 @@ class CardCard extends Component {
           <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.notes)}}></span></li>
               {(() => {
               if(this.props.card.legalnotes) {
-                return ([
-                  <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}}></span></li>
+                return <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}></span></li>
               }
             })()}
           <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}}></span></li>
