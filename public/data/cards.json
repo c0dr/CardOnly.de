@@ -670,7 +670,7 @@
     "secure": true,
     "charge": "debit",
     "fees_atm_de": 0,
-    "fees_atm_eur": dip,
+    "fees_atm_eur": 0,
     "fees_atm_foreign": "1,99 %",
     "fees_pos_eur": 0,
     "fees_pos_foreign": "1,99 %",
