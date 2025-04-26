@@ -19,13 +19,7 @@ const FeaturedCards = ({ cards }) => {
           <Card key={card.Issuer} className="hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
             <CardHeader className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 border-b border-gray-200 dark:border-gray-700">
               <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">
-                {card.Issuer === 'American Express Payback' ? (
-                  <>
-                    American Express<br />Payback
-                  </>
-                ) : (
-                  card.Issuer
-                )}
+                {card.Issuer}
               </CardTitle>
             </CardHeader>
             <CardContent className="p-6">
