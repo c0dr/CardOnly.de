@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
-import { Table, Card, CardTitle, CardBody, CardText, Button, ButtonGroup, UncontrolledCollapse, Row, Col, Container } from 'reactstrap';
+import React, { useState } from 'react';
+import { Card, CardHeader, CardContent, CardFooter, CardTitle } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '../components/ui/collapsible';
+import { Table, TableBody, TableRow, TableCell } from '../components/ui/table';
 import ApplePay from './ApplePay';
 import GooglePay from './GooglePay';
 import FeeLabel from './FeeLabel';
@@ -7,83 +10,97 @@ import CurrentAccount from './CurrentAccount';
 import WorldWideFeeLabel from './WorldWideFeeLabel';
 import Contactless from './Contactless';
 
+const CardCard = ({ card, cols, index }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-class CardCard extends Component {
-
-  generateTemplate(value) {
+  const generateTemplate = (value) => {
     if (typeof value === 'boolean') {
       if (value === true) {
-        return '<span class="badge badge-success"><i class="fa fa-check fa-fw "></i></span>';
+        return '<span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-sm font-medium text-green-800"><i class="fa fa-check fa-fw"></i></span>';
       } else {
-        return '<span class="badge badge-info"><i class="fa fa-times fa-fw"></i></span>'
+        return '<span class="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800"><i class="fa fa-times fa-fw"></i></span>';
       }
     } else {
       return value;
     }
-  }
+  };
 
-  render() {
-    return (
-      <Card style={{marginBottom: '1rem'}}>
-        <CardBody>
-          <CardTitle>{this.props.card.Issuer}</CardTitle>
-          <Container fluid>
-            <Row>
-              <Col sm="2">
-          <img alt="Bild der Karte" className='cardimg' src={this.props.card.image}/>
-          </Col>
-        <Col sm="10">
-          <ul style={{listStyle: 'none'}} className='features features-padding'>
+  return (
+    <Card className="mb-4">
+      <CardHeader>
+        <CardTitle>{card.Issuer}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <div className="w-full sm:w-1/6">
+            <img alt="Bild der Karte" className="w-full max-w-[10rem]" src={card.image}/>
+          </div>
+          <div className="w-full sm:w-5/6">
+            <ul className="list-none space-y-2">
+              <li><span className="font-bold">Jahresgebühr </span> <FeeLabel value={card.yearlyFee} euro={true}/></li>
+              <li><span className="font-bold">Abhebungen </span> <WorldWideFeeLabel eur={card.fees_atm_eur} foreign={card.fees_atm_foreign}/></li>
+              <li><span className="font-bold">Fremdwährung </span><FeeLabel value={card.fees_pos_foreign}/></li>
+              <li><span className="font-bold">Offline-PIN </span><span dangerouslySetInnerHTML={{__html: generateTemplate(card.offlinepin)}}></span></li>
+            </ul>
+          </div>
+        </div>
+        
+        <ul className="list-none space-y-2 mt-4">
+          <li><CurrentAccount card={card}/></li>
+          <li><span dangerouslySetInnerHTML={{__html: generateTemplate(card.notes)}}></span></li>
+          <li className="text-xs"><span dangerouslySetInnerHTML={{__html: generateTemplate(card.legalnotes)}}></span></li>
+          <li className="flex gap-2">
+            <ApplePay card={card}/>
+            <GooglePay card={card}/>
+            <Contactless card={card}/>
+          </li>
+        </ul>
+
+        <div className="flex flex-wrap gap-2 mt-4">
+          {card.adlink ? (
+            <>
+              <Button asChild variant="default">
+                <a href={card.adlink} target="_blank" rel="noopener noreferrer">
+                  Beantragen und CardOnly.de unterstützen*
+                </a>
+              </Button>
+              <Button asChild variant="outline">
+                <a href={card.link} target="_blank" rel="noopener noreferrer">
+                  Direkt beantragen
+                </a>
+              </Button>
+            </>
+          ) : card.link ? (
+            <Button asChild variant="default">
+              <a href={card.link} target="_blank" rel="noopener noreferrer">
+                Jetzt direkt beantragen
+              </a>
+            </Button>
+          ) : null}
           
-          <li><strong>Jahresgebühr </strong> <FeeLabel value={this.props.card.yearlyFee} euro={true}/></li>
-          <li><strong>Abhebungen </strong> <WorldWideFeeLabel eur={this.props.card.fees_atm_eur} foreign={this.props.card.fees_atm_foreign}/></li>
-          <li><strong>Fremdwährung </strong><FeeLabel value={this.props.card.fees_pos_foreign}/></li>
-          <li><strong>Offline-PIN </strong><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.offlinepin)}}></span></li>
-          </ul>
-          </Col>
-          </Row>
-          </Container>
-          <ul style={{listStyle: 'none'}} className='features'>
-
-          <li><CurrentAccount card={this.props.card}/></li>
-          <li><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.notes)}}></span></li>
-          <li style={{fontSize: '12px'}}><span dangerouslySetInnerHTML={{__html:this.generateTemplate(this.props.card.legalnotes)}}></span></li>
-          <li> <ApplePay card={this.props.card}/>
-          <GooglePay card={this.props.card}/>
-          <Contactless card={this.props.card}/></li>
-          </ul>
-          <ButtonGroup>
-            {(() => {
-              if(this.props.card.adlink) {
-                return ([
-                  <Button color="success" href={this.props.card.adlink} target="_blank" rel="noopener noreferrer" >Beantragen und CardOnly.de unterstützen*</Button>,
-                  <Button color="primary" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Direkt beantragen</Button>])
-              } else if(this.props.card.link) {
-                return <Button color="success" href={this.props.card.link} target="_blank" rel="noopener noreferrer" >Jetzt direkt beantragen</Button>
-              }
-            })()}
-            <Button color="primary" id={'card' + this.props.index}>Details</Button>
-          </ButtonGroup>
-          <UncontrolledCollapse toggler={'#card' + this.props.index}>
-            <CardText> <span key={this.props.index}>
-              <Table bordered striped>
-                <tbody>
-                  {this.props.cols.map((col, index) => {
-                    return (
-                      <tr>
-                        <td>{col.label}</td>
-                        <td><span key={index} dangerouslySetInnerHTML={{ __html: this.generateTemplate(this.props.card[col.value]) }}></span></td>
-                      </tr>
-                    )
-                  })}
-                </tbody>
+          <Collapsible open={isOpen} onOpenChange={setIsOpen}>
+            <CollapsibleTrigger asChild>
+              <Button variant="outline">Details</Button>
+            </CollapsibleTrigger>
+            <CollapsibleContent className="mt-4">
+              <Table>
+                <TableBody>
+                  {cols.map((col, idx) => (
+                    <TableRow key={idx}>
+                      <TableCell className="font-medium">{col.label}</TableCell>
+                      <TableCell>
+                        <span dangerouslySetInnerHTML={{ __html: generateTemplate(card[col.value]) }}></span>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
               </Table>
-            </span>
-            </CardText>
-          </UncontrolledCollapse>
-        </CardBody>
-      </Card>)
-  }
-}
+            </CollapsibleContent>
+          </Collapsible>
+        </div>
+      </CardContent>
+    </Card>
+  );
+};
 
 export default CardCard;

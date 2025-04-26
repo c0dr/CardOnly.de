@@ -4,15 +4,23 @@
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^15.4.0",
-    "bootstrap": "^4.5.3",
-    "bootswatch": "^4.5.2",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-collapsible": "^1.0.3",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "font-awesome": "^4.7.0",
-    "react": "^17.0.0",
-    "react-dev-utils": "^11.0.4",
-    "react-dom": "^17.0.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.1",
-    "reactstrap": "^8.7.0"
+    "lucide-react": "^0.358.0",
+    "next-themes": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }

@@ -1,47 +1,35 @@
+import React, { useState } from 'react';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+} from '../components/ui/dialog';
+import { Alert, AlertDescription } from '../components/ui/alert';
+import { Button } from '../components/ui/button';
 
-import React from 'react';
-import {   
-    Modal,
-    ModalHeader,
-    ModalBody,
-    ModalFooter,
-    Button,
-    Alert,
-   } from 'reactstrap';
+const ScreenSizeAlert = () => {
+  const [isOpen, setIsOpen] = useState(true);
 
-export default class ScreenSizeAlert extends React.Component {
+  return (
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogContent className="screenSizeAlert">
+        <DialogHeader>
+          <DialogTitle>Bildschrimgröße</DialogTitle>
+        </DialogHeader>
+        <Alert variant="warning" className="my-4">
+          <AlertDescription>
+            <p>Vielen Dank für Ihr Interesse an dem umfangreichen Kreditkartenvergleich von CardOnly.de</p>
+            <p>Für das bessere Benutzererlebnis empfehlen wir den Besuch mit einem großen Bildschirm.</p>
+          </AlertDescription>
+        </Alert>
+        <DialogFooter>
+          <Button onClick={() => setIsOpen(false)}>OK</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+};
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      modal: true,
-    };
-
-    this.toggle = this.toggle.bind(this);
-  }
-
-  toggle() {
-    this.setState({
-      modal: !this.state.modal
-    });
-  }
-
-  render() {
-    return (
-      <div>
-         <Modal isOpen={this.state.modal} toggle={this.toggle} wrapClassName="screenSizeAlert">
-          <ModalHeader toggle={this.toggle}>Bildschrimgröße</ModalHeader>
-          <ModalBody>
-            <Alert color="warning">
-              <p>Vielen Dank für Ihr Interesse an dem umfangreichen Kreditkartenvergleich von CardOnly.de</p>
-              <p>Für das bessere Benutzererlebnis empfehlen wir den Besuch mit einem großen Bildschirm.</p>
-            </Alert>
-          </ModalBody>
-          <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>OK</Button>{' '}
-          </ModalFooter>
-        </Modal>
-      </div>
-    );
-  }
-}
+export default ScreenSizeAlert;

@@ -1,8 +1,5 @@
-import React, { Component } from 'react';
-import { Card, CardTitle, CardHeader, CardBody, Button } from 'reactstrap';
+const AktuelleAktionen = () => {
+  return null;
+};
 
-const Page = props => {
-    return null;
-}
-
-export default Page;
+export default AktuelleAktionen;

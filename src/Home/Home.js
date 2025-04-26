@@ -1,69 +1,48 @@
-import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import React, { useState, useEffect } from 'react';
 import Filter from '../Filter/Filter';
 import Cards from '../CardComponents/Cards';
 import Header from './Header';
 
-class Home extends Component {
+const Home = () => {
+  const [cards, setCards] = useState([]);
+  const [enabledFilters, setEnabledFilters] = useState({});
+  const [filterOptions, setFilterOptions] = useState([]);
+  const [cols, setCols] = useState([]);
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      cards: [],
-      enabledFilters: {},
-      filterOptions: [],
-      cols: []
-    };
-    this.filterChange = this.filterChange.bind(this);
-    this.filteredCards = this.filteredCards.bind(this);
-  }
-
-  componentDidMount() {
+  useEffect(() => {
     fetch('data/cards.json')
       .then(response => response.json())
       .catch(console.log)
-      .then(data => this.setState({ cards: data }))
+      .then(data => setCards(data));
 
     fetch('data/filterOptions.json')
       .then(response => response.json())
       .catch(console.log)
-      .then(data => this.setState({ filterOptions: data }))
+      .then(data => setFilterOptions(data));
 
     fetch('data/columns.json')
       .then(response => response.json())
       .catch(console.log)
-      .then(data => this.setState({ cols: data }))
-  }
+      .then(data => setCols(data));
+  }, []);
 
-  filterChange(filterName, filterValue) {
-    let obj = {};
-    obj[filterName] = filterValue;
-    this.setState({
-      enabledFilters: { ...this.state.enabledFilters, ...obj }
-    });
-  }
+  const filterChange = (filterName, filterValue) => {
+    setEnabledFilters(prev => ({
+      ...prev,
+      [filterName]: filterValue
+    }));
+  };
 
-  filteredCards() {
-    let allCards = this.state.cards;
-    let enabledFilters = this.state.enabledFilters;
-    for (let filterName of Object.keys(enabledFilters)) {
-      allCards = allCards.filter(card => this.filterFunction(card, filterName, enabledFilters[filterName]));
-    }
-    return allCards.sort((a, b) => a.Issuer.localeCompare(b.Issuer))
-  }
-
-  cardFeeFreeFeatures(card) {
+  const cardFeeFreeFeatures = (card) => {
     let features = ['fees_atm_de', 'fees_atm_eur', 'fees_atm_foreign', 'fees_pos_foreign'];
     return features.filter(feature => card[feature] === 0);
-  }
+  };
 
-  getFilterByName(filterName) {
-    return this.state.filterOptions.filter(filter => filter.filterName === filterName)[0];
-  }
+  const getFilterByName = (filterName) => {
+    return filterOptions.filter(filter => filter.filterName === filterName)[0];
+  };
 
-  filterFunction(card, filterName, filterValue) {
-    //TODO: Beautify this mess
-
+  const filterFunction = (card, filterName, filterValue) => {
     if (filterValue === 'dontcare') {
       return true;
     }
@@ -71,43 +50,52 @@ class Home extends Component {
     if (typeof filterValue === "boolean") {
       return card[filterName] === filterValue;
     } else if (Array.isArray(filterValue)) {
-
-      let filter = this.getFilterByName(filterName);
+      let filter = getFilterByName(filterName);
       let freeCardFeatures = [];
 
-      if (filter.derivedAttribute && filter.derivedAttribute === true) {
-        freeCardFeatures = this.cardFeeFreeFeatures(card);
+      if (filter?.derivedAttribute === true) {
+        freeCardFeatures = cardFeeFreeFeatures(card);
       }
 
-      if (filterValue.length === 1 && !filter.derivedAttribute) {
-        return this.filterFunction(card, filterName, filterValue[0]);
-        // If we have just one property in the array, we can check the attribute directly
+      if (filterValue.length === 1 && !filter?.derivedAttribute) {
+        return filterFunction(card, filterName, filterValue[0]);
       }
 
-      if (filter.match === 'single') {
+      if (filter?.match === 'single') {
         return filterValue.includes(card[filterName]);
       } else {
         return filterValue.every(val => freeCardFeatures.indexOf(val) >= 0);
       }
-
     } else if (typeof filterValue === "number") {
       return card[filterName] <= filterValue;
     } else {
-        return card[filterName] === filterValue;
+      return card[filterName] === filterValue;
     }
-  }
+  };
 
-  render() {
-    return (
-      <Container fluid>
-        <Header filterChange={this.filterChange}/>
-        <Row>
-          <Col sm="2"><Filter filterChange={this.filterChange} filterOptions={this.state.filterOptions} /></Col>
-          <Col sm="10"><Cards cards={this.filteredCards()} cols={this.state.cols} /></Col>
-        </Row>
-      </Container>
-    );
-  }
-}
+  const filteredCards = () => {
+    let allCards = cards;
+    for (let filterName of Object.keys(enabledFilters)) {
+      allCards = allCards.filter(card => filterFunction(card, filterName, enabledFilters[filterName]));
+    }
+    return allCards.sort((a, b) => a.Issuer.localeCompare(b.Issuer));
+  };
+
+  return (
+    <div className="min-h-screen bg-background">
+      <div className="container mx-auto px-4">
+        <Header filterChange={filterChange}/>
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
+          <div className="md:col-span-3">
+            <Filter filterChange={filterChange} filterOptions={filterOptions} />
+          </div>
+          <div className="md:col-span-9">
+            <Cards cards={filteredCards()} cols={cols} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Home;

@@ -1,30 +1,40 @@
 import React from 'react';
-import { FormGroup, Label, Input, Col } from 'reactstrap';
+import { Label } from '../components/ui/label';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '../components/ui/select';
 
-export default class FilterDropDown extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-  }
-  handleChange(e) {
-    this.props.onFilterChange(this.props.config.filterName, this.props.config.options[e.target.value].value);
-  }
-  render() {
-    return (
-      <div>
-        <FormGroup row>
-          <Label sm={6} for={this.props.config.elmentName}><strong>{this.props.config.label}</strong></Label>
-          <Col sm={6}>
-            <Input type="select" onChange={this.handleChange} name={this.props.config.elementName} id={this.props.config.elementName}>
-              {this.props.config.options.map((obj, index) => {
-                return <option value={index} key={index}>{obj.label}</option>
-              })}
-            </Input>
-          </Col>
-        </FormGroup>
+const FilterDropDown = ({ config, onFilterChange }) => {
+  const handleChange = (value) => {
+    const selectedOption = config.options.find((opt, index) => index.toString() === value);
+    onFilterChange(config.filterName, selectedOption.value);
+  };
+
+  return (
+    <div className="p-4 border rounded-lg bg-card">
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Label className="text-base font-semibold">
+          {config.label}
+        </Label>
+        <Select onValueChange={handleChange} defaultValue="0">
+          <SelectTrigger>
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            {config.options.map((obj, index) => (
+              <SelectItem key={index} value={index.toString()}>
+                {obj.label}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
-
+export default FilterDropDown;
