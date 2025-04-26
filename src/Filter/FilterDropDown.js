@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Label } from '../components/ui/label';
 import {
   Select,
@@ -9,9 +9,14 @@ import {
 } from '../components/ui/select';
 
 const FilterDropDown = ({ config, onFilterChange }) => {
-  const handleChange = (value) => {
-    const selectedOption = config.options.find((opt, index) => index.toString() === value);
-    onFilterChange(config.filterName, selectedOption.value);
+  const [value, setValue] = useState("0");
+
+  const handleChange = (newValue) => {
+    setValue(newValue);
+    const selectedOption = config.options.find((opt, index) => index.toString() === newValue);
+    if (selectedOption) {
+      onFilterChange(config.filterName, selectedOption.value);
+    }
   };
 
   return (
@@ -20,7 +25,7 @@ const FilterDropDown = ({ config, onFilterChange }) => {
         <Label className="text-base font-semibold">
           {config.label}
         </Label>
-        <Select onValueChange={handleChange} defaultValue="0">
+        <Select value={value} onValueChange={handleChange}>
           <SelectTrigger>
             <SelectValue />
           </SelectTrigger>

@@ -382,7 +382,7 @@
   },
   {
     "Issuer": "American Express Gold",
-    "yearlyFee": 140,
+    "yearlyFee": 240,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,
@@ -399,7 +399,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": true,
-    "notes": "Inoffiziell kostenlos ab 10k/Jahr, <span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>",
+    "notes": "<span class='text-success'> 1EUR=1MR, etwa 0.8 Meilen, Rücktritt-, Abbruch-, Reisekomfort-, Kranken- und Verkehrsmittel bei Einsatz, Fahrzeugassistance</span>",
     "image": "/img/amexgold.png",
     "link" : "https://www.americanexpress.com/de/vorteile/willkommen/gold-card/"
   },
@@ -498,7 +498,7 @@
   },
   {
     "Issuer": "American Express Platinum",
-    "yearlyFee": 660,
+    "yearlyFee": 720,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": true,

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Filter from '../Filter/Filter';
 import Cards from '../CardComponents/Cards';
 import Header from './Header';
+import FeaturedCards from './FeaturedCards';
+import { Alert, AlertDescription } from '../components/ui/alert';
+import { Info } from 'lucide-react';
 
 const Home = () => {
   const [cards, setCards] = useState([]);
@@ -31,6 +34,16 @@ const Home = () => {
       ...prev,
       [filterName]: filterValue
     }));
+  };
+
+  const resetFilters = (exceptFilter = null) => {
+    if (exceptFilter) {
+      const newFilters = {};
+      newFilters[exceptFilter] = enabledFilters[exceptFilter];
+      setEnabledFilters(newFilters);
+    } else {
+      setEnabledFilters({});
+    }
   };
 
   const cardFeeFreeFeatures = (card) => {
@@ -84,12 +97,13 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4">
-        <Header filterChange={filterChange}/>
+        <Header filterChange={filterChange} resetFilters={resetFilters} enabledFilters={enabledFilters}/>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-3">
-            <Filter filterChange={filterChange} filterOptions={filterOptions} />
+            <Filter filterChange={filterChange} filterOptions={filterOptions} enabledFilters={enabledFilters} />
           </div>
           <div className="md:col-span-9">
+            <FeaturedCards cards={cards} />
             <Cards cards={filteredCards()} cols={cols} />
           </div>
         </div>
