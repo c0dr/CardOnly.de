@@ -1,34 +1,17 @@
-import React, { useState } from 'react';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogFooter,
-} from '../components/ui/dialog';
+import React from 'react';
 import { Alert, AlertDescription } from '../components/ui/alert';
-import { Button } from '../components/ui/button';
+import { Monitor } from 'lucide-react';
 
 const ScreenSizeAlert = () => {
-  const [isOpen, setIsOpen] = useState(true);
-
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className="screenSizeAlert">
-        <DialogHeader>
-          <DialogTitle>Bildschrimgröße</DialogTitle>
-        </DialogHeader>
-        <Alert variant="warning" className="my-4">
-          <AlertDescription>
-            <p>Vielen Dank für Ihr Interesse an dem umfangreichen Kreditkartenvergleich von CardOnly.de</p>
-            <p>Für das bessere Benutzererlebnis empfehlen wir den Besuch mit einem großen Bildschirm.</p>
-          </AlertDescription>
-        </Alert>
-        <DialogFooter>
-          <Button onClick={() => setIsOpen(false)}>OK</Button>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
+    <div className="md:hidden">
+      <Alert variant="warning" className="mb-4">
+        <Monitor className="w-5 h-5 text-yellow-600 dark:text-yellow-400 mt-0.5 flex-shrink-0" />
+        <AlertDescription className="text-sm text-yellow-800 dark:text-yellow-200">
+          Für das beste Nutzererlebnis empfehlen wir die Nutzung auf einem Desktop-Computer oder Tablet.
+        </AlertDescription>
+      </Alert>
+    </div>
   );
 };
 

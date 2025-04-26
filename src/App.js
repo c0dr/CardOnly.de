@@ -5,6 +5,7 @@ import Recommended from './Recommendations/Recommended';
 import AktuelleAktionen from './Recommendations/AktuelleAktionen';
 import Contact from './Contact/Contact';
 import Header from './CommonComponents/Header';
+import ScreenSizeAlert from './CommonComponents/ScreenSizeAlert';
 import Sparkasse from './Recommendations/JetztIstAllesMoeglich';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <div className="min-h-screen bg-background font-sans antialiased">
         <div className="relative flex min-h-screen flex-col">
           <Header/>
+          <ScreenSizeAlert/>
           <div className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
