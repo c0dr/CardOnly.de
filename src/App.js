@@ -7,6 +7,7 @@ import Contact from './Contact/Contact';
 import Header from './CommonComponents/Header';
 import ScreenSizeAlert from './CommonComponents/ScreenSizeAlert';
 import Sparkasse from './Recommendations/JetztIstAllesMoeglich';
+import CookieConsent from './components/ui/CookieConsent';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
               <Route path="/aktionen" element={<AktuelleAktionen />} />
             </Routes>
           </div>
+          <CookieConsent />
         </div>
       </div>
     </HashRouter>

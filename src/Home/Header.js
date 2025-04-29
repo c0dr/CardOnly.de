@@ -22,11 +22,11 @@ class Header extends Component {
     }
 
     applePay = () => {
-      if (this.isActive("applePay")) {
+      if (this.isActive("applepay")) {
         this.props.resetFilters();
       } else {
-        this.props.resetFilters("applePay");
-        this.props.filterChange("applePay", true);
+        this.props.resetFilters("applepay");
+        this.props.filterChange("applepay", true);
       }
     }
 
@@ -65,8 +65,8 @@ class Header extends Component {
               Meilen sammeln
             </Button>
             <Button 
-              variant={this.isActive("applePay") ? "default" : "outline"}
-              className={`${this.isActive("applePay") 
+              variant={this.isActive("applepay") ? "default" : "outline"}
+              className={`${this.isActive("applepay") 
                 ? "bg-blue-600 hover:bg-blue-700 text-white" 
                 : "bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700"}`}
               onClick={this.applePay}
