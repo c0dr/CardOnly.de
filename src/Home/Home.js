@@ -5,12 +5,14 @@ import Header from './Header';
 import FeaturedCards from './FeaturedCards';
 import { Alert, AlertDescription } from '../components/ui/alert';
 import { Info } from 'lucide-react';
+import SortDropdown from '../Filter/SortDropdown';
 
 const Home = () => {
   const [cards, setCards] = useState([]);
   const [enabledFilters, setEnabledFilters] = useState({});
   const [filterOptions, setFilterOptions] = useState([]);
   const [cols, setCols] = useState([]);
+  const [sortBy, setSortBy] = useState('alphabetical');
 
   useEffect(() => {
     fetch('data/cards.json')
@@ -86,12 +88,24 @@ const Home = () => {
     }
   };
 
+  const handleSortChange = (value) => {
+    setSortBy(value);
+  };
+
   const filteredCards = () => {
     let allCards = cards;
     for (let filterName of Object.keys(enabledFilters)) {
       allCards = allCards.filter(card => filterFunction(card, filterName, enabledFilters[filterName]));
     }
-    return allCards.sort((a, b) => a.Issuer.localeCompare(b.Issuer));
+
+    return allCards.sort((a, b) => {
+      if (sortBy === 'alphabetical') {
+        return a.Issuer.localeCompare(b.Issuer);
+      } else if (sortBy === 'yearlyFee') {
+        return (a.yearlyFee || 0) - (b.yearlyFee || 0);
+      }
+      return 0;
+    });
   };
 
   return (
@@ -101,6 +115,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-3">
             <Filter filterChange={filterChange} filterOptions={filterOptions} enabledFilters={enabledFilters} />
+            <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
           </div>
           <div className="md:col-span-9">
             <FeaturedCards cards={cards} />
