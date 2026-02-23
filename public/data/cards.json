@@ -93,7 +93,7 @@
     "image": "img/icsvisa.png"
   },
   {
-    "Issuer": "Barclays Visa",
+    "Issuer": "easybank Visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -112,12 +112,12 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung möglich, 100% Ausgleich einstellbar für 2€/Monat, Abhebungen in EUR ab 50€ möglich, Abhebungen werden sofort verzinst!",
-    "image": "img/barclays_black.png",
+    "image": "img/easybank_black.png",
     "adlink": "//financeads.net/tc.php?t=39323C14332500T",
-    "link": "https://www.barclays.de/kreditkarten/visa-kreditkarte/"
+    "link": "https://www.easybank.de/kreditkarten/visa-kreditkarte/"
   },
   {
-    "Issuer": "Barclays Eurowings Classic",
+    "Issuer": "easybank Eurowings Classic",
     "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": true,
@@ -138,10 +138,10 @@
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
     "image": "img/eurowingsclassic.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316358T",
-    "link": "https://www.barclays.de/kreditkarten/eurowings-classic/"
+    "link": "https://www.easybank.de/kreditkarten/eurowings-classic/"
   },
   {
-    "Issuer": "Barclays Eurowings Premium",
+    "Issuer": "easybank Eurowings Premium",
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
@@ -162,10 +162,10 @@
     "notes": "Teilzahlung moeglich, <span class='text-success'>Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung, Reiserücktritt</span> - bei Karteneinsatz",
     "image": "/img/eurowingsgold.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316304B",
-    "link": "https://www.barclays.de/kreditkarten/eurowings-premium/"
+    "link": "https://www.easybank.de/kreditkarten/eurowings-premium/"
   },
   {
-    "Issuer": "Barclays Gold Visa",
+    "Issuer": "easybank Gold Visa",
     "yearlyFee": 59,
     "withChecking": false,
     "offlinepin": true,
@@ -184,12 +184,12 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
-    "image": "img/barclays_gold.png",
+    "image": "img/easybank_gold.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313528T",
-    "link": "https://www.barclays.de/kreditkarten/visa-card-gold-kreditkarte/"
+    "link": "https://www.easybank.de/kreditkarten/visa-card-gold-kreditkarte/"
   },
   {
-    "Issuer": "Barclays Platinum Double",
+    "Issuer": "easybank Platinum Double",
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
@@ -208,9 +208,9 @@
     "insurance": true,
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
-    "image": "/img/barclays_platinum.png",
+    "image": "/img/easybank_platinum.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313523T",
-    "link": "https://www.barclays.de/kreditkarten/visa-mastercard-platinum-double/"
+    "link": "https://www.easybank.de/kreditkarten/visa-mastercard-platinum-double/"
   },
   {
     "Issuer": "consorsbank Visa Debit",
@@ -1114,13 +1114,13 @@
     "charge": "debit",
     "fees_atm_de": "2€",
     "fees_atm_eur": "2€",
-    "fees_atm_foreign": "2€",
+    "fees_atm_foreign": "2%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "2%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Regenwaldschutz mit jeder Kartenzahlung, 1 Pocket, Plastikkarte, Visa und VPay-Karte",
+    "notes": "1 Kostenlose Abhebung in Euro, danach 3 Euro, Regenwaldschutz mit jeder Kartenzahlung, 1 Pocket, Plastikkarte, Visa und VPay-Karte, kostenlos unter 21 oder mit 500 Euro Eingang/Monat",
     "legalnotes": "Vereinzelt kann es vorkommen, dass Geldautomatenbetreiber Gebühren erheben, auf die Tomorrow keinen Einfluss hat",
     "adlink": "//financeads.net/tc.php?t=39323C313858156T",
      "link": "https://www.tomorrow.one/de-de/",
@@ -1128,7 +1128,7 @@
   },
    {
     "Issuer": "Tomorrow Change",
-    "yearlyFee": 84,
+    "yearlyFee": 87,
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": false,
@@ -1145,7 +1145,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "5 kostenlose Abhebungen weltweit, danach 2€/Abhebung, 5 Pockets, Gemeinschaftskonto möglich, Plastikkarte, Visa und VPay-Karte",
+    "notes": "5 kostenlose Abhebungen weltweit, danach 3€/Abhebung, 5 Pockets, Gemeinschaftskonto möglich, Plastikkarte, Visa und VPay-Karte",
     "legalnotes": "Vereinzelt kann es vorkommen, dass Geldautomatenbetreiber Gebühren erheben, auf die Tomorrow keinen Einfluss hat",
     "adlink": "//financeads.net/tc.php?t=39323C313858156T",
      "link": "https://www.tomorrow.one/de-de/",
@@ -1153,7 +1153,7 @@
   },
    {
     "Issuer": "Tomorrow Zero",
-    "yearlyFee": 180,
+    "yearlyFee": 187,
     "withChecking": true,
     "offlinepin": true,
     "offlinetrx": false,
@@ -1170,7 +1170,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "unbegrenzt Pockets, Regenwaldschutz mit jeder Kartenzahlung, 11.3 Tonnen co2-Kompensation, entspricht etwa dem CO2-Abdruck eines Bürgers, Holzkarte",
+    "notes": "unbegrenzt Pockets, Regenwaldschutz mit jeder Kartenzahlung",
     "legalnotes": "Vereinzelt kann es vorkommen, dass Geldautomatenbetreiber Gebühren erheben, auf die Tomorrow keinen Einfluss hat",
     "adlink": "//financeads.net/tc.php?t=39323C313858156T",
      "link": "https://www.tomorrow.one/de-de/",
