@@ -1,55 +1,76 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Label } from '../components/ui/label';
 import { Checkbox } from '../components/ui/checkbox';
 
-const FilterSelect = ({ config, onFilterChange }) => {
-  const [checkedOptions, setCheckedOptions] = useState(
-    config.options.filter(option => option.checked).map(option => option.value) || []
-  );
-
-  const handleChange = (checked, value) => {
-    let parsedValue = value;
-    
+const FilterSelect = ({ config, onFilterChange, enabledFilters }) => {
+  const parseOptionValue = useCallback((value) => {
     if (config.parseAsBoolean) {
-      parsedValue = (value === 'true');
+      return value === true || value === 'true';
     }
 
     if (config.parseAsInt) {
-      parsedValue = parseInt(value, 10);
+      return parseInt(value, 10);
     }
 
-    const newOptions = checked 
-      ? [...checkedOptions, parsedValue]
-      : checkedOptions.filter(opt => opt !== parsedValue);
+    return value;
+  }, [config.parseAsBoolean, config.parseAsInt]);
+
+  const defaultSelected = useMemo(
+    () => config.options.filter((option) => option.checked).map((option) => parseOptionValue(option.value)) || [],
+    [config.options, parseOptionValue]
+  );
+
+  const [checkedOptions, setCheckedOptions] = useState(defaultSelected);
+
+  useEffect(() => {
+    const activeValue = enabledFilters[config.filterName];
+
+    if (activeValue === undefined) {
+      setCheckedOptions(defaultSelected);
+      return;
+    }
+
+    if (Array.isArray(activeValue)) {
+      setCheckedOptions(activeValue);
+      return;
+    }
+
+    setCheckedOptions([activeValue]);
+  }, [enabledFilters, config.filterName, defaultSelected]);
+
+  const handleChange = (checked, value) => {
+    const parsedValue = parseOptionValue(value);
+
+    const newOptions = checked
+      ? Array.from(new Set([...checkedOptions, parsedValue]))
+      : checkedOptions.filter((option) => !Object.is(option, parsedValue));
 
     setCheckedOptions(newOptions);
     onFilterChange(config.filterName, newOptions);
   };
 
   return (
-    <div className="p-4 border rounded-lg bg-card">
-      <div className="grid gap-4 sm:grid-cols-2">
-        <Label className="text-base font-semibold">
-          {config.label}
-        </Label>
-        <div className="space-y-2">
-          {config.options.map((option, index) => (
-            <div key={index} className="flex items-center space-x-2">
+    <div className="rounded-xl border border-slate-200 bg-slate-50/70 p-4">
+      <Label className="mb-3 block text-sm font-semibold text-slate-800">{config.label}</Label>
+      <div className="space-y-2">
+        {config.options.map((option, index) => {
+          const parsedValue = parseOptionValue(option.value);
+          const optionId = `${config.elementName}-${index}`;
+          const checked = checkedOptions.some((entry) => Object.is(entry, parsedValue));
+
+          return (
+            <div key={optionId} className="flex items-center gap-2">
               <Checkbox
-                id={`${config.elementName}-${index}`}
-                defaultChecked={option.checked}
-                value={option.value}
-                onCheckedChange={(checked) => handleChange(checked, option.value)}
+                id={optionId}
+                checked={checked}
+                onCheckedChange={(nextChecked) => handleChange(nextChecked === true, option.value)}
               />
-              <Label
-                htmlFor={`${config.elementName}-${index}`}
-                className="text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-              >
+              <Label htmlFor={optionId} className="text-sm text-slate-700">
                 {option.label}
               </Label>
             </div>
-          ))}
-        </div>
+          );
+        })}
       </div>
     </div>
   );

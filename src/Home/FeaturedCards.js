@@ -1,62 +1,117 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import FeeLabel from '../CardComponents/FeeLabel';
-import WorldWideFeeLabel from '../CardComponents/WorldWideFeeLabel';
-import { CheckCircle2, Info } from 'lucide-react';
+import { ArrowUpRight, BadgeCheck } from 'lucide-react';
+
+const preferredIssuers = ['Bank Norwegian', 'Advanzia Mastercard Gold', 'American Express Payback'];
+
+const getCardCategory = (card) => {
+  if (card.Issuer === 'Bank Norwegian') return 'Top Reisekarte';
+  if (card.Issuer === 'Advanzia Mastercard Gold') return 'Top Gebührenfrei';
+  if (card.Issuer === 'American Express Payback') return 'Top Bonusprogramm';
+  return 'Top Auswahl';
+};
+
+const getCardHighlights = (card) => {
+  const highlights = [];
+
+  if (card.insurance) highlights.push('Mit Versicherungsleistungen');
+  if (card.yearlyFee === 0) highlights.push('Keine Jahresgebühr');
+  if (card.fees_atm_foreign === 0) highlights.push('Weltweit kostenlos abheben');
+  if (card.fees_pos_foreign === 0) highlights.push('0% Fremdwährungsentgelt');
+  if (!card.withChecking) highlights.push('Ohne Girokonto beantragbar');
+  if (card.applepay || card.googlepay) highlights.push('Mobile Wallet ready');
+
+  return highlights.slice(0, 3);
+};
 
 const FeaturedCards = ({ cards }) => {
-  // Select 3 featured cards (Bank Norwegian, American Express Payback, and Barclays Visa)
-  const featuredCards = cards.filter(card => 
-    ['Bank Norwegian', 'American Express Payback', 'Barclays Visa'].includes(card.Issuer)
-  );
+  const cardByIssuer = new Map(cards.map((card) => [card.Issuer, card]));
+  const featuredCards = preferredIssuers.map((issuer) => cardByIssuer.get(issuer)).filter(Boolean);
+
+  if (featuredCards.length === 0) {
+    return null;
+  }
 
   return (
-    <div className="mb-8">
-      <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Empfohlende Karten</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {featuredCards.map((card) => (
-          <Card key={card.Issuer} className="hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-            <CardHeader className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 border-b border-gray-200 dark:border-gray-700">
-              <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">
-                {card.Issuer}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-6">
-              <div className="flex flex-col items-center gap-4">
-                <div className="relative w-full max-w-[12rem] aspect-[1.586/1]">
-                  <img 
-                    alt={`${card.Issuer} Karte`}
-                    className="absolute inset-0 w-full h-full object-contain rounded-xl shadow-lg"
-                    src={card.image}
-                  />
-                </div>
-                <div className="w-full space-y-2">
-                  <div className="flex items-center justify-between">
-                    <span className="font-semibold text-gray-700 dark:text-gray-300">Jahresgebühr:</span>
-                    <FeeLabel value={card.yearlyFee} euro={true}/>
+    <section className="mb-6 animate-fade-up" style={{ animationDelay: '80ms' }}>
+      <div className="mb-4 flex items-end justify-between gap-3">
+        <div>
+          <h2 className="text-2xl font-bold text-slate-900">Empfohlene Karten</h2>
+          <p className="text-sm text-slate-600">Handverlesen: Bank Norwegian, Advanzia und Amex Payback.</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 xl:grid-cols-3">
+        {featuredCards.map((card, index) => (
+          <Card
+            key={`${card.Issuer}-${index}`}
+            className="overflow-hidden rounded-2xl border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+          >
+            <CardContent className="p-0">
+              <div className="border-b border-slate-200 bg-slate-50 px-5 py-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">{getCardCategory(card)}</p>
+                <h3 className="mt-1 text-xl font-semibold text-slate-900">
+                  {card.link ? (
+                    <a
+                      href={card.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary hover:underline underline-offset-4"
+                    >
+                      {card.Issuer}
+                    </a>
+                  ) : (
+                    card.Issuer
+                  )}
+                </h3>
+              </div>
+
+              <div className="space-y-4 p-5">
+                {card.link ? (
+                  <a
+                    href={card.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block mx-auto w-full max-w-[12rem] rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  >
+                    <div className="relative aspect-[1.586/1]">
+                      <img
+                        alt={`${card.Issuer} Karte`}
+                        className="absolute inset-0 h-full w-full rounded-xl object-contain shadow-md"
+                        src={card.image}
+                      />
+                    </div>
+                  </a>
+                ) : (
+                  <div className="relative mx-auto aspect-[1.586/1] w-full max-w-[12rem]">
+                    <img
+                      alt={`${card.Issuer} Karte`}
+                      className="absolute inset-0 h-full w-full rounded-xl object-contain shadow-md"
+                      src={card.image}
+                    />
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span className="font-semibold text-gray-700 dark:text-gray-300">Abhebungen:</span>
-                    <span className={`px-2 py-0.5 rounded-full text-xs font-semibold flex items-center gap-0.5 ${card.fees_atm_eur === 0 && card.fees_atm_foreign === 0 ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400'}`}>
-                      {card.fees_atm_eur === 0 && card.fees_atm_foreign === 0 ? (
-                        <>
-                          <CheckCircle2 className="w-3 h-3" />
-                          weltweit kostenlos
-                        </>
-                      ) : (
-                        'kostenpflichtig'
-                      )}
-                    </span>
-                  </div>
+                )}
+
+                <div className="flex items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-3 py-2">
+                  <span className="text-sm font-medium text-slate-700">Jahresgebühr</span>
+                  <FeeLabel value={card.yearlyFee} euro={true} />
                 </div>
-                <Button 
-                  asChild 
-                  variant="default"
-                  className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-md hover:shadow-lg transition-all duration-300"
-                >
+
+                <ul className="space-y-1.5 text-sm text-slate-700">
+                  {getCardHighlights(card).map((highlight) => (
+                    <li key={highlight} className="flex items-start gap-2">
+                      <BadgeCheck className="mt-0.5 h-4 w-4 text-emerald-600" />
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <Button asChild className="w-full rounded-full">
                   <a href={card.link || card.adlink} target="_blank" rel="noopener noreferrer">
-                    Jetzt beantragen
+                    Zur Karte
+                    <ArrowUpRight className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
               </div>
@@ -64,8 +119,8 @@ const FeaturedCards = ({ cards }) => {
           </Card>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default FeaturedCards; 
+export default FeaturedCards;
