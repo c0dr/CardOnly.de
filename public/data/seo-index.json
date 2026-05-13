@@ -1,0 +1,2385 @@
+{
+  "generatedAt": "2026-05-13T13:04:16.517Z",
+  "site": "https://cardonly.de",
+  "topics": [
+    {
+      "slug": "good-for-miles",
+      "title": "Kreditkarten gut fuer Meilen",
+      "description": "Auswahl von Kreditkarten mit Meilenprogramm laut CardOnly-Datensatz. Besonders relevant fuer Vielflieger und Bonusnutzer.",
+      "url": "https://cardonly.de/topic/good-for-miles/",
+      "cardCount": 13,
+      "cards": [
+        {
+          "issuer": "Advanzia Hilton Honors",
+          "slug": "advanzia-hilton-honors",
+          "url": "https://cardonly.de/card/advanzia-hilton-honors/"
+        },
+        {
+          "issuer": "American Express BMW Card",
+          "slug": "american-express-bmw-card",
+          "url": "https://cardonly.de/card/american-express-bmw-card/"
+        },
+        {
+          "issuer": "American Express Gold",
+          "slug": "american-express-gold",
+          "url": "https://cardonly.de/card/american-express-gold/"
+        },
+        {
+          "issuer": "American Express Green",
+          "slug": "american-express-green",
+          "url": "https://cardonly.de/card/american-express-green/"
+        },
+        {
+          "issuer": "American Express Payback",
+          "slug": "american-express-payback",
+          "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "American Express Platinum",
+          "slug": "american-express-platinum",
+          "url": "https://cardonly.de/card/american-express-platinum/"
+        },
+        {
+          "issuer": "easybank Eurowings Classic",
+          "slug": "easybank-eurowings-classic",
+          "url": "https://cardonly.de/card/easybank-eurowings-classic/"
+        },
+        {
+          "issuer": "easybank Eurowings Premium",
+          "slug": "easybank-eurowings-premium",
+          "url": "https://cardonly.de/card/easybank-eurowings-premium/"
+        },
+        {
+          "issuer": "easybank Gold Visa",
+          "slug": "easybank-gold-visa",
+          "url": "https://cardonly.de/card/easybank-gold-visa/"
+        },
+        {
+          "issuer": "Miles & More Blue Credit Card",
+          "slug": "miles-more-blue-credit-card",
+          "url": "https://cardonly.de/card/miles-more-blue-credit-card/"
+        },
+        {
+          "issuer": "Miles & More Gold Credit Card",
+          "slug": "miles-more-gold-credit-card",
+          "url": "https://cardonly.de/card/miles-more-gold-credit-card/"
+        },
+        {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
+          "issuer": "Payback Visa Flex",
+          "slug": "payback-visa-flex",
+          "url": "https://cardonly.de/card/payback-visa-flex/"
+        }
+      ]
+    },
+    {
+      "slug": "good-for-ausland",
+      "title": "Kreditkarten gut fuer Ausland",
+      "description": "Kreditkarten mit besonders guten Konditionen fuer Fremdwaehrung oder Bargeldabhebung ausserhalb Deutschlands.",
+      "url": "https://cardonly.de/topic/good-for-ausland/",
+      "cardCount": 43,
+      "cards": [
+        {
+          "issuer": "Advanzia Hilton Honors",
+          "slug": "advanzia-hilton-honors",
+          "url": "https://cardonly.de/card/advanzia-hilton-honors/"
+        },
+        {
+          "issuer": "Advanzia Mastercard Gold",
+          "slug": "advanzia-mastercard-gold",
+          "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
+        },
+        {
+          "issuer": "Bank Norwegian",
+          "slug": "bank-norwegian",
+          "url": "https://cardonly.de/card/bank-norwegian/"
+        },
+        {
+          "issuer": "BBVA Debit",
+          "slug": "bbva-debit",
+          "url": "https://cardonly.de/card/bbva-debit/"
+        },
+        {
+          "issuer": "bunq Elite",
+          "slug": "bunq-elite",
+          "url": "https://cardonly.de/card/bunq-elite/"
+        },
+        {
+          "issuer": "C24 Max",
+          "slug": "c24-max",
+          "url": "https://cardonly.de/card/c24-max/"
+        },
+        {
+          "issuer": "C24 Plus",
+          "slug": "c24-plus",
+          "url": "https://cardonly.de/card/c24-plus/"
+        },
+        {
+          "issuer": "C24 Smart",
+          "slug": "c24-smart",
+          "url": "https://cardonly.de/card/c24-smart/"
+        },
+        {
+          "issuer": "comdirect Visa Credit",
+          "slug": "comdirect-visa-credit",
+          "url": "https://cardonly.de/card/comdirect-visa-credit/"
+        },
+        {
+          "issuer": "comdirect Visa Debit",
+          "slug": "comdirect-visa-debit",
+          "url": "https://cardonly.de/card/comdirect-visa-debit/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold",
+          "slug": "consorsbank-visa-gold",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold Light",
+          "slug": "consorsbank-visa-gold-light",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
+        },
+        {
+          "issuer": "Consorsfinanz EC Debit MasterCard",
+          "slug": "consorsfinanz-ec-debit-mastercard",
+          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+        },
+        {
+          "issuer": "DKB Visa Credit",
+          "slug": "dkb-visa-credit",
+          "url": "https://cardonly.de/card/dkb-visa-credit/"
+        },
+        {
+          "issuer": "DKB Visa Debit",
+          "slug": "dkb-visa-debit",
+          "url": "https://cardonly.de/card/dkb-visa-debit/"
+        },
+        {
+          "issuer": "easybank Eurowings Premium",
+          "slug": "easybank-eurowings-premium",
+          "url": "https://cardonly.de/card/easybank-eurowings-premium/"
+        },
+        {
+          "issuer": "easybank Platinum Double",
+          "slug": "easybank-platinum-double",
+          "url": "https://cardonly.de/card/easybank-platinum-double/"
+        },
+        {
+          "issuer": "easybank Visa",
+          "slug": "easybank-visa",
+          "url": "https://cardonly.de/card/easybank-visa/"
+        },
+        {
+          "issuer": "Girokonto Klassik 1822direkt",
+          "slug": "girokonto-klassik-1822direkt",
+          "url": "https://cardonly.de/card/girokonto-klassik-1822direkt/"
+        },
+        {
+          "issuer": "Hanseatic Bank GenialCard",
+          "slug": "hanseatic-bank-genialcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-genialcard/"
+        },
+        {
+          "issuer": "Hanseatic Bank GoldCard",
+          "slug": "hanseatic-bank-goldcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-goldcard/"
+        },
+        {
+          "issuer": "Klarna Card",
+          "slug": "klarna-card",
+          "url": "https://cardonly.de/card/klarna-card/"
+        },
+        {
+          "issuer": "Klarna Konto",
+          "slug": "klarna-konto",
+          "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "N26 Go",
+          "slug": "n26-go",
+          "url": "https://cardonly.de/card/n26-go/"
+        },
+        {
+          "issuer": "N26 Metal",
+          "slug": "n26-metal",
+          "url": "https://cardonly.de/card/n26-metal/"
+        },
+        {
+          "issuer": "N26 Smart",
+          "slug": "n26-smart",
+          "url": "https://cardonly.de/card/n26-smart/"
+        },
+        {
+          "issuer": "N26 Standard",
+          "slug": "n26-standard",
+          "url": "https://cardonly.de/card/n26-standard/"
+        },
+        {
+          "issuer": "Openbank Girokonto mit Travel-Abo",
+          "slug": "openbank-girokonto-mit-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/"
+        },
+        {
+          "issuer": "Payback Visa Flex",
+          "slug": "payback-visa-flex",
+          "url": "https://cardonly.de/card/payback-visa-flex/"
+        },
+        {
+          "issuer": "Revolut Card",
+          "slug": "revolut-card",
+          "url": "https://cardonly.de/card/revolut-card/"
+        },
+        {
+          "issuer": "Revolut Metal MasterCard",
+          "slug": "revolut-metal-mastercard",
+          "url": "https://cardonly.de/card/revolut-metal-mastercard/"
+        },
+        {
+          "issuer": "Revolut Plus",
+          "slug": "revolut-plus",
+          "url": "https://cardonly.de/card/revolut-plus/"
+        },
+        {
+          "issuer": "Revolut Premium MasterCard",
+          "slug": "revolut-premium-mastercard",
+          "url": "https://cardonly.de/card/revolut-premium-mastercard/"
+        },
+        {
+          "issuer": "Revolut Ultra",
+          "slug": "revolut-ultra",
+          "url": "https://cardonly.de/card/revolut-ultra/"
+        },
+        {
+          "issuer": "Sparda Hessen Mastercard Platinum",
+          "slug": "sparda-hessen-mastercard-platinum",
+          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
+        },
+        {
+          "issuer": "TF Bank MasterCard Gold",
+          "slug": "tf-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "Tomorrow Change",
+          "slug": "tomorrow-change",
+          "url": "https://cardonly.de/card/tomorrow-change/"
+        },
+        {
+          "issuer": "Tomorrow Zero",
+          "slug": "tomorrow-zero",
+          "url": "https://cardonly.de/card/tomorrow-zero/"
+        },
+        {
+          "issuer": "Trade Republic Karte",
+          "slug": "trade-republic-karte",
+          "url": "https://cardonly.de/card/trade-republic-karte/"
+        },
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "VimPAY",
+          "slug": "vimpay",
+          "url": "https://cardonly.de/card/vimpay/"
+        },
+        {
+          "issuer": "Vivid Prime",
+          "slug": "vivid-prime",
+          "url": "https://cardonly.de/card/vivid-prime/"
+        },
+        {
+          "issuer": "Vivid Standard",
+          "slug": "vivid-standard",
+          "url": "https://cardonly.de/card/vivid-standard/"
+        }
+      ]
+    },
+    {
+      "slug": "no-annual-fee",
+      "title": "Kreditkarten ohne Jahresgebuehr",
+      "description": "Kreditkarten mit 0 EUR Jahresgebuehr laut hinterlegten Kartendaten.",
+      "url": "https://cardonly.de/topic/no-annual-fee/",
+      "cardCount": 32,
+      "cards": [
+        {
+          "issuer": "Advanzia Mastercard Gold",
+          "slug": "advanzia-mastercard-gold",
+          "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
+        },
+        {
+          "issuer": "American Express Blue",
+          "slug": "american-express-blue",
+          "url": "https://cardonly.de/card/american-express-blue/"
+        },
+        {
+          "issuer": "American Express Payback",
+          "slug": "american-express-payback",
+          "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "Bank Norwegian",
+          "slug": "bank-norwegian",
+          "url": "https://cardonly.de/card/bank-norwegian/"
+        },
+        {
+          "issuer": "BBVA Debit",
+          "slug": "bbva-debit",
+          "url": "https://cardonly.de/card/bbva-debit/"
+        },
+        {
+          "issuer": "C24 Smart",
+          "slug": "c24-smart",
+          "url": "https://cardonly.de/card/c24-smart/"
+        },
+        {
+          "issuer": "comdirect Visa Debit",
+          "slug": "comdirect-visa-debit",
+          "url": "https://cardonly.de/card/comdirect-visa-debit/"
+        },
+        {
+          "issuer": "consorsbank Visa Debit",
+          "slug": "consorsbank-visa-debit",
+          "url": "https://cardonly.de/card/consorsbank-visa-debit/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold Light",
+          "slug": "consorsbank-visa-gold-light",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
+        },
+        {
+          "issuer": "Consorsfinanz EC Debit MasterCard",
+          "slug": "consorsfinanz-ec-debit-mastercard",
+          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+        },
+        {
+          "issuer": "DKB Visa Debit",
+          "slug": "dkb-visa-debit",
+          "url": "https://cardonly.de/card/dkb-visa-debit/"
+        },
+        {
+          "issuer": "easybank Visa",
+          "slug": "easybank-visa",
+          "url": "https://cardonly.de/card/easybank-visa/"
+        },
+        {
+          "issuer": "Hanseatic Bank GenialCard",
+          "slug": "hanseatic-bank-genialcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-genialcard/"
+        },
+        {
+          "issuer": "HypoVereinsbank Debit",
+          "slug": "hypovereinsbank-debit",
+          "url": "https://cardonly.de/card/hypovereinsbank-debit/"
+        },
+        {
+          "issuer": "ING Visa Debit",
+          "slug": "ing-visa-debit",
+          "url": "https://cardonly.de/card/ing-visa-debit/"
+        },
+        {
+          "issuer": "Instabank",
+          "slug": "instabank",
+          "url": "https://cardonly.de/card/instabank/"
+        },
+        {
+          "issuer": "Klarna Card",
+          "slug": "klarna-card",
+          "url": "https://cardonly.de/card/klarna-card/"
+        },
+        {
+          "issuer": "Klarna Konto",
+          "slug": "klarna-konto",
+          "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Monese Simple Debit MasterCard",
+          "slug": "monese-simple-debit-mastercard",
+          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
+        },
+        {
+          "issuer": "N26 Standard",
+          "slug": "n26-standard",
+          "url": "https://cardonly.de/card/n26-standard/"
+        },
+        {
+          "issuer": "Openbank Girokonto mit Travel-Abo",
+          "slug": "openbank-girokonto-mit-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/"
+        },
+        {
+          "issuer": "Openbank Girokonto ohne Travel-Abo",
+          "slug": "openbank-girokonto-ohne-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-ohne-travel-abo/"
+        },
+        {
+          "issuer": "payzy Visa Debit",
+          "slug": "payzy-visa-debit",
+          "url": "https://cardonly.de/card/payzy-visa-debit/"
+        },
+        {
+          "issuer": "Revolut Card",
+          "slug": "revolut-card",
+          "url": "https://cardonly.de/card/revolut-card/"
+        },
+        {
+          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
+        },
+        {
+          "issuer": "Targobank Visa Online Classic",
+          "slug": "targobank-visa-online-classic",
+          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
+        },
+        {
+          "issuer": "TF Bank MasterCard Gold",
+          "slug": "tf-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "Trade Republic Karte",
+          "slug": "trade-republic-karte",
+          "url": "https://cardonly.de/card/trade-republic-karte/"
+        },
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "VimPAY",
+          "slug": "vimpay",
+          "url": "https://cardonly.de/card/vimpay/"
+        },
+        {
+          "issuer": "Vivid Standard",
+          "slug": "vivid-standard",
+          "url": "https://cardonly.de/card/vivid-standard/"
+        },
+        {
+          "issuer": "Wise Debit",
+          "slug": "wise-debit",
+          "url": "https://cardonly.de/card/wise-debit/"
+        }
+      ]
+    },
+    {
+      "slug": "best-credit-cards",
+      "title": "Beste Kreditkarten im Vergleich",
+      "description": "Gesamtranking aus Jahresgebuehr, Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.",
+      "url": "https://cardonly.de/topic/best-credit-cards/",
+      "cardCount": 76,
+      "cards": [
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "Payback Visa Flex",
+          "slug": "payback-visa-flex",
+          "url": "https://cardonly.de/card/payback-visa-flex/"
+        },
+        {
+          "issuer": "Hanseatic Bank GenialCard",
+          "slug": "hanseatic-bank-genialcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-genialcard/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold Light",
+          "slug": "consorsbank-visa-gold-light",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
+        },
+        {
+          "issuer": "Openbank Girokonto mit Travel-Abo",
+          "slug": "openbank-girokonto-mit-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/"
+        },
+        {
+          "issuer": "Bank Norwegian",
+          "slug": "bank-norwegian",
+          "url": "https://cardonly.de/card/bank-norwegian/"
+        },
+        {
+          "issuer": "TF Bank MasterCard Gold",
+          "slug": "tf-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "BBVA Debit",
+          "slug": "bbva-debit",
+          "url": "https://cardonly.de/card/bbva-debit/"
+        },
+        {
+          "issuer": "C24 Smart",
+          "slug": "c24-smart",
+          "url": "https://cardonly.de/card/c24-smart/"
+        },
+        {
+          "issuer": "DKB Visa Debit",
+          "slug": "dkb-visa-debit",
+          "url": "https://cardonly.de/card/dkb-visa-debit/"
+        },
+        {
+          "issuer": "Trade Republic Karte",
+          "slug": "trade-republic-karte",
+          "url": "https://cardonly.de/card/trade-republic-karte/"
+        },
+        {
+          "issuer": "Vivid Standard",
+          "slug": "vivid-standard",
+          "url": "https://cardonly.de/card/vivid-standard/"
+        },
+        {
+          "issuer": "Hanseatic Bank GoldCard",
+          "slug": "hanseatic-bank-goldcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-goldcard/"
+        },
+        {
+          "issuer": "Advanzia Mastercard Gold",
+          "slug": "advanzia-mastercard-gold",
+          "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
+        },
+        {
+          "issuer": "Consorsfinanz EC Debit MasterCard",
+          "slug": "consorsfinanz-ec-debit-mastercard",
+          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+        },
+        {
+          "issuer": "easybank Visa",
+          "slug": "easybank-visa",
+          "url": "https://cardonly.de/card/easybank-visa/"
+        },
+        {
+          "issuer": "DKB Visa Credit",
+          "slug": "dkb-visa-credit",
+          "url": "https://cardonly.de/card/dkb-visa-credit/"
+        },
+        {
+          "issuer": "N26 Standard",
+          "slug": "n26-standard",
+          "url": "https://cardonly.de/card/n26-standard/"
+        },
+        {
+          "issuer": "easybank Eurowings Premium",
+          "slug": "easybank-eurowings-premium",
+          "url": "https://cardonly.de/card/easybank-eurowings-premium/"
+        },
+        {
+          "issuer": "Klarna Konto",
+          "slug": "klarna-konto",
+          "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Revolut Card",
+          "slug": "revolut-card",
+          "url": "https://cardonly.de/card/revolut-card/"
+        },
+        {
+          "issuer": "easybank Platinum Double",
+          "slug": "easybank-platinum-double",
+          "url": "https://cardonly.de/card/easybank-platinum-double/"
+        },
+        {
+          "issuer": "C24 Plus",
+          "slug": "c24-plus",
+          "url": "https://cardonly.de/card/c24-plus/"
+        },
+        {
+          "issuer": "Sparda Hessen Mastercard Platinum",
+          "slug": "sparda-hessen-mastercard-platinum",
+          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
+        },
+        {
+          "issuer": "Advanzia Hilton Honors",
+          "slug": "advanzia-hilton-honors",
+          "url": "https://cardonly.de/card/advanzia-hilton-honors/"
+        },
+        {
+          "issuer": "Revolut Premium MasterCard",
+          "slug": "revolut-premium-mastercard",
+          "url": "https://cardonly.de/card/revolut-premium-mastercard/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold",
+          "slug": "consorsbank-visa-gold",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold/"
+        },
+        {
+          "issuer": "Vivid Prime",
+          "slug": "vivid-prime",
+          "url": "https://cardonly.de/card/vivid-prime/"
+        },
+        {
+          "issuer": "Revolut Plus",
+          "slug": "revolut-plus",
+          "url": "https://cardonly.de/card/revolut-plus/"
+        },
+        {
+          "issuer": "N26 Smart",
+          "slug": "n26-smart",
+          "url": "https://cardonly.de/card/n26-smart/"
+        },
+        {
+          "issuer": "comdirect Visa Credit",
+          "slug": "comdirect-visa-credit",
+          "url": "https://cardonly.de/card/comdirect-visa-credit/"
+        },
+        {
+          "issuer": "comdirect Visa Debit",
+          "slug": "comdirect-visa-debit",
+          "url": "https://cardonly.de/card/comdirect-visa-debit/"
+        },
+        {
+          "issuer": "Klarna Card",
+          "slug": "klarna-card",
+          "url": "https://cardonly.de/card/klarna-card/"
+        },
+        {
+          "issuer": "Tomorrow Change",
+          "slug": "tomorrow-change",
+          "url": "https://cardonly.de/card/tomorrow-change/"
+        },
+        {
+          "issuer": "C24 Max",
+          "slug": "c24-max",
+          "url": "https://cardonly.de/card/c24-max/"
+        },
+        {
+          "issuer": "N26 Go",
+          "slug": "n26-go",
+          "url": "https://cardonly.de/card/n26-go/"
+        },
+        {
+          "issuer": "Revolut Metal MasterCard",
+          "slug": "revolut-metal-mastercard",
+          "url": "https://cardonly.de/card/revolut-metal-mastercard/"
+        },
+        {
+          "issuer": "N26 Metal",
+          "slug": "n26-metal",
+          "url": "https://cardonly.de/card/n26-metal/"
+        },
+        {
+          "issuer": "Revolut Ultra",
+          "slug": "revolut-ultra",
+          "url": "https://cardonly.de/card/revolut-ultra/"
+        },
+        {
+          "issuer": "easybank Eurowings Classic",
+          "slug": "easybank-eurowings-classic",
+          "url": "https://cardonly.de/card/easybank-eurowings-classic/"
+        },
+        {
+          "issuer": "American Express Blue",
+          "slug": "american-express-blue",
+          "url": "https://cardonly.de/card/american-express-blue/"
+        },
+        {
+          "issuer": "Girokonto Klassik 1822direkt",
+          "slug": "girokonto-klassik-1822direkt",
+          "url": "https://cardonly.de/card/girokonto-klassik-1822direkt/"
+        },
+        {
+          "issuer": "American Express Payback",
+          "slug": "american-express-payback",
+          "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "Deutsche Bank Card Plus",
+          "slug": "deutsche-bank-card-plus",
+          "url": "https://cardonly.de/card/deutsche-bank-card-plus/"
+        },
+        {
+          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
+        },
+        {
+          "issuer": "Wise Debit",
+          "slug": "wise-debit",
+          "url": "https://cardonly.de/card/wise-debit/"
+        },
+        {
+          "issuer": "Tomorrow Zero",
+          "slug": "tomorrow-zero",
+          "url": "https://cardonly.de/card/tomorrow-zero/"
+        },
+        {
+          "issuer": "bunq Elite",
+          "slug": "bunq-elite",
+          "url": "https://cardonly.de/card/bunq-elite/"
+        },
+        {
+          "issuer": "VimPAY",
+          "slug": "vimpay",
+          "url": "https://cardonly.de/card/vimpay/"
+        },
+        {
+          "issuer": "consorsbank Visa Debit",
+          "slug": "consorsbank-visa-debit",
+          "url": "https://cardonly.de/card/consorsbank-visa-debit/"
+        },
+        {
+          "issuer": "payzy Visa Debit",
+          "slug": "payzy-visa-debit",
+          "url": "https://cardonly.de/card/payzy-visa-debit/"
+        },
+        {
+          "issuer": "easybank Gold Visa",
+          "slug": "easybank-gold-visa",
+          "url": "https://cardonly.de/card/easybank-gold-visa/"
+        },
+        {
+          "issuer": "Openbank Girokonto ohne Travel-Abo",
+          "slug": "openbank-girokonto-ohne-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-ohne-travel-abo/"
+        },
+        {
+          "issuer": "Monese Simple Debit MasterCard",
+          "slug": "monese-simple-debit-mastercard",
+          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
+        },
+        {
+          "issuer": "American Express BMW Card",
+          "slug": "american-express-bmw-card",
+          "url": "https://cardonly.de/card/american-express-bmw-card/"
+        },
+        {
+          "issuer": "bunq Core",
+          "slug": "bunq-core",
+          "url": "https://cardonly.de/card/bunq-core/"
+        },
+        {
+          "issuer": "ING Visa Debit",
+          "slug": "ing-visa-debit",
+          "url": "https://cardonly.de/card/ing-visa-debit/"
+        },
+        {
+          "issuer": "HypoVereinsbank MasterCard",
+          "slug": "hypovereinsbank-mastercard",
+          "url": "https://cardonly.de/card/hypovereinsbank-mastercard/"
+        },
+        {
+          "issuer": "Commerzbank ClassicKreditkarte",
+          "slug": "commerzbank-classickreditkarte",
+          "url": "https://cardonly.de/card/commerzbank-classickreditkarte/"
+        },
+        {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
+          "issuer": "American Express Green",
+          "slug": "american-express-green",
+          "url": "https://cardonly.de/card/american-express-green/"
+        },
+        {
+          "issuer": "Miles & More Blue Credit Card",
+          "slug": "miles-more-blue-credit-card",
+          "url": "https://cardonly.de/card/miles-more-blue-credit-card/"
+        },
+        {
+          "issuer": "Targobank Visa Online Classic",
+          "slug": "targobank-visa-online-classic",
+          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
+        },
+        {
+          "issuer": "HypoVereinsbank Debit",
+          "slug": "hypovereinsbank-debit",
+          "url": "https://cardonly.de/card/hypovereinsbank-debit/"
+        },
+        {
+          "issuer": "Fitbit Visa",
+          "slug": "fitbit-visa",
+          "url": "https://cardonly.de/card/fitbit-visa/"
+        },
+        {
+          "issuer": "Miles & More Gold Credit Card",
+          "slug": "miles-more-gold-credit-card",
+          "url": "https://cardonly.de/card/miles-more-gold-credit-card/"
+        },
+        {
+          "issuer": "Instabank",
+          "slug": "instabank",
+          "url": "https://cardonly.de/card/instabank/"
+        },
+        {
+          "issuer": "Tomorrow Now",
+          "slug": "tomorrow-now",
+          "url": "https://cardonly.de/card/tomorrow-now/"
+        },
+        {
+          "issuer": "Deutsche Bank Mastercard Standard",
+          "slug": "deutsche-bank-mastercard-standard",
+          "url": "https://cardonly.de/card/deutsche-bank-mastercard-standard/"
+        },
+        {
+          "issuer": "Commerzbank Mastercard Debit",
+          "slug": "commerzbank-mastercard-debit",
+          "url": "https://cardonly.de/card/commerzbank-mastercard-debit/"
+        },
+        {
+          "issuer": "Deutsche Bank Mastercard Travel",
+          "slug": "deutsche-bank-mastercard-travel",
+          "url": "https://cardonly.de/card/deutsche-bank-mastercard-travel/"
+        },
+        {
+          "issuer": "Commerzbank GoldKreditkarte",
+          "slug": "commerzbank-goldkreditkarte",
+          "url": "https://cardonly.de/card/commerzbank-goldkreditkarte/"
+        },
+        {
+          "issuer": "bunq Pro",
+          "slug": "bunq-pro",
+          "url": "https://cardonly.de/card/bunq-pro/"
+        },
+        {
+          "issuer": "Deutsche Bank Mastercard Gold",
+          "slug": "deutsche-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/deutsche-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "American Express Gold",
+          "slug": "american-express-gold",
+          "url": "https://cardonly.de/card/american-express-gold/"
+        },
+        {
+          "issuer": "American Express Platinum",
+          "slug": "american-express-platinum",
+          "url": "https://cardonly.de/card/american-express-platinum/"
+        }
+      ]
+    },
+    {
+      "slug": "best-for-cashback",
+      "title": "Beste Kreditkarten fuer Cashback und Punkte",
+      "description": "Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag.",
+      "url": "https://cardonly.de/topic/best-for-cashback/",
+      "cardCount": 17,
+      "cards": [
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "Payback Visa Flex",
+          "slug": "payback-visa-flex",
+          "url": "https://cardonly.de/card/payback-visa-flex/"
+        },
+        {
+          "issuer": "American Express Payback",
+          "slug": "american-express-payback",
+          "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "payzy Visa Debit",
+          "slug": "payzy-visa-debit",
+          "url": "https://cardonly.de/card/payzy-visa-debit/"
+        },
+        {
+          "issuer": "Vivid Prime",
+          "slug": "vivid-prime",
+          "url": "https://cardonly.de/card/vivid-prime/"
+        },
+        {
+          "issuer": "American Express Blue",
+          "slug": "american-express-blue",
+          "url": "https://cardonly.de/card/american-express-blue/"
+        },
+        {
+          "issuer": "easybank Eurowings Premium",
+          "slug": "easybank-eurowings-premium",
+          "url": "https://cardonly.de/card/easybank-eurowings-premium/"
+        },
+        {
+          "issuer": "easybank Eurowings Classic",
+          "slug": "easybank-eurowings-classic",
+          "url": "https://cardonly.de/card/easybank-eurowings-classic/"
+        },
+        {
+          "issuer": "Advanzia Hilton Honors",
+          "slug": "advanzia-hilton-honors",
+          "url": "https://cardonly.de/card/advanzia-hilton-honors/"
+        },
+        {
+          "issuer": "American Express BMW Card",
+          "slug": "american-express-bmw-card",
+          "url": "https://cardonly.de/card/american-express-bmw-card/"
+        },
+        {
+          "issuer": "easybank Gold Visa",
+          "slug": "easybank-gold-visa",
+          "url": "https://cardonly.de/card/easybank-gold-visa/"
+        },
+        {
+          "issuer": "American Express Green",
+          "slug": "american-express-green",
+          "url": "https://cardonly.de/card/american-express-green/"
+        },
+        {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
+          "issuer": "Miles & More Blue Credit Card",
+          "slug": "miles-more-blue-credit-card",
+          "url": "https://cardonly.de/card/miles-more-blue-credit-card/"
+        },
+        {
+          "issuer": "Miles & More Gold Credit Card",
+          "slug": "miles-more-gold-credit-card",
+          "url": "https://cardonly.de/card/miles-more-gold-credit-card/"
+        },
+        {
+          "issuer": "American Express Gold",
+          "slug": "american-express-gold",
+          "url": "https://cardonly.de/card/american-express-gold/"
+        },
+        {
+          "issuer": "American Express Platinum",
+          "slug": "american-express-platinum",
+          "url": "https://cardonly.de/card/american-express-platinum/"
+        }
+      ]
+    },
+    {
+      "slug": "best-for-atm-outside-europe",
+      "title": "Beste Kreditkarten fuer Bargeld ausserhalb Europas",
+      "description": "Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums.",
+      "url": "https://cardonly.de/topic/best-for-atm-outside-europe/",
+      "cardCount": 37,
+      "cards": [
+        {
+          "issuer": "Hanseatic Bank GenialCard",
+          "slug": "hanseatic-bank-genialcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-genialcard/"
+        },
+        {
+          "issuer": "Openbank Girokonto mit Travel-Abo",
+          "slug": "openbank-girokonto-mit-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold Light",
+          "slug": "consorsbank-visa-gold-light",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
+        },
+        {
+          "issuer": "BBVA Debit",
+          "slug": "bbva-debit",
+          "url": "https://cardonly.de/card/bbva-debit/"
+        },
+        {
+          "issuer": "C24 Smart",
+          "slug": "c24-smart",
+          "url": "https://cardonly.de/card/c24-smart/"
+        },
+        {
+          "issuer": "DKB Visa Debit",
+          "slug": "dkb-visa-debit",
+          "url": "https://cardonly.de/card/dkb-visa-debit/"
+        },
+        {
+          "issuer": "Trade Republic Karte",
+          "slug": "trade-republic-karte",
+          "url": "https://cardonly.de/card/trade-republic-karte/"
+        },
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "Vivid Standard",
+          "slug": "vivid-standard",
+          "url": "https://cardonly.de/card/vivid-standard/"
+        },
+        {
+          "issuer": "Payback Visa Flex",
+          "slug": "payback-visa-flex",
+          "url": "https://cardonly.de/card/payback-visa-flex/"
+        },
+        {
+          "issuer": "DKB Visa Credit",
+          "slug": "dkb-visa-credit",
+          "url": "https://cardonly.de/card/dkb-visa-credit/"
+        },
+        {
+          "issuer": "Hanseatic Bank GoldCard",
+          "slug": "hanseatic-bank-goldcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-goldcard/"
+        },
+        {
+          "issuer": "Bank Norwegian",
+          "slug": "bank-norwegian",
+          "url": "https://cardonly.de/card/bank-norwegian/"
+        },
+        {
+          "issuer": "Consorsfinanz EC Debit MasterCard",
+          "slug": "consorsfinanz-ec-debit-mastercard",
+          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+        },
+        {
+          "issuer": "TF Bank MasterCard Gold",
+          "slug": "tf-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "Klarna Konto",
+          "slug": "klarna-konto",
+          "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Revolut Card",
+          "slug": "revolut-card",
+          "url": "https://cardonly.de/card/revolut-card/"
+        },
+        {
+          "issuer": "easybank Eurowings Premium",
+          "slug": "easybank-eurowings-premium",
+          "url": "https://cardonly.de/card/easybank-eurowings-premium/"
+        },
+        {
+          "issuer": "easybank Platinum Double",
+          "slug": "easybank-platinum-double",
+          "url": "https://cardonly.de/card/easybank-platinum-double/"
+        },
+        {
+          "issuer": "Advanzia Mastercard Gold",
+          "slug": "advanzia-mastercard-gold",
+          "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
+        },
+        {
+          "issuer": "easybank Visa",
+          "slug": "easybank-visa",
+          "url": "https://cardonly.de/card/easybank-visa/"
+        },
+        {
+          "issuer": "Sparda Hessen Mastercard Platinum",
+          "slug": "sparda-hessen-mastercard-platinum",
+          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold",
+          "slug": "consorsbank-visa-gold",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold/"
+        },
+        {
+          "issuer": "C24 Plus",
+          "slug": "c24-plus",
+          "url": "https://cardonly.de/card/c24-plus/"
+        },
+        {
+          "issuer": "Revolut Premium MasterCard",
+          "slug": "revolut-premium-mastercard",
+          "url": "https://cardonly.de/card/revolut-premium-mastercard/"
+        },
+        {
+          "issuer": "C24 Max",
+          "slug": "c24-max",
+          "url": "https://cardonly.de/card/c24-max/"
+        },
+        {
+          "issuer": "N26 Go",
+          "slug": "n26-go",
+          "url": "https://cardonly.de/card/n26-go/"
+        },
+        {
+          "issuer": "Revolut Metal MasterCard",
+          "slug": "revolut-metal-mastercard",
+          "url": "https://cardonly.de/card/revolut-metal-mastercard/"
+        },
+        {
+          "issuer": "N26 Metal",
+          "slug": "n26-metal",
+          "url": "https://cardonly.de/card/n26-metal/"
+        },
+        {
+          "issuer": "Revolut Ultra",
+          "slug": "revolut-ultra",
+          "url": "https://cardonly.de/card/revolut-ultra/"
+        },
+        {
+          "issuer": "Revolut Plus",
+          "slug": "revolut-plus",
+          "url": "https://cardonly.de/card/revolut-plus/"
+        },
+        {
+          "issuer": "Tomorrow Change",
+          "slug": "tomorrow-change",
+          "url": "https://cardonly.de/card/tomorrow-change/"
+        },
+        {
+          "issuer": "Vivid Prime",
+          "slug": "vivid-prime",
+          "url": "https://cardonly.de/card/vivid-prime/"
+        },
+        {
+          "issuer": "Tomorrow Zero",
+          "slug": "tomorrow-zero",
+          "url": "https://cardonly.de/card/tomorrow-zero/"
+        },
+        {
+          "issuer": "comdirect Visa Debit",
+          "slug": "comdirect-visa-debit",
+          "url": "https://cardonly.de/card/comdirect-visa-debit/"
+        },
+        {
+          "issuer": "Girokonto Klassik 1822direkt",
+          "slug": "girokonto-klassik-1822direkt",
+          "url": "https://cardonly.de/card/girokonto-klassik-1822direkt/"
+        },
+        {
+          "issuer": "Advanzia Hilton Honors",
+          "slug": "advanzia-hilton-honors",
+          "url": "https://cardonly.de/card/advanzia-hilton-honors/"
+        }
+      ]
+    },
+    {
+      "slug": "best-free-cards",
+      "title": "Beste kostenlose Kreditkarten",
+      "description": "Ranking fuer Karten ohne Jahresgebuehr mit starkem Alltags- und Auslandspaket.",
+      "url": "https://cardonly.de/topic/best-free-cards/",
+      "cardCount": 32,
+      "cards": [
+        {
+          "issuer": "Hanseatic Bank GenialCard",
+          "slug": "hanseatic-bank-genialcard",
+          "url": "https://cardonly.de/card/hanseatic-bank-genialcard/"
+        },
+        {
+          "issuer": "consorsbank Visa Gold Light",
+          "slug": "consorsbank-visa-gold-light",
+          "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
+        },
+        {
+          "issuer": "Openbank Girokonto mit Travel-Abo",
+          "slug": "openbank-girokonto-mit-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/"
+        },
+        {
+          "issuer": "Trading 212 Card",
+          "slug": "trading-212-card",
+          "url": "https://cardonly.de/card/trading-212-card/"
+        },
+        {
+          "issuer": "Bank Norwegian",
+          "slug": "bank-norwegian",
+          "url": "https://cardonly.de/card/bank-norwegian/"
+        },
+        {
+          "issuer": "TF Bank MasterCard Gold",
+          "slug": "tf-bank-mastercard-gold",
+          "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "BBVA Debit",
+          "slug": "bbva-debit",
+          "url": "https://cardonly.de/card/bbva-debit/"
+        },
+        {
+          "issuer": "C24 Smart",
+          "slug": "c24-smart",
+          "url": "https://cardonly.de/card/c24-smart/"
+        },
+        {
+          "issuer": "DKB Visa Debit",
+          "slug": "dkb-visa-debit",
+          "url": "https://cardonly.de/card/dkb-visa-debit/"
+        },
+        {
+          "issuer": "Trade Republic Karte",
+          "slug": "trade-republic-karte",
+          "url": "https://cardonly.de/card/trade-republic-karte/"
+        },
+        {
+          "issuer": "Vivid Standard",
+          "slug": "vivid-standard",
+          "url": "https://cardonly.de/card/vivid-standard/"
+        },
+        {
+          "issuer": "Advanzia Mastercard Gold",
+          "slug": "advanzia-mastercard-gold",
+          "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
+        },
+        {
+          "issuer": "Consorsfinanz EC Debit MasterCard",
+          "slug": "consorsfinanz-ec-debit-mastercard",
+          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+        },
+        {
+          "issuer": "easybank Visa",
+          "slug": "easybank-visa",
+          "url": "https://cardonly.de/card/easybank-visa/"
+        },
+        {
+          "issuer": "N26 Standard",
+          "slug": "n26-standard",
+          "url": "https://cardonly.de/card/n26-standard/"
+        },
+        {
+          "issuer": "Klarna Konto",
+          "slug": "klarna-konto",
+          "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Revolut Card",
+          "slug": "revolut-card",
+          "url": "https://cardonly.de/card/revolut-card/"
+        },
+        {
+          "issuer": "comdirect Visa Debit",
+          "slug": "comdirect-visa-debit",
+          "url": "https://cardonly.de/card/comdirect-visa-debit/"
+        },
+        {
+          "issuer": "Klarna Card",
+          "slug": "klarna-card",
+          "url": "https://cardonly.de/card/klarna-card/"
+        },
+        {
+          "issuer": "American Express Blue",
+          "slug": "american-express-blue",
+          "url": "https://cardonly.de/card/american-express-blue/"
+        },
+        {
+          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
+        },
+        {
+          "issuer": "Wise Debit",
+          "slug": "wise-debit",
+          "url": "https://cardonly.de/card/wise-debit/"
+        },
+        {
+          "issuer": "VimPAY",
+          "slug": "vimpay",
+          "url": "https://cardonly.de/card/vimpay/"
+        },
+        {
+          "issuer": "American Express Payback",
+          "slug": "american-express-payback",
+          "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "consorsbank Visa Debit",
+          "slug": "consorsbank-visa-debit",
+          "url": "https://cardonly.de/card/consorsbank-visa-debit/"
+        },
+        {
+          "issuer": "Openbank Girokonto ohne Travel-Abo",
+          "slug": "openbank-girokonto-ohne-travel-abo",
+          "url": "https://cardonly.de/card/openbank-girokonto-ohne-travel-abo/"
+        },
+        {
+          "issuer": "Monese Simple Debit MasterCard",
+          "slug": "monese-simple-debit-mastercard",
+          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
+        },
+        {
+          "issuer": "ING Visa Debit",
+          "slug": "ing-visa-debit",
+          "url": "https://cardonly.de/card/ing-visa-debit/"
+        },
+        {
+          "issuer": "payzy Visa Debit",
+          "slug": "payzy-visa-debit",
+          "url": "https://cardonly.de/card/payzy-visa-debit/"
+        },
+        {
+          "issuer": "Targobank Visa Online Classic",
+          "slug": "targobank-visa-online-classic",
+          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
+        },
+        {
+          "issuer": "HypoVereinsbank Debit",
+          "slug": "hypovereinsbank-debit",
+          "url": "https://cardonly.de/card/hypovereinsbank-debit/"
+        },
+        {
+          "issuer": "Instabank",
+          "slug": "instabank",
+          "url": "https://cardonly.de/card/instabank/"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "issuer": "Advanzia Hilton Honors",
+      "slug": "advanzia-hilton-honors",
+      "url": "https://cardonly.de/card/advanzia-hilton-honors/",
+      "yearlyFee": 72,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": false,
+      "hasGooglePay": false,
+      "source": "https://www.hiltonhonorscreditcard.de/"
+    },
+    {
+      "issuer": "Advanzia Mastercard Gold",
+      "slug": "advanzia-mastercard-gold",
+      "url": "https://cardonly.de/card/advanzia-mastercard-gold/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.gebuhrenfrei.com/Home/"
+    },
+    {
+      "issuer": "American Express Blue",
+      "slug": "american-express-blue",
+      "url": "https://cardonly.de/card/american-express-blue/",
+      "yearlyFee": 0,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/blue-card/"
+    },
+    {
+      "issuer": "American Express BMW Card",
+      "slug": "american-express-bmw-card",
+      "url": "https://cardonly.de/card/american-express-bmw-card/",
+      "yearlyFee": 44,
+      "charge": "charge",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/bmw-card/"
+    },
+    {
+      "issuer": "American Express Gold",
+      "slug": "american-express-gold",
+      "url": "https://cardonly.de/card/american-express-gold/",
+      "yearlyFee": 240,
+      "charge": "charge",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/goldcard/"
+    },
+    {
+      "issuer": "American Express Green",
+      "slug": "american-express-green",
+      "url": "https://cardonly.de/card/american-express-green/",
+      "yearlyFee": 60,
+      "charge": "charge",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/american-express-card/"
+    },
+    {
+      "issuer": "American Express Payback",
+      "slug": "american-express-payback",
+      "url": "https://cardonly.de/card/american-express-payback/",
+      "yearlyFee": 0,
+      "charge": "charge",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
+    },
+    {
+      "issuer": "American Express Platinum",
+      "slug": "american-express-platinum",
+      "url": "https://cardonly.de/card/american-express-platinum/",
+      "yearlyFee": 720,
+      "charge": "charge",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "4%, mind 5EUR",
+      "feesPosForeign": "2 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
+    },
+    {
+      "issuer": "Bank Norwegian",
+      "slug": "bank-norwegian",
+      "url": "https://cardonly.de/card/bank-norwegian/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.banknorwegian.de/kreditkarte/"
+    },
+    {
+      "issuer": "BBVA Debit",
+      "slug": "bbva-debit",
+      "url": "https://cardonly.de/card/bbva-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2€, BBVA Spanien kostenlos",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.bbva.de/privat/produkte/karten/debitkarte.html"
+    },
+    {
+      "issuer": "bunq Core",
+      "slug": "bunq-core",
+      "url": "https://cardonly.de/card/bunq-core/",
+      "yearlyFee": 47.88,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "0.99€ für erste 5, dann 2.99€",
+      "feesPosForeign": "0.5%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.bunq.com/plans"
+    },
+    {
+      "issuer": "bunq Elite",
+      "slug": "bunq-elite",
+      "url": "https://cardonly.de/card/bunq-elite/",
+      "yearlyFee": 227.88,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "0€ für erste 6, 0.99€ für 7-11, danach 2.99€",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.bunq.com/plans/elite"
+    },
+    {
+      "issuer": "bunq Pro",
+      "slug": "bunq-pro",
+      "url": "https://cardonly.de/card/bunq-pro/",
+      "yearlyFee": 119.88,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "0€ für erste 6, 0.99€ für 7-11, danach 2.99€",
+      "feesPosForeign": "0.5%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.bunq.com/plans"
+    },
+    {
+      "issuer": "C24 Max",
+      "slug": "c24-max",
+      "url": "https://cardonly.de/card/c24-max/",
+      "yearlyFee": 118.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.c24.de/max"
+    },
+    {
+      "issuer": "C24 Plus",
+      "slug": "c24-plus",
+      "url": "https://cardonly.de/card/c24-plus/",
+      "yearlyFee": 70.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.c24.de/plus"
+    },
+    {
+      "issuer": "C24 Smart",
+      "slug": "c24-smart",
+      "url": "https://cardonly.de/card/c24-smart/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.c24.de/smart"
+    },
+    {
+      "issuer": "comdirect Visa Credit",
+      "slug": "comdirect-visa-credit",
+      "url": "https://cardonly.de/card/comdirect-visa-credit/",
+      "yearlyFee": 22.8,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "4.90€",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.comdirect.de/konto/girokonto.html"
+    },
+    {
+      "issuer": "comdirect Visa Debit",
+      "slug": "comdirect-visa-debit",
+      "url": "https://cardonly.de/card/comdirect-visa-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": "1.75%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.comdirect.de/konto/girokonto.html"
+    },
+    {
+      "issuer": "Commerzbank ClassicKreditkarte",
+      "slug": "commerzbank-classickreditkarte",
+      "url": "https://cardonly.de/card/commerzbank-classickreditkarte/",
+      "yearlyFee": 39.9,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1,95% mind. 5,98 EUR",
+      "feesPosForeign": "1,75%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/"
+    },
+    {
+      "issuer": "Commerzbank GoldKreditkarte",
+      "slug": "commerzbank-goldkreditkarte",
+      "url": "https://cardonly.de/card/commerzbank-goldkreditkarte/",
+      "yearlyFee": 99.9,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1,95% mind. 5,98 EUR",
+      "feesPosForeign": "1,75%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/"
+    },
+    {
+      "issuer": "Commerzbank Mastercard Debit",
+      "slug": "commerzbank-mastercard-debit",
+      "url": "https://cardonly.de/card/commerzbank-mastercard-debit/",
+      "yearlyFee": 42,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1,95% mind. 5,98 EUR + 1,50% Auslandseinsatzentgelt (+ ggf. Betreiberentgelt)",
+      "feesPosForeign": "1,50% Auslandseinsatzentgelt (+ 0,59% Waehrungsumrechnung bei EWR-Nicht-EUR)",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.commerzbank.de/privatkunden/girokonten/girokonto-eroeffnen/"
+    },
+    {
+      "issuer": "consorsbank Visa Debit",
+      "slug": "consorsbank-visa-debit",
+      "url": "https://cardonly.de/card/consorsbank-visa-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2,10%",
+      "feesPosForeign": "2,10 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
+    },
+    {
+      "issuer": "consorsbank Visa Gold",
+      "slug": "consorsbank-visa-gold",
+      "url": "https://cardonly.de/card/consorsbank-visa-gold/",
+      "yearlyFee": 108,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
+    },
+    {
+      "issuer": "consorsbank Visa Gold Light",
+      "slug": "consorsbank-visa-gold-light",
+      "url": "https://cardonly.de/card/consorsbank-visa-gold-light/",
+      "yearlyFee": 0,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
+    },
+    {
+      "issuer": "Consorsfinanz EC Debit MasterCard",
+      "slug": "consorsfinanz-ec-debit-mastercard",
+      "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
+    },
+    {
+      "issuer": "Deutsche Bank Card Plus",
+      "slug": "deutsche-bank-card-plus",
+      "url": "https://cardonly.de/card/deutsche-bank-card-plus/",
+      "yearlyFee": 18,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1% + 0,50% Waehrungsumrechnungsentgelt",
+      "feesPosForeign": "1% + 0,50% Waehrungsumrechnungsentgelt",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html"
+    },
+    {
+      "issuer": "Deutsche Bank Mastercard Gold",
+      "slug": "deutsche-bank-mastercard-gold",
+      "url": "https://cardonly.de/card/deutsche-bank-mastercard-gold/",
+      "yearlyFee": 82,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
+      "feesPosForeign": "1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html"
+    },
+    {
+      "issuer": "Deutsche Bank Mastercard Standard",
+      "slug": "deutsche-bank-mastercard-standard",
+      "url": "https://cardonly.de/card/deutsche-bank-mastercard-standard/",
+      "yearlyFee": 39,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
+      "feesPosForeign": "1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html"
+    },
+    {
+      "issuer": "Deutsche Bank Mastercard Travel",
+      "slug": "deutsche-bank-mastercard-travel",
+      "url": "https://cardonly.de/card/deutsche-bank-mastercard-travel/",
+      "yearlyFee": 94,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2,50% mind. 5,75 EUR + 0,50% Waehrungsumrechnungsentgelt",
+      "feesPosForeign": "0,50% Waehrungsumrechnungsentgelt",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
+    },
+    {
+      "issuer": "DKB Visa Credit",
+      "slug": "dkb-visa-credit",
+      "url": "https://cardonly.de/card/dkb-visa-credit/",
+      "yearlyFee": "29.88",
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://dkb.de"
+    },
+    {
+      "issuer": "DKB Visa Debit",
+      "slug": "dkb-visa-debit",
+      "url": "https://cardonly.de/card/dkb-visa-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://dkb.de"
+    },
+    {
+      "issuer": "easybank Eurowings Classic",
+      "slug": "easybank-eurowings-classic",
+      "url": "https://cardonly.de/card/easybank-eurowings-classic/",
+      "yearlyFee": 29,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "1,99 %",
+      "feesPosForeign": "1,99 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic"
+    },
+    {
+      "issuer": "easybank Eurowings Premium",
+      "slug": "easybank-eurowings-premium",
+      "url": "https://cardonly.de/card/easybank-eurowings-premium/",
+      "yearlyFee": 99,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium"
+    },
+    {
+      "issuer": "easybank Gold Visa",
+      "slug": "easybank-gold-visa",
+      "url": "https://cardonly.de/card/easybank-gold-visa/",
+      "yearlyFee": 59,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "1.99%",
+      "feesPosForeign": "1.99%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold"
+    },
+    {
+      "issuer": "easybank Platinum Double",
+      "slug": "easybank-platinum-double",
+      "url": "https://cardonly.de/card/easybank-platinum-double/",
+      "yearlyFee": 99,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum"
+    },
+    {
+      "issuer": "easybank Visa",
+      "slug": "easybank-visa",
+      "url": "https://cardonly.de/card/easybank-visa/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.easybank.de/easybank-de/kreditkarten/"
+    },
+    {
+      "issuer": "Fitbit Visa",
+      "slug": "fitbit-visa",
+      "url": "https://cardonly.de/card/fitbit-visa/",
+      "yearlyFee": 24,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "3%, mind. 3€ + 1.75%",
+      "feesPosForeign": "1.75%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wa?path=/WhiteLabel/fitbit#stay"
+    },
+    {
+      "issuer": "Girokonto Klassik 1822direkt",
+      "slug": "girokonto-klassik-1822direkt",
+      "url": "https://cardonly.de/card/girokonto-klassik-1822direkt/",
+      "yearlyFee": "29.90",
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": "1.75%",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.1822direkt.de/girokonto/"
+    },
+    {
+      "issuer": "Hanseatic Bank GenialCard",
+      "slug": "hanseatic-bank-genialcard",
+      "url": "https://cardonly.de/card/hanseatic-bank-genialcard/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "gebührenfrei **",
+      "feesPosForeign": "gebührenfrei *",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.hanseaticbank.de/kreditkarte/genialcard"
+    },
+    {
+      "issuer": "Hanseatic Bank GoldCard",
+      "slug": "hanseatic-bank-goldcard",
+      "url": "https://cardonly.de/card/hanseatic-bank-goldcard/",
+      "yearlyFee": 58.8,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "gebührenfrei **",
+      "feesPosForeign": "gebührenfrei *",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.hanseaticbank.de/kreditkarte/goldcard"
+    },
+    {
+      "issuer": "HypoVereinsbank Debit",
+      "slug": "hypovereinsbank-debit",
+      "url": "https://cardonly.de/card/hypovereinsbank-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2.50€ an Nicht-Unicredit",
+      "feesPosForeign": "1,75 %",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.hypovereinsbank.de/hvb/privatkunden/karten/visadebit"
+    },
+    {
+      "issuer": "HypoVereinsbank MasterCard",
+      "slug": "hypovereinsbank-mastercard",
+      "url": "https://cardonly.de/card/hypovereinsbank-mastercard/",
+      "yearlyFee": 30,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2%, mind. 5EUR",
+      "feesPosForeign": "1,75 %",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.hypovereinsbank.de/hvb/privatkunden/karten/mastercard"
+    },
+    {
+      "issuer": "ING Visa Debit",
+      "slug": "ing-visa-debit",
+      "url": "https://cardonly.de/card/ing-visa-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1,99 %",
+      "feesPosForeign": "1,99 %",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.ing.de/girokonto/"
+    },
+    {
+      "issuer": "Instabank",
+      "slug": "instabank",
+      "url": "https://cardonly.de/card/instabank/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "2%",
+      "feesPosForeign": "2,49%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://instabank.de/kreditkarte"
+    },
+    {
+      "issuer": "Klarna Card",
+      "slug": "klarna-card",
+      "url": "https://cardonly.de/card/klarna-card/",
+      "yearlyFee": 0,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "Nicht möglich",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.klarna.com/de/card/"
+    },
+    {
+      "issuer": "Klarna Konto",
+      "slug": "klarna-konto",
+      "url": "https://cardonly.de/card/klarna-konto/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.klarna.com/de/bankkonto/"
+    },
+    {
+      "issuer": "Miles & More Blue Credit Card",
+      "slug": "miles-more-blue-credit-card",
+      "url": "https://cardonly.de/card/miles-more-blue-credit-card/",
+      "yearlyFee": 66,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "2%, mind. 5EUR + 1.95% AEE",
+      "feesPosForeign": "1.95%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-blue-credit-card"
+    },
+    {
+      "issuer": "Miles & More Gold Credit Card",
+      "slug": "miles-more-gold-credit-card",
+      "url": "https://cardonly.de/card/miles-more-gold-credit-card/",
+      "yearlyFee": 138,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "2%, mind. 5EUR + 1.95% AEE",
+      "feesPosForeign": "1.95%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-gold-credit-card"
+    },
+    {
+      "issuer": "Miles & More MyFlex Credit Card",
+      "slug": "miles-more-myflex-credit-card",
+      "url": "https://cardonly.de/card/miles-more-myflex-credit-card/",
+      "yearlyFee": 50,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": "2%, mind. 5 EUR + 1,95% Auslandseinsatzentgelt",
+      "feesPosForeign": "1,95%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-myflex-credit-card.html"
+    },
+    {
+      "issuer": "Monese Simple Debit MasterCard",
+      "slug": "monese-simple-debit-mastercard",
+      "url": "https://cardonly.de/card/monese-simple-debit-mastercard/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1€ + 2% (mind. 2€)",
+      "feesPosForeign": "2% (mind. 2€)",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://monese.com/eu/features/debit-card"
+    },
+    {
+      "issuer": "N26 Go",
+      "slug": "n26-go",
+      "url": "https://cardonly.de/card/n26-go/",
+      "yearlyFee": 118.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://n26.com/de-de/konten-vergleichen"
+    },
+    {
+      "issuer": "N26 Metal",
+      "slug": "n26-metal",
+      "url": "https://cardonly.de/card/n26-metal/",
+      "yearlyFee": 202.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://n26.com/de-de/konten-vergleichen"
+    },
+    {
+      "issuer": "N26 Smart",
+      "slug": "n26-smart",
+      "url": "https://cardonly.de/card/n26-smart/",
+      "yearlyFee": 58.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1.7%",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://n26.com/de-de/konten-vergleichen"
+    },
+    {
+      "issuer": "N26 Standard",
+      "slug": "n26-standard",
+      "url": "https://cardonly.de/card/n26-standard/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1.7%",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://n26.com/de-de/konten-vergleichen"
+    },
+    {
+      "issuer": "Openbank Girokonto mit Travel-Abo",
+      "slug": "openbank-girokonto-mit-travel-abo",
+      "url": "https://cardonly.de/card/openbank-girokonto-mit-travel-abo/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "0 EUR ab 100 EUR (Santander Group immer kostenlos), sonst 2 EUR",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.openbank.de/girokonto"
+    },
+    {
+      "issuer": "Openbank Girokonto ohne Travel-Abo",
+      "slug": "openbank-girokonto-ohne-travel-abo",
+      "url": "https://cardonly.de/card/openbank-girokonto-ohne-travel-abo/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "1.5%",
+      "feesPosForeign": "1.5%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.openbank.de/girokonto"
+    },
+    {
+      "issuer": "Payback Visa Flex",
+      "slug": "payback-visa-flex",
+      "url": "https://cardonly.de/card/payback-visa-flex/",
+      "yearlyFee": 29,
+      "charge": "credit",
+      "miles": true,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": false,
+      "hasGooglePay": false,
+      "source": "https://www.payback.de/info/visa"
+    },
+    {
+      "issuer": "payzy Visa Debit",
+      "slug": "payzy-visa-debit",
+      "url": "https://cardonly.de/card/payzy-visa-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "3€ + Automatengebühr",
+      "feesPosForeign": "2.5%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.payzy.de/"
+    },
+    {
+      "issuer": "Revolut Card",
+      "slug": "revolut-card",
+      "url": "https://cardonly.de/card/revolut-card/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.revolut.com/en-DE/legal/standard-fees/"
+    },
+    {
+      "issuer": "Revolut Metal MasterCard",
+      "slug": "revolut-metal-mastercard",
+      "url": "https://cardonly.de/card/revolut-metal-mastercard/",
+      "yearlyFee": 135,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.revolut.com/en-DE/legal/metal-fees/"
+    },
+    {
+      "issuer": "Revolut Plus",
+      "slug": "revolut-plus",
+      "url": "https://cardonly.de/card/revolut-plus/",
+      "yearlyFee": 35.88,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0.5,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.revolut.com/en-DE/legal/plus-fees/"
+    },
+    {
+      "issuer": "Revolut Premium MasterCard",
+      "slug": "revolut-premium-mastercard",
+      "url": "https://cardonly.de/card/revolut-premium-mastercard/",
+      "yearlyFee": 82,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.revolut.com/en-DE/legal/premium-fees/"
+    },
+    {
+      "issuer": "Revolut Ultra",
+      "slug": "revolut-ultra",
+      "url": "https://cardonly.de/card/revolut-ultra/",
+      "yearlyFee": 720,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.revolut.com/en-DE/legal/ultra-fees/"
+    },
+    {
+      "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+      "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+      "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "1.5%",
+      "feesPosForeign": "1.5%",
+      "hasApplePay": false,
+      "hasGooglePay": false,
+      "source": "https://www.santander.de/privatkunden/konten-karten/karten/#panel2_190597b"
+    },
+    {
+      "issuer": "Sparda Hessen Mastercard Platinum",
+      "slug": "sparda-hessen-mastercard-platinum",
+      "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/",
+      "yearlyFee": 99,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": false,
+      "hasGooglePay": false,
+      "source": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/"
+    },
+    {
+      "issuer": "Targobank Visa Online Classic",
+      "slug": "targobank-visa-online-classic",
+      "url": "https://cardonly.de/card/targobank-visa-online-classic/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "3.5% mind. 5,95€",
+      "feesPosForeign": "1.85%",
+      "hasApplePay": true,
+      "hasGooglePay": false,
+      "source": "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
+    },
+    {
+      "issuer": "TF Bank MasterCard Gold",
+      "slug": "tf-bank-mastercard-gold",
+      "url": "https://cardonly.de/card/tf-bank-mastercard-gold/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": false,
+      "hasGooglePay": true,
+      "source": "https://tfbank.de/mastercard-gold"
+    },
+    {
+      "issuer": "Tomorrow Change",
+      "slug": "tomorrow-change",
+      "url": "https://cardonly.de/card/tomorrow-change/",
+      "yearlyFee": 87,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.tomorrow.one/de-de/"
+    },
+    {
+      "issuer": "Tomorrow Now",
+      "slug": "tomorrow-now",
+      "url": "https://cardonly.de/card/tomorrow-now/",
+      "yearlyFee": 36,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "2%",
+      "feesPosForeign": "2%",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.tomorrow.one/de-de/"
+    },
+    {
+      "issuer": "Tomorrow Zero",
+      "slug": "tomorrow-zero",
+      "url": "https://cardonly.de/card/tomorrow-zero/",
+      "yearlyFee": 187,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.tomorrow.one/de-de/"
+    },
+    {
+      "issuer": "Trade Republic Karte",
+      "slug": "trade-republic-karte",
+      "url": "https://cardonly.de/card/trade-republic-karte/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "1€, ab 100€ kostenlos",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://traderepublic.com/de-de/karte"
+    },
+    {
+      "issuer": "Trading 212 Card",
+      "slug": "trading-212-card",
+      "url": "https://cardonly.de/card/trading-212-card/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.trading212.com/de/cards"
+    },
+    {
+      "issuer": "VimPAY",
+      "slug": "vimpay",
+      "url": "https://cardonly.de/card/vimpay/",
+      "yearlyFee": 0,
+      "charge": "prepaid",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "5€",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://www.vimpay.de/"
+    },
+    {
+      "issuer": "Vivid Prime",
+      "slug": "vivid-prime",
+      "url": "https://cardonly.de/card/vivid-prime/",
+      "yearlyFee": 118.8,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://vivid.money/en-eu/"
+    },
+    {
+      "issuer": "Vivid Standard",
+      "slug": "vivid-standard",
+      "url": "https://cardonly.de/card/vivid-standard/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://vivid.money/en-eu/"
+    },
+    {
+      "issuer": "Wise Debit",
+      "slug": "wise-debit",
+      "url": "https://cardonly.de/card/wise-debit/",
+      "yearlyFee": 0,
+      "charge": "debit",
+      "miles": false,
+      "withChecking": true,
+      "feesAtmForeign": "0.4%+",
+      "feesPosForeign": "0.4%+",
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "source": "https://wise.com/gb/borderless/card"
+    }
+  ]
+}

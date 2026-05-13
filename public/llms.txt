@@ -1,0 +1,22 @@
+# CardOnly.de
+> Unabhaengiger Kreditkartenvergleich fuer Deutschland mit strukturierten Kartendaten.
+
+## Einstieg
+- [Startseite](https://cardonly.de/)
+- [Alle Karten](https://cardonly.de/card/)
+- [Themenseiten](https://cardonly.de/topic/)
+
+## Thema-Seiten
+- [Kreditkarten gut fuer Meilen](https://cardonly.de/topic/good-for-miles/)
+- [Kreditkarten gut fuer Ausland](https://cardonly.de/topic/good-for-ausland/)
+- [Kreditkarten ohne Jahresgebuehr](https://cardonly.de/topic/no-annual-fee/)
+- [Beste Kreditkarten im Vergleich](https://cardonly.de/topic/best-credit-cards/)
+- [Beste Kreditkarten fuer Cashback und Punkte](https://cardonly.de/topic/best-for-cashback/)
+- [Beste Kreditkarten fuer Bargeld ausserhalb Europas](https://cardonly.de/topic/best-for-atm-outside-europe/)
+- [Beste kostenlose Kreditkarten](https://cardonly.de/topic/best-free-cards/)
+
+## Datenquellen
+- [Karten-Datensatz (JSON)](https://cardonly.de/data/cards.json)
+- [SEO/Agent-Index (JSON)](https://cardonly.de/data/seo-index.json)
+- [Sitemap](https://cardonly.de/sitemap.xml)
+- [Erweiterte LLM-Liste](https://cardonly.de/llms-full.txt)
