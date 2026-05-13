@@ -586,7 +586,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": true,
-    "notes": "Aktuell 1.000 Extra-PAYBACK-Punkte als Willkommensbonus. <span class='text-success'>PAYBACK Sammelkarte + Zahlkarte (doppelt punkten bei PAYBACK-Partnern)</span>; Punkte koennen ueber PAYBACK in Miles & More transferiert werden.",
+    "notes": "<span class='text-success'>PAYBACK Sammelkarte + Zahlkarte (doppelt punkten bei PAYBACK-Partnern)</span>; Punkte koennen ueber PAYBACK in Miles & More transferiert werden.",
     "image": "/img/amexpayback.png",
     "link": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
   },
@@ -1658,7 +1658,7 @@
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
     "fees_pos_foreign": 0,
-    "pinfirst": false,
+    "pinfirst": true,
     "insurance": false,
     "miles": true,
     "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, nur Online-PIN",
