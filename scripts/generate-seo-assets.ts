@@ -39,6 +39,10 @@ const isZeroLike = (value: any): boolean => {
     return true;
   }
 
+  if (/^0(\.0+)?(€|eur|euro)?ab100(€|eur|euro)?/.test(normalized)) {
+    return true;
+  }
+
   if (/^0(\.0+)?(%|eur|euro)?$/.test(normalized)) {
     return true;
   }

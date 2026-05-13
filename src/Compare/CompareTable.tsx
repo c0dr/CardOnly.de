@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { Button } from '../components/ui/button';
 import { Table, TableBody, TableCell, TableRow } from '../components/ui/table';
 import { Card } from '../types';
+import SchemeBadge from '../CardComponents/SchemeBadge';
 
 const parseNumber = (value: any): number | null => {
   if (typeof value === 'number') return value;
@@ -121,6 +122,7 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
                       </button>
                     )}
                   </div>
+                  <SchemeBadge scheme={card.scheme} />
                 </div>
               </TableCell>
             ))}

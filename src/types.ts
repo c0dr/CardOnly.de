@@ -1,6 +1,7 @@
 export interface Card {
   id: string;
   Issuer: string;
+  scheme?: 'visa' | 'mastercard' | 'amex' | Array<'visa' | 'mastercard' | 'amex'>;
   Label?: string;
   notes?: string;
   legalnotes?: string;

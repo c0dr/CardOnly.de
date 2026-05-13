@@ -1,6 +1,7 @@
 [
   {
     "Issuer": "N26 Standard",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -24,6 +25,7 @@
   },
   {
     "Issuer": "N26 Smart",
+    "scheme": "mastercard",
     "yearlyFee": 58.8,
     "withChecking": true,
     "applepay": true,
@@ -47,6 +49,7 @@
   },
   {
     "Issuer": "N26 Go",
+    "scheme": "mastercard",
     "yearlyFee": 118.8,
     "withChecking": true,
     "applepay": true,
@@ -70,6 +73,7 @@
   },
   {
     "Issuer": "N26 Metal",
+    "scheme": "mastercard",
     "yearlyFee": 202.8,
     "withChecking": true,
     "applepay": true,
@@ -93,6 +97,10 @@
   },
   {
     "Issuer": "easybank Visa",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -111,12 +119,13 @@
     "insurance": false,
     "miles": false,
     "notes": "Teilzahlung moeglich; 100%-Ausgleich fuer 2 EUR/Monat einstellbar. Bargeldabhebungen werden ab Buchungstag verzinst.",
-    "image": "img/easybank_black.png",
+    "image": "/img/easybank-visa.png",
     "adlink": "//financeads.net/tc.php?t=39323C14332500T",
     "link": "https://www.easybank.de/easybank-de/kreditkarten/"
   },
   {
     "Issuer": "easybank Eurowings Classic",
+    "scheme": "visa",
     "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": true,
@@ -135,12 +144,13 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'> Benefits auf EW Fluegen</span>, Reiserücktritt- und Abbruch",
-    "image": "img/eurowingsclassic.png",
+    "image": "/img/easybank-eurowings-classic.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316358T",
     "link": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic"
   },
   {
     "Issuer": "easybank Eurowings Premium",
+    "scheme": "visa",
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
@@ -159,12 +169,16 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich, <span class='text-success'>Benefits auf EW Fluegen, Mietwagenvollkasko und Krankenversicherung, Reiserücktritt</span> - bei Karteneinsatz",
-    "image": "/img/eurowingsgold.png",
+    "image": "/img/easybank-eurowings-premium.png",
     "adlink": "//financeads.net/tc.php?t=39323C14316304B",
     "link": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium"
   },
   {
     "Issuer": "easybank Gold Visa",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 59,
     "withChecking": false,
     "offlinepin": true,
@@ -183,12 +197,16 @@
     "insurance": true,
     "miles": true,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Reiseabbruch und Reiserücktritt bei Karteneinsatz, Krankenversicherung</span>",
-    "image": "img/easybank_gold.png",
+    "image": "/img/easybank-gold.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313528T",
     "link": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold"
   },
   {
     "Issuer": "easybank Platinum Double",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 99,
     "withChecking": false,
     "offlinepin": true,
@@ -207,12 +225,13 @@
     "insurance": true,
     "miles": false,
     "notes": "Teilzahlung moeglich zu 18,38%/Jahr, <span class='text-success'> Mietwagenvollkasko bei Karteneinsatz, Reiseabbruch-, Rücktritt- und Krankenversicherung</span>",
-    "image": "/img/easybank_platinum.png",
+    "image": "/img/easybank-platinum.png",
     "adlink": "//financeads.net/tc.php?t=39323C14313523T",
     "link": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum"
   },
   {
     "Issuer": "consorsbank Visa Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -236,6 +255,7 @@
   },
   {
     "Issuer": "Hanseatic Bank GenialCard",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -261,6 +281,7 @@
   },
   {
     "Issuer": "Hanseatic Bank GoldCard",
+    "scheme": "visa",
     "yearlyFee": 58.8,
     "withChecking": false,
     "offlinepin": true,
@@ -286,6 +307,10 @@
   },
   {
     "Issuer": "Revolut Card",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -310,6 +335,10 @@
   },
   {
     "Issuer": "Revolut Plus",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 35.88,
     "withChecking": true,
     "offlinepin": true,
@@ -334,6 +363,10 @@
   },
   {
     "Issuer": "Revolut Ultra",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 720,
     "withChecking": true,
     "offlinepin": true,
@@ -358,6 +391,10 @@
   },
   {
     "Issuer": "Revolut Premium MasterCard",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 82,
     "withChecking": true,
     "offlinepin": true,
@@ -382,6 +419,10 @@
   },
   {
     "Issuer": "Revolut Metal MasterCard",
+    "scheme": [
+      "visa",
+      "mastercard"
+    ],
     "yearlyFee": 135,
     "withChecking": true,
     "offlinepin": true,
@@ -406,6 +447,7 @@
   },
   {
     "Issuer": "consorsbank Visa Gold",
+    "scheme": "visa",
     "yearlyFee": 108,
     "withChecking": true,
     "offlinepin": false,
@@ -429,6 +471,7 @@
   },
   {
     "Issuer": "consorsbank Visa Gold Light",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -452,6 +495,7 @@
   },
   {
     "Issuer": "American Express Gold",
+    "scheme": "amex",
     "yearlyFee": 240,
     "withChecking": false,
     "offlinepin": true,
@@ -475,6 +519,7 @@
   },
   {
     "Issuer": "American Express Green",
+    "scheme": "amex",
     "yearlyFee": 60,
     "withChecking": false,
     "offlinepin": true,
@@ -498,6 +543,7 @@
   },
   {
     "Issuer": "American Express Blue",
+    "scheme": "amex",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -521,6 +567,7 @@
   },
   {
     "Issuer": "American Express Payback",
+    "scheme": "amex",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
@@ -545,6 +592,7 @@
   },
   {
     "Issuer": "American Express BMW Card",
+    "scheme": "amex",
     "yearlyFee": 44,
     "withChecking": false,
     "offlinepin": true,
@@ -568,6 +616,7 @@
   },
   {
     "Issuer": "American Express Platinum",
+    "scheme": "amex",
     "yearlyFee": 720,
     "withChecking": false,
     "offlinepin": true,
@@ -591,6 +640,7 @@
   },
   {
     "Issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
@@ -614,6 +664,7 @@
   },
   {
     "Issuer": "comdirect Visa Credit",
+    "scheme": "visa",
     "yearlyFee": 22.8,
     "withChecking": true,
     "offlinepin": false,
@@ -637,6 +688,7 @@
   },
   {
     "Issuer": "comdirect Visa Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -660,6 +712,7 @@
   },
   {
     "Issuer": "Commerzbank Mastercard Debit",
+    "scheme": "mastercard",
     "yearlyFee": 42,
     "withChecking": true,
     "offlinepin": true,
@@ -683,6 +736,7 @@
   },
   {
     "Issuer": "Commerzbank ClassicKreditkarte",
+    "scheme": "mastercard",
     "yearlyFee": 39.9,
     "withChecking": true,
     "offlinepin": true,
@@ -706,6 +760,7 @@
   },
   {
     "Issuer": "Commerzbank GoldKreditkarte",
+    "scheme": "mastercard",
     "yearlyFee": 99.9,
     "withChecking": true,
     "offlinepin": true,
@@ -729,6 +784,7 @@
   },
   {
     "Issuer": "HypoVereinsbank MasterCard",
+    "scheme": "mastercard",
     "yearlyFee": 30,
     "withChecking": true,
     "offlinepin": true,
@@ -752,6 +808,7 @@
   },
   {
     "Issuer": "HypoVereinsbank Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -775,6 +832,7 @@
   },
   {
     "Issuer": "Advanzia Mastercard Gold",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -799,6 +857,7 @@
   },
   {
     "Issuer": "ING Visa Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -822,6 +881,7 @@
   },
   {
     "Issuer": "DKB Visa Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": false,
@@ -845,6 +905,7 @@
   },
   {
     "Issuer": "DKB Visa Credit",
+    "scheme": "visa",
     "yearlyFee": "29.88",
     "withChecking": true,
     "offlinepin": true,
@@ -868,6 +929,7 @@
   },
   {
     "Issuer": "Advanzia Hilton Honors",
+    "scheme": "mastercard",
     "yearlyFee": 72,
     "withChecking": false,
     "offlinepin": true,
@@ -893,6 +955,7 @@
   },
   {
     "Issuer": "Monese Simple Debit MasterCard",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -916,6 +979,7 @@
   },
   {
     "Issuer": "Consorsfinanz EC Debit MasterCard",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -939,6 +1003,7 @@
   },
   {
     "Issuer": "Targobank Visa Online Classic",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -962,6 +1027,7 @@
   },
   {
     "Issuer": "Girokonto Klassik 1822direkt",
+    "scheme": "visa",
     "yearlyFee": "29.90",
     "withChecking": true,
     "offlinepin": true,
@@ -986,6 +1052,7 @@
   },
   {
     "Issuer": "bunq Pro",
+    "scheme": "mastercard",
     "yearlyFee": 119.88,
     "withChecking": true,
     "offlinepin": true,
@@ -1010,6 +1077,7 @@
   },
   {
     "Issuer": "bunq Elite",
+    "scheme": "mastercard",
     "yearlyFee": 227.88,
     "withChecking": true,
     "offlinepin": true,
@@ -1033,6 +1101,7 @@
   },
   {
     "Issuer": "bunq Core",
+    "scheme": "mastercard",
     "yearlyFee": 47.88,
     "withChecking": true,
     "offlinepin": true,
@@ -1057,6 +1126,7 @@
   },
   {
     "Issuer": "Deutsche Bank Card Plus",
+    "scheme": "mastercard",
     "yearlyFee": 18,
     "withChecking": true,
     "offlinepin": true,
@@ -1080,6 +1150,7 @@
   },
   {
     "Issuer": "Deutsche Bank Mastercard Standard",
+    "scheme": "mastercard",
     "yearlyFee": 39,
     "withChecking": true,
     "offlinepin": true,
@@ -1103,6 +1174,7 @@
   },
   {
     "Issuer": "Deutsche Bank Mastercard Gold",
+    "scheme": "mastercard",
     "yearlyFee": 82,
     "withChecking": true,
     "offlinepin": true,
@@ -1126,6 +1198,7 @@
   },
   {
     "Issuer": "Deutsche Bank Mastercard Travel",
+    "scheme": "mastercard",
     "yearlyFee": 94,
     "withChecking": true,
     "offlinepin": true,
@@ -1149,6 +1222,7 @@
   },
   {
     "Issuer": "TF Bank MasterCard Gold",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -1166,6 +1240,7 @@
     "pinfirst": true,
     "insurance": true,
     "miles": false,
+    "cashAdvanceImmediate": true,
     "image": "/img/tfgold.png",
     "notes": "<span class='text-success'>Reiseversicherungspaket inkl. Reiseruecktritts-, Reiseunfall- und Auslandsreisekrankenversicherung (bei mind. 50% Reisezahlung mit Karte)</span>; Sollzins 22,35% p.a. (effektiv 24,79% p.a.), Bargeldabhebungen werden ab Buchungstag verzinst.",
     "adlink": "//financeads.net/tc.php?t=39323C213342473B",
@@ -1173,6 +1248,7 @@
   },
   {
     "Issuer": "Wise Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1197,6 +1273,7 @@
   },
   {
     "Issuer": "Klarna Card",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -1220,6 +1297,7 @@
   },
   {
     "Issuer": "Klarna Konto",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1243,6 +1321,7 @@
   },
   {
     "Issuer": "VimPAY",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
@@ -1266,6 +1345,7 @@
   },
   {
     "Issuer": "Fitbit Visa",
+    "scheme": "visa",
     "yearlyFee": 24,
     "withChecking": false,
     "offlinepin": true,
@@ -1289,6 +1369,7 @@
   },
   {
     "Issuer": "Tomorrow Now",
+    "scheme": "visa",
     "yearlyFee": 36,
     "withChecking": true,
     "offlinepin": true,
@@ -1314,6 +1395,7 @@
   },
   {
     "Issuer": "Tomorrow Change",
+    "scheme": "visa",
     "yearlyFee": 87,
     "withChecking": true,
     "offlinepin": true,
@@ -1339,6 +1421,7 @@
   },
   {
     "Issuer": "Tomorrow Zero",
+    "scheme": "visa",
     "yearlyFee": 187,
     "withChecking": true,
     "offlinepin": true,
@@ -1364,6 +1447,7 @@
   },
   {
     "Issuer": "Vivid Standard",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1373,20 +1457,46 @@
     "contactless": true,
     "secure": true,
     "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_de": "0 EUR bis 200 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_eur": "0 EUR bis 200 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_foreign": "0 EUR bis 200 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "1%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "",
+    "notes": "Standard-Konto kostenlos bei mindestens einer Kartentransaktion im Monat oder ueber 1.000 EUR Gesamtguthaben am Monatsende.",
+    "legalnotes": "Bei inaktiven Vivid Standard Konten kann eine Kontofuehrungsgebuehr von 3,90 EUR pro Monat anfallen. Bargeldabhebungen zaehlen nicht als Kartentransaktion.",
+    "link": "https://vivid.money/en-eu/",
+    "image": "/img/vivid.png"
+  },
+  {
+    "Issuer": "Vivid Plus",
+    "scheme": "visa",
+    "yearlyFee": 82.8,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": "0 EUR bis 500 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_eur": "0 EUR bis 500 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_foreign": "0 EUR bis 500 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": "1%",
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Enthaelt 6 Vivid Accounts/Pockets und Kartenmaintenance fuer die erste Karte.",
     "link": "https://vivid.money/en-eu/",
     "image": "/img/vivid.png"
   },
   {
     "Issuer": "Vivid Prime",
+    "scheme": "visa",
     "yearlyFee": 118.8,
     "withChecking": true,
     "offlinepin": true,
@@ -1396,43 +1506,22 @@
     "contactless": true,
     "secure": true,
     "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
+    "fees_atm_de": "0 EUR bis 1.000 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_eur": "0 EUR bis 1.000 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
+    "fees_atm_foreign": "0 EUR bis 1.000 EUR/Monat ab 50 EUR Abhebung, sonst 3% mind. 1 EUR",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
+    "fees_pos_foreign": "1%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "1% Cashback ausserhalb Europas.",
+    "notes": "Enthaelt 15 Vivid Accounts/Pockets, Kartenmaintenance fuer die erste Karte und Ausgabe der ersten virtuellen Karte. 1.000 EUR kostenlose Top-ups pro Monat von EWR Debit Consumer Cards.",
+    "legalnotes": "Gambling and Cash Equivalent Fee: 3%.",
     "link": "https://vivid.money/en-eu/",
     "image": "/img/vivid.png"
   },
   {
-    "Issuer": "Openbank Girokonto ohne Travel-Abo",
-    "yearlyFee": 0,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "applepay": true,
-    "googlepay": true,
-    "contactless": true,
-    "secure": true,
-    "charge": "debit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": "1.5%",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.5%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "",
-    "link": "https://www.openbank.de/girokonto",
-    "image": "/img/openbank.jpg"
-  },
-  {
-    "Issuer": "Openbank Girokonto mit Travel-Abo",
+    "Issuer": "Openbank Girokonto",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1452,10 +1541,11 @@
     "miles": false,
     "notes": "ExtraBenefits standardmaessig aktiviert; <span class='text-success'>inkl. Reiseversicherung</span>.",
     "link": "https://www.openbank.de/girokonto",
-    "image": "/img/openbank.jpg"
+    "image": "/img/openbank-girokonto.png"
   },
   {
     "Issuer": "Miles & More Blue Credit Card",
+    "scheme": "mastercard",
     "yearlyFee": 66,
     "withChecking": false,
     "offlinepin": true,
@@ -1480,6 +1570,7 @@
   },
   {
     "Issuer": "Miles & More Gold Credit Card",
+    "scheme": "mastercard",
     "yearlyFee": 138,
     "withChecking": false,
     "offlinepin": true,
@@ -1504,6 +1595,7 @@
   },
   {
     "Issuer": "Miles & More MyFlex Credit Card",
+    "scheme": "mastercard",
     "yearlyFee": 50,
     "withChecking": false,
     "offlinepin": true,
@@ -1527,6 +1619,7 @@
   },
   {
     "Issuer": "Sparda Hessen Mastercard Platinum",
+    "scheme": "mastercard",
     "yearlyFee": 99,
     "withChecking": true,
     "offlinepin": true,
@@ -1550,6 +1643,7 @@
   },
   {
     "Issuer": "Payback Visa Flex",
+    "scheme": "visa",
     "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": false,
@@ -1569,10 +1663,11 @@
     "miles": true,
     "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, nur Online-PIN",
     "link": "https://www.payback.de/info/visa",
-    "image": "/img/paybackvisa.webp"
+    "image": "/img/payback-visa-flex.webp"
   },
   {
     "Issuer": "payzy Visa Debit",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -1592,10 +1687,11 @@
     "miles": false,
     "notes": "Virtuelle Karte kostenlos, physische Karte optional; 1% Cashback, SEPA-Ueberweisung 0,50 EUR, SEPA-Echtzeitueberweisung 1 EUR.",
     "link": "https://www.payzy.de/",
-    "image": "/img/payzy.webp"
+    "image": "/img/payzy-visa-debit.svg"
   },
   {
     "Issuer": "C24 Smart",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1619,6 +1715,7 @@
   },
   {
     "Issuer": "C24 Plus",
+    "scheme": "mastercard",
     "yearlyFee": 70.8,
     "withChecking": true,
     "offlinepin": true,
@@ -1642,6 +1739,7 @@
   },
   {
     "Issuer": "C24 Max",
+    "scheme": "mastercard",
     "yearlyFee": 118.8,
     "withChecking": true,
     "offlinepin": true,
@@ -1665,6 +1763,7 @@
   },
   {
     "Issuer": "Bank Norwegian",
+    "scheme": "visa",
     "Label": "<span class='label label-success'><i class='fa fa-thumbs-up'></i> Empfohlen</span>",
     "yearlyFee": 0,
     "withChecking": false,
@@ -1690,6 +1789,7 @@
   },
   {
     "Issuer": "Instabank",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": false,
@@ -1715,7 +1815,32 @@
     "image": "/img/instabank.jpg"
   },
   {
+    "Issuer": "Trade Republic Card",
+    "scheme": "visa",
+    "yearlyFee": 0,
+    "withChecking": true,
+    "offlinepin": true,
+    "offlinetrx": true,
+    "contactless": true,
+    "applepay": true,
+    "googlepay": true,
+    "secure": true,
+    "charge": "debit",
+    "fees_atm_de": "0 EUR ab 100 EUR, sonst 1 EUR",
+    "fees_atm_eur": "0 EUR ab 100 EUR, sonst 1 EUR",
+    "fees_atm_foreign": "0 EUR ab 100 EUR, sonst 1 EUR",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "<span class='text-success'>1% Saveback in einen Sparplan, keine Fremdwährungsgebühr.</span> ATM-Abhebungen ab 100 EUR kostenlos, darunter 1 EUR; Geldautomatenbetreiber können eigene Gebühren erheben.",
+    "image": "/img/trade-republic.svg",
+    "link": "https://traderepublic.com/de-de/card"
+  },
+  {
     "Issuer": "Trading 212 Card",
+    "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
     "offlinepin": true,
@@ -1738,30 +1863,8 @@
     "link": "https://www.trading212.com/de/cards"
   },
   {
-    "Issuer": "Trade Republic Karte",
-    "yearlyFee": 0,
-    "withChecking": false,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "contactless": true,
-    "applepay": true,
-    "googlepay": true,
-    "secure": true,
-    "charge": "debit",
-    "fees_atm_de": "1€, ab 100€ kostenlos",
-    "fees_atm_eur": "1€, ab 100€ kostenlos",
-    "fees_atm_foreign": "1€, ab 100€ kostenlos",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "Physische Karte 5 EUR einmalig. <span class='text-success'>1% Saveback in ETF/ Aktien (bis 15% pro Monat)</span>.",
-    "image": "img/trading212.png",
-    "link": "https://traderepublic.com/de-de/karte"
-  },
-  {
     "Issuer": "BBVA Debit",
+    "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": true,
     "offlinepin": true,
@@ -1780,7 +1883,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Girokonto erforderlich. <span class='text-success'>Keine Auslandseinsatzgebuehr</span>. 2€ bei unter 150€ ATM, ab 150€ kostenlos in EUR-Zone. Unlimited bei BBVA Spanien.",
-    "image": "img/bbva.png",
+    "image": "/img/bbva-debit.svg",
     "link": "https://www.bbva.de/privat/produkte/karten/debitkarte.html"
   }
 ]

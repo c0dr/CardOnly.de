@@ -66,6 +66,31 @@
         "filterName": "charge"
     },
     {
+        "label": "Kartensystem",
+        "elementName": "scheme",
+        "options": [
+            {
+                "label": "Visa",
+                "value": "visa",
+                "checked": true
+            },
+            {
+                "label": "Mastercard",
+                "value": "mastercard",
+                "checked": true
+            },
+            {
+                "label": "Amex",
+                "value": "amex",
+                "checked": true
+            }
+        ],
+        "type": "select",
+        "match": "single",
+        "filterName": "scheme",
+        "display": "scheme"
+    },
+    {
         "label": "Gratis abheben in",
         "elementName": "freeATM",
         "options": [

@@ -30,6 +30,7 @@ export const isZeroLike = (value: any): boolean => {
   return (
     normalized.includes('gebuhrenfrei') ||
     normalized.includes('kostenlos') ||
+    /^0(\.0+)?(€|eur|euro)?ab100(€|eur|euro)?/.test(normalized) ||
     /^0(\.0+)?(%|eur|euro)?$/.test(normalized)
   );
 };
@@ -77,18 +78,44 @@ const hasRepaymentRiskSignal = (card: Card) =>
     'mindesttilgung',
   ]);
 
+const annualFeeCurve = [
+  { fee: 0, score: 1 },
+  { fee: 12, score: 0.9 },
+  { fee: 36, score: 0.72 },
+  { fee: 60, score: 0.52 },
+  { fee: 96, score: 0.3 },
+  { fee: 144, score: 0.12 },
+  { fee: 240, score: 0 },
+];
+
 const annualFeeScore = (card: Card, maxPoints: number) => {
   const fee = parseNumber(card.yearlyFee);
 
   if (fee === null) {
-    return maxPoints * 0.35;
+    return maxPoints * 0.2;
   }
 
   if (fee <= 0) {
     return maxPoints;
   }
 
-  return clamp(maxPoints - fee * 0.22, 0, maxPoints);
+  let lower = annualFeeCurve[0];
+  for (const point of annualFeeCurve) {
+    if (fee >= point.fee) {
+      lower = point;
+    }
+  }
+
+  const upper = annualFeeCurve.find((point) => fee <= point.fee) || annualFeeCurve[annualFeeCurve.length - 1];
+
+  if (lower === upper) {
+    return maxPoints * lower.score;
+  }
+
+  const progress = (fee - lower.fee) / (upper.fee - lower.fee);
+  const score = lower.score + (upper.score - lower.score) * progress;
+
+  return clamp(maxPoints * score, 0, maxPoints);
 };
 
 const percentFeeScore = (value: any, maxPoints: number) => {
@@ -203,38 +230,38 @@ const riskPenalty = (card: Card) => {
 };
 
 const scoreOverall = (card: Card) =>
-  annualFeeScore(card, 25) +
-  foreignPaymentScore(card, 20) +
-  atmOutsideEuropeScore(card, 20) +
-  flexibilityScore(card, 15) +
-  safetyBenefitScore(card, 10) +
-  rewardsScore(card, 10) -
+  annualFeeScore(card, 40) +
+  foreignPaymentScore(card, 16) +
+  atmOutsideEuropeScore(card, 16) +
+  flexibilityScore(card, 12) +
+  safetyBenefitScore(card, 8) +
+  rewardsScore(card, 8) -
   riskPenalty(card);
 
 const scoreCashback = (card: Card) =>
-  rewardsScore(card, 35) +
-  annualFeeScore(card, 22) +
-  foreignPaymentScore(card, 14) +
-  flexibilityScore(card, 14) +
+  rewardsScore(card, 30) +
+  annualFeeScore(card, 30) +
+  foreignPaymentScore(card, 12) +
+  flexibilityScore(card, 12) +
   safetyBenefitScore(card, 8) +
-  atmOutsideEuropeScore(card, 7) -
+  atmOutsideEuropeScore(card, 8) -
   riskPenalty(card);
 
 const scoreAtmOutsideEurope = (card: Card) =>
-  atmOutsideEuropeScore(card, 40) +
-  foreignPaymentScore(card, 20) +
-  annualFeeScore(card, 18) +
-  flexibilityScore(card, 12) +
+  atmOutsideEuropeScore(card, 36) +
+  annualFeeScore(card, 28) +
+  foreignPaymentScore(card, 16) +
+  flexibilityScore(card, 10) +
   safetyBenefitScore(card, 10) -
   riskPenalty(card);
 
 const scoreFreeCards = (card: Card) =>
-  annualFeeScore(card, 30) +
-  foreignPaymentScore(card, 20) +
-  atmOutsideEuropeScore(card, 20) +
-  flexibilityScore(card, 15) +
-  safetyBenefitScore(card, 10) +
-  rewardsScore(card, 5) -
+  annualFeeScore(card, 45) +
+  foreignPaymentScore(card, 19) +
+  atmOutsideEuropeScore(card, 18) +
+  flexibilityScore(card, 11) +
+  safetyBenefitScore(card, 5) +
+  rewardsScore(card, 2) -
   riskPenalty(card);
 
 export const ratingProfiles: RatingProfile[] = [
@@ -244,7 +271,7 @@ export const ratingProfiles: RatingProfile[] = [
     label: 'Beste Bewertung',
     navLabel: 'Beste Karten',
     title: 'Beste Kreditkarten im Vergleich',
-    description: 'Gesamtranking aus Jahresgebuehr, Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.',
+    description: 'Gesamtranking mit staerkerem Fokus auf Jahresgebuehr, dazu Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.',
     route: '/best',
     staticSlug: 'best-credit-cards',
     matcher: () => true,
@@ -256,7 +283,7 @@ export const ratingProfiles: RatingProfile[] = [
     label: 'Bestes Cashback',
     navLabel: 'Cashback',
     title: 'Beste Kreditkarten fuer Cashback und Punkte',
-    description: 'Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag.',
+    description: 'Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag, abgewogen gegen die Jahresgebuehr.',
     route: '/best/cashback',
     staticSlug: 'best-for-cashback',
     matcher: hasRewardsSignal,
@@ -268,7 +295,7 @@ export const ratingProfiles: RatingProfile[] = [
     label: 'Beste ATM ausserhalb Europas',
     navLabel: 'ATM ausserhalb Europas',
     title: 'Beste Kreditkarten fuer Bargeld ausserhalb Europas',
-    description: 'Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums.',
+    description: 'Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums und fairer Jahresgebuehr.',
     route: '/best/atm-outside-europe',
     staticSlug: 'best-for-atm-outside-europe',
     matcher: (card: Card) => isZeroLike(card.fees_atm_foreign),

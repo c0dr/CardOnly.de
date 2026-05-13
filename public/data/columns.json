@@ -4,6 +4,10 @@
     "value": "Issuer"
   },
   {
+    "label": "Kartensystem",
+    "value": "scheme"
+  },
+  {
     "label": "Jahresgebühr",
     "value": "yearlyFee"
   },
@@ -22,6 +26,10 @@
   {
     "label": "NFC",
     "value": "contactless"
+  },
+  {
+    "label": "Offline-PIN",
+    "value": "offlinepin"
   },
   {
     "label": "PIN-first",

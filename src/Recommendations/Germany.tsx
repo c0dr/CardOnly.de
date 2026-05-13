@@ -12,12 +12,6 @@ interface Suggestion {
 
 const missedCardSuggestions: Suggestion[] = [
   {
-    issuer: 'Trade Republic Karte (Visa Debit)',
-    reason:
-      'Visa-Debitkarte ohne monatliche Kosten, mit 1% Saveback und kostenlosen ATM-Abhebungen weltweit ab 100 EUR.',
-    source: 'https://traderepublic.com/de-de/karte',
-  },
-  {
     issuer: 'Amazon Visa (Openbank Pay / Zinia)',
     reason:
       'Kreditkarte ohne Jahresgebuehr mit 1% Punkten auf Amazon.de und 0,5% ausserhalb von Amazon.',

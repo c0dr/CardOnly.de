@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import CompareTable from './CompareTable';
 import { Button } from '../components/ui/button';
+import AtmFeeNotice from '../CommonComponents/AtmFeeNotice';
 import { clearCompareIssuers, getCompareIssuers, setCompareIssuers } from '../lib/compareSelection';
 import { Card } from '../types';
 
@@ -44,6 +45,10 @@ const ComparePage: React.FC = () => {
         <Button asChild variant="outline" className="rounded-md border-stone-300">
           <Link to="/">Zurück zum Vergleich</Link>
         </Button>
+      </div>
+
+      <div className="mb-4">
+        <AtmFeeNotice />
       </div>
 
       {comparedCards.length === 0 ? (

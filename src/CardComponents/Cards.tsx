@@ -17,7 +17,8 @@ const CardComponents: React.FC<CardsProps> = ({ cards, cols, comparedIssuers, on
           {cards.length} Karten
         </h2>
         <div className="text-[10px] leading-relaxed text-muted-foreground text-right">
-          <p>* Partnerlinks (Werbung)</p>
+          <p>Anbieter-Button mit * = Partnerlink (Werbung)</p>
+          <p>* Kostenlose ATM-Abhebung ab Mindestbetrag</p>
           <p>** Sofortige Verzinsung bei Abhebung</p>
         </div>
       </div>

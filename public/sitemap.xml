@@ -286,12 +286,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://cardonly.de/card/openbank-girokonto-mit-travel-abo/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://cardonly.de/card/openbank-girokonto-ohne-travel-abo/</loc>
+    <loc>https://cardonly.de/card/openbank-girokonto/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -366,7 +361,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://cardonly.de/card/trade-republic-karte/</loc>
+    <loc>https://cardonly.de/card/trade-republic-card/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -377,6 +372,11 @@
   </url>
   <url>
     <loc>https://cardonly.de/card/vimpay/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cardonly.de/card/vivid-plus/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>daily</changefreq>
   </url>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-labelledby="title">
+  <title id="title">Trade Republic Card</title>
+  <rect width="240" height="150" rx="16" fill="#0f172a"/>
+  <rect x="18" y="18" width="204" height="114" rx="12" fill="#111827"/>
+  <path d="M40 44h72v16H86v48H66V60H40V44Zm84 0h36c18 0 30 10 30 26 0 11-6 19-16 23l20 15h-28l-16-13h-6v13h-20V44Zm20 16v19h15c7 0 11-4 11-10s-4-9-11-9h-15Z" fill="#f8fafc"/>
+  <circle cx="199" cy="112" r="12" fill="#22c55e"/>
+</svg>

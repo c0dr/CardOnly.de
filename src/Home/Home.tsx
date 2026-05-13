@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Cards from '../CardComponents/Cards';
+import AtmFeeNotice from '../CommonComponents/AtmFeeNotice';
 import Header from './Header';
 import FeaturedCards from './FeaturedCards';
 import SortDropdown from '../Filter/SortDropdown';
 import FilterElement from '../Filter/FilterElement';
 import { clearCompareIssuers, getCompareIssuers, maxCompareCards, setCompareIssuers } from '../lib/compareSelection';
-import { compareCardsByRating } from '../lib/cardRatings';
+import { compareCardsByRating, isZeroLike } from '../lib/cardRatings';
 import { Button } from '../components/ui/button';
 import { Card } from '../types';
+import { RotateCcw, ShieldCheck, SlidersHorizontal } from 'lucide-react';
 
 interface FilterOption {
   filterName: string;
   derivedAttribute?: boolean;
-  match?: 'single' | 'multi';
+  match?: 'single' | 'all';
   [key: string]: any;
 }
 
@@ -52,10 +54,21 @@ const Home: React.FC = () => {
   }, [comparedIssuers]);
 
   const filterChange = (filterName: string, filterValue: any) => {
-    setEnabledFilters((prev) => ({
-      ...prev,
-      [filterName]: filterValue,
-    }));
+    setEnabledFilters((prev) => {
+      const next = { ...prev };
+      const shouldRemove =
+        filterValue === undefined ||
+        filterValue === 'dontcare' ||
+        (Array.isArray(filterValue) && filterValue.length === 0);
+
+      if (shouldRemove) {
+        delete next[filterName];
+        return next;
+      }
+
+      next[filterName] = filterValue;
+      return next;
+    });
   };
 
   const resetFilters = (exceptFilter: string | null = null) => {
@@ -70,7 +83,7 @@ const Home: React.FC = () => {
 
   const cardFeeFreeFeatures = (card: Card) => {
     const features = ['fees_atm_de', 'fees_atm_eur', 'fees_atm_foreign', 'fees_pos_foreign'];
-    return features.filter((feature) => card[feature] === 0);
+    return features.filter((feature) => isZeroLike(card[feature]));
   };
 
   const getFilterByName = (filterName: string) => {
@@ -99,7 +112,11 @@ const Home: React.FC = () => {
       }
 
       if (filter?.match === 'single') {
-        return filterValue.includes(card[filterName]);
+        const cardValue = card[filterName];
+        if (Array.isArray(cardValue)) {
+          return cardValue.some((value) => filterValue.includes(value));
+        }
+        return filterValue.includes(cardValue);
       }
       return filterValue.every((val) => freeCardFeatures.indexOf(val) >= 0);
     }
@@ -108,7 +125,11 @@ const Home: React.FC = () => {
       return (card[filterName] as number) <= filterValue;
     }
 
-    return card[filterName] === filterValue;
+    const cardValue = card[filterName];
+    if (Array.isArray(cardValue)) {
+      return cardValue.includes(filterValue);
+    }
+    return cardValue === filterValue;
   };
 
   const handleSortChange = (value: string) => {
@@ -153,6 +174,7 @@ const Home: React.FC = () => {
   };
 
   const sortedFilteredCards = filteredCards();
+  const activeFilterCount = Object.keys(enabledFilters).length;
   const comparedCards = comparedIssuers
     .map((issuer) => cards.find((card) => card.Issuer === issuer))
     .filter((card): card is Card => !!card);
@@ -168,31 +190,51 @@ const Home: React.FC = () => {
         />
 
         <section id="vergleich" className="space-y-6">
-          {/* Filter bar at top */}
-          <div className="animate-fade-up rounded-lg bg-white p-4 ring-1 ring-border">
-            <div className="mb-3 flex items-center justify-between">
-              <h2 className="text-sm font-bold text-foreground">Filter</h2>
-              {Object.keys(enabledFilters).length > 0 && (
+          <AtmFeeNotice />
+
+          <div className="animate-fade-up rounded-lg border border-border/70 bg-white/85 p-3 shadow-[0_18px_70px_-55px_rgba(15,23,42,0.45)]">
+            <div className="flex flex-col gap-3 border-b border-border/70 pb-3 md:flex-row md:items-center md:justify-between">
+              <div className="flex items-center gap-3">
+                <span className="flex h-9 w-9 items-center justify-center rounded-md bg-foreground text-background">
+                  <SlidersHorizontal className="h-4 w-4" />
+                </span>
+                <div>
+                  <h2 className="text-base font-bold text-foreground">Vergleich einstellen</h2>
+                  <p className="text-sm text-muted-foreground">
+                    {sortedFilteredCards.length} von {cards.length} Karten
+                    {activeFilterCount > 0 ? ` mit ${activeFilterCount} aktiven Filtern` : ' sichtbar'}
+                  </p>
+                </div>
+              </div>
+
+              {activeFilterCount > 0 && (
                 <button
                   onClick={() => resetFilters()}
-                  className="text-xs text-muted-foreground hover:text-foreground"
+                  className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-border/80 bg-white px-3 text-sm font-semibold text-muted-foreground transition-colors hover:border-foreground/25 hover:text-foreground"
                 >
+                  <RotateCcw className="h-4 w-4" />
                   Zurücksetzen
                 </button>
               )}
             </div>
-            <div className="flex flex-wrap gap-4">
-              <div className="flex flex-wrap gap-2 flex-1">
+
+            <div className="grid gap-3 pt-3 xl:grid-cols-[minmax(0,1fr)_17rem]">
+              <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
                 {filterOptions.map((option) => (
-                  <div key={option.elementName}>
-                    <FilterElement config={option} onFilterChange={filterChange} enabledFilters={enabledFilters} />
-                  </div>
+                  <FilterElement
+                    key={option.elementName}
+                    config={option}
+                    onFilterChange={filterChange}
+                    enabledFilters={enabledFilters}
+                  />
                 ))}
               </div>
               <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
             </div>
-            <div className="mt-4 pt-3 border-t border-border">
-              <p className="text-[11px] leading-relaxed text-muted-foreground">
+
+            <div className="mt-3 flex items-start gap-2 border-t border-border/70 pt-3 text-[11px] leading-relaxed text-muted-foreground">
+              <ShieldCheck className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-accent" />
+              <p>
                 Konditionen werden fortlaufend geprüft. Provisionen über markierte Partnerlinks haben <strong>keinen</strong> Einfluss auf Bewertung oder Platzierung.
               </p>
             </div>

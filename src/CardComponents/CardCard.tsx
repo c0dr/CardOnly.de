@@ -6,6 +6,7 @@ import { getCardDetailPath } from '../lib/seo';
 import { getRecommendedCardProfile } from '../lib/recommendedCards';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
+import SchemeBadge from './SchemeBadge';
 
 const chargeLabels: Record<string, string> = {
   charge: 'Charge',
@@ -32,13 +33,30 @@ const formatForeignFeeCompact = (value: string | number | undefined | null) => {
   return formatted.length > 18 ? `${formatted.slice(0, 17).trim()}…` : formatted;
 };
 
-const formatAtmFee = (card: Card) => {
-  if (card.fees_atm_foreign === 0 || card.fees_atm_eur === 0) {
+const hasConditionalFreeAtm = (value: string | number | undefined | null) => {
+  if (typeof value !== 'string') {
+    return false;
+  }
+
+  return (
+    /ab\s*\d+\s*(€|eur|euro)/i.test(value) &&
+    /(kostenlos|gebührenfrei|gebuehrenfrei|0\s*(€|eur|euro))/.test(value.toLowerCase())
+  );
+};
+
+const formatAtmFee = (value: string | number | undefined | null, card: Card) => {
+  if (value === 0) {
     return { label: 'Kostenlos', highlight: true, note: card.cashAdvanceImmediate ? '**' : '' };
   }
-  if (card.fees_atm_foreign === undefined || card.fees_atm_foreign === null || card.fees_atm_foreign === '' || card.fees_atm_foreign === 'null') {
+
+  if (hasConditionalFreeAtm(value)) {
+    return { label: 'Kostenlos', highlight: true, note: '*' };
+  }
+
+  if (value === undefined || value === null || value === '' || value === 'null') {
     return { label: '–', highlight: false, note: '' };
   }
+
   return { label: 'Kostenpflichtig', highlight: false, note: '' };
 };
 
@@ -55,11 +73,12 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
   const [isOpen, setIsOpen] = useState(false);
   const nonAffiliateLink = card.link || null;
   const recommendedProfile = useMemo(() => getRecommendedCardProfile(card.Issuer), [card.Issuer]);
-  const atm = useMemo(() => formatAtmFee(card), [card]);
+  const atmEur = useMemo(() => formatAtmFee(card.fees_atm_eur, card), [card]);
+  const atmForeign = useMemo(() => formatAtmFee(card.fees_atm_foreign, card), [card]);
   const rating = useMemo(() => getCardRating(card), [card]);
 
   const allDetailCols = useMemo(() => {
-    const detailFields = ['yearlyFee', 'fees_pos_foreign', 'fees_atm_eur', 'fees_atm_foreign', 'charge', 'withChecking', 'pinfirst', 'contactless', 'insurance', 'miles', 'applepay', 'googlepay', 'notes'];
+    const detailFields = ['scheme', 'yearlyFee', 'fees_pos_foreign', 'fees_atm_eur', 'fees_atm_foreign', 'charge', 'withChecking', 'pinfirst', 'offlinepin', 'contactless', 'insurance', 'miles', 'applepay', 'googlepay', 'notes'];
     return cols.filter((col) => detailFields.includes(col.value));
   }, [cols]);
 
@@ -139,6 +158,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
                   Empfehlung
                 </span>
               )}
+              <SchemeBadge scheme={card.scheme} />
               <span className="flex-shrink-0 inline-flex items-center gap-1 rounded bg-muted px-2 py-1 text-xs font-bold text-foreground">
                 <Star className="h-3.5 w-3.5 text-accent" />
                 {rating.score}
@@ -151,7 +171,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
           </div>
 
           {/* Key metrics — desktop */}
-          <div className="hidden items-center gap-10 lg:flex">
+          <div className="hidden items-center gap-8 lg:flex">
             <div className="w-28 text-right">
               <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">Gebühr</p>
               <p className={`text-lg font-bold ${card.yearlyFee === 0 ? 'text-green-600' : 'text-foreground'}`}>
@@ -159,10 +179,17 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
               </p>
             </div>
 
-            <div className="w-40 text-right">
-              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">Bargeld</p>
-              <p className={`text-lg font-bold ${atm.highlight ? 'text-green-600' : 'text-foreground'}`}>
-                {atm.label}{atm.note}
+            <div className="w-28 text-right">
+              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">ATM Euro</p>
+              <p className={`text-base font-bold ${atmEur.highlight ? 'text-green-600' : 'text-foreground'}`}>
+                {atmEur.label}{atmEur.note}
+              </p>
+            </div>
+
+            <div className="w-32 text-right">
+              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">ATM Fremd</p>
+              <p className={`text-base font-bold ${atmForeign.highlight ? 'text-green-600' : 'text-foreground'}`}>
+                {atmForeign.label}{atmForeign.note}
               </p>
             </div>
 
@@ -202,7 +229,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         </div>
 
         {/* Mobile key metrics */}
-        <div className="flex items-center gap-5 border-t border-border/50 px-5 py-4 md:hidden">
+        <div className="grid grid-cols-3 gap-3 border-t border-border/50 px-5 py-4 text-center md:hidden">
           <div className="flex-1 text-center">
             <p className="text-xs font-medium text-muted-foreground/70">Score</p>
             <p className="text-sm font-bold text-foreground">{rating.label}</p>
@@ -214,9 +241,15 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             </p>
           </div>
           <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">Bargeld</p>
-            <p className={`truncate text-sm font-bold ${atm.highlight ? 'text-green-600' : 'text-foreground'}`}>
-              {atm.label}
+            <p className="text-xs font-medium text-muted-foreground/70">ATM Euro</p>
+            <p className={`truncate text-sm font-bold ${atmEur.highlight ? 'text-green-600' : 'text-foreground'}`}>
+              {atmEur.label}{atmEur.note}
+            </p>
+          </div>
+          <div className="flex-1 text-center">
+            <p className="text-xs font-medium text-muted-foreground/70">ATM Fremd</p>
+            <p className={`truncate text-sm font-bold ${atmForeign.highlight ? 'text-green-600' : 'text-foreground'}`}>
+              {atmForeign.label}{atmForeign.note}
             </p>
           </div>
           <div className="flex-1 text-center">
@@ -257,7 +290,13 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
                 {allDetailCols.map((col, idx) => (
                   <TableRow key={idx} className="border-b border-border/30 last:border-0">
                     <TableCell className="w-1/3 py-3 pl-0 text-xs font-medium text-muted-foreground">{col.label}</TableCell>
-                    <TableCell className="py-3 pr-0 text-foreground">{renderValue(card[col.value])}</TableCell>
+                    <TableCell className="py-3 pr-0 text-foreground">
+                      {col.value === 'scheme' ? (
+                        <SchemeBadge scheme={card.scheme} />
+                      ) : (
+                        renderValue(card[col.value])
+                      )}
+                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>

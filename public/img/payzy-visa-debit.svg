@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">payzy Visa Debit</title>
+  <desc id="desc">Stylized payzy Visa Debit card thumbnail</desc>
+  <rect width="640" height="400" rx="34" fill="#111827"/>
+  <circle cx="520" cy="92" r="64" fill="#38d996"/>
+  <circle cx="558" cy="130" r="54" fill="#6ee7f9" opacity=".75"/>
+  <text x="48" y="188" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">payzy</text>
+  <text x="50" y="242" fill="#b7f7d7" font-family="Arial, Helvetica, sans-serif" font-size="28">Visa Debit</text>
+  <text x="462" y="330" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-style="italic" font-weight="700">VISA</text>
+</svg>
