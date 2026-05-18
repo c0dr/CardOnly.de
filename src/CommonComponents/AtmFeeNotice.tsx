@@ -8,8 +8,8 @@ const AtmFeeNotice: React.FC = () => {
       <Info className="h-4 w-4" />
       <AlertDescription className="leading-relaxed">
         Wenn ATM-Abhebungen hier als kostenlos bewertet werden, erhebt der Kartenherausgeber keine eigene Gebühr.
-        Automatenbetreiber können dennoch ein separates Entgelt verlangen; dieses wird in der Regel nicht vom
-        Kartenherausgeber erstattet.
+        Automatenbetreiber können dennoch ein separates Entgelt verlangen; dieses wird nicht vom Kartenherausgeber
+        erstattet. Für diesen Vergleich zählt die Abhebung deshalb als kostenlos.
       </AlertDescription>
     </Alert>
   );

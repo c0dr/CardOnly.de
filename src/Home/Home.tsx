@@ -9,8 +9,9 @@ import FilterElement from '../Filter/FilterElement';
 import { clearCompareIssuers, getCompareIssuers, maxCompareCards, setCompareIssuers } from '../lib/compareSelection';
 import { compareCardsByRating, isZeroLike } from '../lib/cardRatings';
 import { Button } from '../components/ui/button';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '../components/ui/collapsible';
 import { Card } from '../types';
-import { RotateCcw, ShieldCheck, SlidersHorizontal } from 'lucide-react';
+import { ChevronDown, ChevronUp, RotateCcw, ShieldCheck, SlidersHorizontal } from 'lucide-react';
 
 interface FilterOption {
   filterName: string;
@@ -31,6 +32,7 @@ const Home: React.FC = () => {
   const [cols, setCols] = useState<Column[]>([]);
   const [sortBy, setSortBy] = useState('bestOverall');
   const [comparedIssuers, setComparedIssuers] = useState<string[]>(() => getCompareIssuers());
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   useEffect(() => {
     fetch('data/cards.json')
@@ -192,8 +194,12 @@ const Home: React.FC = () => {
         <section id="vergleich" className="space-y-6">
           <AtmFeeNotice />
 
-          <div className="animate-fade-up rounded-lg border border-border/70 bg-white/85 p-3 shadow-[0_18px_70px_-55px_rgba(15,23,42,0.45)]">
-            <div className="flex flex-col gap-3 border-b border-border/70 pb-3 md:flex-row md:items-center md:justify-between">
+          <Collapsible
+            open={filtersOpen}
+            onOpenChange={setFiltersOpen}
+            className="animate-fade-up rounded-lg border border-border/70 bg-white/85 p-3 shadow-[0_18px_70px_-55px_rgba(15,23,42,0.45)]"
+          >
+            <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md bg-foreground text-background">
                   <SlidersHorizontal className="h-4 w-4" />
@@ -207,30 +213,44 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              {activeFilterCount > 0 && (
-                <button
-                  onClick={() => resetFilters()}
-                  className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-border/80 bg-white px-3 text-sm font-semibold text-muted-foreground transition-colors hover:border-foreground/25 hover:text-foreground"
-                >
-                  <RotateCcw className="h-4 w-4" />
-                  Zurücksetzen
-                </button>
-              )}
+              <div className="flex flex-wrap items-center gap-2">
+                {activeFilterCount > 0 && (
+                  <button
+                    onClick={() => resetFilters()}
+                    className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-border/80 bg-white px-3 text-sm font-semibold text-muted-foreground transition-colors hover:border-foreground/25 hover:text-foreground"
+                  >
+                    <RotateCcw className="h-4 w-4" />
+                    Zurücksetzen
+                  </button>
+                )}
+                <CollapsibleTrigger asChild>
+                  <button
+                    type="button"
+                    className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-foreground/15 bg-foreground px-3 text-sm font-semibold text-background transition-colors hover:bg-foreground/90"
+                    aria-label={filtersOpen ? 'Filter ausblenden' : 'Filter anzeigen'}
+                  >
+                    {filtersOpen ? 'Filter ausblenden' : 'Filter anzeigen'}
+                    {filtersOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+                  </button>
+                </CollapsibleTrigger>
+              </div>
             </div>
 
-            <div className="grid gap-3 pt-3 xl:grid-cols-[minmax(0,1fr)_17rem]">
-              <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
-                {filterOptions.map((option) => (
-                  <FilterElement
-                    key={option.elementName}
-                    config={option}
-                    onFilterChange={filterChange}
-                    enabledFilters={enabledFilters}
-                  />
-                ))}
+            <CollapsibleContent>
+              <div className="mt-3 grid gap-3 border-t border-border/70 pt-3 xl:grid-cols-[minmax(0,1fr)_17rem]">
+                <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+                  {filterOptions.map((option) => (
+                    <FilterElement
+                      key={option.elementName}
+                      config={option}
+                      onFilterChange={filterChange}
+                      enabledFilters={enabledFilters}
+                    />
+                  ))}
+                </div>
+                <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
               </div>
-              <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
-            </div>
+            </CollapsibleContent>
 
             <div className="mt-3 flex items-start gap-2 border-t border-border/70 pt-3 text-[11px] leading-relaxed text-muted-foreground">
               <ShieldCheck className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-accent" />
@@ -238,7 +258,7 @@ const Home: React.FC = () => {
                 Konditionen werden fortlaufend geprüft. Provisionen über markierte Partnerlinks haben <strong>keinen</strong> Einfluss auf Bewertung oder Platzierung.
               </p>
             </div>
-          </div>
+          </Collapsible>
 
           <main className="min-w-0">
             <FeaturedCards cards={cards} />
