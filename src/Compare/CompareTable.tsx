@@ -87,27 +87,27 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
   if (cards.length === 0) return null;
 
   return (
-    <section className="mb-6 animate-fade-up rounded-lg border border-stone-300 bg-white p-4 shadow-sm">
+    <section className="mb-6 animate-fade-up rounded-lg border border-border bg-card p-4 shadow-card">
       <div className="mb-3 flex items-center justify-between gap-3">
         <div>
-          <h3 className="text-xl font-bold text-stone-950">Vergleich ({cards.length}/3)</h3>
-          <p className="text-sm text-stone-600">Beste Werte sind gruen markiert.</p>
+          <h3 className="text-xl font-bold text-foreground">Vergleich ({cards.length}/3)</h3>
+          <p className="text-sm text-muted-foreground">Beste Werte sind gruen markiert.</p>
         </div>
         {onClear && (
-          <Button variant="outline" className="rounded-md border-stone-300" onClick={onClear}>
+          <Button variant="outline" className="rounded-md border-border" onClick={onClear}>
             Vergleich leeren
           </Button>
         )}
       </div>
 
-      <Table className="overflow-hidden rounded-md border border-stone-200">
+      <Table className="overflow-hidden rounded-md border border-border">
         <TableBody>
           <TableRow>
-            <TableCell className="font-semibold text-stone-700">Karte</TableCell>
+            <TableCell className="font-semibold text-foreground/80">Karte</TableCell>
             {cards.map((card) => (
-              <TableCell key={card.Issuer} className="font-semibold text-stone-950">
+              <TableCell key={card.Issuer} className="font-semibold text-foreground">
                 <div className="space-y-2">
-                  <div className="mx-auto h-14 w-24 rounded-md border border-stone-200 bg-white p-1">
+                  <div className="mx-auto h-14 w-24 rounded-md border border-border bg-white p-1">
                     <img src={card.image} alt={`${card.Issuer} Logo`} className="h-full w-full object-contain" />
                   </div>
                   <div className="flex items-center justify-between gap-2">
@@ -115,7 +115,7 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
                     {onRemove && (
                       <button
                         type="button"
-                        className="rounded-md px-2 py-0.5 text-xs text-stone-500 hover:bg-stone-100 hover:text-stone-700"
+                        className="rounded-md px-2 py-0.5 text-xs text-muted-foreground hover:bg-secondary hover:text-foreground"
                         onClick={() => onRemove(card.Issuer)}
                       >
                         Entfernen
@@ -130,7 +130,7 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
 
           {metrics.map((metric) => (
             <TableRow key={metric.id}>
-              <TableCell className="font-medium text-stone-700">{metric.label}</TableCell>
+              <TableCell className="font-medium text-foreground/80">{metric.label}</TableCell>
               {cards.map((card) => {
                 const value = getMetricValue(metric.id, card);
                 const isBest =
@@ -138,7 +138,7 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
                 return (
                   <TableCell
                     key={`${metric.id}-${card.Issuer}`}
-                    className={isBest ? 'bg-emerald-50 text-emerald-900 font-semibold' : 'text-stone-700'}
+                    className={isBest ? 'bg-emerald-50 text-emerald-800 font-semibold tabular-nums' : 'text-foreground/80'}
                   >
                     {formatValue(metric.id, card)}
                   </TableCell>

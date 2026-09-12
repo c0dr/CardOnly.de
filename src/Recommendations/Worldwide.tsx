@@ -1,4 +1,5 @@
 import React from 'react';
+import { CheckCircle2 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import Barclaycard from '../img/barclaycard.png';
@@ -10,9 +11,7 @@ const Worldwide: React.FC = () => {
       
       <Card>
         <CardHeader className="flex items-center space-x-2">
-          <i aria-hidden="true" className="fa fa-shopping-bag"></i>
-          <span>+</span>
-          <i aria-hidden="true" className="fa fa-money"></i>
+          
           <span>Gratis Bezahlen und Abheben weltweit</span>
         </CardHeader>
         <CardContent>
@@ -22,15 +21,15 @@ const Worldwide: React.FC = () => {
               <CardTitle className="mb-4">Barclaycard Visa</CardTitle>
               <ul className="space-y-2">
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-green-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                   <span><strong>0€</strong> Jahresgebühr</span>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-green-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                   <span><strong>0€</strong> für Abhebungen weltweit</span>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-green-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                   <span>100% Lastschrift einstellbar</span>
                 </li>
               </ul>
@@ -52,9 +51,7 @@ const Worldwide: React.FC = () => {
 
       <Card>
         <CardHeader className="flex items-center space-x-2">
-          <i aria-hidden="true" className="fa fa-shopping-bag"></i>
-          <span>+</span>
-          <i aria-hidden="true" className="fa fa-money"></i>
+          
           <span>Gratis Bezahlen und Abheben weltweit</span>
         </CardHeader>
         <CardContent>
@@ -68,15 +65,15 @@ const Worldwide: React.FC = () => {
               <CardTitle className="mb-4">DKB Visa Girokonto</CardTitle>
               <ul className="space-y-2">
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-green-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                   <span><strong>0€</strong> Gebühren fürs Konto</span>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-green-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
                   <span><strong>0€</strong> für Abhebungen weltweit</span>
                 </li>
                 <li className="flex items-start space-x-2">
-                  <i className="fa fa-check-square text-blue-600 mt-1"></i>
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                   <span>inkl. Girokonto und girocard</span>
                 </li>
               </ul>

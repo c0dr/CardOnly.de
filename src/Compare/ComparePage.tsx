@@ -39,10 +39,10 @@ const ComparePage: React.FC = () => {
     <div className="container px-4 py-6 md:py-8">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h1 className="text-3xl font-bold text-stone-950">Kartenvergleich</h1>
-          <p className="mt-1 text-sm text-stone-600">Vergleiche bis zu 3 ausgewaehlte Karten im direkten Raster.</p>
+          <h1 className="text-3xl font-bold text-foreground">Kartenvergleich</h1>
+          <p className="mt-1 text-sm text-muted-foreground">Vergleiche bis zu 3 ausgewaehlte Karten im direkten Raster.</p>
         </div>
-        <Button asChild variant="outline" className="rounded-md border-stone-300">
+        <Button asChild variant="outline" className="rounded-md border-border">
           <Link to="/">Zurück zum Vergleich</Link>
         </Button>
       </div>
@@ -52,12 +52,12 @@ const ComparePage: React.FC = () => {
       </div>
 
       {comparedCards.length === 0 ? (
-        <section className="rounded-lg border border-stone-300 bg-white p-5 shadow-sm">
-          <h2 className="text-xl font-semibold text-stone-950">Noch keine Karten ausgewaehlt</h2>
-          <p className="mt-2 text-sm text-stone-600">
+        <section className="rounded-xl border border-border bg-card p-6 shadow-card">
+          <h2 className="text-xl font-semibold text-foreground">Noch keine Karten ausgewaehlt</h2>
+          <p className="mt-2 text-sm text-muted-foreground">
             Gehe zur Hauptseite und markiere bis zu 3 Karten mit dem Button "Vergleichen".
           </p>
-          <Button asChild className="mt-4 rounded-md">
+          <Button asChild className="mt-4 rounded-lg">
             <Link to="/">Karten auswählen</Link>
           </Button>
         </section>

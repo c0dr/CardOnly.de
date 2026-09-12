@@ -6,7 +6,7 @@ const Impressum: React.FC = () => {
       <div className="container mx-auto max-w-4xl px-4 py-8">
         <h1 className="text-3xl font-bold text-slate-900">Impressum</h1>
 
-        <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-6 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">Angaben gemaess Paragraf 5 DDG</h2>
           <p className="mt-3 text-sm text-slate-700">
             Simon Schraeder<br />
@@ -16,7 +16,7 @@ const Impressum: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">Kontakt</h2>
           <p className="mt-3 text-sm text-slate-700">
             E-Mail: info@simon-schraeder.de<br />
@@ -24,12 +24,12 @@ const Impressum: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">Redaktionell Verantwortlicher</h2>
           <p className="mt-3 text-sm text-slate-700">Verantwortlich fuer journalistisch-redaktionelle Inhalte gemaess Paragraf 18 Abs. 2 MStV: Simon Schraeder, Anschrift wie oben.</p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">Hinweis zu Partnerlinks</h2>
           <p className="mt-3 text-sm text-slate-700">
             Diese Website enthaelt Partnerlinks. Bei Abschluss ueber entsprechend gekennzeichnete Links kann eine Provision anfallen.

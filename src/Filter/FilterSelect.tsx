@@ -87,10 +87,10 @@ const FilterSelect: React.FC<FilterSelectProps> = ({ config, onFilterChange, ena
     return (
       <div
         className={cn(
-          'flex min-h-[58px] items-center justify-between gap-3 rounded-md border bg-white/75 px-3 py-2.5 transition-colors',
+          'flex min-h-[58px] items-center justify-between gap-3 rounded-md border bg-card px-3 py-2.5 transition-colors',
           hasActiveSelection
             ? 'border-accent/50 bg-accent/5'
-            : 'border-border/70 hover:border-foreground/20'
+            : 'border-border hover:border-slate-300'
         )}
       >
         <Label htmlFor={optionId} className="cursor-pointer text-sm font-semibold leading-snug text-foreground">
@@ -109,10 +109,10 @@ const FilterSelect: React.FC<FilterSelectProps> = ({ config, onFilterChange, ena
   return (
     <div
       className={cn(
-        'min-h-[74px] rounded-md border bg-white/75 px-3 py-2.5 transition-colors',
+        'min-h-[74px] rounded-md border bg-card px-3 py-2.5 transition-colors',
         hasActiveSelection
           ? 'border-accent/50 bg-accent/5'
-          : 'border-border/70 hover:border-foreground/20'
+          : 'border-border hover:border-slate-300'
       )}
     >
       <Label className="mb-2 block text-xs font-semibold uppercase text-muted-foreground">{config.label}</Label>
@@ -129,8 +129,8 @@ const FilterSelect: React.FC<FilterSelectProps> = ({ config, onFilterChange, ena
               className={cn(
                 'inline-flex h-8 cursor-pointer items-center gap-2 rounded-md border px-2.5 text-xs font-semibold transition-colors',
                 checked
-                  ? 'border-foreground bg-foreground text-background'
-                  : 'border-border/80 bg-white text-muted-foreground hover:border-foreground/30 hover:text-foreground'
+                  ? 'border-primary bg-primary text-primary-foreground'
+                  : 'border-border bg-card text-muted-foreground hover:border-slate-300 hover:text-foreground'
               )}
             >
               <Checkbox

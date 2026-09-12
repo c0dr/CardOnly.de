@@ -4,9 +4,11 @@ import { Table, TableBody, TableRow, TableCell } from '../components/ui/table';
 import { Check, X, ChevronDown, Star } from 'lucide-react';
 import { getCardDetailPath } from '../lib/seo';
 import { getRecommendedCardProfile } from '../lib/recommendedCards';
+import { cardHighlights } from '../lib/cardHighlights';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
 import SchemeBadge from './SchemeBadge';
+import UsageFees from './UsageFees';
 
 const chargeLabels: Record<string, string> = {
   charge: 'Charge',
@@ -60,6 +62,28 @@ const formatAtmFee = (value: string | number | undefined | null, card: Card) => 
   return { label: 'Kostenpflichtig', highlight: false, note: '' };
 };
 
+interface MetricProps {
+  label: string;
+  value: string;
+  highlight?: boolean;
+  title?: string;
+  size?: 'sm' | 'md';
+}
+
+const Metric: React.FC<MetricProps> = ({ label, value, highlight, title, size = 'md' }) => (
+  <div className="min-w-0">
+    <p className="text-xs font-medium text-slate-400">{label}</p>
+    <p
+      title={title}
+      className={`mt-0.5 truncate font-semibold tabular-nums ${size === 'md' ? 'text-[15px]' : 'text-sm'} ${
+        highlight ? 'text-emerald-600' : 'text-foreground'
+      }`}
+    >
+      {value}
+    </p>
+  </div>
+);
+
 interface CardCardProps {
   card: Card;
   cols: any[];
@@ -67,15 +91,17 @@ interface CardCardProps {
   onToggleCompare?: (issuer: string) => void;
   isCompared?: boolean;
   compareDisabled?: boolean;
+  simple?: boolean;
 }
 
-const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare, isCompared = false, compareDisabled = false }) => {
+const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare, isCompared = false, compareDisabled = false, simple = false }) => {
   const [isOpen, setIsOpen] = useState(false);
   const nonAffiliateLink = card.link || null;
   const recommendedProfile = useMemo(() => getRecommendedCardProfile(card.Issuer), [card.Issuer]);
   const atmEur = useMemo(() => formatAtmFee(card.fees_atm_eur, card), [card]);
   const atmForeign = useMemo(() => formatAtmFee(card.fees_atm_foreign, card), [card]);
   const rating = useMemo(() => getCardRating(card), [card]);
+  const highlights = useMemo(() => (simple ? cardHighlights(card) : []), [card, simple]);
 
   const allDetailCols = useMemo(() => {
     const detailFields = ['scheme', 'yearlyFee', 'fees_pos_foreign', 'fees_atm_eur', 'fees_atm_foreign', 'charge', 'withChecking', 'pinfirst', 'offlinepin', 'contactless', 'insurance', 'miles', 'applepay', 'googlepay', 'notes'];
@@ -85,15 +111,15 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
   const renderValue = (value: any) => {
     if (value === true) {
       return (
-        <span className="inline-flex items-center gap-1 text-xs font-medium text-accent">
-          <Check className="h-3 w-3" /> Ja
+        <span className="inline-flex items-center gap-1 text-[13px] font-medium text-emerald-600">
+          <Check className="h-3.5 w-3.5" /> Ja
         </span>
       );
     }
     if (value === false) {
       return (
-        <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
-          <X className="h-3 w-3" /> Nein
+        <span className="inline-flex items-center gap-1 text-[13px] text-muted-foreground">
+          <X className="h-3.5 w-3.5" /> Nein
         </span>
       );
     }
@@ -106,40 +132,49 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
     return <span>{String(value)}</span>;
   };
 
+  const providerButton = (card.adlink || card.link) && (
+    <Button asChild size="sm" className="h-9 rounded-lg px-4 text-[13px] font-semibold shadow-card">
+      <a href={card.adlink || card.link} target="_blank" rel="noopener noreferrer">
+        Zum Anbieter
+        {card.adlink && <span className="ml-1 text-[10px] opacity-60">*</span>}
+      </a>
+    </Button>
+  );
+
   return (
     <article
-      className={`group rounded-lg bg-white ring-1 transition-all ${
+      className={`comparison-card group border bg-card transition-all ${
         isCompared
-          ? 'ring-accent/40 shadow-sm'
-          : recommendedProfile
-          ? 'ring-border shadow-sm'
-          : 'ring-border hover:ring-foreground/20'
+          ? 'border-accent/50 ring-1 ring-accent/40'
+          : 'border-border shadow-card hover:border-slate-300 hover:shadow-lift'
       }`}
       style={{ animationDelay: `${Math.min(index * 30, 300)}ms` }}
     >
       {/* Main row */}
-      <div className="p-5 sm:p-6">
-        <div className="flex items-center gap-4 sm:gap-6">
+      <div className="p-4 sm:p-5">
+        <div className="comparison-heading flex items-center gap-3 sm:gap-4">
           {/* Rank */}
-          <span className="hidden w-8 flex-shrink-0 text-center text-sm font-bold text-muted-foreground/50 sm:block">
-            {index + 1}
-          </span>
+          {!simple && (
+            <span className="hidden w-6 flex-shrink-0 text-center text-sm font-medium tabular-nums text-slate-400 sm:block">
+              {index + 1}
+            </span>
+          )}
 
           {/* Card image */}
-          <div className="relative h-12 w-[80px] flex-shrink-0 sm:h-14 sm:w-[88px]">
+          <div className="comparison-image relative flex-shrink-0">
             {nonAffiliateLink ? (
               <a href={nonAffiliateLink} target="_blank" rel="noopener noreferrer" className="block h-full w-full">
-                <img alt={card.Issuer} className="h-full w-full rounded object-contain" src={card.image} />
+                <img alt={card.Issuer} className="h-full w-full rounded-md object-contain" src={card.image} />
               </a>
             ) : (
-              <img alt={card.Issuer} className="h-full w-full rounded object-contain" src={card.image} />
+              <img alt={card.Issuer} className="h-full w-full rounded-md object-contain" src={card.image} />
             )}
           </div>
 
           {/* Name + type */}
           <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-2">
-              <h3 className="truncate text-base font-bold text-foreground">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <h3 className="text-base font-semibold leading-snug tracking-tight text-foreground">
                 {nonAffiliateLink ? (
                   <a
                     href={nonAffiliateLink}
@@ -153,75 +188,81 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
                   card.Issuer
                 )}
               </h3>
+              {simple && (
+                <span
+                  className="inline-flex flex-shrink-0 items-center gap-1 text-[11px] font-semibold tabular-nums text-accent"
+                  title={rating.label}
+                >
+                  <Star className="h-3 w-3" />
+                  {rating.score}
+                </span>
+              )}
               {recommendedProfile && (
-                <span className="flex-shrink-0 text-xs font-semibold text-accent">
+                <span className="flex-shrink-0 text-[10px] font-semibold uppercase tracking-wider text-accent">
                   Empfehlung
                 </span>
               )}
-              <SchemeBadge scheme={card.scheme} />
-              <span className="flex-shrink-0 inline-flex items-center gap-1 rounded bg-muted px-2 py-1 text-xs font-bold text-foreground">
-                <Star className="h-3.5 w-3.5 text-accent" />
-                {rating.score}
-              </span>
+              {!simple && <SchemeBadge scheme={card.scheme} />}
             </div>
-            <p className="text-sm text-muted-foreground">
-              {chargeLabels[card.charge as string] || 'Karte'}
-              {card.withChecking ? ' · Girokonto' : ''}
-            </p>
+            {simple ? (
+              <p className="mt-2 text-xs leading-5 text-muted-foreground">
+                {highlights.length > 0 ? highlights.join(' · ') : chargeLabels[card.charge as string] || 'Karte'}
+              </p>
+            ) : (
+              <div className="mt-0.5 flex items-center gap-2">
+                <p className="truncate text-[13px] text-muted-foreground">
+                  {chargeLabels[card.charge as string] || 'Karte'}
+                  {card.withChecking ? ' · Girokonto' : ''}
+                </p>
+              </div>
+            )}
           </div>
+
+          {/* Simple mode: fee on the right */}
+          {simple && (
+            <div className="comparison-price flex-shrink-0 text-right">
+              <p className="text-2xl font-semibold tracking-tight tabular-nums text-foreground">
+                {Number(card.yearlyFee) === 0 ? '0 €' : `${card.yearlyFee} €`}
+              </p>
+              <p className="text-[11px] text-muted-foreground">pro Jahr</p>
+            </div>
+          )}
 
           {/* Key metrics — desktop */}
-          <div className="hidden items-center gap-8 lg:flex">
-            <div className="w-28 text-right">
-              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">Gebühr</p>
-              <p className={`text-lg font-bold ${card.yearlyFee === 0 ? 'text-green-600' : 'text-foreground'}`}>
-                {card.yearlyFee === 0 ? 'Kostenlos' : `${card.yearlyFee} €`}
-              </p>
+          {!simple && (
+            <div className="hidden items-start divide-x divide-border lg:flex">
+              <Metric
+                label="Score"
+                value={String(rating.score)}
+                size="sm"
+                title={rating.label}
+              />
+              <div className="px-5"><Metric label="Jahresgebühr" value={card.yearlyFee === 0 ? '0 €' : `${card.yearlyFee} €`} highlight={card.yearlyFee === 0} /></div>
+              <div className="px-5"><Metric label="ATM Euro" value={`${atmEur.label}${atmEur.note}`} highlight={atmEur.highlight} /></div>
+              <div className="px-5"><Metric label="ATM weltweit" value={`${atmForeign.label}${atmForeign.note}`} highlight={atmForeign.highlight} /></div>
+              <div className="pl-5">
+                <Metric
+                  label="Fremdwährung"
+                  value={String(formatForeignFeeCompact(card.fees_pos_foreign))}
+                  highlight={card.fees_pos_foreign === 0}
+                  title={String(formatForeignFee(card.fees_pos_foreign))}
+                />
+              </div>
             </div>
-
-            <div className="w-28 text-right">
-              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">ATM Euro</p>
-              <p className={`text-base font-bold ${atmEur.highlight ? 'text-green-600' : 'text-foreground'}`}>
-                {atmEur.label}{atmEur.note}
-              </p>
-            </div>
-
-            <div className="w-32 text-right">
-              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">ATM Fremd</p>
-              <p className={`text-base font-bold ${atmForeign.highlight ? 'text-green-600' : 'text-foreground'}`}>
-                {atmForeign.label}{atmForeign.note}
-              </p>
-            </div>
-
-            <div className="w-28 text-right">
-              <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/70">FX-Gebühr</p>
-              <p
-                className={`text-base font-bold leading-tight ${card.fees_pos_foreign === 0 ? 'text-green-600' : 'text-foreground'}`}
-                title={String(formatForeignFee(card.fees_pos_foreign))}
-              >
-                {formatForeignFeeCompact(card.fees_pos_foreign)}
-              </p>
-            </div>
-          </div>
+          )}
 
           {/* Actions */}
-          <div className="flex flex-shrink-0 items-center gap-2">
-            {(card.adlink || card.link) && (
-              <Button asChild size="sm" className="hidden h-8 rounded-md px-3 text-xs sm:inline-flex">
-                <a href={card.adlink || card.link} target="_blank" rel="noopener noreferrer">
-                  Zum Anbieter
-                  {card.adlink && <span className="ml-1 text-[9px] opacity-60">*</span>}
-                </a>
-              </Button>
-            )}
+          <div className="ml-auto flex flex-shrink-0 items-center gap-2 lg:ml-2">
+            {!simple && <div className="hidden sm:block">{providerButton}</div>}
 
             <button
               type="button"
               onClick={() => setIsOpen(!isOpen)}
-              className={`flex h-8 w-8 items-center justify-center rounded-md transition-colors ${
-                isOpen ? 'bg-foreground/5 text-foreground' : 'text-muted-foreground hover:bg-foreground/5 hover:text-foreground'
+              className={`flex h-9 w-9 items-center justify-center rounded-lg border border-transparent transition-colors ${
+                isOpen ? 'bg-secondary text-foreground' : 'text-muted-foreground hover:bg-secondary hover:text-foreground'
               }`}
-              aria-label="Details anzeigen"
+              aria-label={isOpen ? 'Details ausblenden' : 'Details anzeigen'}
+              aria-expanded={isOpen}
             >
               <ChevronDown className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
             </button>
@@ -229,51 +270,67 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         </div>
 
         {/* Mobile key metrics */}
-        <div className="grid grid-cols-3 gap-3 border-t border-border/50 px-5 py-4 text-center md:hidden">
-          <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">Score</p>
-            <p className="text-sm font-bold text-foreground">{rating.label}</p>
-          </div>
-          <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">Gebühr</p>
-            <p className={`text-sm font-bold ${card.yearlyFee === 0 ? 'text-green-600' : 'text-foreground'}`}>
-              {card.yearlyFee === 0 ? 'Kostenlos' : `${card.yearlyFee} €`}
-            </p>
-          </div>
-          <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">ATM Euro</p>
-            <p className={`truncate text-sm font-bold ${atmEur.highlight ? 'text-green-600' : 'text-foreground'}`}>
-              {atmEur.label}{atmEur.note}
-            </p>
-          </div>
-          <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">ATM Fremd</p>
-            <p className={`truncate text-sm font-bold ${atmForeign.highlight ? 'text-green-600' : 'text-foreground'}`}>
-              {atmForeign.label}{atmForeign.note}
-            </p>
-          </div>
-          <div className="flex-1 text-center">
-            <p className="text-xs font-medium text-muted-foreground/70">FX</p>
-            <p
-              className={`text-sm font-bold leading-tight ${card.fees_pos_foreign === 0 ? 'text-green-600' : 'text-foreground'}`}
+        {!simple && (
+          <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-border/70 pt-4 sm:grid-cols-4 lg:hidden">
+            <div className="sm:hidden">
+              <p className="text-xs font-medium text-slate-400">Bewertung</p>
+              <p className="mt-0.5 inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-foreground">
+                <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
+                {rating.score}
+              </p>
+            </div>
+            <Metric size="sm" label="Jahresgebühr" value={card.yearlyFee === 0 ? '0 €' : `${card.yearlyFee} €`} highlight={card.yearlyFee === 0} />
+            <Metric size="sm" label="ATM Euro" value={`${atmEur.label}${atmEur.note}`} highlight={atmEur.highlight} />
+            <Metric size="sm" label="ATM weltweit" value={`${atmForeign.label}${atmForeign.note}`} highlight={atmForeign.highlight} />
+            <Metric
+              size="sm"
+              label="Fremdwährung"
+              value={String(formatForeignFeeCompact(card.fees_pos_foreign))}
+              highlight={card.fees_pos_foreign === 0}
               title={String(formatForeignFee(card.fees_pos_foreign))}
-            >
-              {formatForeignFeeCompact(card.fees_pos_foreign)}
-            </p>
+            />
           </div>
-        </div>
+        )}
+
+        {simple && <UsageFees card={card} />}
+
+        {/* Simple mode: prominent full-width CTA */}
+        {simple && (
+          <div className="comparison-actions mt-4 flex flex-wrap items-center gap-2 border-t border-border/70 pt-4">
+            {onToggleCompare && (
+              <button type="button" className="compare-toggle" aria-pressed={isCompared} disabled={compareDisabled} onClick={() => onToggleCompare(card.Issuer)}>
+                <span aria-hidden="true">{isCompared ? '✓' : '+'}</span>
+                {isCompared ? 'Im Vergleich' : 'Vergleichen'}
+              </button>
+            )}
+            {(card.adlink || card.link) && (
+              <Button asChild size="sm" className="provider-action h-10 rounded-md px-5 text-[13px] font-semibold shadow-none">
+                <a href={card.adlink || card.link} target="_blank" rel="noopener noreferrer">
+                  Zum Anbieter
+                  {card.adlink && <span className="ml-1 text-[10px] opacity-60">*</span>}
+                </a>
+              </Button>
+            )}
+            <Button asChild variant="ghost" size="sm" className="h-10 rounded-lg px-4 text-[13px] text-muted-foreground hover:text-foreground">
+              <a href={getCardDetailPath(card.Issuer)}>Details</a>
+            </Button>
+          </div>
+        )}
+
+        {/* Provider button row for small screens */}
+        {!simple && <div className="mt-4 sm:hidden">{providerButton}</div>}
       </div>
 
       {/* Legal/Notes - visible without expansion */}
       {(card.notes || card.legalnotes) && (
-        <div className="border-t border-border/50 bg-muted/30 px-5 py-3">
+        <div className="comparison-notes border-t border-border/70 px-5 py-3">
           {card.notes && (
-            <p className="text-xs leading-relaxed text-foreground">
+            <p className="text-[13px] leading-relaxed text-foreground/90">
               <span dangerouslySetInnerHTML={{ __html: card.notes }} />
             </p>
           )}
           {card.legalnotes && (
-            <p className="text-[11px] leading-relaxed text-muted-foreground">
+            <p className="mt-1 text-[11px] leading-relaxed text-muted-foreground">
               <span dangerouslySetInnerHTML={{ __html: card.legalnotes }} />
             </p>
           )}
@@ -282,15 +339,15 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
 
       {/* Expanded details */}
       {isOpen && (
-        <div className="border-t border-border/50 animate-fade-up">
+        <div className="border-t border-border/70 animate-fade-up">
           {/* Detail table */}
-          <div className="p-6">
+          <div className="p-5 sm:p-6">
             <Table className="text-sm">
               <TableBody>
                 {allDetailCols.map((col, idx) => (
-                  <TableRow key={idx} className="border-b border-border/30 last:border-0">
-                    <TableCell className="w-1/3 py-3 pl-0 text-xs font-medium text-muted-foreground">{col.label}</TableCell>
-                    <TableCell className="py-3 pr-0 text-foreground">
+                  <TableRow key={idx} className="border-b border-border/60 last:border-0 hover:bg-transparent">
+                    <TableCell className="w-1/3 py-2.5 pl-0 align-top text-[13px] text-muted-foreground">{col.label}</TableCell>
+                    <TableCell className="py-2.5 pr-0 text-[13px] text-foreground">
                       {col.value === 'scheme' ? (
                         <SchemeBadge scheme={card.scheme} />
                       ) : (
@@ -303,10 +360,10 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             </Table>
           </div>
 
-{/* Action row */}
-          <div className="flex items-center gap-3 border-t border-border/50 px-6 py-4">
+          {/* Action row */}
+          <div className="flex flex-wrap items-center gap-3 border-t border-border/70 bg-secondary/40 px-5 py-3.5 sm:px-6">
             {(card.adlink || card.link) && (
-              <Button asChild size="sm" className="h-9 rounded-md px-4 text-sm">
+              <Button asChild size="sm" className="h-9 rounded-lg px-4 text-[13px] font-semibold shadow-card">
                 <a href={card.adlink || card.link} target="_blank" rel="noopener noreferrer">
                   Zum Anbieter
                   {card.adlink && <span className="ml-1 text-[10px] opacity-60">*</span>}
@@ -318,17 +375,23 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
               <Button
                 variant={isCompared ? 'secondary' : 'outline'}
                 size="sm"
-                className={`h-9 rounded-md px-4 text-sm ${
-                  isCompared ? 'text-accent' : ''
+                className={`h-9 rounded-lg border-border px-4 text-[13px] font-medium ${
+                  isCompared ? 'bg-accent/10 text-accent hover:bg-accent/15' : 'bg-card'
                 }`}
                 onClick={() => onToggleCompare(card.Issuer)}
                 disabled={compareDisabled}
               >
-                {isCompared ? '✓ Im Vergleich' : 'Vergleichen'}
+                {isCompared ? (
+                  <>
+                    <Check className="mr-1 h-3.5 w-3.5" /> Im Vergleich
+                  </>
+                ) : (
+                  'Vergleichen'
+                )}
               </Button>
             )}
 
-            <Button asChild variant="ghost" size="sm" className="h-9 rounded-md px-4 text-sm text-muted-foreground">
+            <Button asChild variant="ghost" size="sm" className="h-9 rounded-lg px-4 text-[13px] text-muted-foreground hover:text-foreground">
               <a href={getCardDetailPath(card.Issuer)}>
                 Produktseite
               </a>

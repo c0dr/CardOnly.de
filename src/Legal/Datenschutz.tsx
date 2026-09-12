@@ -6,7 +6,7 @@ const Datenschutz: React.FC = () => {
       <div className="container mx-auto max-w-4xl px-4 py-8">
         <h1 className="text-3xl font-bold text-slate-900">Datenschutzerklaerung</h1>
 
-        <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-6 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">1. Verantwortlicher</h2>
           <p className="mt-3 text-sm text-slate-700">
             Simon Schraeder, Auf der Steig 52, 70376 Stuttgart, Deutschland<br />
@@ -14,7 +14,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">2. Zugriffsdaten (Server-Logfiles)</h2>
           <p className="mt-3 text-sm text-slate-700">
             Beim Aufruf der Website verarbeitet der Hosting-Provider technisch erforderliche Daten (z. B. IP-Adresse, Datum/Uhrzeit,
@@ -23,7 +23,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">3. Hosting und Infrastruktur (Vercel und Cloudflare)</h2>
           <p className="mt-3 text-sm text-slate-700">
             Diese Website wird ueber Vercel gehostet. Zusaetzlich wird Cloudflare fuer Infrastrukturaufgaben wie DNS,
@@ -36,7 +36,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">4. Cookies und Einwilligung</h2>
           <p className="mt-3 text-sm text-slate-700">
             Nicht technisch notwendige Cookies und Tracking werden erst nach Einwilligung gesetzt.
@@ -45,7 +45,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">5. Google Analytics (nur nach Einwilligung)</h2>
           <p className="mt-3 text-sm text-slate-700">
             Google Analytics wird nur aktiviert, wenn Sie dem Tracking aktiv zustimmen (Opt-in im Cookie-Banner bzw.
@@ -66,7 +66,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">6. Partnerlinks und Verguetung</h2>
           <p className="mt-3 text-sm text-slate-700">
             Diese Website enthaelt gekennzeichnete Partnerlinks. Beim Aufruf oder Abschluss ueber solche Links kann eine Verguetung
@@ -76,7 +76,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">7. Speicherdauer</h2>
           <p className="mt-3 text-sm text-slate-700">
             Wir speichern personenbezogene Daten nur so lange, wie dies fuer die genannten Zwecke erforderlich ist oder gesetzliche
@@ -84,7 +84,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">8. Ihre Rechte</h2>
           <p className="mt-3 text-sm text-slate-700">
             Sie haben insbesondere das Recht auf Auskunft, Berichtigung, Loeschung, Einschraenkung der Verarbeitung,
@@ -96,7 +96,7 @@ const Datenschutz: React.FC = () => {
           </p>
         </section>
 
-        <section className="mt-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <section className="mt-4 rounded-xl border border-border bg-card p-6 shadow-card">
           <h2 className="text-lg font-semibold text-slate-900">9. Stand</h2>
           <p className="mt-3 text-sm text-slate-700">Stand dieser Datenschutzerklaerung: 7. Maerz 2026.</p>
         </section>

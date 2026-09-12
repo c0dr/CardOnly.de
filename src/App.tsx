@@ -33,31 +33,49 @@ const App: React.FC = () => {
               <Route path="/compare" element={<ComparePage />} />
             </Routes>
           </div>
-          <footer className="border-t border-border">
-            <div className="container py-6">
-              <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                <div>
-                  <p className="text-sm font-bold text-foreground">CardOnly.de</p>
-                  <p className="mt-1 max-w-md text-xs leading-relaxed text-muted-foreground">
-                    Redaktionell gepflegter Kreditkartenvergleich. Provisionen über gekennzeichnete Partnerlinks haben keinen Einfluss auf Bewertung oder Reihenfolge.
+          <footer className="mt-20 bg-[#0b1220] text-slate-400">
+            <div className="container px-4 py-12">
+              <div className="flex flex-col gap-10 md:flex-row md:justify-between">
+                <div className="max-w-sm">
+                  <p className="text-base font-bold tracking-tight text-white">
+                    CardOnly<span className="text-blue-400">.de</span>
+                  </p>
+                  <p className="mt-3 text-sm leading-6">
+                    Kreditkarten transparent vergleichen. Redaktionell gepflegt, unabhängig bewertet und verständlich erklärt.
                   </p>
                 </div>
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
-                  <a href="/topic/" className="hover:text-foreground">Themen</a>
-                  <a href="/card/" className="hover:text-foreground">Karten</a>
-                  <Link to="/impressum" className="hover:text-foreground">Impressum</Link>
-                  <Link to="/datenschutz" className="hover:text-foreground">Datenschutz</Link>
-                  <a href="/llms.txt" className="hover:text-foreground">llms.txt</a>
-                  <button
-                    type="button"
-                    className="hover:text-foreground"
-                    onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))}
-                  >
-                    Cookies
-                  </button>
+                <div className="grid grid-cols-2 gap-10 sm:gap-16">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Vergleich</p>
+                    <ul className="mt-3 space-y-2.5 text-sm">
+                      <li><Link to="/best" className="transition-colors hover:text-white">Bestenlisten</Link></li>
+                      <li><a href="/topic/" className="transition-colors hover:text-white">Themen</a></li>
+                      <li><a href="/card/" className="transition-colors hover:text-white">Karten</a></li>
+                      <li><Link to="/aktionen" className="transition-colors hover:text-white">Aktionen</Link></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Rechtliches</p>
+                    <ul className="mt-3 space-y-2.5 text-sm">
+                      <li><Link to="/impressum" className="transition-colors hover:text-white">Impressum</Link></li>
+                      <li><Link to="/datenschutz" className="transition-colors hover:text-white">Datenschutz</Link></li>
+                      <li>
+                        <button
+                          type="button"
+                          className="transition-colors hover:text-white"
+                          onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))}
+                        >
+                          Cookie-Einstellungen
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <p className="mt-4 text-xs text-muted-foreground/60">© {new Date().getFullYear()} CardOnly.de</p>
+              <div className="mt-10 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs leading-5 text-slate-500 sm:flex-row sm:justify-between">
+                <p>© {new Date().getFullYear()} CardOnly.de</p>
+                <p>Mit * markierte Links sind Partnerlinks. Sie beeinflussen unsere Bewertung nicht.</p>
+              </div>
             </div>
           </footer>
           <CookieConsent />

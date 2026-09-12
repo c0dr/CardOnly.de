@@ -70,7 +70,7 @@ const SchemeBadge: React.FC<SchemeBadgeProps> = ({ scheme, label, size = 'sm', c
   return (
     <span
       className={cn(
-        'inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/80 bg-white font-bold text-foreground shadow-[0_1px_0_rgba(15,23,42,0.04)]',
+        'inline-flex max-w-full items-center gap-1.5 rounded-md border border-border bg-secondary/60 font-semibold text-foreground',
         size === 'md' ? 'h-7 px-2.5 text-xs' : 'h-6 px-2 text-[11px]',
         className
       )}

@@ -65,10 +65,10 @@ const FilterDropDown: React.FC<FilterDropDownProps> = ({ config, onFilterChange,
   return (
     <div
       className={cn(
-        'min-h-[74px] rounded-md border bg-white/75 px-3 py-2.5 transition-colors',
+        'min-h-[74px] rounded-md border bg-card px-3 py-2.5 transition-colors',
         hasActiveSelection
           ? 'border-accent/50 bg-accent/5'
-          : 'border-border/70 hover:border-foreground/20'
+          : 'border-border hover:border-slate-300'
       )}
     >
       <Label className="mb-2 block text-xs font-semibold uppercase text-muted-foreground">{config.label}</Label>

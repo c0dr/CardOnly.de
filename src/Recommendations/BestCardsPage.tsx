@@ -71,7 +71,7 @@ const BestCardsPage: React.FC = () => {
         <section className="mb-8 border-b border-border pb-7 animate-fade-up">
           <div className="max-w-3xl">
             <p className="mb-2 text-sm font-bold text-accent">Bestenliste</p>
-            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-foreground sm:text-4xl">
+            <h1 className="text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
               {profile.title}
             </h1>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
@@ -141,13 +141,13 @@ const BestCardsPage: React.FC = () => {
                   href={card.adlink || card.link || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group rounded-lg bg-white p-4 ring-1 ring-border transition-all hover:ring-foreground/20 hover:shadow-sm"
+                  className="group rounded-xl border border-border bg-card p-4 shadow-card transition-all hover:shadow-lift"
                 >
                   <div className="flex items-center justify-between gap-3">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-md bg-muted text-sm font-extrabold text-foreground">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-secondary text-sm font-semibold tabular-nums text-foreground">
                       {index + 1}
                     </span>
-                    <span className="text-sm font-extrabold text-accent">{rating.label}</span>
+                    <span className="text-sm font-semibold text-accent">{rating.label}</span>
                   </div>
                   <div className="mt-4 flex items-center gap-3">
                     <img alt={card.Issuer} className="h-11 w-[72px] rounded object-contain" src={card.image} />

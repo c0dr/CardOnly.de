@@ -42,7 +42,7 @@ const JetztIstAllesMoeglich: React.FC = () => {
       <div className="bg-[#2c3e50] text-center py-12">
         <div className="container mx-auto px-4">
           <h4 className="text-xl text-white mb-8">
-            Viele deutsche Banken bieten schon eine praktische Deibt Mastercard an. Unsere Empfehlungen:
+            Viele deutsche Banken bieten schon eine praktische Debit Mastercard an. Unsere Empfehlungen:
           </h4>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
