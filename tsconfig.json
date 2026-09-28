@@ -19,11 +19,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "ignoreDeprecations": "6.0",
-    "types": ["node", "jest"]
+    "types": ["node", "vite/client", "vitest/globals"]
   },
   "include": [
     "src",
-    "scripts"
+    "scripts",
+    "vite.config.mts"
   ]
 }

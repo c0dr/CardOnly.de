@@ -1,3 +1,5 @@
+/// <reference types="vitest/globals" />
+
 import { getActiveCardOffer, getOfferTimingLabel } from './cardOffers';
 import { Card } from '../types';
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { unregister } from './registerServiceWorker';
 
 const container = document.getElementById('root');
 if (!container) {
@@ -14,5 +13,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-unregister();
