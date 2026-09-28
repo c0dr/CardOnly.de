@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:43:17.370Z",
+  "generatedAt": "2026-09-28T10:54:20.919Z",
   "site": "https://cardonly.de",
   "topics": [
     {
@@ -164,9 +164,9 @@
           "url": "https://cardonly.de/card/easybank-eurowings-premium/"
         },
         {
-          "issuer": "easybank Platinum Double",
-          "slug": "easybank-platinum-double",
-          "url": "https://cardonly.de/card/easybank-platinum-double/"
+          "issuer": "easybank Platinum",
+          "slug": "easybank-platinum",
+          "url": "https://cardonly.de/card/easybank-platinum/"
         },
         {
           "issuer": "easybank Visa",
@@ -269,9 +269,9 @@
           "url": "https://cardonly.de/card/tomorrow-change/"
         },
         {
-          "issuer": "Tomorrow Zero",
-          "slug": "tomorrow-zero",
-          "url": "https://cardonly.de/card/tomorrow-zero/"
+          "issuer": "Tomorrow Plus",
+          "slug": "tomorrow-plus",
+          "url": "https://cardonly.de/card/tomorrow-plus/"
         },
         {
           "issuer": "Trade Republic Card",
@@ -597,9 +597,9 @@
           "url": "https://cardonly.de/card/c24-plus/"
         },
         {
-          "issuer": "easybank Platinum Double",
-          "slug": "easybank-platinum-double",
-          "url": "https://cardonly.de/card/easybank-platinum-double/"
+          "issuer": "easybank Platinum",
+          "slug": "easybank-platinum",
+          "url": "https://cardonly.de/card/easybank-platinum/"
         },
         {
           "issuer": "American Express Payback",
@@ -757,6 +757,11 @@
           "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
+          "issuer": "Tomorrow Plus",
+          "slug": "tomorrow-plus",
+          "url": "https://cardonly.de/card/tomorrow-plus/"
+        },
+        {
           "issuer": "American Express Green",
           "slug": "american-express-green",
           "url": "https://cardonly.de/card/american-express-green/"
@@ -770,16 +775,6 @@
           "issuer": "Revolut Ultra",
           "slug": "revolut-ultra",
           "url": "https://cardonly.de/card/revolut-ultra/"
-        },
-        {
-          "issuer": "Tomorrow Now",
-          "slug": "tomorrow-now",
-          "url": "https://cardonly.de/card/tomorrow-now/"
-        },
-        {
-          "issuer": "Tomorrow Zero",
-          "slug": "tomorrow-zero",
-          "url": "https://cardonly.de/card/tomorrow-zero/"
         },
         {
           "issuer": "Deutsche Bank Mastercard Standard",
@@ -830,6 +825,11 @@
           "issuer": "bunq Pro",
           "slug": "bunq-pro",
           "url": "https://cardonly.de/card/bunq-pro/"
+        },
+        {
+          "issuer": "Tomorrow Now",
+          "slug": "tomorrow-now",
+          "url": "https://cardonly.de/card/tomorrow-now/"
         },
         {
           "issuer": "American Express Gold",
@@ -1040,9 +1040,9 @@
           "url": "https://cardonly.de/card/easybank-eurowings-premium/"
         },
         {
-          "issuer": "easybank Platinum Double",
-          "slug": "easybank-platinum-double",
-          "url": "https://cardonly.de/card/easybank-platinum-double/"
+          "issuer": "easybank Platinum",
+          "slug": "easybank-platinum",
+          "url": "https://cardonly.de/card/easybank-platinum/"
         },
         {
           "issuer": "Sparda Hessen Mastercard Platinum",
@@ -1070,6 +1070,11 @@
           "url": "https://cardonly.de/card/comdirect-visa-debit/"
         },
         {
+          "issuer": "Tomorrow Change",
+          "slug": "tomorrow-change",
+          "url": "https://cardonly.de/card/tomorrow-change/"
+        },
+        {
           "issuer": "C24 Max",
           "slug": "c24-max",
           "url": "https://cardonly.de/card/c24-max/"
@@ -1078,11 +1083,6 @@
           "issuer": "N26 Go",
           "slug": "n26-go",
           "url": "https://cardonly.de/card/n26-go/"
-        },
-        {
-          "issuer": "Tomorrow Change",
-          "slug": "tomorrow-change",
-          "url": "https://cardonly.de/card/tomorrow-change/"
         },
         {
           "issuer": "Girokonto Klassik 1822direkt",
@@ -1100,6 +1100,11 @@
           "url": "https://cardonly.de/card/n26-metal/"
         },
         {
+          "issuer": "Tomorrow Plus",
+          "slug": "tomorrow-plus",
+          "url": "https://cardonly.de/card/tomorrow-plus/"
+        },
+        {
           "issuer": "Revolut Ultra",
           "slug": "revolut-ultra",
           "url": "https://cardonly.de/card/revolut-ultra/"
@@ -1108,11 +1113,6 @@
           "issuer": "Advanzia Hilton Honors",
           "slug": "advanzia-hilton-honors",
           "url": "https://cardonly.de/card/advanzia-hilton-honors/"
-        },
-        {
-          "issuer": "Tomorrow Zero",
-          "slug": "tomorrow-zero",
-          "url": "https://cardonly.de/card/tomorrow-zero/"
         }
       ]
     },
@@ -1294,6 +1294,7 @@
       "feesPosForeign": 0,
       "hasApplePay": false,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.hiltonhonorscreditcard.de/"
     },
     {
@@ -1308,6 +1309,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.gebuhrenfrei.com/Home/"
     },
     {
@@ -1322,6 +1324,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/blue-card/"
     },
     {
@@ -1336,6 +1339,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/bmw-card/"
     },
     {
@@ -1350,6 +1354,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/goldcard/"
     },
     {
@@ -1364,6 +1369,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/american-express-card/"
     },
     {
@@ -1378,6 +1384,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/payback-karte/?linknav=de-amex-cardshop-details-browse-PAYBACKAmericanExpressKarte"
     },
     {
@@ -1392,6 +1399,7 @@
       "feesPosForeign": "2 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
     },
     {
@@ -1406,6 +1414,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.banknorwegian.de/kreditkarte/"
     },
     {
@@ -1420,6 +1429,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.bbva.de/privat/produkte/karten/debitkarte.html"
     },
     {
@@ -1434,6 +1444,7 @@
       "feesPosForeign": "0.5%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.bunq.com/plans"
     },
     {
@@ -1448,6 +1459,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.bunq.com/plans/elite"
     },
     {
@@ -1462,6 +1474,7 @@
       "feesPosForeign": "0.5%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.bunq.com/plans"
     },
     {
@@ -1476,6 +1489,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.c24.de/max"
     },
     {
@@ -1490,6 +1504,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.c24.de/plus"
     },
     {
@@ -1504,6 +1519,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.c24.de/smart"
     },
     {
@@ -1518,6 +1534,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.comdirect.de/konto/girokonto.html"
     },
     {
@@ -1532,6 +1549,7 @@
       "feesPosForeign": "1.75%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.comdirect.de/konto/girokonto.html"
     },
     {
@@ -1546,6 +1564,7 @@
       "feesPosForeign": "1,75%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/"
     },
     {
@@ -1560,6 +1579,7 @@
       "feesPosForeign": "1,75%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/"
     },
     {
@@ -1574,6 +1594,7 @@
       "feesPosForeign": "1,50% Auslandseinsatzentgelt (+ 0,59% Waehrungsumrechnung bei EWR-Nicht-EUR)",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.commerzbank.de/privatkunden/girokonten/girokonto-eroeffnen/"
     },
     {
@@ -1588,6 +1609,7 @@
       "feesPosForeign": "2,10 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
     },
     {
@@ -1602,6 +1624,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
     },
     {
@@ -1616,6 +1639,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
     },
     {
@@ -1630,6 +1654,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
     },
     {
@@ -1644,6 +1669,7 @@
       "feesPosForeign": "1% + 0,50% Waehrungsumrechnungsentgelt",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html"
     },
     {
@@ -1658,6 +1684,7 @@
       "feesPosForeign": "1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html"
     },
     {
@@ -1672,6 +1699,7 @@
       "feesPosForeign": "1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html"
     },
     {
@@ -1686,6 +1714,7 @@
       "feesPosForeign": "0,50% Waehrungsumrechnungsentgelt",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/mastercard-travel.html"
     },
     {
@@ -1700,6 +1729,11 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": {
+        "title": "30 EUR Bonus",
+        "description": "Bei erstmaliger Beantragung und drei Kartenzahlungen von jeweils mindestens 5 EUR innerhalb von sechs Wochen.",
+        "endsAt": "2026-12-31"
+      },
       "source": "https://dkb.de"
     },
     {
@@ -1714,6 +1748,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://dkb.de"
     },
     {
@@ -1728,6 +1763,7 @@
       "feesPosForeign": "1,99 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic"
     },
     {
@@ -1742,6 +1778,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium"
     },
     {
@@ -1756,12 +1793,13 @@
       "feesPosForeign": "1.99%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold"
     },
     {
-      "issuer": "easybank Platinum Double",
-      "slug": "easybank-platinum-double",
-      "url": "https://cardonly.de/card/easybank-platinum-double/",
+      "issuer": "easybank Platinum",
+      "slug": "easybank-platinum",
+      "url": "https://cardonly.de/card/easybank-platinum/",
       "yearlyFee": 99,
       "charge": "credit",
       "miles": false,
@@ -1770,6 +1808,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum"
     },
     {
@@ -1784,6 +1823,11 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": {
+        "title": "75 EUR Startguthaben",
+        "description": "Fuer Neukunden bei mindestens 100 EUR Kartenumsatz und Marketing-Einwilligung jeweils innerhalb der ersten vier Wochen.",
+        "endsAt": "2026-10-08"
+      },
       "source": "https://www.easybank.de/easybank-de/kreditkarten/"
     },
     {
@@ -1798,6 +1842,7 @@
       "feesPosForeign": "1.75%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.kartenantrag.de/cgi-bin/WebObjects/LBBW-Card.woa/wa?path=/WhiteLabel/fitbit#stay"
     },
     {
@@ -1812,6 +1857,7 @@
       "feesPosForeign": "1.75%",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.1822direkt.de/girokonto/"
     },
     {
@@ -1826,6 +1872,7 @@
       "feesPosForeign": "gebührenfrei *",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.hanseaticbank.de/kreditkarte/genialcard"
     },
     {
@@ -1840,6 +1887,7 @@
       "feesPosForeign": "gebührenfrei *",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.hanseaticbank.de/kreditkarte/goldcard"
     },
     {
@@ -1854,6 +1902,7 @@
       "feesPosForeign": "1,75 %",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.hypovereinsbank.de/hvb/privatkunden/karten/visadebit"
     },
     {
@@ -1868,6 +1917,7 @@
       "feesPosForeign": "1,75 %",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.hypovereinsbank.de/hvb/privatkunden/karten/mastercard"
     },
     {
@@ -1882,6 +1932,7 @@
       "feesPosForeign": "1,99 %",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.ing.de/girokonto/"
     },
     {
@@ -1896,6 +1947,7 @@
       "feesPosForeign": "2,49%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://instabank.de/kreditkarte"
     },
     {
@@ -1910,6 +1962,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.klarna.com/de/card/"
     },
     {
@@ -1924,6 +1977,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.klarna.com/de/bankkonto/"
     },
     {
@@ -1938,6 +1992,7 @@
       "feesPosForeign": "1.95%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-blue-credit-card"
     },
     {
@@ -1952,6 +2007,7 @@
       "feesPosForeign": "1.95%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-gold-credit-card"
     },
     {
@@ -1966,6 +2022,7 @@
       "feesPosForeign": "1,95%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-myflex-credit-card.html"
     },
     {
@@ -1980,6 +2037,7 @@
       "feesPosForeign": "2% (mind. 2€)",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://monese.com/eu/features/debit-card"
     },
     {
@@ -1994,6 +2052,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://n26.com/de-de/konten-vergleichen"
     },
     {
@@ -2008,6 +2067,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://n26.com/de-de/konten-vergleichen"
     },
     {
@@ -2022,6 +2082,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://n26.com/de-de/konten-vergleichen"
     },
     {
@@ -2036,6 +2097,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://n26.com/de-de/konten-vergleichen"
     },
     {
@@ -2050,6 +2112,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.openbank.de/girokonto"
     },
     {
@@ -2064,6 +2127,7 @@
       "feesPosForeign": 0,
       "hasApplePay": false,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.payback.de/info/visa"
     },
     {
@@ -2078,6 +2142,7 @@
       "feesPosForeign": "2.5%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.payzy.de/"
     },
     {
@@ -2092,6 +2157,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/standard-fees/"
     },
     {
@@ -2106,6 +2172,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/metal-fees/"
     },
     {
@@ -2120,6 +2187,7 @@
       "feesPosForeign": 0.5,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/plus-fees/"
     },
     {
@@ -2134,6 +2202,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/premium-fees/"
     },
     {
@@ -2148,6 +2217,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/ultra-fees/"
     },
     {
@@ -2162,6 +2232,7 @@
       "feesPosForeign": "1.5%",
       "hasApplePay": false,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.santander.de/privatkunden/konten-karten/karten/#panel2_190597b"
     },
     {
@@ -2176,6 +2247,7 @@
       "feesPosForeign": 0,
       "hasApplePay": false,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/"
     },
     {
@@ -2190,6 +2262,7 @@
       "feesPosForeign": "1.85%",
       "hasApplePay": true,
       "hasGooglePay": false,
+      "offer": null,
       "source": "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
     },
     {
@@ -2204,41 +2277,44 @@
       "feesPosForeign": 0,
       "hasApplePay": false,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://tfbank.de/mastercard-gold"
     },
     {
       "issuer": "Tomorrow Change",
       "slug": "tomorrow-change",
       "url": "https://cardonly.de/card/tomorrow-change/",
-      "yearlyFee": 87,
+      "yearlyFee": 106.8,
       "charge": "debit",
       "miles": false,
       "withChecking": true,
-      "feesAtmForeign": 0,
+      "feesAtmForeign": "5 Abhebungen/Monat kostenlos",
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.tomorrow.one/de-de/"
     },
     {
       "issuer": "Tomorrow Now",
       "slug": "tomorrow-now",
       "url": "https://cardonly.de/card/tomorrow-now/",
-      "yearlyFee": 36,
+      "yearlyFee": 58.8,
       "charge": "debit",
       "miles": false,
       "withChecking": true,
-      "feesAtmForeign": "2%",
+      "feesAtmForeign": "3 EUR + 2%",
       "feesPosForeign": "2%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.tomorrow.one/de-de/"
     },
     {
-      "issuer": "Tomorrow Zero",
-      "slug": "tomorrow-zero",
-      "url": "https://cardonly.de/card/tomorrow-zero/",
-      "yearlyFee": 187,
+      "issuer": "Tomorrow Plus",
+      "slug": "tomorrow-plus",
+      "url": "https://cardonly.de/card/tomorrow-plus/",
+      "yearlyFee": 214.8,
       "charge": "debit",
       "miles": false,
       "withChecking": true,
@@ -2246,6 +2322,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.tomorrow.one/de-de/"
     },
     {
@@ -2260,6 +2337,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://traderepublic.com/de-de/card"
     },
     {
@@ -2274,6 +2352,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.trading212.com/de/cards"
     },
     {
@@ -2288,6 +2367,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://www.vimpay.de/"
     },
     {
@@ -2302,6 +2382,7 @@
       "feesPosForeign": "1%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://vivid.money/en-eu/"
     },
     {
@@ -2316,6 +2397,7 @@
       "feesPosForeign": "1%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://vivid.money/en-eu/"
     },
     {
@@ -2330,6 +2412,7 @@
       "feesPosForeign": "1%",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://vivid.money/en-eu/"
     },
     {
@@ -2344,6 +2427,7 @@
       "feesPosForeign": "0.4%+",
       "hasApplePay": true,
       "hasGooglePay": true,
+      "offer": null,
       "source": "https://wise.com/gb/borderless/card"
     }
   ]

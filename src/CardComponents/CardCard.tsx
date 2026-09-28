@@ -1,10 +1,11 @@
 import React, { useMemo, useState } from 'react';
 import { Button } from '../components/ui/button';
 import { Table, TableBody, TableRow, TableCell } from '../components/ui/table';
-import { Check, X, ChevronDown, Star } from 'lucide-react';
+import { BadgePercent, Check, X, ChevronDown, Clock3, Star } from 'lucide-react';
 import { getCardDetailPath } from '../lib/seo';
 import { getRecommendedCardProfile } from '../lib/recommendedCards';
 import { cardHighlights } from '../lib/cardHighlights';
+import { formatOfferDeadline, getActiveCardOffer, getOfferTimingLabel } from '../lib/cardOffers';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
 import SchemeBadge from './SchemeBadge';
@@ -102,6 +103,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
   const atmForeign = useMemo(() => formatAtmFee(card.fees_atm_foreign, card), [card]);
   const rating = useMemo(() => getCardRating(card), [card]);
   const highlights = useMemo(() => (simple ? cardHighlights(card) : []), [card, simple]);
+  const activeOffer = useMemo(() => getActiveCardOffer(card), [card]);
 
   const allDetailCols = useMemo(() => {
     const detailFields = ['scheme', 'yearlyFee', 'fees_pos_foreign', 'fees_atm_eur', 'fees_atm_foreign', 'charge', 'withChecking', 'pinfirst', 'offlinepin', 'contactless', 'insurance', 'miles', 'applepay', 'googlepay', 'notes'];
@@ -146,6 +148,8 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
       className={`comparison-card group border bg-card transition-all ${
         isCompared
           ? 'border-accent/50 ring-1 ring-accent/40'
+          : activeOffer
+          ? 'border-amber-300 shadow-card hover:border-amber-400 hover:shadow-lift'
           : 'border-border shadow-card hover:border-slate-300 hover:shadow-lift'
       }`}
       style={{ animationDelay: `${Math.min(index * 30, 300)}ms` }}
@@ -268,6 +272,32 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             </button>
           </div>
         </div>
+
+        {activeOffer && (
+          <div
+            className="mt-4 flex flex-col gap-3 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-amber-950 sm:flex-row sm:items-center"
+            role="note"
+            aria-label={`Befristetes Angebot: ${activeOffer.title}`}
+          >
+            <div className="flex min-w-0 flex-1 items-start gap-3">
+              <span className="mt-0.5 grid h-8 w-8 flex-shrink-0 place-items-center rounded-full bg-amber-200/70">
+                <BadgePercent className="h-4 w-4" aria-hidden="true" />
+              </span>
+              <div className="min-w-0">
+                <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-amber-700">Befristetes Angebot</p>
+                <p className="mt-0.5 text-sm font-semibold">{activeOffer.title}</p>
+                <p className="mt-0.5 text-xs leading-5 text-amber-900/80">{activeOffer.description}</p>
+              </div>
+            </div>
+            <span
+              className="inline-flex flex-shrink-0 items-center gap-1.5 self-start rounded-full bg-amber-200 px-3 py-1.5 text-xs font-semibold tabular-nums sm:self-center"
+              title={`Gültig bis ${formatOfferDeadline(activeOffer.endsAt)}`}
+            >
+              <Clock3 className="h-3.5 w-3.5" aria-hidden="true" />
+              {getOfferTimingLabel(activeOffer.endsAt)}
+            </span>
+          </div>
+        )}
 
         {/* Mobile key metrics */}
         {!simple && (

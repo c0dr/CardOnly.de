@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getCardRating, getCardsForRatingProfile, ratingProfiles } from '../src/lib/cardRatings';
+import { formatOfferDeadline, getActiveCardOffer, getOfferTimingLabel } from '../src/lib/cardOffers';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,6 +16,11 @@ const chargeLabels: Record<string, string> = {
   credit: 'Credit',
   debit: 'Debit',
   prepaid: 'Prepaid',
+};
+
+const legacyCardRedirects: Record<string, string> = {
+  'easybank-platinum-double': 'easybank-platinum',
+  'tomorrow-zero': 'tomorrow-plus',
 };
 
 const isZeroLike = (value: any): boolean => {
@@ -318,6 +324,32 @@ const pageShell = ({ title, description, canonicalPath, bodyHtml, jsonLd }: any)
         font-weight: 700;
         padding: 4px 10px;
       }
+      .offer {
+        margin: 14px 0;
+        border: 1px solid #fcd34d;
+        border-radius: 12px;
+        background: #fffbeb;
+        padding: 14px;
+      }
+      .offer-label {
+        color: #b45309;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .offer strong { display: block; margin-top: 3px; color: #451a03; }
+      .offer p { margin-top: 5px; color: #78350f; }
+      .offer-deadline {
+        display: inline-block;
+        margin-top: 3px;
+        border-radius: 999px;
+        background: #fde68a;
+        color: #78350f;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 9px;
+      }
       footer {
         margin-top: 20px;
         font-size: 13px;
@@ -354,8 +386,30 @@ const createCardEntries = (cards: any[]) => {
   });
 };
 
+const createCardRedirectPage = (targetSlug: string) => {
+  const targetPath = `/card/${targetSlug}/`;
+  const targetUrl = `${siteUrl}${targetPath}`;
+
+  return `<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,follow" />
+    <meta http-equiv="refresh" content="0; url=${targetPath}" />
+    <link rel="canonical" href="${targetUrl}" />
+    <title>Weiterleitung | CardOnly.de</title>
+  </head>
+  <body>
+    <p>Diese Karte wurde umbenannt. <a href="${targetPath}">Zur aktuellen Kartenseite</a>.</p>
+    <script>window.location.replace(${JSON.stringify(targetPath)});</script>
+  </body>
+</html>`;
+};
+
 const createCardPage = (card: any, allTopics: any[]) => {
   const notes = [stripHtml(card.notes || ''), stripHtml(card.legalnotes || '')].filter(Boolean).join(' ');
+  const activeOffer = getActiveCardOffer(card);
   const title = `${card.Issuer} - Details und Konditionen | CardOnly.de`;
   const description = cardDescription(card);
   const topicTags = allTopics.filter((topic) => topic.cards.some((entry: any) => entry.slug === card.slug));
@@ -371,6 +425,15 @@ const createCardPage = (card: any, allTopics: any[]) => {
     <article class="card">
       <h1>${escapeHtml(card.Issuer)}</h1>
       <p>${escapeHtml(description)}</p>
+
+${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot">
+        <span class="offer-label">Befristetes Angebot</span>
+        <strong>${escapeHtml(activeOffer.title)}</strong>
+        <p>${escapeHtml(activeOffer.description)}</p>
+        <span class="offer-deadline" title="Gültig bis ${escapeHtml(formatOfferDeadline(activeOffer.endsAt))}">${escapeHtml(
+          getOfferTimingLabel(activeOffer.endsAt)
+        )}</span>
+      </aside>` : ''}
 
       <div class="tag-row">
         <span class="tag">${escapeHtml(chargeLabels[card.charge] || 'Karte')}</span>
@@ -652,10 +715,14 @@ const createLlmsFullTxt = (cards: any[], topics: any[]) => {
 
   const cardBlock = cards
     .map(
-      (card) =>
-        `- [${card.Issuer}](${siteUrl}/card/${card.slug}/) | Jahresgebuehr: ${asCurrency(card.yearlyFee)} | Meilen: ${asText(
+      (card) => {
+        const activeOffer = getActiveCardOffer(card);
+        return `- [${card.Issuer}](${siteUrl}/card/${card.slug}/) | Jahresgebuehr: ${asCurrency(card.yearlyFee)} | Meilen: ${asText(
           card.miles
-        )} | Ausland ATM: ${asText(card.fees_atm_foreign)} | Ausland POS: ${asText(card.fees_pos_foreign)}`
+        )} | Ausland ATM: ${asText(card.fees_atm_foreign)} | Ausland POS: ${asText(card.fees_pos_foreign)}${
+          activeOffer ? ` | Angebot: ${activeOffer.title} bis ${formatOfferDeadline(activeOffer.endsAt)}` : ''
+        }`;
+      }
     )
     .join('\n');
 
@@ -690,6 +757,7 @@ const createSeoJsonIndex = (cards: any[], topics: any[]) => {
       feesPosForeign: card.fees_pos_foreign,
       hasApplePay: card.applepay,
       hasGooglePay: card.googlepay,
+      offer: getActiveCardOffer(card),
       source: card.link || null,
     })),
   };
@@ -722,6 +790,10 @@ const run = async () => {
 
   for (const card of cardEntries) {
     await writeFileSafe(`card/${card.slug}/index.html`, createCardPage(card, topics));
+  }
+
+  for (const [legacySlug, targetSlug] of Object.entries(legacyCardRedirects)) {
+    await writeFileSafe(`card/${legacySlug}/index.html`, createCardRedirectPage(targetSlug));
   }
 
   for (const topic of topics) {

@@ -33,7 +33,7 @@
 - [DKB Visa Credit](https://cardonly.de/card/dkb-visa-credit/)
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/)
-- [easybank Platinum Double](https://cardonly.de/card/easybank-platinum-double/)
+- [easybank Platinum](https://cardonly.de/card/easybank-platinum/)
 - [easybank Visa](https://cardonly.de/card/easybank-visa/)
 - [Girokonto Klassik 1822direkt](https://cardonly.de/card/girokonto-klassik-1822direkt/)
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
@@ -54,7 +54,7 @@
 - [Sparda Hessen Mastercard Platinum](https://cardonly.de/card/sparda-hessen-mastercard-platinum/)
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/)
 - [Tomorrow Change](https://cardonly.de/card/tomorrow-change/)
-- [Tomorrow Zero](https://cardonly.de/card/tomorrow-zero/)
+- [Tomorrow Plus](https://cardonly.de/card/tomorrow-plus/)
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/)
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/)
 - [VimPAY](https://cardonly.de/card/vimpay/)
@@ -120,7 +120,7 @@
 - [comdirect Visa Credit](https://cardonly.de/card/comdirect-visa-credit/)
 - [Revolut Plus](https://cardonly.de/card/revolut-plus/)
 - [C24 Plus](https://cardonly.de/card/c24-plus/)
-- [easybank Platinum Double](https://cardonly.de/card/easybank-platinum-double/)
+- [easybank Platinum](https://cardonly.de/card/easybank-platinum/)
 - [American Express Payback](https://cardonly.de/card/american-express-payback/)
 - [Wise Debit](https://cardonly.de/card/wise-debit/)
 - [Sparda Hessen Mastercard Platinum](https://cardonly.de/card/sparda-hessen-mastercard-platinum/)
@@ -152,11 +152,10 @@
 - [Instabank](https://cardonly.de/card/instabank/)
 - [N26 Metal](https://cardonly.de/card/n26-metal/)
 - [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
+- [Tomorrow Plus](https://cardonly.de/card/tomorrow-plus/)
 - [American Express Green](https://cardonly.de/card/american-express-green/)
 - [Miles & More Blue Credit Card](https://cardonly.de/card/miles-more-blue-credit-card/)
 - [Revolut Ultra](https://cardonly.de/card/revolut-ultra/)
-- [Tomorrow Now](https://cardonly.de/card/tomorrow-now/)
-- [Tomorrow Zero](https://cardonly.de/card/tomorrow-zero/)
 - [Deutsche Bank Mastercard Standard](https://cardonly.de/card/deutsche-bank-mastercard-standard/)
 - [Commerzbank Mastercard Debit](https://cardonly.de/card/commerzbank-mastercard-debit/)
 - [Vivid Plus](https://cardonly.de/card/vivid-plus/)
@@ -167,6 +166,7 @@
 - [Miles & More Gold Credit Card](https://cardonly.de/card/miles-more-gold-credit-card/)
 - [Vivid Prime](https://cardonly.de/card/vivid-prime/)
 - [bunq Pro](https://cardonly.de/card/bunq-pro/)
+- [Tomorrow Now](https://cardonly.de/card/tomorrow-now/)
 - [American Express Gold](https://cardonly.de/card/american-express-gold/)
 - [American Express Platinum](https://cardonly.de/card/american-express-platinum/)
 
@@ -209,21 +209,21 @@
 - [easybank Visa](https://cardonly.de/card/easybank-visa/)
 - [C24 Plus](https://cardonly.de/card/c24-plus/)
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/)
-- [easybank Platinum Double](https://cardonly.de/card/easybank-platinum-double/)
+- [easybank Platinum](https://cardonly.de/card/easybank-platinum/)
 - [Sparda Hessen Mastercard Platinum](https://cardonly.de/card/sparda-hessen-mastercard-platinum/)
 - [Revolut Premium MasterCard](https://cardonly.de/card/revolut-premium-mastercard/)
 - [consorsbank Visa Gold](https://cardonly.de/card/consorsbank-visa-gold/)
 - [Revolut Plus](https://cardonly.de/card/revolut-plus/)
 - [comdirect Visa Debit](https://cardonly.de/card/comdirect-visa-debit/)
+- [Tomorrow Change](https://cardonly.de/card/tomorrow-change/)
 - [C24 Max](https://cardonly.de/card/c24-max/)
 - [N26 Go](https://cardonly.de/card/n26-go/)
-- [Tomorrow Change](https://cardonly.de/card/tomorrow-change/)
 - [Girokonto Klassik 1822direkt](https://cardonly.de/card/girokonto-klassik-1822direkt/)
 - [Revolut Metal MasterCard](https://cardonly.de/card/revolut-metal-mastercard/)
 - [N26 Metal](https://cardonly.de/card/n26-metal/)
+- [Tomorrow Plus](https://cardonly.de/card/tomorrow-plus/)
 - [Revolut Ultra](https://cardonly.de/card/revolut-ultra/)
 - [Advanzia Hilton Honors](https://cardonly.de/card/advanzia-hilton-honors/)
-- [Tomorrow Zero](https://cardonly.de/card/tomorrow-zero/)
 
 ### Beste kostenlose Kreditkarten
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
@@ -288,13 +288,13 @@
 - [Deutsche Bank Mastercard Gold](https://cardonly.de/card/deutsche-bank-mastercard-gold/) | Jahresgebuehr: 82 EUR | Meilen: Nein | Ausland ATM: 2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt
 - [Deutsche Bank Mastercard Standard](https://cardonly.de/card/deutsche-bank-mastercard-standard/) | Jahresgebuehr: 39 EUR | Meilen: Nein | Ausland ATM: 2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt
 - [Deutsche Bank Mastercard Travel](https://cardonly.de/card/deutsche-bank-mastercard-travel/) | Jahresgebuehr: 94 EUR | Meilen: Nein | Ausland ATM: 2,50% mind. 5,75 EUR + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 0,50% Waehrungsumrechnungsentgelt
-- [DKB Visa Credit](https://cardonly.de/card/dkb-visa-credit/) | Jahresgebuehr: 29.88 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
+- [DKB Visa Credit](https://cardonly.de/card/dkb-visa-credit/) | Jahresgebuehr: 29.88 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0 | Angebot: 30 EUR Bonus bis 31.12.2026
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [easybank Eurowings Classic](https://cardonly.de/card/easybank-eurowings-classic/) | Jahresgebuehr: 29 EUR | Meilen: Ja | Ausland ATM: 1,99 % | Ausland POS: 1,99 %
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/) | Jahresgebuehr: 99 EUR | Meilen: Ja | Ausland ATM: 0 | Ausland POS: 0
 - [easybank Gold Visa](https://cardonly.de/card/easybank-gold-visa/) | Jahresgebuehr: 59 EUR | Meilen: Ja | Ausland ATM: 1.99% | Ausland POS: 1.99%
-- [easybank Platinum Double](https://cardonly.de/card/easybank-platinum-double/) | Jahresgebuehr: 99 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [easybank Visa](https://cardonly.de/card/easybank-visa/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
+- [easybank Platinum](https://cardonly.de/card/easybank-platinum/) | Jahresgebuehr: 99 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
+- [easybank Visa](https://cardonly.de/card/easybank-visa/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0 | Angebot: 75 EUR Startguthaben bis 08.10.2026
 - [Fitbit Visa](https://cardonly.de/card/fitbit-visa/) | Jahresgebuehr: 24 EUR | Meilen: Nein | Ausland ATM: 3%, mind. 3€ + 1.75% | Ausland POS: 1.75%
 - [Girokonto Klassik 1822direkt](https://cardonly.de/card/girokonto-klassik-1822direkt/) | Jahresgebuehr: 29.90 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 1.75%
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: gebührenfrei ** | Ausland POS: gebührenfrei *
@@ -325,9 +325,9 @@
 - [Sparda Hessen Mastercard Platinum](https://cardonly.de/card/sparda-hessen-mastercard-platinum/) | Jahresgebuehr: 99 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Targobank Visa Online Classic](https://cardonly.de/card/targobank-visa-online-classic/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 3.5% mind. 5,95€ | Ausland POS: 1.85%
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [Tomorrow Change](https://cardonly.de/card/tomorrow-change/) | Jahresgebuehr: 87 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [Tomorrow Now](https://cardonly.de/card/tomorrow-now/) | Jahresgebuehr: 36 EUR | Meilen: Nein | Ausland ATM: 2% | Ausland POS: 2%
-- [Tomorrow Zero](https://cardonly.de/card/tomorrow-zero/) | Jahresgebuehr: 187 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
+- [Tomorrow Change](https://cardonly.de/card/tomorrow-change/) | Jahresgebuehr: 106.8 EUR | Meilen: Nein | Ausland ATM: 5 Abhebungen/Monat kostenlos | Ausland POS: 0
+- [Tomorrow Now](https://cardonly.de/card/tomorrow-now/) | Jahresgebuehr: 58.8 EUR | Meilen: Nein | Ausland ATM: 3 EUR + 2% | Ausland POS: 2%
+- [Tomorrow Plus](https://cardonly.de/card/tomorrow-plus/) | Jahresgebuehr: 214.8 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 EUR ab 100 EUR, sonst 1 EUR | Ausland POS: 0
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [VimPAY](https://cardonly.de/card/vimpay/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 5€ | Ausland POS: 0

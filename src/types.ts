@@ -1,3 +1,9 @@
+export interface CardOffer {
+  title: string;
+  description: string;
+  endsAt: string;
+}
+
 export interface Card {
   id: string;
   Issuer: string;
@@ -23,6 +29,7 @@ export interface Card {
   cashAdvanceImmediate?: boolean;
   cashAdvanceApr?: string | number;
   interestApr?: string | number;
+  offer?: CardOffer;
   [key: string]: any; // Allow for other fields
 }
 
