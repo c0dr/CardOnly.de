@@ -12,12 +12,14 @@ const Nav: React.FC = () => {
   };
 
   return (
-    <header className="site-nav sticky top-0 z-50 bg-background">
-      <div className="container flex h-20 items-center justify-between gap-4 px-4">
-        <Link to="/" className="flex items-center" aria-label="CardOnly Startseite">
-          <span className="brand-mark" aria-hidden="true">/</span>
-          <span className="text-2xl font-bold tracking-[-0.06em] text-foreground">cardonly</span>
-          <span className="ml-0.5 self-end pb-0.5 text-xs font-medium text-muted-foreground">.de</span>
+    <header className="site-nav sticky top-0 z-50">
+      <div className="container flex h-[72px] items-center justify-between gap-4 px-4">
+        <Link to="/" className="brand-lockup" aria-label="CardOnly Startseite">
+          <span className="brand-mark" aria-hidden="true">
+            <span />
+            <span />
+          </span>
+          <span className="brand-wordmark">cardonly<span>.de</span></span>
         </Link>
 
         <nav className="hidden items-center gap-1 sm:flex">
@@ -42,7 +44,7 @@ const Nav: React.FC = () => {
           <a
             href="/"
             onClick={jumpToComparison}
-            className="ml-2 inline-flex h-9 items-center justify-center rounded-lg bg-primary px-4 text-sm font-semibold text-primary-foreground shadow-card transition-colors hover:bg-primary/90"
+            className="nav-cta ml-3 inline-flex h-10 items-center justify-center rounded-lg bg-primary px-4 text-sm font-semibold text-primary-foreground transition-all"
           >
             Vergleich starten
           </a>
@@ -51,7 +53,7 @@ const Nav: React.FC = () => {
         <a
           href="/"
           onClick={jumpToComparison}
-          className="inline-flex h-9 items-center justify-center rounded-lg bg-primary px-3.5 text-sm font-semibold text-primary-foreground shadow-card sm:hidden"
+          className="nav-cta inline-flex h-10 items-center justify-center rounded-lg bg-primary px-3.5 text-sm font-semibold text-primary-foreground sm:hidden"
         >
           Vergleich
         </a>

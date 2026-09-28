@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Alert, AlertDescription } from './alert';
 import { Button } from './button';
+import { ShieldCheck } from 'lucide-react';
 
 const GA_MEASUREMENT_ID = 'G-UA-31081827-4';
 const SETTINGS_EVENT = 'open-cookie-settings';
@@ -111,26 +111,21 @@ const CookieConsent: React.FC = () => {
   if (!showConsent) return null;
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 w-[min(96vw,28rem)]">
-      <Alert className="border shadow-lg">
-        <AlertDescription className="flex flex-col gap-4">
-          <span>
-            Wir verwenden optionale Analyse-Cookies (Google Analytics) nur mit Ihrer Einwilligung. Sie koennen die
-            Entscheidung jederzeit ueber "Cookie-Einstellungen" im Footer aendern.
-          </span>
-          <div className="flex flex-wrap items-center justify-end gap-2">
-            <a href="#/datenschutz" className="text-xs text-slate-600 hover:underline">
-              Datenschutz
-            </a>
-            <Button variant="outline" onClick={handleDecline}>
-              Ablehnen
-            </Button>
-            <Button variant="default" onClick={handleAccept}>
-              Akzeptieren
-            </Button>
-          </div>
-        </AlertDescription>
-      </Alert>
+    <div className="cookie-consent fixed bottom-4 right-4 z-50 w-[min(calc(100vw-2rem),32rem)]">
+      <div className="cookie-consent-inner">
+        <ShieldCheck className="cookie-consent-icon" aria-hidden="true" />
+        <div className="min-w-0 flex-1">
+          <p className="cookie-consent-title">Deine Privatsphäre, deine Entscheidung</p>
+          <p className="cookie-consent-copy">
+            Optionale Analyse-Cookies helfen uns, CardOnly zu verbessern. Deine Auswahl kannst du jederzeit ändern.
+          </p>
+          <a href="#/datenschutz" className="cookie-consent-link">Mehr zum Datenschutz</a>
+        </div>
+        <div className="cookie-consent-actions">
+          <Button variant="ghost" size="sm" onClick={handleDecline}>Nur notwendige</Button>
+          <Button variant="default" size="sm" onClick={handleAccept}>Alle akzeptieren</Button>
+        </div>
+      </div>
     </div>
   );
 };

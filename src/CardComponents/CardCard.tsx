@@ -149,11 +149,35 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         isCompared
           ? 'border-accent/50 ring-1 ring-accent/40'
           : activeOffer
-          ? 'border-amber-300 shadow-card hover:border-amber-400 hover:shadow-lift'
+          ? 'border-emerald-300 shadow-card hover:border-emerald-400 hover:shadow-lift'
           : 'border-border shadow-card hover:border-slate-300 hover:shadow-lift'
       }`}
       style={{ animationDelay: `${Math.min(index * 30, 300)}ms` }}
     >
+      {activeOffer && (
+        <div
+          className="flex min-h-10 items-center gap-2 border-b border-emerald-200 bg-emerald-50 px-4 py-2 text-xs text-emerald-950 sm:px-5"
+          role="note"
+          aria-label={`Befristetes Angebot: ${activeOffer.title}. ${activeOffer.description}`}
+          title={activeOffer.description}
+        >
+          <BadgePercent className="h-3.5 w-3.5 flex-shrink-0 text-emerald-700" aria-hidden="true" />
+          <span className="flex-shrink-0 font-bold uppercase tracking-[0.12em] text-emerald-700">Angebot</span>
+          <span className="hidden h-3 w-px flex-shrink-0 bg-emerald-300 sm:block" aria-hidden="true" />
+          <strong className="min-w-0 truncate font-semibold">{activeOffer.title}</strong>
+          <span className="hidden min-w-0 flex-1 truncate text-emerald-900/70 lg:inline">
+            · {activeOffer.description}
+          </span>
+          <span
+            className="ml-auto inline-flex flex-shrink-0 items-center gap-1 rounded-full bg-emerald-200 px-2.5 py-1 font-semibold tabular-nums"
+            title={`Gültig bis ${formatOfferDeadline(activeOffer.endsAt)}`}
+          >
+            <Clock3 className="h-3 w-3" aria-hidden="true" />
+            {getOfferTimingLabel(activeOffer.endsAt)}
+          </span>
+        </div>
+      )}
+
       {/* Main row */}
       <div className="p-4 sm:p-5">
         <div className="comparison-heading flex items-center gap-3 sm:gap-4">
@@ -272,32 +296,6 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             </button>
           </div>
         </div>
-
-        {activeOffer && (
-          <div
-            className="mt-4 flex flex-col gap-3 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-amber-950 sm:flex-row sm:items-center"
-            role="note"
-            aria-label={`Befristetes Angebot: ${activeOffer.title}`}
-          >
-            <div className="flex min-w-0 flex-1 items-start gap-3">
-              <span className="mt-0.5 grid h-8 w-8 flex-shrink-0 place-items-center rounded-full bg-amber-200/70">
-                <BadgePercent className="h-4 w-4" aria-hidden="true" />
-              </span>
-              <div className="min-w-0">
-                <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-amber-700">Befristetes Angebot</p>
-                <p className="mt-0.5 text-sm font-semibold">{activeOffer.title}</p>
-                <p className="mt-0.5 text-xs leading-5 text-amber-900/80">{activeOffer.description}</p>
-              </div>
-            </div>
-            <span
-              className="inline-flex flex-shrink-0 items-center gap-1.5 self-start rounded-full bg-amber-200 px-3 py-1.5 text-xs font-semibold tabular-nums sm:self-center"
-              title={`Gültig bis ${formatOfferDeadline(activeOffer.endsAt)}`}
-            >
-              <Clock3 className="h-3.5 w-3.5" aria-hidden="true" />
-              {getOfferTimingLabel(activeOffer.endsAt)}
-            </span>
-          </div>
-        )}
 
         {/* Mobile key metrics */}
         {!simple && (

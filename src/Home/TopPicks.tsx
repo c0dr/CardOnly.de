@@ -29,14 +29,14 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
 
   return (
     <section id="empfehlungen" className="picks-section scroll-mt-24 pb-14">
-      <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div className="recommendation-heading mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-xl">
-          <p className="section-kicker">DIE SHORTLIST</p>
+          <p className="section-kicker">Einfacher Einstieg</p>
           <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Drei Karten. Drei gute Gründe.
+            Gute Karten für unterschiedliche Pläne.
           </h2>
           <p className="mt-2 text-sm leading-6 text-muted-foreground">
-            Drei Empfehlungen für unterschiedliche Ansprüche. Die vollständigen Konditionen findest du im Vergleich.
+            Ob Alltag, Reise oder Bonusprogramm: Diese drei Empfehlungen geben dir eine schnelle Orientierung.
           </p>
         </div>
       </div>

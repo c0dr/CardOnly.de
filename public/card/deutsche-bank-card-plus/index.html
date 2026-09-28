@@ -126,27 +126,40 @@
         padding: 4px 10px;
       }
       .offer {
-        margin: 14px 0;
-        border: 1px solid #fcd34d;
-        border-radius: 12px;
-        background: #fffbeb;
-        padding: 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: -18px -18px 18px;
+        border-bottom: 1px solid #6ee7b7;
+        border-radius: 15px 15px 0 0;
+        background: #ecfdf5;
+        color: #022c22;
+        min-height: 40px;
+        padding: 8px 14px;
       }
       .offer-label {
-        color: #b45309;
+        color: #047857;
         font-size: 11px;
         font-weight: 800;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }
-      .offer strong { display: block; margin-top: 3px; color: #451a03; }
-      .offer p { margin-top: 5px; color: #78350f; }
+      .offer strong { white-space: nowrap; }
+      .offer-copy {
+        min-width: 0;
+        overflow: hidden;
+        color: #064e3b;
+        font-size: 12px;
+        opacity: 0.75;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
       .offer-deadline {
-        display: inline-block;
-        margin-top: 3px;
+        flex-shrink: 0;
+        margin-left: auto;
         border-radius: 999px;
-        background: #fde68a;
-        color: #78350f;
+        background: #a7f3d0;
+        color: #064e3b;
         font-size: 12px;
         font-weight: 700;
         padding: 4px 9px;
@@ -157,7 +170,7 @@
         color: #64748b;
       }
     </style>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreditCard","name":"Deutsche Bank Card Plus","description":"Deutsche Bank Card Plus im CardOnly-Vergleich. Jahresgebuehr: 18 EUR. Kartentyp: Debit.","url":"https://cardonly.de/card/deutsche-bank-card-plus/","image":"https://cardonly.de/img/db-plus.png","provider":{"@type":"Organization","url":"https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html","name":"Deutsche Bank Card Plus"},"feesAndCommissionsSpecification":[{"@type":"PriceSpecification","name":"Jahresgebuehr","priceCurrency":"EUR","price":18}],"additionalProperty":[{"@type":"PropertyValue","name":"Charge type","value":"Debit"},{"@type":"PropertyValue","name":"Meilenprogramm","value":"Nein"},{"@type":"PropertyValue","name":"Fremdwaehrung","value":"1% + 0,50% Waehrungsumrechnungsentgelt"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreditCard","name":"Deutsche Bank Card Plus","description":"Deutsche Bank Card Plus im CardOnly-Vergleich. Jahresgebuehr: 18 EUR. Kartentyp: Debit.","url":"https://cardonly.de/card/deutsche-bank-card-plus/","image":"https://cardonly.de/img/db-plus.png","provider":{"@type":"Organization","url":"https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich/karten-im-vergleich.html","name":"Deutsche Bank Card Plus"},"feesAndCommissionsSpecification":[{"@type":"PriceSpecification","name":"Jahresgebuehr","priceCurrency":"EUR","price":18}],"additionalProperty":[{"@type":"PropertyValue","name":"Charge type","value":"Debit"},{"@type":"PropertyValue","name":"Meilenprogramm","value":"Nein"},{"@type":"PropertyValue","name":"Fremdwaehrung","value":"1% + 0,50% Waehrungsumrechnungsentgelt"}]}</script>
   </head>
   <body>
     <main class="container">
@@ -170,10 +183,10 @@
     </nav>
 
     <article class="card">
+
+
       <h1>Deutsche Bank Card Plus</h1>
       <p>Deutsche Bank Card Plus im CardOnly-Vergleich. Jahresgebuehr: 18 EUR. Kartentyp: Debit.</p>
-
-
 
       <div class="tag-row">
         <span class="tag">Debit</span>
@@ -195,7 +208,7 @@
       <p style="margin-top:14px"><strong>Passende Themen:</strong> <a href="/topic/best-credit-cards/">Beste Kreditkarten im Vergleich</a></p>
 
       <p style="margin-top:16px">
-        <a class="button primary" href="https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html" rel="noopener noreferrer" target="_blank">Zur Anbieterseite</a>
+        <a class="button primary" href="https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich/karten-im-vergleich.html" rel="noopener noreferrer" target="_blank">Zur Anbieterseite</a>
         <a class="button" href="/#/">Im interaktiven Vergleich ansehen</a>
       </p>
     </article>

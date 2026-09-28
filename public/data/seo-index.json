@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T10:54:20.919Z",
+  "generatedAt": "2026-09-28T12:06:30.248Z",
   "site": "https://cardonly.de",
   "topics": [
     {
@@ -81,7 +81,7 @@
       "title": "Kreditkarten gut fuer Ausland",
       "description": "Kreditkarten mit besonders guten Konditionen fuer Fremdwaehrung oder Bargeldabhebung ausserhalb Deutschlands.",
       "url": "https://cardonly.de/topic/good-for-ausland/",
-      "cardCount": 41,
+      "cardCount": 43,
       "cards": [
         {
           "issuer": "Advanzia Hilton Honors",
@@ -189,14 +189,29 @@
           "url": "https://cardonly.de/card/hanseatic-bank-goldcard/"
         },
         {
-          "issuer": "Klarna Card",
-          "slug": "klarna-card",
-          "url": "https://cardonly.de/card/klarna-card/"
+          "issuer": "Klarna Everywhere",
+          "slug": "klarna-everywhere",
+          "url": "https://cardonly.de/card/klarna-everywhere/"
         },
         {
           "issuer": "Klarna Konto",
           "slug": "klarna-konto",
           "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Klarna Max",
+          "slug": "klarna-max",
+          "url": "https://cardonly.de/card/klarna-max/"
+        },
+        {
+          "issuer": "Klarna Plus",
+          "slug": "klarna-plus",
+          "url": "https://cardonly.de/card/klarna-plus/"
+        },
+        {
+          "issuer": "Klarna Premium",
+          "slug": "klarna-premium",
+          "url": "https://cardonly.de/card/klarna-premium/"
         },
         {
           "issuer": "N26 Go",
@@ -254,11 +269,6 @@
           "url": "https://cardonly.de/card/revolut-ultra/"
         },
         {
-          "issuer": "Sparda Hessen Mastercard Platinum",
-          "slug": "sparda-hessen-mastercard-platinum",
-          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
-        },
-        {
           "issuer": "TF Bank MasterCard Gold",
           "slug": "tf-bank-mastercard-gold",
           "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
@@ -295,7 +305,7 @@
       "title": "Kreditkarten ohne Jahresgebuehr",
       "description": "Kreditkarten mit 0 EUR Jahresgebuehr laut hinterlegten Kartendaten.",
       "url": "https://cardonly.de/topic/no-annual-fee/",
-      "cardCount": 31,
+      "cardCount": 30,
       "cards": [
         {
           "issuer": "Advanzia Mastercard Gold",
@@ -376,11 +386,6 @@
           "issuer": "Instabank",
           "slug": "instabank",
           "url": "https://cardonly.de/card/instabank/"
-        },
-        {
-          "issuer": "Klarna Card",
-          "slug": "klarna-card",
-          "url": "https://cardonly.de/card/klarna-card/"
         },
         {
           "issuer": "Klarna Konto",
@@ -459,7 +464,7 @@
       "title": "Beste Kreditkarten im Vergleich",
       "description": "Gesamtranking mit staerkerem Fokus auf Jahresgebuehr, dazu Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.",
       "url": "https://cardonly.de/topic/best-credit-cards/",
-      "cardCount": 76,
+      "cardCount": 78,
       "cards": [
         {
           "issuer": "Trading 212 Card",
@@ -567,11 +572,6 @@
           "url": "https://cardonly.de/card/comdirect-visa-debit/"
         },
         {
-          "issuer": "Klarna Card",
-          "slug": "klarna-card",
-          "url": "https://cardonly.de/card/klarna-card/"
-        },
-        {
           "issuer": "Vivid Standard",
           "slug": "vivid-standard",
           "url": "https://cardonly.de/card/vivid-standard/"
@@ -610,16 +610,6 @@
           "issuer": "Wise Debit",
           "slug": "wise-debit",
           "url": "https://cardonly.de/card/wise-debit/"
-        },
-        {
-          "issuer": "Sparda Hessen Mastercard Platinum",
-          "slug": "sparda-hessen-mastercard-platinum",
-          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
-        },
-        {
-          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
         },
         {
           "issuer": "VimPAY",
@@ -672,9 +662,9 @@
           "url": "https://cardonly.de/card/consorsbank-visa-gold/"
         },
         {
-          "issuer": "Monese Simple Debit MasterCard",
-          "slug": "monese-simple-debit-mastercard",
-          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
+          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
         },
         {
           "issuer": "ING Visa Debit",
@@ -747,6 +737,11 @@
           "url": "https://cardonly.de/card/instabank/"
         },
         {
+          "issuer": "Monese Simple Debit MasterCard",
+          "slug": "monese-simple-debit-mastercard",
+          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
+        },
+        {
           "issuer": "N26 Metal",
           "slug": "n26-metal",
           "url": "https://cardonly.de/card/n26-metal/"
@@ -755,6 +750,11 @@
           "issuer": "Miles & More MyFlex Credit Card",
           "slug": "miles-more-myflex-credit-card",
           "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
+          "issuer": "Klarna Everywhere",
+          "slug": "klarna-everywhere",
+          "url": "https://cardonly.de/card/klarna-everywhere/"
         },
         {
           "issuer": "Tomorrow Plus",
@@ -787,6 +787,11 @@
           "url": "https://cardonly.de/card/commerzbank-mastercard-debit/"
         },
         {
+          "issuer": "Klarna Plus",
+          "slug": "klarna-plus",
+          "url": "https://cardonly.de/card/klarna-plus/"
+        },
+        {
           "issuer": "Vivid Plus",
           "slug": "vivid-plus",
           "url": "https://cardonly.de/card/vivid-plus/"
@@ -795,6 +800,16 @@
           "issuer": "bunq Elite",
           "slug": "bunq-elite",
           "url": "https://cardonly.de/card/bunq-elite/"
+        },
+        {
+          "issuer": "Klarna Premium",
+          "slug": "klarna-premium",
+          "url": "https://cardonly.de/card/klarna-premium/"
+        },
+        {
+          "issuer": "Klarna Max",
+          "slug": "klarna-max",
+          "url": "https://cardonly.de/card/klarna-max/"
         },
         {
           "issuer": "Deutsche Bank Mastercard Travel",
@@ -848,7 +863,7 @@
       "title": "Beste Kreditkarten fuer Cashback und Punkte",
       "description": "Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag, abgewogen gegen die Jahresgebuehr.",
       "url": "https://cardonly.de/topic/best-for-cashback/",
-      "cardCount": 16,
+      "cardCount": 19,
       "cards": [
         {
           "issuer": "Trading 212 Card",
@@ -891,9 +906,24 @@
           "url": "https://cardonly.de/card/advanzia-hilton-honors/"
         },
         {
+          "issuer": "Klarna Premium",
+          "slug": "klarna-premium",
+          "url": "https://cardonly.de/card/klarna-premium/"
+        },
+        {
+          "issuer": "Klarna Max",
+          "slug": "klarna-max",
+          "url": "https://cardonly.de/card/klarna-max/"
+        },
+        {
           "issuer": "American Express BMW Card",
           "slug": "american-express-bmw-card",
           "url": "https://cardonly.de/card/american-express-bmw-card/"
+        },
+        {
+          "issuer": "Klarna Plus",
+          "slug": "klarna-plus",
+          "url": "https://cardonly.de/card/klarna-plus/"
         },
         {
           "issuer": "easybank Gold Visa",
@@ -937,7 +967,7 @@
       "title": "Beste Kreditkarten fuer Bargeld ausserhalb Europas",
       "description": "Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums und fairer Jahresgebuehr.",
       "url": "https://cardonly.de/topic/best-for-atm-outside-europe/",
-      "cardCount": 35,
+      "cardCount": 34,
       "cards": [
         {
           "issuer": "Hanseatic Bank GenialCard",
@@ -1043,11 +1073,6 @@
           "issuer": "easybank Platinum",
           "slug": "easybank-platinum",
           "url": "https://cardonly.de/card/easybank-platinum/"
-        },
-        {
-          "issuer": "Sparda Hessen Mastercard Platinum",
-          "slug": "sparda-hessen-mastercard-platinum",
-          "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/"
         },
         {
           "issuer": "Revolut Premium MasterCard",
@@ -1121,7 +1146,7 @@
       "title": "Beste kostenlose Kreditkarten",
       "description": "Ranking fuer Karten ohne Jahresgebuehr mit starkem Alltags- und Auslandspaket.",
       "url": "https://cardonly.de/topic/best-free-cards/",
-      "cardCount": 31,
+      "cardCount": 30,
       "cards": [
         {
           "issuer": "Hanseatic Bank GenialCard",
@@ -1204,11 +1229,6 @@
           "url": "https://cardonly.de/card/n26-standard/"
         },
         {
-          "issuer": "Klarna Card",
-          "slug": "klarna-card",
-          "url": "https://cardonly.de/card/klarna-card/"
-        },
-        {
           "issuer": "Vivid Standard",
           "slug": "vivid-standard",
           "url": "https://cardonly.de/card/vivid-standard/"
@@ -1229,19 +1249,9 @@
           "url": "https://cardonly.de/card/wise-debit/"
         },
         {
-          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
-        },
-        {
           "issuer": "American Express Blue",
           "slug": "american-express-blue",
           "url": "https://cardonly.de/card/american-express-blue/"
-        },
-        {
-          "issuer": "Monese Simple Debit MasterCard",
-          "slug": "monese-simple-debit-mastercard",
-          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
         },
         {
           "issuer": "consorsbank Visa Debit",
@@ -1252,6 +1262,11 @@
           "issuer": "American Express Payback",
           "slug": "american-express-payback",
           "url": "https://cardonly.de/card/american-express-payback/"
+        },
+        {
+          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
+          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
         },
         {
           "issuer": "ING Visa Debit",
@@ -1272,6 +1287,11 @@
           "issuer": "HypoVereinsbank Debit",
           "slug": "hypovereinsbank-debit",
           "url": "https://cardonly.de/card/hypovereinsbank-debit/"
+        },
+        {
+          "issuer": "Monese Simple Debit MasterCard",
+          "slug": "monese-simple-debit-mastercard",
+          "url": "https://cardonly.de/card/monese-simple-debit-mastercard/"
         },
         {
           "issuer": "Instabank",
@@ -1670,7 +1690,7 @@
       "hasApplePay": true,
       "hasGooglePay": false,
       "offer": null,
-      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html"
+      "source": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich/karten-im-vergleich.html"
     },
     {
       "issuer": "Deutsche Bank Mastercard Gold",
@@ -1951,10 +1971,10 @@
       "source": "https://instabank.de/kreditkarte"
     },
     {
-      "issuer": "Klarna Card",
-      "slug": "klarna-card",
-      "url": "https://cardonly.de/card/klarna-card/",
-      "yearlyFee": 0,
+      "issuer": "Klarna Everywhere",
+      "slug": "klarna-everywhere",
+      "url": "https://cardonly.de/card/klarna-everywhere/",
+      "yearlyFee": 59.88,
       "charge": "charge",
       "miles": false,
       "withChecking": false,
@@ -1963,7 +1983,7 @@
       "hasApplePay": true,
       "hasGooglePay": true,
       "offer": null,
-      "source": "https://www.klarna.com/de/card/"
+      "source": "https://www.klarna.com/de/mitgliedschaft/"
     },
     {
       "issuer": "Klarna Konto",
@@ -1981,6 +2001,51 @@
       "source": "https://www.klarna.com/de/bankkonto/"
     },
     {
+      "issuer": "Klarna Max",
+      "slug": "klarna-max",
+      "url": "https://cardonly.de/card/klarna-max/",
+      "yearlyFee": 539.88,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "Nicht möglich",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "offer": null,
+      "source": "https://www.klarna.com/de/mitgliedschaft/"
+    },
+    {
+      "issuer": "Klarna Plus",
+      "slug": "klarna-plus",
+      "url": "https://cardonly.de/card/klarna-plus/",
+      "yearlyFee": 119.88,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "Nicht möglich",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "offer": null,
+      "source": "https://www.klarna.com/de/mitgliedschaft/"
+    },
+    {
+      "issuer": "Klarna Premium",
+      "slug": "klarna-premium",
+      "url": "https://cardonly.de/card/klarna-premium/",
+      "yearlyFee": 239.88,
+      "charge": "charge",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "Nicht möglich",
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "offer": null,
+      "source": "https://www.klarna.com/de/mitgliedschaft/"
+    },
+    {
       "issuer": "Miles & More Blue Credit Card",
       "slug": "miles-more-blue-credit-card",
       "url": "https://cardonly.de/card/miles-more-blue-credit-card/",
@@ -1993,7 +2058,7 @@
       "hasApplePay": true,
       "hasGooglePay": true,
       "offer": null,
-      "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-blue-credit-card"
+      "source": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-blue-credit-card.html"
     },
     {
       "issuer": "Miles & More Gold Credit Card",
@@ -2008,7 +2073,7 @@
       "hasApplePay": true,
       "hasGooglePay": true,
       "offer": null,
-      "source": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-gold-credit-card"
+      "source": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-gold-credit-card.html"
     },
     {
       "issuer": "Miles & More MyFlex Credit Card",
@@ -2033,12 +2098,12 @@
       "charge": "debit",
       "miles": false,
       "withChecking": true,
-      "feesAtmForeign": "1€ + 2% (mind. 2€)",
-      "feesPosForeign": "2% (mind. 2€)",
+      "feesAtmForeign": "4%",
+      "feesPosForeign": "3%",
       "hasApplePay": true,
       "hasGooglePay": true,
       "offer": null,
-      "source": "https://monese.com/eu/features/debit-card"
+      "source": "https://www.monese.com/features/debit-cards"
     },
     {
       "issuer": "N26 Go",
@@ -2228,27 +2293,12 @@
       "charge": "credit",
       "miles": false,
       "withChecking": false,
-      "feesAtmForeign": "1.5%",
-      "feesPosForeign": "1.5%",
+      "feesAtmForeign": "3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt",
+      "feesPosForeign": "1.85%",
       "hasApplePay": false,
       "hasGooglePay": false,
       "offer": null,
-      "source": "https://www.santander.de/privatkunden/konten-karten/karten/#panel2_190597b"
-    },
-    {
-      "issuer": "Sparda Hessen Mastercard Platinum",
-      "slug": "sparda-hessen-mastercard-platinum",
-      "url": "https://cardonly.de/card/sparda-hessen-mastercard-platinum/",
-      "yearlyFee": 99,
-      "charge": "charge",
-      "miles": false,
-      "withChecking": true,
-      "feesAtmForeign": 0,
-      "feesPosForeign": 0,
-      "hasApplePay": false,
-      "hasGooglePay": false,
-      "offer": null,
-      "source": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/"
+      "source": "https://www.santander.de/privatkunden/konten-und-karten/karten/kostenlose-kreditkarte/"
     },
     {
       "issuer": "Targobank Visa Online Classic",

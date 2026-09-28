@@ -236,12 +236,27 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://cardonly.de/card/klarna-card/</loc>
+    <loc>https://cardonly.de/card/klarna-everywhere/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://cardonly.de/card/klarna-konto/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cardonly.de/card/klarna-max/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cardonly.de/card/klarna-plus/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://cardonly.de/card/klarna-premium/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -327,11 +342,6 @@
   </url>
   <url>
     <loc>https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://cardonly.de/card/sparda-hessen-mastercard-platinum/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
   </url>

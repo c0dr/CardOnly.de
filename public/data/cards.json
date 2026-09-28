@@ -44,7 +44,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Erste physische Karte kostenlos (zusaetzliche physische Karte 10 EUR).",
-    "image": "img/n26.png",
+    "image": "img/n26-smart.png",
     "link": "https://n26.com/de-de/konten-vergleichen"
   },
   {
@@ -468,7 +468,7 @@
     "insurance": true,
     "miles": false,
     "notes": "Abhebungen direkt vom Girokonto, <span class='text-success'> Rücktritt-, Abbruch- und Gepäckversicherung bei Karteneinsatz, Krankenversicherung, Handyversicherung</span>",
-    "image": "/img/consorsbank-visa-gold.webp",
+    "image": "/img/consorsbank-visa-gold.jpg",
     "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
   },
   {
@@ -492,7 +492,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Abhebungen direkt vom Girokonto, <span class='text-warning'>Keine Versicherungen inklusive</span>",
-    "image": "/img/consorsbank-visa-gold.webp",
+    "image": "/img/consorsbank-visa-gold.jpg",
     "link": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
   },
   {
@@ -652,17 +652,17 @@
     "contactless": true,
     "secure": true,
     "charge": "credit",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": "1.5%",
+    "fees_atm_de": "3.5%, mind. 5.75 EUR",
+    "fees_atm_eur": "3.5%, mind. 5.75 EUR",
+    "fees_atm_foreign": "3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.5%",
+    "fees_pos_foreign": "1.85%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Manueller Ausgleich per Ueberweisung notwendig.",
+    "notes": "Teilzahlung; 5% des offenen Betrags als monatliche Rate. Auslandseinsatzentgelt 1,85%.",
     "image": "/img/santander.png",
-    "link": "https://www.santander.de/privatkunden/konten-karten/karten/#panel2_190597b"
+    "link": "https://www.santander.de/privatkunden/konten-und-karten/karten/kostenlose-kreditkarte/"
   },
   {
     "Issuer": "comdirect Visa Credit",
@@ -972,16 +972,16 @@
     "googlepay": true,
     "secure": false,
     "charge": "debit",
-    "fees_atm_de": "1€",
-    "fees_atm_eur": "1€",
-    "fees_atm_foreign": "1€ + 2% (mind. 2€)",
+    "fees_atm_de": "2%",
+    "fees_atm_eur": "2%",
+    "fees_atm_foreign": "4%",
     "fees_pos_eur": 0,
-    "fees_pos_foreign": "2% (mind. 2€)",
+    "fees_pos_foreign": "3%",
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Physische Karte 4,95 EUR einmalig; mit hoeheren Tarifen leicht bessere Konditionen.",
-    "link": "https://monese.com/eu/features/debit-card",
+    "notes": "Pay-as-you-go-Tarif kostenlos; physische Karte 4,95 EUR Lieferung (kostenlos bei erster Einzahlung von 100 EUR).",
+    "link": "https://www.monese.com/features/debit-cards",
     "image": "/img/monesesimple.png"
   },
   {
@@ -1152,7 +1152,7 @@
     "insurance": false,
     "miles": false,
     "notes": "Debitkarte zum Deutsche-Bank-Konto.",
-    "link": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html",
+    "link": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich/karten-im-vergleich.html",
     "image": "/img/db-plus.png"
   },
   {
@@ -1177,7 +1177,7 @@
     "miles": false,
     "notes": "Monatliche Abrechnung; kein Reiseversicherungspaket inklusive.",
     "link": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html",
-    "image": "/img/db-plus.png"
+    "image": "/img/db-standard.png"
   },
   {
     "Issuer": "Deutsche Bank Mastercard Gold",
@@ -1201,7 +1201,7 @@
     "miles": false,
     "notes": "<span class='text-success'>Reiseservice mit 6% Rueckverguetung und Auslandsreisekrankenversicherung (auch fuer mitreisende Angehoerige bei Karteneinsatz)</span>.",
     "link": "https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/karten-im-vergleich.html",
-    "image": "/img/dbtravel.jpeg"
+    "image": "/img/db-gold.png"
   },
   {
     "Issuer": "Deutsche Bank Mastercard Travel",
@@ -1279,9 +1279,9 @@
     "link": "https://wise.com/gb/borderless/card"
   },
   {
-    "Issuer": "Klarna Card",
+    "Issuer": "Klarna Everywhere",
     "scheme": "visa",
-    "yearlyFee": 0,
+    "yearlyFee": 59.88,
     "withChecking": false,
     "offlinepin": true,
     "offlinetrx": false,
@@ -1298,9 +1298,9 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Keine ATM-Nutzung möglich, Ausgleich per Lastschrift oder auf Rechnung, dynamisch in der App einstellbar",
+    "notes": "Mitgliedschaft: 4,99 EUR pro Monat. Gebührenfreie Nutzung der Klarna Karte überall dort, wo Visa akzeptiert wird, plus monatliche Rabatte. Keine ATM-Nutzung möglich, Ausgleich per Lastschrift oder auf Rechnung, dynamisch in der App einstellbar",
     "image": "/img/klarna.jpg",
-    "link": "https://www.klarna.com/de/card/"
+    "link": "https://www.klarna.com/de/mitgliedschaft/"
   },
   {
     "Issuer": "Klarna Konto",
@@ -1325,6 +1325,78 @@
     "notes": "Visa-Kurse.",
     "image": "/img/klarna.jpg",
     "link": "https://www.klarna.com/de/bankkonto/"
+  },
+  {
+    "Issuer": "Klarna Plus",
+    "scheme": "visa",
+    "yearlyFee": 119.88,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": false,
+    "charge": "charge",
+    "fees_atm_de": "Nicht möglich",
+    "fees_atm_eur": "Nicht möglich",
+    "fees_atm_foreign": "Nicht möglich",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": false,
+    "miles": false,
+    "notes": "Mitgliedschaft: 9,99 EUR pro Monat. Inklusive 0,5 % Cashback auf Klarna-Zahlungen sowie zusätzlichen Spar-, Abo- und Kaufvorteilen.",
+    "image": "/img/klarna.jpg",
+    "link": "https://www.klarna.com/de/mitgliedschaft/"
+  },
+  {
+    "Issuer": "Klarna Premium",
+    "scheme": "visa",
+    "yearlyFee": 239.88,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": false,
+    "charge": "charge",
+    "fees_atm_de": "Nicht möglich",
+    "fees_atm_eur": "Nicht möglich",
+    "fees_atm_foreign": "Nicht möglich",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": true,
+    "miles": false,
+    "notes": "Mitgliedschaft: 19,99 EUR pro Monat. 1 % Cashback, digitale Abos, Reiseversicherung und Premium-Karte aus Metall.",
+    "image": "/img/klarna.jpg",
+    "link": "https://www.klarna.com/de/mitgliedschaft/"
+  },
+  {
+    "Issuer": "Klarna Max",
+    "scheme": "visa",
+    "yearlyFee": 539.88,
+    "withChecking": false,
+    "offlinepin": true,
+    "offlinetrx": false,
+    "applepay": true,
+    "googlepay": true,
+    "contactless": true,
+    "secure": false,
+    "charge": "charge",
+    "fees_atm_de": "Nicht möglich",
+    "fees_atm_eur": "Nicht möglich",
+    "fees_atm_foreign": "Nicht möglich",
+    "fees_pos_eur": 0,
+    "fees_pos_foreign": 0,
+    "pinfirst": true,
+    "insurance": true,
+    "miles": false,
+    "notes": "Mitgliedschaft: 44,99 EUR pro Monat. 1,5 % Cashback, umfassender Reiseschutz, LoungeKey-Zugang, digitale Abos und exklusive Rose-Gold-Metallkarte.",
+    "image": "/img/klarna.jpg",
+    "link": "https://www.klarna.com/de/mitgliedschaft/"
   },
   {
     "Issuer": "VimPAY",
@@ -1572,7 +1644,7 @@
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, herausgegeben von der Deutschen Bank AG, Teilzahlung auf Antrag, kein inkludiertes Reiseversicherungspaket, unbefristeter Meilenschutz.",
     "adlink": "//financeads.net/tc.php?t=39323C54524631T",
-    "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-blue-credit-card",
+    "link": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-blue-credit-card.html",
     "image": "img/miles-more-blue.png"
   },
   {
@@ -1597,7 +1669,7 @@
     "miles": true,
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiseversicherungspaket</span>, herausgegeben von der Deutschen Bank AG, Teilzahlung auf Antrag, 3x1GB Flexiroam Datenvolumen.",
     "adlink": "//financeads.net/tc.php?t=39323C54524632T",
-    "link": "https://www.miles-and-more-kreditkarte.com/privatkunden/miles-and-more-gold-credit-card",
+    "link": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-gold-credit-card.html",
     "image": "img/miles-more-gold.png"
   },
   {
@@ -1623,30 +1695,6 @@
     "notes": "Seit 01.10.2025 herausgegeben von der Deutschen Bank AG. Teilzahlung mit Mindesttilgung (mind. 10% bzw. 50 EUR); gebundener Sollzins 22,90% p.a. (effektiv 24,69% p.a.).",
     "link": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-myflex-credit-card.html",
     "image": "img/miles-more-myflex.png"
-  },
-  {
-    "Issuer": "Sparda Hessen Mastercard Platinum",
-    "scheme": "mastercard",
-    "yearlyFee": 99,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": true,
-    "applepay": false,
-    "googlepay": false,
-    "contactless": true,
-    "secure": true,
-    "charge": "charge",
-    "fees_atm_de": 0,
-    "fees_atm_eur": 0,
-    "fees_atm_foreign": 0,
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": 0,
-    "pinfirst": true,
-    "insurance": true,
-    "miles": false,
-    "notes": "<span class='text-success'>Reiserücktritt-, Reisekranken und weitere Versicherungen ohne Karteneinsatz</span>, für Neukunden Priority Pass mit Gebühren pro Eintritt",
-    "link": "https://www.sparda-hessen.de/kreditkarte-und-bankkarte-uebersicht-spardamastercard-mastercard-platinum/",
-    "image": "/img/spardahessen.jpg"
   },
   {
     "Issuer": "Payback Visa Flex",
@@ -1792,7 +1840,7 @@
     "cashAdvanceImmediate": true,
     "notes": "<span class='text-success'>Lastschrifteinzug einstellbar, gute Reiseversicherungen inklusive</span>. <span class='text-warning'>Bargeldabhebungen werden sofort verzinst.</span>",
     "link": "https://www.banknorwegian.de/kreditkarte/",
-    "image": "/img/banknorwegian.svg"
+    "image": "/img/banknorwegian-card.jpg"
   },
   {
     "Issuer": "Instabank",

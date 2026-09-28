@@ -5,7 +5,6 @@ import Recommended from './Recommendations/Recommended';
 import AktuelleAktionen from './Recommendations/AktuelleAktionen';
 import BestCardsPage from './Recommendations/BestCardsPage';
 import Header from './CommonComponents/Header';
-import ScreenSizeAlert from './CommonComponents/ScreenSizeAlert';
 import Sparkasse from './Recommendations/JetztIstAllesMoeglich';
 import CookieConsent from './components/ui/CookieConsent';
 import ComparePage from './Compare/ComparePage';
@@ -18,7 +17,6 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-background font-sans antialiased">
         <div className="relative flex min-h-screen flex-col">
           <Header/>
-          <ScreenSizeAlert/>
           <div className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />

@@ -325,27 +325,40 @@ const pageShell = ({ title, description, canonicalPath, bodyHtml, jsonLd }: any)
         padding: 4px 10px;
       }
       .offer {
-        margin: 14px 0;
-        border: 1px solid #fcd34d;
-        border-radius: 12px;
-        background: #fffbeb;
-        padding: 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: -18px -18px 18px;
+        border-bottom: 1px solid #6ee7b7;
+        border-radius: 15px 15px 0 0;
+        background: #ecfdf5;
+        color: #022c22;
+        min-height: 40px;
+        padding: 8px 14px;
       }
       .offer-label {
-        color: #b45309;
+        color: #047857;
         font-size: 11px;
         font-weight: 800;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }
-      .offer strong { display: block; margin-top: 3px; color: #451a03; }
-      .offer p { margin-top: 5px; color: #78350f; }
+      .offer strong { white-space: nowrap; }
+      .offer-copy {
+        min-width: 0;
+        overflow: hidden;
+        color: #064e3b;
+        font-size: 12px;
+        opacity: 0.75;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
       .offer-deadline {
-        display: inline-block;
-        margin-top: 3px;
+        flex-shrink: 0;
+        margin-left: auto;
         border-radius: 999px;
-        background: #fde68a;
-        color: #78350f;
+        background: #a7f3d0;
+        color: #064e3b;
         font-size: 12px;
         font-weight: 700;
         padding: 4px 9px;
@@ -423,17 +436,17 @@ const createCardPage = (card: any, allTopics: any[]) => {
     </nav>
 
     <article class="card">
-      <h1>${escapeHtml(card.Issuer)}</h1>
-      <p>${escapeHtml(description)}</p>
-
-${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot">
-        <span class="offer-label">Befristetes Angebot</span>
+${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot" title="${escapeHtml(activeOffer.description)}">
+        <span class="offer-label">Angebot</span>
         <strong>${escapeHtml(activeOffer.title)}</strong>
-        <p>${escapeHtml(activeOffer.description)}</p>
+        <span class="offer-copy">· ${escapeHtml(activeOffer.description)}</span>
         <span class="offer-deadline" title="Gültig bis ${escapeHtml(formatOfferDeadline(activeOffer.endsAt))}">${escapeHtml(
           getOfferTimingLabel(activeOffer.endsAt)
         )}</span>
       </aside>` : ''}
+
+      <h1>${escapeHtml(card.Issuer)}</h1>
+      <p>${escapeHtml(description)}</p>
 
       <div class="tag-row">
         <span class="tag">${escapeHtml(chargeLabels[card.charge] || 'Karte')}</span>

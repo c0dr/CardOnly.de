@@ -12,11 +12,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        sans: ["DM Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
       },
       boxShadow: {
-        card: "none",
-        lift: "0 2px 8px rgb(15 23 42 / 0.06)",
+        card: "0 5px 18px rgb(26 38 31 / 0.055)",
+        lift: "0 16px 38px rgb(26 38 31 / 0.11)",
       },
       colors: {
         border: "hsl(var(--border))",
