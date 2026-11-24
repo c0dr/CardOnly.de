@@ -7,6 +7,7 @@ import { recommendedCardProfiles } from '../lib/recommendedCards';
 import { cardHighlights } from '../lib/cardHighlights';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
+import { creditWarning } from '../lib/creditNotice';
 
 interface TopPicksProps {
   cards: Card[];
@@ -36,13 +37,13 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
             Gute Karten für unterschiedliche Pläne.
           </h2>
           <p className="mt-2 text-sm leading-6 text-muted-foreground">
-            Ob Alltag, Reise oder Bonusprogramm: Diese drei Empfehlungen geben dir eine schnelle Orientierung.
+            Ob Alltag, Reise oder Bonusprogramm: Diese drei Karten zeigen unterschiedliche Ausstattungen.
           </p>
         </div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-3">
-        {picks.map(({ profile, card }, index) => {
+        {picks.map(({ profile, card }) => {
           const rating = getCardRating(card);
           const highlights = cardHighlights(card);
           const fee = Number(card.yearlyFee) === 0 || card.yearlyFee === '0' ? '0 €' : `${card.yearlyFee} €`;
@@ -56,9 +57,7 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
                 <span className="text-xs font-medium">
                   {profile.category}
                 </span>
-                <span className="pick-index">
-                  0{index + 1}
-                </span>
+
               </div>
 
               <div className="pick-image flex items-center justify-center">
@@ -74,7 +73,7 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
               <div className="mt-1.5 flex items-center gap-2">
                 <SchemeBadge scheme={card.scheme} />
                 {card.withChecking && <span className="text-xs text-muted-foreground">mit Girokonto</span>}
-                <span className="ml-auto text-xs text-muted-foreground" title={rating.label}>Score {rating.score}</span>
+                <span className="ml-auto text-xs text-muted-foreground" title={rating.label}>Gesamtscore {rating.label}</span>
               </div>
 
               <ul className="mt-4 space-y-2 border-t border-border/70 pt-4">
@@ -93,6 +92,8 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
                 </div>
 
                 <UsageFees card={card} compact />
+
+                {card.charge === 'credit' && <p className="mb-3 text-base font-bold text-amber-950">{creditWarning}</p>}
 
                 <Button asChild className="pick-provider h-11 w-full rounded-md text-sm font-semibold shadow-none">
                   <a href={card.adlink || card.link || '#'} target="_blank" rel="noopener noreferrer">

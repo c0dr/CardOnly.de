@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ filterChange, resetFilters, enabledFilt
           <p className="hero-description">Sag uns, was dir wichtig ist. Wir zeigen dir passende Karten – transparent erklärt, fair bewertet und ohne Fachchinesisch.</p>
           <div className="hero-actions">
             <button type="button" onClick={jumpToComparison} className="hero-button">Passende Karte finden <ArrowDown size={18} /></button>
-            <Link to="/best" className="hero-link">Direkt zu den Empfehlungen <span aria-hidden="true">↗</span></Link>
+            <Link to="/best" className="hero-link">Karten nach Kriterien ansehen <span aria-hidden="true">↗</span></Link>
           </div>
           <div className="hero-assurances" aria-label="Vorteile des Vergleichs">
             <span><CheckCircle2 /> Ohne Anmeldung</span>

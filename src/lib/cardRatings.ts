@@ -229,89 +229,87 @@ const riskPenalty = (card: Card) => {
   return penalty;
 };
 
-const scoreOverall = (card: Card) =>
-  annualFeeScore(card, 40) +
-  foreignPaymentScore(card, 16) +
-  atmOutsideEuropeScore(card, 16) +
-  flexibilityScore(card, 12) +
-  safetyBenefitScore(card, 8) +
-  rewardsScore(card, 8) -
-  riskPenalty(card);
+export const scoreMetrics = [
+  { key: 'annualFee', label: 'Jahresgebühr', calculate: annualFeeScore, explanation: '0 € ergeben die volle Punktzahl. Bei 12 / 36 / 60 / 96 / 144 / 240 € Jahresgebühr werden 90 / 72 / 52 / 30 / 12 / 0 % der Punkte vergeben; dazwischen wird linear gerechnet. Fehlende Angaben erhalten 20 %.' },
+  { key: 'foreignPayment', label: 'Bezahlen in Fremdwährung', calculate: foreignPaymentScore, explanation: 'Keine Gebühr: volle Punktzahl. Bis einschließlich 1 %: 30 % der Punkte. Höhere oder unbekannte Gebühren: 0 Punkte.' },
+  { key: 'atm', label: 'Bargeld außerhalb des Euroraums', calculate: atmOutsideEuropeScore, explanation: 'Keine Abhebegebühr: volle Punktzahl. Gebühren bis 1 / 1,7 / 2,2 % erhalten 72 / 58 / 36 % der Punkte, höhere Gebühren 12 %. Bei fehlendem Auslandswert und gebührenfreier Euro-Abhebung: 25 %. Sofortige Verzinsung senkt diesen Teilwert um 25 % seiner maximalen Punkte.' },
+  { key: 'flexibility', label: 'Kartentyp', calculate: flexibilityScore, explanation: 'Credit: volle Punktzahl; Charge: 85 %, Debit: 50 %, Prepaid: 25 %, unbekannter Kartentyp: 20 % der Punkte.' },
+  { key: 'safety', label: 'Versicherungs- und Sicherheitsmerkmale', calculate: safetyBenefitScore, explanation: 'Hinterlegte Versicherung: volle Punktzahl. Sonst bei hinterlegtem Sicherheitsmerkmal: 50 %. Ohne diese Angaben: 0 Punkte. Der Versicherungsumfang wird nicht einzeln bewertet.' },
+  { key: 'rewards', label: 'Bonusprogramme', calculate: rewardsScore, explanation: 'Erkannte Programme erhalten folgende Anteile: Cashback 100 %, PAYBACK 90 %, Gutschriften oder Rückvergütung 68 %, weitere Punkteprogramme 62 %, Meilen 58 %. Es zählt der höchste erkannte Anteil; keine Bewertung des individuellen Gegenwerts.' },
+] as const;
 
-const scoreCashback = (card: Card) =>
-  rewardsScore(card, 30) +
-  annualFeeScore(card, 30) +
-  foreignPaymentScore(card, 12) +
-  flexibilityScore(card, 12) +
-  safetyBenefitScore(card, 8) +
-  atmOutsideEuropeScore(card, 8) -
-  riskPenalty(card);
+type ScoreMetricKey = typeof scoreMetrics[number]['key'];
+export const scoreWeights: Record<string, Record<ScoreMetricKey, number>> = {
+  overall: { annualFee: 40, foreignPayment: 16, atm: 16, flexibility: 12, safety: 8, rewards: 8 },
+  cashback: { annualFee: 30, foreignPayment: 12, atm: 8, flexibility: 12, safety: 8, rewards: 30 },
+  atmOutsideEurope: { annualFee: 28, foreignPayment: 16, atm: 36, flexibility: 10, safety: 10, rewards: 0 },
+  freeCards: { annualFee: 45, foreignPayment: 19, atm: 18, flexibility: 11, safety: 5, rewards: 2 },
+};
 
-const scoreAtmOutsideEurope = (card: Card) =>
-  atmOutsideEuropeScore(card, 36) +
-  annualFeeScore(card, 28) +
-  foreignPaymentScore(card, 16) +
-  flexibilityScore(card, 10) +
-  safetyBenefitScore(card, 10) -
-  riskPenalty(card);
+export const scoreMethodNotes = [
+  'Zusätzliche Abzüge: 4 Punkte bei erkannter sofortiger Verzinsung von Bargeld, weitere 2 Punkte ab 20 % hinterlegtem Bargeld-Jahreszins, 1 Punkt ab 20 % hinterlegtem Teilzahlungs-Jahreszins und 4 Punkte bei erkannten Rückzahlungsrisiken (z. B. voreingestellte Teilzahlung oder keine zinsfreien Tage). Mehrere Abzüge können zusammenkommen.',
+  'Die Summe wird auf 0 bis 100 begrenzt und auf ganze Punkte gerundet. Bei gleichem Score entscheidet die niedrigere hinterlegte Jahresgebühr, danach der Anbietername; fehlende Jahresgebühren werden für diesen Gleichstand wie 0 € behandelt.',
+  'Redaktioneller Vergleichswert auf Basis der hinterlegten Daten, keine Kundenbewertung oder individuelle Empfehlung. Textangaben werden vereinfacht ausgewertet; Mindestbeträge, feste Gebühren und Sonderbedingungen fließen nicht vollständig ein. Fehlende Daten können den Score beeinflussen.',
+  'Ein höherer Score bedeutet eine höhere Punktzahl nach diesen Kriterien, keine allgemeine Überlegenheit der Karte. Persönliche Nutzung, Kreditkosten und Vertragsbedingungen sind zusätzlich zu prüfen.',
+];
 
-const scoreFreeCards = (card: Card) =>
-  annualFeeScore(card, 45) +
-  foreignPaymentScore(card, 19) +
-  atmOutsideEuropeScore(card, 18) +
-  flexibilityScore(card, 11) +
-  safetyBenefitScore(card, 5) +
-  rewardsScore(card, 2) -
-  riskPenalty(card);
+export const getScoreMethodology = (keyOrSortValue = 'overall') => {
+  const profile = getRatingProfile(keyOrSortValue);
+  const weights = scoreWeights[profile.key];
+  return scoreMetrics.map((metric) => ({ key: metric.key, label: metric.label, explanation: metric.explanation, points: weights[metric.key] }));
+};
+
+const scoreForProfile = (card: Card, key: string) =>
+  scoreMetrics.reduce((sum, metric) => sum + metric.calculate(card, scoreWeights[key][metric.key]), 0) - riskPenalty(card);
 
 export const ratingProfiles: RatingProfile[] = [
   {
     key: 'overall',
     sortValue: 'bestOverall',
-    label: 'Beste Bewertung',
-    navLabel: 'Beste Karten',
-    title: 'Beste Kreditkarten im Vergleich',
+    label: 'Score: Gesamtvergleich',
+    navLabel: 'Gesamtvergleich',
+    title: 'Kreditkarten nach CardOnly-Score',
     description: 'Gesamtranking mit staerkerem Fokus auf Jahresgebuehr, dazu Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.',
     route: '/best',
     staticSlug: 'best-credit-cards',
     matcher: () => true,
-    score: scoreOverall,
+    score: (card) => scoreForProfile(card, 'overall'),
   },
   {
     key: 'cashback',
     sortValue: 'bestCashback',
-    label: 'Bestes Cashback',
+    label: 'Score: Bonusprogramme',
     navLabel: 'Cashback',
-    title: 'Beste Kreditkarten fuer Cashback und Punkte',
+    title: 'Karten mit Cashback und Punkten',
     description: 'Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag, abgewogen gegen die Jahresgebuehr.',
     route: '/best/cashback',
     staticSlug: 'best-for-cashback',
     matcher: hasRewardsSignal,
-    score: scoreCashback,
+    score: (card) => scoreForProfile(card, 'cashback'),
   },
   {
     key: 'atmOutsideEurope',
     sortValue: 'bestAtmOutsideEurope',
-    label: 'Beste ATM ausserhalb Europas',
+    label: 'Score: Bargeld im Ausland',
     navLabel: 'ATM ausserhalb Europas',
-    title: 'Beste Kreditkarten fuer Bargeld ausserhalb Europas',
+    title: 'Karten für Bargeld außerhalb des Euroraums',
     description: 'Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums und fairer Jahresgebuehr.',
     route: '/best/atm-outside-europe',
     staticSlug: 'best-for-atm-outside-europe',
     matcher: (card: Card) => isZeroLike(card.fees_atm_foreign),
-    score: scoreAtmOutsideEurope,
+    score: (card) => scoreForProfile(card, 'atmOutsideEurope'),
   },
   {
     key: 'freeCards',
     sortValue: 'bestFreeCards',
-    label: 'Beste kostenlose Karten',
-    navLabel: 'Kostenlose Karten',
-    title: 'Beste kostenlose Kreditkarten',
-    description: 'Ranking fuer Karten ohne Jahresgebuehr mit starkem Alltags- und Auslandspaket.',
+    label: 'Score: Ohne Jahresgebühr',
+    navLabel: 'Ohne Jahresgebühr',
+    title: 'Karten ohne Jahresgebühr',
+    description: 'Vergleich von Karten ohne Jahresgebühr nach den angegebenen Kriterien. Weitere Nutzungskosten können anfallen.',
     route: '/best/free-cards',
     staticSlug: 'best-free-cards',
     matcher: (card: Card) => isZeroLike(card.yearlyFee),
-    score: scoreFreeCards,
+    score: (card) => scoreForProfile(card, 'freeCards'),
   },
 ];
 

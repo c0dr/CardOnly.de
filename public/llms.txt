@@ -10,10 +10,10 @@
 - [Kreditkarten gut fuer Meilen](https://cardonly.de/topic/good-for-miles/)
 - [Kreditkarten gut fuer Ausland](https://cardonly.de/topic/good-for-ausland/)
 - [Kreditkarten ohne Jahresgebuehr](https://cardonly.de/topic/no-annual-fee/)
-- [Beste Kreditkarten im Vergleich](https://cardonly.de/topic/best-credit-cards/)
-- [Beste Kreditkarten fuer Cashback und Punkte](https://cardonly.de/topic/best-for-cashback/)
-- [Beste Kreditkarten fuer Bargeld ausserhalb Europas](https://cardonly.de/topic/best-for-atm-outside-europe/)
-- [Beste kostenlose Kreditkarten](https://cardonly.de/topic/best-free-cards/)
+- [Kreditkarten nach CardOnly-Score](https://cardonly.de/topic/best-credit-cards/)
+- [Karten mit Cashback und Punkten](https://cardonly.de/topic/best-for-cashback/)
+- [Karten für Bargeld außerhalb des Euroraums](https://cardonly.de/topic/best-for-atm-outside-europe/)
+- [Karten ohne Jahresgebühr](https://cardonly.de/topic/best-free-cards/)
 
 ## Datenquellen
 - [Karten-Datensatz (JSON)](https://cardonly.de/data/cards.json)

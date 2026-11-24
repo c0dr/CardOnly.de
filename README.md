@@ -129,3 +129,35 @@ Simon Schraeder - info@simon-schraeder.de
 [license-shield]: https://img.shields.io/badge/license-GPL-blue
 [license-url]: https://github.com/c0dr/CardOnly.de/blob/master/LICENSE.md
 [product-screenshot]: images/demo.png
+
+
+## Credit advertising review — 24 November 2026
+
+The local source was reviewed for German consumer-credit advertising disclosures,
+not certified for overall EU legal compliance. The app and generated pages now
+show “Achtung! Kreditaufnahme kostet Geld”. Withdrawal fee explanations distinguish
+fees from interest. These changes do not resolve the following outstanding issues:
+
+- Credit offers quote rates in `public/data/cards.json` without complete, verified
+  representative examples (including Hanseatic GenialCard/GoldCard, Advanzia,
+  TF Bank, Miles & More MyFlex and Instabank). Obtain current issuer-approved
+  advertising disclosures; do not invent examples from the stored APRs.
+- Under [§ 17 PAngV](https://www.gesetze-im-internet.de/pangv_2022/__17.html),
+  advertising credit rates or cost figures can require principal, borrowing rate
+  and rate type, included charges, APR and a representative example; term,
+  repayments and total payable are required where applicable. APR must receive
+  at least equal prominence to other interest rates. Annual card fees may also
+  trigger review where they form part of credit costs. A provider link or generic
+  disclaimer does not supply missing advertising disclosures.
+- Assess whether the site's actual paid referral activities require permission
+  and registration under [§ 34k GewO](https://www.gesetze-im-internet.de/gewo/__34k.html)
+  and whether [§ 162 transitional rules](https://www.gesetze-im-internet.de/gewo/__162.html)
+  apply. Operator permissions cannot be verified from this repository.
+
+[Directive (EU) 2023/2225, Articles 7–8 and 48](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2225)
+requires clear credit advertising and a prominent cost warning, with national
+measures applying from 20 November 2026. Germany's
+[implementing legislation](https://recht.bund.de/bgbl/1/2026/139/VO.html)
+and the current consolidated German provisions should be used for German offers.
+The review covers local source and generated content; deployment and every
+issuer's current terms have not been verified.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T12:06:30.248Z",
+  "generatedAt": "2026-11-24T12:27:22.806Z",
   "site": "https://cardonly.de",
   "topics": [
     {
@@ -70,9 +70,9 @@
           "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
-          "issuer": "Payback Visa Flex",
-          "slug": "payback-visa-flex",
-          "url": "https://cardonly.de/card/payback-visa-flex/"
+          "issuer": "PAYBACK Visa",
+          "slug": "payback-visa",
+          "url": "https://cardonly.de/card/payback-visa/"
         }
       ]
     },
@@ -134,6 +134,11 @@
           "url": "https://cardonly.de/card/comdirect-visa-debit/"
         },
         {
+          "issuer": "Consors Finanz Mastercard",
+          "slug": "consors-finanz-mastercard",
+          "url": "https://cardonly.de/card/consors-finanz-mastercard/"
+        },
+        {
           "issuer": "consorsbank Visa Gold",
           "slug": "consorsbank-visa-gold",
           "url": "https://cardonly.de/card/consorsbank-visa-gold/"
@@ -142,11 +147,6 @@
           "issuer": "consorsbank Visa Gold Light",
           "slug": "consorsbank-visa-gold-light",
           "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
-        },
-        {
-          "issuer": "Consorsfinanz EC Debit MasterCard",
-          "slug": "consorsfinanz-ec-debit-mastercard",
-          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
         },
         {
           "issuer": "DKB Visa Credit",
@@ -239,9 +239,9 @@
           "url": "https://cardonly.de/card/openbank-girokonto/"
         },
         {
-          "issuer": "Payback Visa Flex",
-          "slug": "payback-visa-flex",
-          "url": "https://cardonly.de/card/payback-visa-flex/"
+          "issuer": "PAYBACK Visa",
+          "slug": "payback-visa",
+          "url": "https://cardonly.de/card/payback-visa/"
         },
         {
           "issuer": "Revolut Card",
@@ -305,7 +305,7 @@
       "title": "Kreditkarten ohne Jahresgebuehr",
       "description": "Kreditkarten mit 0 EUR Jahresgebuehr laut hinterlegten Kartendaten.",
       "url": "https://cardonly.de/topic/no-annual-fee/",
-      "cardCount": 30,
+      "cardCount": 29,
       "cards": [
         {
           "issuer": "Advanzia Mastercard Gold",
@@ -343,6 +343,11 @@
           "url": "https://cardonly.de/card/comdirect-visa-debit/"
         },
         {
+          "issuer": "Consors Finanz Mastercard",
+          "slug": "consors-finanz-mastercard",
+          "url": "https://cardonly.de/card/consors-finanz-mastercard/"
+        },
+        {
           "issuer": "consorsbank Visa Debit",
           "slug": "consorsbank-visa-debit",
           "url": "https://cardonly.de/card/consorsbank-visa-debit/"
@@ -351,11 +356,6 @@
           "issuer": "consorsbank Visa Gold Light",
           "slug": "consorsbank-visa-gold-light",
           "url": "https://cardonly.de/card/consorsbank-visa-gold-light/"
-        },
-        {
-          "issuer": "Consorsfinanz EC Debit MasterCard",
-          "slug": "consorsfinanz-ec-debit-mastercard",
-          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
         },
         {
           "issuer": "DKB Visa Debit",
@@ -403,6 +403,11 @@
           "url": "https://cardonly.de/card/n26-standard/"
         },
         {
+          "issuer": "Openbank BestCard Basic",
+          "slug": "openbank-bestcard-basic",
+          "url": "https://cardonly.de/card/openbank-bestcard-basic/"
+        },
+        {
           "issuer": "Openbank Girokonto",
           "slug": "openbank-girokonto",
           "url": "https://cardonly.de/card/openbank-girokonto/"
@@ -416,16 +421,6 @@
           "issuer": "Revolut Card",
           "slug": "revolut-card",
           "url": "https://cardonly.de/card/revolut-card/"
-        },
-        {
-          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
-        },
-        {
-          "issuer": "Targobank Visa Online Classic",
-          "slug": "targobank-visa-online-classic",
-          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
         },
         {
           "issuer": "TF Bank MasterCard Gold",
@@ -461,10 +456,10 @@
     },
     {
       "slug": "best-credit-cards",
-      "title": "Beste Kreditkarten im Vergleich",
+      "title": "Kreditkarten nach CardOnly-Score",
       "description": "Gesamtranking mit staerkerem Fokus auf Jahresgebuehr, dazu Auslandseinsatz, Bargeld, Flexibilitaet, Sicherheit und Bonuswert.",
       "url": "https://cardonly.de/topic/best-credit-cards/",
-      "cardCount": 78,
+      "cardCount": 77,
       "cards": [
         {
           "issuer": "Trading 212 Card",
@@ -487,11 +482,6 @@
           "url": "https://cardonly.de/card/openbank-girokonto/"
         },
         {
-          "issuer": "Payback Visa Flex",
-          "slug": "payback-visa-flex",
-          "url": "https://cardonly.de/card/payback-visa-flex/"
-        },
-        {
           "issuer": "Bank Norwegian",
           "slug": "bank-norwegian",
           "url": "https://cardonly.de/card/bank-norwegian/"
@@ -500,6 +490,11 @@
           "issuer": "TF Bank MasterCard Gold",
           "slug": "tf-bank-mastercard-gold",
           "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "PAYBACK Visa",
+          "slug": "payback-visa",
+          "url": "https://cardonly.de/card/payback-visa/"
         },
         {
           "issuer": "BBVA Debit",
@@ -527,9 +522,9 @@
           "url": "https://cardonly.de/card/advanzia-mastercard-gold/"
         },
         {
-          "issuer": "Consorsfinanz EC Debit MasterCard",
-          "slug": "consorsfinanz-ec-debit-mastercard",
-          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+          "issuer": "Consors Finanz Mastercard",
+          "slug": "consors-finanz-mastercard",
+          "url": "https://cardonly.de/card/consors-finanz-mastercard/"
         },
         {
           "issuer": "easybank Visa",
@@ -662,9 +657,9 @@
           "url": "https://cardonly.de/card/consorsbank-visa-gold/"
         },
         {
-          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
+          "issuer": "Openbank BestCard Basic",
+          "slug": "openbank-bestcard-basic",
+          "url": "https://cardonly.de/card/openbank-bestcard-basic/"
         },
         {
           "issuer": "ING Visa Debit",
@@ -685,11 +680,6 @@
           "issuer": "N26 Go",
           "slug": "n26-go",
           "url": "https://cardonly.de/card/n26-go/"
-        },
-        {
-          "issuer": "Targobank Visa Online Classic",
-          "slug": "targobank-visa-online-classic",
-          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
         },
         {
           "issuer": "HypoVereinsbank Debit",
@@ -860,7 +850,7 @@
     },
     {
       "slug": "best-for-cashback",
-      "title": "Beste Kreditkarten fuer Cashback und Punkte",
+      "title": "Karten mit Cashback und Punkten",
       "description": "Ranking fuer Karten mit Cashback-, PAYBACK-, Punkte- oder Meilenwert im Alltag, abgewogen gegen die Jahresgebuehr.",
       "url": "https://cardonly.de/topic/best-for-cashback/",
       "cardCount": 19,
@@ -871,9 +861,9 @@
           "url": "https://cardonly.de/card/trading-212-card/"
         },
         {
-          "issuer": "Payback Visa Flex",
-          "slug": "payback-visa-flex",
-          "url": "https://cardonly.de/card/payback-visa-flex/"
+          "issuer": "PAYBACK Visa",
+          "slug": "payback-visa",
+          "url": "https://cardonly.de/card/payback-visa/"
         },
         {
           "issuer": "American Express Payback",
@@ -964,7 +954,7 @@
     },
     {
       "slug": "best-for-atm-outside-europe",
-      "title": "Beste Kreditkarten fuer Bargeld ausserhalb Europas",
+      "title": "Karten für Bargeld außerhalb des Euroraums",
       "description": "Ranking fuer Karten mit starken Konditionen bei Bargeldabhebungen ausserhalb des Euroraums und fairer Jahresgebuehr.",
       "url": "https://cardonly.de/topic/best-for-atm-outside-europe/",
       "cardCount": 34,
@@ -1010,11 +1000,6 @@
           "url": "https://cardonly.de/card/trading-212-card/"
         },
         {
-          "issuer": "Payback Visa Flex",
-          "slug": "payback-visa-flex",
-          "url": "https://cardonly.de/card/payback-visa-flex/"
-        },
-        {
           "issuer": "Bank Norwegian",
           "slug": "bank-norwegian",
           "url": "https://cardonly.de/card/bank-norwegian/"
@@ -1023,6 +1008,11 @@
           "issuer": "TF Bank MasterCard Gold",
           "slug": "tf-bank-mastercard-gold",
           "url": "https://cardonly.de/card/tf-bank-mastercard-gold/"
+        },
+        {
+          "issuer": "PAYBACK Visa",
+          "slug": "payback-visa",
+          "url": "https://cardonly.de/card/payback-visa/"
         },
         {
           "issuer": "DKB Visa Credit",
@@ -1035,9 +1025,9 @@
           "url": "https://cardonly.de/card/hanseatic-bank-goldcard/"
         },
         {
-          "issuer": "Consorsfinanz EC Debit MasterCard",
-          "slug": "consorsfinanz-ec-debit-mastercard",
-          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+          "issuer": "Consors Finanz Mastercard",
+          "slug": "consors-finanz-mastercard",
+          "url": "https://cardonly.de/card/consors-finanz-mastercard/"
         },
         {
           "issuer": "Klarna Konto",
@@ -1143,10 +1133,10 @@
     },
     {
       "slug": "best-free-cards",
-      "title": "Beste kostenlose Kreditkarten",
-      "description": "Ranking fuer Karten ohne Jahresgebuehr mit starkem Alltags- und Auslandspaket.",
+      "title": "Karten ohne Jahresgebühr",
+      "description": "Vergleich von Karten ohne Jahresgebühr nach den angegebenen Kriterien. Weitere Nutzungskosten können anfallen.",
       "url": "https://cardonly.de/topic/best-free-cards/",
-      "cardCount": 30,
+      "cardCount": 29,
       "cards": [
         {
           "issuer": "Hanseatic Bank GenialCard",
@@ -1199,9 +1189,9 @@
           "url": "https://cardonly.de/card/trade-republic-card/"
         },
         {
-          "issuer": "Consorsfinanz EC Debit MasterCard",
-          "slug": "consorsfinanz-ec-debit-mastercard",
-          "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/"
+          "issuer": "Consors Finanz Mastercard",
+          "slug": "consors-finanz-mastercard",
+          "url": "https://cardonly.de/card/consors-finanz-mastercard/"
         },
         {
           "issuer": "Klarna Konto",
@@ -1264,19 +1254,14 @@
           "url": "https://cardonly.de/card/american-express-payback/"
         },
         {
-          "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-          "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-          "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/"
+          "issuer": "Openbank BestCard Basic",
+          "slug": "openbank-bestcard-basic",
+          "url": "https://cardonly.de/card/openbank-bestcard-basic/"
         },
         {
           "issuer": "ING Visa Debit",
           "slug": "ing-visa-debit",
           "url": "https://cardonly.de/card/ing-visa-debit/"
-        },
-        {
-          "issuer": "Targobank Visa Online Classic",
-          "slug": "targobank-visa-online-classic",
-          "url": "https://cardonly.de/card/targobank-visa-online-classic/"
         },
         {
           "issuer": "payzy Visa Debit",
@@ -1618,6 +1603,21 @@
       "source": "https://www.commerzbank.de/privatkunden/girokonten/girokonto-eroeffnen/"
     },
     {
+      "issuer": "Consors Finanz Mastercard",
+      "slug": "consors-finanz-mastercard",
+      "url": "https://cardonly.de/card/consors-finanz-mastercard/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": 0,
+      "feesPosForeign": 0,
+      "hasApplePay": true,
+      "hasGooglePay": true,
+      "offer": null,
+      "source": "https://www.consorsfinanz.de/karte-kredite/mastercard"
+    },
+    {
       "issuer": "consorsbank Visa Debit",
       "slug": "consorsbank-visa-debit",
       "url": "https://cardonly.de/card/consorsbank-visa-debit/",
@@ -1661,21 +1661,6 @@
       "hasGooglePay": true,
       "offer": null,
       "source": "https://www.consorsbank.de/ev/Girokonto/-/Girokonto"
-    },
-    {
-      "issuer": "Consorsfinanz EC Debit MasterCard",
-      "slug": "consorsfinanz-ec-debit-mastercard",
-      "url": "https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/",
-      "yearlyFee": 0,
-      "charge": "credit",
-      "miles": false,
-      "withChecking": false,
-      "feesAtmForeign": 0,
-      "feesPosForeign": 0,
-      "hasApplePay": true,
-      "hasGooglePay": true,
-      "offer": null,
-      "source": "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
     },
     {
       "issuer": "Deutsche Bank Card Plus",
@@ -1843,11 +1828,7 @@
       "feesPosForeign": 0,
       "hasApplePay": true,
       "hasGooglePay": true,
-      "offer": {
-        "title": "75 EUR Startguthaben",
-        "description": "Fuer Neukunden bei mindestens 100 EUR Kartenumsatz und Marketing-Einwilligung jeweils innerhalb der ersten vier Wochen.",
-        "endsAt": "2026-10-08"
-      },
+      "offer": null,
       "source": "https://www.easybank.de/easybank-de/kreditkarten/"
     },
     {
@@ -2166,6 +2147,21 @@
       "source": "https://n26.com/de-de/konten-vergleichen"
     },
     {
+      "issuer": "Openbank BestCard Basic",
+      "slug": "openbank-bestcard-basic",
+      "url": "https://cardonly.de/card/openbank-bestcard-basic/",
+      "yearlyFee": 0,
+      "charge": "credit",
+      "miles": false,
+      "withChecking": false,
+      "feesAtmForeign": "3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt",
+      "feesPosForeign": "1.85%",
+      "hasApplePay": false,
+      "hasGooglePay": false,
+      "offer": null,
+      "source": "https://www.openbank.de/produkte/konten-und-karten/karten/kostenlose-kreditkarte/"
+    },
+    {
       "issuer": "Openbank Girokonto",
       "slug": "openbank-girokonto",
       "url": "https://cardonly.de/card/openbank-girokonto/",
@@ -2181,17 +2177,17 @@
       "source": "https://www.openbank.de/girokonto"
     },
     {
-      "issuer": "Payback Visa Flex",
-      "slug": "payback-visa-flex",
-      "url": "https://cardonly.de/card/payback-visa-flex/",
+      "issuer": "PAYBACK Visa",
+      "slug": "payback-visa",
+      "url": "https://cardonly.de/card/payback-visa/",
       "yearlyFee": 29,
-      "charge": "credit",
+      "charge": "charge",
       "miles": true,
       "withChecking": false,
       "feesAtmForeign": 0,
       "feesPosForeign": 0,
-      "hasApplePay": false,
-      "hasGooglePay": false,
+      "hasApplePay": true,
+      "hasGooglePay": true,
       "offer": null,
       "source": "https://www.payback.de/info/visa"
     },
@@ -2284,36 +2280,6 @@
       "hasGooglePay": true,
       "offer": null,
       "source": "https://www.revolut.com/en-DE/legal/ultra-fees/"
-    },
-    {
-      "issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
-      "slug": "santander-bestcard-basic-fruher-1plus-visa-card",
-      "url": "https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/",
-      "yearlyFee": 0,
-      "charge": "credit",
-      "miles": false,
-      "withChecking": false,
-      "feesAtmForeign": "3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt",
-      "feesPosForeign": "1.85%",
-      "hasApplePay": false,
-      "hasGooglePay": false,
-      "offer": null,
-      "source": "https://www.santander.de/privatkunden/konten-und-karten/karten/kostenlose-kreditkarte/"
-    },
-    {
-      "issuer": "Targobank Visa Online Classic",
-      "slug": "targobank-visa-online-classic",
-      "url": "https://cardonly.de/card/targobank-visa-online-classic/",
-      "yearlyFee": 0,
-      "charge": "credit",
-      "miles": false,
-      "withChecking": true,
-      "feesAtmForeign": "3.5% mind. 5,95€",
-      "feesPosForeign": "1.85%",
-      "hasApplePay": true,
-      "hasGooglePay": false,
-      "offer": null,
-      "source": "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
     },
     {
       "issuer": "TF Bank MasterCard Gold",

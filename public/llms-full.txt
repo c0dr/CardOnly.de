@@ -14,7 +14,7 @@
 - [Miles & More Blue Credit Card](https://cardonly.de/card/miles-more-blue-credit-card/)
 - [Miles & More Gold Credit Card](https://cardonly.de/card/miles-more-gold-credit-card/)
 - [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/)
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/)
 
 ### Kreditkarten gut fuer Ausland
 - [Advanzia Hilton Honors](https://cardonly.de/card/advanzia-hilton-honors/)
@@ -27,9 +27,9 @@
 - [C24 Smart](https://cardonly.de/card/c24-smart/)
 - [comdirect Visa Credit](https://cardonly.de/card/comdirect-visa-credit/)
 - [comdirect Visa Debit](https://cardonly.de/card/comdirect-visa-debit/)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/)
 - [consorsbank Visa Gold](https://cardonly.de/card/consorsbank-visa-gold/)
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/)
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/)
 - [DKB Visa Credit](https://cardonly.de/card/dkb-visa-credit/)
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/)
@@ -48,7 +48,7 @@
 - [N26 Smart](https://cardonly.de/card/n26-smart/)
 - [N26 Standard](https://cardonly.de/card/n26-standard/)
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/)
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/)
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/)
 - [Revolut Card](https://cardonly.de/card/revolut-card/)
 - [Revolut Metal MasterCard](https://cardonly.de/card/revolut-metal-mastercard/)
 - [Revolut Plus](https://cardonly.de/card/revolut-plus/)
@@ -69,9 +69,9 @@
 - [BBVA Debit](https://cardonly.de/card/bbva-debit/)
 - [C24 Smart](https://cardonly.de/card/c24-smart/)
 - [comdirect Visa Debit](https://cardonly.de/card/comdirect-visa-debit/)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/)
 - [consorsbank Visa Debit](https://cardonly.de/card/consorsbank-visa-debit/)
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/)
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/)
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [easybank Visa](https://cardonly.de/card/easybank-visa/)
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
@@ -81,11 +81,10 @@
 - [Klarna Konto](https://cardonly.de/card/klarna-konto/)
 - [Monese Simple Debit MasterCard](https://cardonly.de/card/monese-simple-debit-mastercard/)
 - [N26 Standard](https://cardonly.de/card/n26-standard/)
+- [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/)
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/)
 - [payzy Visa Debit](https://cardonly.de/card/payzy-visa-debit/)
 - [Revolut Card](https://cardonly.de/card/revolut-card/)
-- [Santander BestCard Basic (früher 1plus Visa) Card](https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/)
-- [Targobank Visa Online Classic](https://cardonly.de/card/targobank-visa-online-classic/)
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/)
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/)
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/)
@@ -93,20 +92,20 @@
 - [Vivid Standard](https://cardonly.de/card/vivid-standard/)
 - [Wise Debit](https://cardonly.de/card/wise-debit/)
 
-### Beste Kreditkarten im Vergleich
+### Kreditkarten nach CardOnly-Score
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/)
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/)
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/)
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/)
 - [Bank Norwegian](https://cardonly.de/card/bank-norwegian/)
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/)
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/)
 - [BBVA Debit](https://cardonly.de/card/bbva-debit/)
 - [C24 Smart](https://cardonly.de/card/c24-smart/)
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/)
 - [Advanzia Mastercard Gold](https://cardonly.de/card/advanzia-mastercard-gold/)
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/)
 - [easybank Visa](https://cardonly.de/card/easybank-visa/)
 - [N26 Standard](https://cardonly.de/card/n26-standard/)
 - [Klarna Konto](https://cardonly.de/card/klarna-konto/)
@@ -133,12 +132,11 @@
 - [payzy Visa Debit](https://cardonly.de/card/payzy-visa-debit/)
 - [N26 Smart](https://cardonly.de/card/n26-smart/)
 - [consorsbank Visa Gold](https://cardonly.de/card/consorsbank-visa-gold/)
-- [Santander BestCard Basic (früher 1plus Visa) Card](https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/)
+- [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/)
 - [ING Visa Debit](https://cardonly.de/card/ing-visa-debit/)
 - [Tomorrow Change](https://cardonly.de/card/tomorrow-change/)
 - [C24 Max](https://cardonly.de/card/c24-max/)
 - [N26 Go](https://cardonly.de/card/n26-go/)
-- [Targobank Visa Online Classic](https://cardonly.de/card/targobank-visa-online-classic/)
 - [HypoVereinsbank Debit](https://cardonly.de/card/hypovereinsbank-debit/)
 - [American Express BMW Card](https://cardonly.de/card/american-express-bmw-card/)
 - [easybank Gold Visa](https://cardonly.de/card/easybank-gold-visa/)
@@ -173,9 +171,9 @@
 - [American Express Gold](https://cardonly.de/card/american-express-gold/)
 - [American Express Platinum](https://cardonly.de/card/american-express-platinum/)
 
-### Beste Kreditkarten fuer Cashback und Punkte
+### Karten mit Cashback und Punkten
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/)
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/)
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/)
 - [American Express Payback](https://cardonly.de/card/american-express-payback/)
 - [payzy Visa Debit](https://cardonly.de/card/payzy-visa-debit/)
 - [American Express Blue](https://cardonly.de/card/american-express-blue/)
@@ -194,7 +192,7 @@
 - [American Express Gold](https://cardonly.de/card/american-express-gold/)
 - [American Express Platinum](https://cardonly.de/card/american-express-platinum/)
 
-### Beste Kreditkarten fuer Bargeld ausserhalb Europas
+### Karten für Bargeld außerhalb des Euroraums
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/)
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/)
@@ -203,12 +201,12 @@
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/)
 - [Trading 212 Card](https://cardonly.de/card/trading-212-card/)
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/)
 - [Bank Norwegian](https://cardonly.de/card/bank-norwegian/)
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/)
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/)
 - [DKB Visa Credit](https://cardonly.de/card/dkb-visa-credit/)
 - [Hanseatic Bank GoldCard](https://cardonly.de/card/hanseatic-bank-goldcard/)
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/)
 - [Klarna Konto](https://cardonly.de/card/klarna-konto/)
 - [Revolut Card](https://cardonly.de/card/revolut-card/)
 - [Advanzia Mastercard Gold](https://cardonly.de/card/advanzia-mastercard-gold/)
@@ -230,7 +228,7 @@
 - [Revolut Ultra](https://cardonly.de/card/revolut-ultra/)
 - [Advanzia Hilton Honors](https://cardonly.de/card/advanzia-hilton-honors/)
 
-### Beste kostenlose Kreditkarten
+### Karten ohne Jahresgebühr
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/)
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/)
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/)
@@ -241,7 +239,7 @@
 - [DKB Visa Debit](https://cardonly.de/card/dkb-visa-debit/)
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/)
 - [Trade Republic Card](https://cardonly.de/card/trade-republic-card/)
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/)
 - [Klarna Konto](https://cardonly.de/card/klarna-konto/)
 - [Revolut Card](https://cardonly.de/card/revolut-card/)
 - [Advanzia Mastercard Gold](https://cardonly.de/card/advanzia-mastercard-gold/)
@@ -254,9 +252,8 @@
 - [American Express Blue](https://cardonly.de/card/american-express-blue/)
 - [consorsbank Visa Debit](https://cardonly.de/card/consorsbank-visa-debit/)
 - [American Express Payback](https://cardonly.de/card/american-express-payback/)
-- [Santander BestCard Basic (früher 1plus Visa) Card](https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/)
+- [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/)
 - [ING Visa Debit](https://cardonly.de/card/ing-visa-debit/)
-- [Targobank Visa Online Classic](https://cardonly.de/card/targobank-visa-online-classic/)
 - [payzy Visa Debit](https://cardonly.de/card/payzy-visa-debit/)
 - [HypoVereinsbank Debit](https://cardonly.de/card/hypovereinsbank-debit/)
 - [Monese Simple Debit MasterCard](https://cardonly.de/card/monese-simple-debit-mastercard/)
@@ -284,10 +281,10 @@
 - [Commerzbank ClassicKreditkarte](https://cardonly.de/card/commerzbank-classickreditkarte/) | Jahresgebuehr: 39.9 EUR | Meilen: Nein | Ausland ATM: 1,95% mind. 5,98 EUR | Ausland POS: 1,75%
 - [Commerzbank GoldKreditkarte](https://cardonly.de/card/commerzbank-goldkreditkarte/) | Jahresgebuehr: 99.9 EUR | Meilen: Nein | Ausland ATM: 1,95% mind. 5,98 EUR | Ausland POS: 1,75%
 - [Commerzbank Mastercard Debit](https://cardonly.de/card/commerzbank-mastercard-debit/) | Jahresgebuehr: 42 EUR | Meilen: Nein | Ausland ATM: 1,95% mind. 5,98 EUR + 1,50% Auslandseinsatzentgelt (+ ggf. Betreiberentgelt) | Ausland POS: 1,50% Auslandseinsatzentgelt (+ 0,59% Waehrungsumrechnung bei EWR-Nicht-EUR)
+- [Consors Finanz Mastercard](https://cardonly.de/card/consors-finanz-mastercard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [consorsbank Visa Debit](https://cardonly.de/card/consorsbank-visa-debit/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 2,10% | Ausland POS: 2,10 %
 - [consorsbank Visa Gold](https://cardonly.de/card/consorsbank-visa-gold/) | Jahresgebuehr: 108 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [consorsbank Visa Gold Light](https://cardonly.de/card/consorsbank-visa-gold-light/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [Consorsfinanz EC Debit MasterCard](https://cardonly.de/card/consorsfinanz-ec-debit-mastercard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Deutsche Bank Card Plus](https://cardonly.de/card/deutsche-bank-card-plus/) | Jahresgebuehr: 18 EUR | Meilen: Nein | Ausland ATM: 1% + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 1% + 0,50% Waehrungsumrechnungsentgelt
 - [Deutsche Bank Mastercard Gold](https://cardonly.de/card/deutsche-bank-mastercard-gold/) | Jahresgebuehr: 82 EUR | Meilen: Nein | Ausland ATM: 2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt
 - [Deutsche Bank Mastercard Standard](https://cardonly.de/card/deutsche-bank-mastercard-standard/) | Jahresgebuehr: 39 EUR | Meilen: Nein | Ausland ATM: 2,50% mind. 5,75 EUR + 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt | Ausland POS: 1,75% mind. 1,50 EUR + 0,50% Waehrungsumrechnungsentgelt
@@ -298,7 +295,7 @@
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/) | Jahresgebuehr: 99 EUR | Meilen: Ja | Ausland ATM: 0 | Ausland POS: 0
 - [easybank Gold Visa](https://cardonly.de/card/easybank-gold-visa/) | Jahresgebuehr: 59 EUR | Meilen: Ja | Ausland ATM: 1.99% | Ausland POS: 1.99%
 - [easybank Platinum](https://cardonly.de/card/easybank-platinum/) | Jahresgebuehr: 99 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [easybank Visa](https://cardonly.de/card/easybank-visa/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0 | Angebot: 75 EUR Startguthaben bis 08.10.2026
+- [easybank Visa](https://cardonly.de/card/easybank-visa/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Fitbit Visa](https://cardonly.de/card/fitbit-visa/) | Jahresgebuehr: 24 EUR | Meilen: Nein | Ausland ATM: 3%, mind. 3€ + 1.75% | Ausland POS: 1.75%
 - [Girokonto Klassik 1822direkt](https://cardonly.de/card/girokonto-klassik-1822direkt/) | Jahresgebuehr: 29.90 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 1.75%
 - [Hanseatic Bank GenialCard](https://cardonly.de/card/hanseatic-bank-genialcard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: gebührenfrei ** | Ausland POS: gebührenfrei *
@@ -320,16 +317,15 @@
 - [N26 Metal](https://cardonly.de/card/n26-metal/) | Jahresgebuehr: 202.8 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [N26 Smart](https://cardonly.de/card/n26-smart/) | Jahresgebuehr: 58.8 EUR | Meilen: Nein | Ausland ATM: 1.7% | Ausland POS: 0
 - [N26 Standard](https://cardonly.de/card/n26-standard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 1.7% | Ausland POS: 0
+- [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt | Ausland POS: 1.85%
 - [Openbank Girokonto](https://cardonly.de/card/openbank-girokonto/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 EUR ab 100 EUR (Santander Group immer kostenlos), sonst 2 EUR | Ausland POS: 0
-- [Payback Visa Flex](https://cardonly.de/card/payback-visa-flex/) | Jahresgebuehr: 29 EUR | Meilen: Ja | Ausland ATM: 0 | Ausland POS: 0
+- [PAYBACK Visa](https://cardonly.de/card/payback-visa/) | Jahresgebuehr: 29 EUR | Meilen: Ja | Ausland ATM: 0 | Ausland POS: 0
 - [payzy Visa Debit](https://cardonly.de/card/payzy-visa-debit/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 3€ + Automatengebühr | Ausland POS: 2.5%
 - [Revolut Card](https://cardonly.de/card/revolut-card/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Revolut Metal MasterCard](https://cardonly.de/card/revolut-metal-mastercard/) | Jahresgebuehr: 135 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Revolut Plus](https://cardonly.de/card/revolut-plus/) | Jahresgebuehr: 35.88 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0.5
 - [Revolut Premium MasterCard](https://cardonly.de/card/revolut-premium-mastercard/) | Jahresgebuehr: 82 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Revolut Ultra](https://cardonly.de/card/revolut-ultra/) | Jahresgebuehr: 720 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
-- [Santander BestCard Basic (früher 1plus Visa) Card](https://cardonly.de/card/santander-bestcard-basic-fruher-1plus-visa-card/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 3.5%, mind. 5.75 EUR + 1.85% Auslandseinsatzentgelt | Ausland POS: 1.85%
-- [Targobank Visa Online Classic](https://cardonly.de/card/targobank-visa-online-classic/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 3.5% mind. 5,95€ | Ausland POS: 1.85%
 - [TF Bank MasterCard Gold](https://cardonly.de/card/tf-bank-mastercard-gold/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [Tomorrow Change](https://cardonly.de/card/tomorrow-change/) | Jahresgebuehr: 106.8 EUR | Meilen: Nein | Ausland ATM: 5 Abhebungen/Monat kostenlos | Ausland POS: 0
 - [Tomorrow Now](https://cardonly.de/card/tomorrow-now/) | Jahresgebuehr: 58.8 EUR | Meilen: Nein | Ausland ATM: 3 EUR + 2% | Ausland POS: 2%

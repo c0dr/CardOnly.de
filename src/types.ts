@@ -11,6 +11,7 @@ export interface Card {
   Label?: string;
   notes?: string;
   legalnotes?: string;
+  creditTermsUrl?: string;
   yearlyFee?: string | number;
   fees_pos_foreign?: string | number;
   fees_atm_foreign?: string | number;

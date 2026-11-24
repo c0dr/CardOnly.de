@@ -3,7 +3,8 @@ import { Link, Navigate, useParams } from 'react-router-dom';
 import Cards from '../CardComponents/Cards';
 import { Button } from '../components/ui/button';
 import { clearCompareIssuers, getCompareIssuers, maxCompareCards, setCompareIssuers } from '../lib/compareSelection';
-import { getCardRating, getCardsForRatingProfile, ratingProfiles } from '../lib/cardRatings';
+import { getCardsForRatingProfile, ratingProfiles } from '../lib/cardRatings';
+import ScoreMethodology from '../CommonComponents/ScoreMethodology';
 import { Card } from '../types';
 
 const routeCategoryByProfile = (profile: any) => profile.route.replace('/best/', '').replace('/best', '');
@@ -43,7 +44,6 @@ const BestCardsPage: React.FC = () => {
   }
 
   const rankedCards = getCardsForRatingProfile(cards, profile.key);
-  const topCards = rankedCards.slice(0, 3);
   const comparedCards = comparedIssuers
     .map((issuer) => cards.find((card) => card.Issuer === issuer))
     .filter(Boolean);
@@ -70,7 +70,7 @@ const BestCardsPage: React.FC = () => {
       <div className="mx-auto max-w-7xl px-2 py-6 md:py-8 lg:px-6">
         <section className="mb-8 border-b border-border pb-7 animate-fade-up">
           <div className="max-w-3xl">
-            <p className="mb-2 text-sm font-bold text-accent">Bestenliste</p>
+            <p className="mb-2 text-sm font-bold text-accent">Kartenvergleich</p>
             <h1 className="text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
               {profile.title}
             </h1>
@@ -95,77 +95,12 @@ const BestCardsPage: React.FC = () => {
             ))}
           </div>
 
-          <details className="mt-4 rounded-lg border border-border/50 bg-muted/30 p-4">
-            <summary className="cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground">
-              So berechnen wir den Score (100 Punkte)
-            </summary>
-            <div className="mt-4 grid gap-4 text-xs text-muted-foreground sm:grid-cols-2 lg:grid-cols-3">
-              <div>
-                <p className="font-semibold text-foreground">Jahresgebühr (25 Punkte)</p>
-                <p>Kostenlose Karten = 25 Punkte. Pro Euro Gebühr sinkt der Score um ca. 2 Punkte.</p>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Auslandseinsatz (20 Punkte)</p>
-                <p>0% FX = 20 Punkte. Unter 1% = 6 Punkte. Alles darüber = 0 Punkte.</p>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Bargeld abroad (20 Punkte)</p>
-                <p>Kostenlose Abhebungen weltweit = 20 Punkte. Pro Prozent Gebühr sinkt der Score.</p>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Kartentyp (15 Punkte)</p>
-                <p>Kreditkarte = 15, Charge = 13, Debit = 8, Prepaid = 4 Punkte.</p>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Versicherung (10 Punkte)</p>
-                <p>Reiseversicherung = 10 Punkte. SecureCard = 5 Punkte. Keine = 0.</p>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Cashback (10 Punkte)</p>
-                <p>Cashback-Systeme = 10, PAYBACK = 9, Gutschriften = 7, Meilen = 6 Punkte.</p>
-              </div>
-            </div>
-            <div className="mt-3 text-[11px] text-muted-foreground">
-              <p><strong>Abzüge:</strong> Sofortige Verzinsung bei Abhebung (-4), Teilzahlungsrisiken (-4)</p>
-            </div>
-          </details>
+          <ScoreMethodology profileKey={profile.key} />
         </section>
-
-        {topCards.length > 0 && (
-          <section className="mb-8 grid grid-cols-1 gap-3 lg:grid-cols-3 animate-fade-up" style={{ animationDelay: '80ms' }}>
-            {topCards.map((card, index) => {
-              const rating = getCardRating(card, profile.key);
-              return (
-                <a
-                  key={card.Issuer}
-                  href={card.adlink || card.link || '#'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group rounded-xl border border-border bg-card p-4 shadow-card transition-all hover:shadow-lift"
-                >
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-secondary text-sm font-semibold tabular-nums text-foreground">
-                      {index + 1}
-                    </span>
-                    <span className="text-sm font-semibold text-accent">{rating.label}</span>
-                  </div>
-                  <div className="mt-4 flex items-center gap-3">
-                    <img alt={card.Issuer} className="h-11 w-[72px] rounded object-contain" src={card.image} />
-                    <div className="min-w-0">
-                      <p className="truncate text-sm font-bold text-foreground">{card.Issuer}</p>
-                      <p className="text-xs text-muted-foreground">
-                        {card.yearlyFee === 0 ? '0 EUR pro Jahr' : `${card.yearlyFee} EUR pro Jahr`}
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              );
-            })}
-          </section>
-        )}
 
         <Cards
           cards={rankedCards}
+          ratingProfileKey={profile.key}
           cols={cols}
           comparedIssuers={comparedIssuers}
           onToggleCompare={toggleCompare}

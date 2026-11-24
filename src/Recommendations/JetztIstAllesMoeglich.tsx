@@ -9,7 +9,6 @@ const JetztIstAllesMoeglich: React.FC = () => {
     "N26 Standard",
     "Revolut Premium MasterCard",
     "Monese Simple Debit MasterCard",
-    "Consorsfinanz EC Debit MasterCard",
     "bunq Pro",
     "Wise Debit",
     "Openbank Girokonto ohne Travel-Abo"

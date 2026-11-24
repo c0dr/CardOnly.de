@@ -27,7 +27,7 @@ const Nav: React.FC = () => {
             to="/best"
             className="rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
           >
-            Bestenlisten
+            Karten nach Kriterien
           </Link>
           <a
             href="/topic/"

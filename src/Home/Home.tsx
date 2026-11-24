@@ -4,6 +4,7 @@ import Cards from '../CardComponents/Cards';
 import AtmFeeNotice from '../CommonComponents/AtmFeeNotice';
 import Header from './Header';
 import TopPicks from './TopPicks';
+import ScoreMethodology from '../CommonComponents/ScoreMethodology';
 import SortDropdown from '../Filter/SortDropdown';
 import FilterElement from '../Filter/FilterElement';
 import { clearCompareIssuers, getCompareIssuers, maxCompareCards, setCompareIssuers } from '../lib/compareSelection';
@@ -41,7 +42,7 @@ const AtmFeeNoticeSimple: React.FC = () => (
   <div className="flex items-start gap-2.5 rounded-lg border border-border bg-card px-4 py-3 text-[13px] leading-5 text-muted-foreground shadow-card">
     <Info className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
     <p>
-      <strong className="font-semibold text-foreground">Gut zu wissen:</strong> „Kostenlos“ beim Abheben bedeutet, dass die Karte selbst keine Gebühr nimmt. Manche Automatenbetreiber verlangen trotzdem ein eigenes Entgelt.
+      <strong className="font-semibold text-foreground">Gut zu wissen:</strong> 0 € Abhebegebühr bedeutet keine eigene Abhebegebühr des Kartenherausgebers. Zinsen und Automatenentgelte können trotzdem anfallen. Bei manchen Kreditkarten werden Abhebungen ab dem Buchungstag verzinst.
     </p>
   </div>
 );
@@ -332,12 +333,14 @@ const Home: React.FC = () => {
           {!isSimpleMode && <AtmFeeNotice />}
 
           <main className="min-w-0">
+            <ScoreMethodology profileKey={sortBy.startsWith('best') ? sortBy : 'overall'} />
             <Cards
               cards={sortedFilteredCards}
               cols={cols}
               comparedIssuers={comparedIssuers}
               onToggleCompare={toggleCompare}
               simple={isSimpleMode}
+              ratingProfileKey={sortBy.startsWith('best') ? sortBy : 'overall'}
             />
 
             {comparedCards.length > 0 && (

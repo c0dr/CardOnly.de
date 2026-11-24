@@ -7,18 +7,18 @@ export interface RecommendedCardProfile {
 export const recommendedCardProfiles: RecommendedCardProfile[] = [
   {
     issuer: 'Bank Norwegian',
-    category: 'Top Reisekarte',
-    summary: '0€ Jahresgebühr, Top-Leistungen. Bargeld wird sofort verzinst.',
+    category: 'Reise',
+    summary: '0 € Jahresgebühr, Reiseversicherung. Bargeld wird sofort verzinst.',
   },
   {
     issuer: 'Advanzia Mastercard Gold',
-    category: 'Top Gebührenfrei',
+    category: 'Ohne Jahresgebühr',
     summary: 'Gute Option für gebührenarmes Bezahlen und Abheben.',
   },
   {
     issuer: 'American Express Payback',
-    category: 'Top Bonusprogramm',
-    summary: 'Empfehlung für Punkte sammeln im Alltag.',
+    category: 'Bonusprogramm',
+    summary: 'Punkte sammeln im Alltag.',
   },
 ];
 

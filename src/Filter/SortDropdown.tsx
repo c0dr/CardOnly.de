@@ -6,6 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '../components/ui/select';
+import { ratingProfiles } from '../lib/cardRatings';
 import { ArrowUpDown } from 'lucide-react';
 
 interface SortDropdownProps {
@@ -25,10 +26,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange, currentSort }
           <SelectValue placeholder="Sortierung wählen" />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="bestOverall">Beste Bewertung</SelectItem>
-          <SelectItem value="bestCashback">Bestes Cashback</SelectItem>
-          <SelectItem value="bestAtmOutsideEurope">Beste ATM ausserhalb Europas</SelectItem>
-          <SelectItem value="bestFreeCards">Beste kostenlose Karten</SelectItem>
+          {ratingProfiles.map((profile) => <SelectItem key={profile.key} value={profile.sortValue}>{profile.label}</SelectItem>)}
           <SelectItem value="alphabetical">Alphabetisch</SelectItem>
           <SelectItem value="yearlyFee">Jahresgebühr (aufsteigend)</SelectItem>
         </SelectContent>

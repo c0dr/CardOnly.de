@@ -641,7 +641,7 @@
     "link": "https://www.americanexpress.com/de/kreditkarte/platinum-card/?linknav=de-amex-cardshop-details-browse-PlatinumCard"
   },
   {
-    "Issuer": "Santander BestCard Basic (früher 1plus Visa) Card",
+    "Issuer": "Openbank BestCard Basic",
     "scheme": "visa",
     "yearlyFee": 0,
     "withChecking": false,
@@ -660,9 +660,11 @@
     "pinfirst": true,
     "insurance": false,
     "miles": false,
-    "notes": "Teilzahlung; 5% des offenen Betrags als monatliche Rate. Auslandseinsatzentgelt 1,85%.",
-    "image": "/img/santander.png",
-    "link": "https://www.santander.de/privatkunden/konten-und-karten/karten/kostenlose-kreditkarte/"
+    "notes": "0 € Jahresgebühr. Auslandseinsatzentgelt: 1,85 % vom Verfügungsbetrag bei Zahlung in Fremdwährung. Rückzahlung per Lastschrift zwischen 5 % und 100 % des offenen Betrags (mindestens 25 €, höchstens der offene Saldo) einstellbar; Änderung nach Bewilligung über das Nachrichtencenter im Online Banking. Vollausgleich per Überweisung möglich.",
+    "image": "/img/openbank-bestcard-basic.avif",
+    "link": "https://www.openbank.de/produkte/konten-und-karten/karten/kostenlose-kreditkarte/",
+    "legalnotes": "Darlehensgeber: Openbank Deutschland AG, Santander-Platz 1, 41061 Mönchengladbach. Bonität vorausgesetzt. Für die Teilzahlung ist ein Darlehensvertrag erforderlich. Veränderlicher Sollzinssatz: 15,56 % p. a.; effektiver Jahreszins: 16,72 %. Kreditvertrag mit unbestimmter Laufzeit. Monatliche Mindestrate: 5 % des in Anspruch genommenen Kreditbetrags bzw. der Monatsrechnung, mindestens 25 €, höchstens der offene Saldo. Repräsentatives Beispiel des Anbieters (Stand: November 2026): Nettodarlehensbetrag 2.000 €, Sollzinsen 311,20 €, Gesamtbetrag 2.311,20 €. Annahmen im Beispiel: sofortige vollständige Inanspruchnahme, Kreditgewährung für ein Jahr ab erster Inanspruchnahme; mit der letzten Zahlung sind Saldo, Zinsen und etwaige sonstige Kosten ausgeglichen. Quelle: <a href=\"https://www.openbank.de/content/dam/openbank/dokumente/informationen/secci-basic-card.pdf.coredownload.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Europäische Standardinformationen für Verbraucherkredite</a>.",
+    "creditTermsUrl": "https://www.openbank.de/content/dam/openbank/dokumente/informationen/secci-basic-card.pdf.coredownload.pdf"
   },
   {
     "Issuer": "comdirect Visa Credit",
@@ -985,7 +987,7 @@
     "image": "/img/monesesimple.png"
   },
   {
-    "Issuer": "Consorsfinanz EC Debit MasterCard",
+    "Issuer": "Consors Finanz Mastercard",
     "scheme": "mastercard",
     "yearlyFee": 0,
     "withChecking": false,
@@ -1006,31 +1008,8 @@
     "miles": false,
     "notes": "Teilzahlung standardmaessig voreingestellt; kostenlose Bargeldabhebungen erst ab 300 EUR.",
     "image": "/img/consorsfinanz.jpg",
-    "link": "https://www.consorsfinanz.de/karten-kredit/karten/mastercard/"
-  },
-  {
-    "Issuer": "Targobank Visa Online Classic",
-    "scheme": "visa",
-    "yearlyFee": 0,
-    "withChecking": true,
-    "offlinepin": true,
-    "offlinetrx": false,
-    "contactless": true,
-    "applepay": true,
-    "googlepay": false,
-    "secure": false,
-    "charge": "credit",
-    "fees_atm_de": "3.5% mind. 5,95€",
-    "fees_atm_eur": "3.5% mind. 5,95€",
-    "fees_atm_foreign": "3.5% mind. 5,95€",
-    "fees_pos_eur": 0,
-    "fees_pos_foreign": "1.85%",
-    "pinfirst": true,
-    "insurance": false,
-    "miles": false,
-    "notes": "ATM unter speziellen Bedingungen kostenfrei",
-    "image": "/img/targobank_classic.png",
-    "link": "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html"
+    "link": "https://www.consorsfinanz.de/karte-kredite/mastercard",
+    "legalnotes": "Repräsentatives Beispiel des Anbieters für die Zahlart Ratenzahlung: Für die Nutzung des Kreditrahmens fallen Zinsen und ggf. Beiträge für eine etwaig nachträglich abgeschlossene Restschuldversicherung an. Bonitätsabhängiger Kreditrahmen; Nettokreditbetrag bis 5.000 €; Vertragslaufzeit auf unbestimmte Zeit. Veränderlicher Sollzinssatz (jährlich): 19,13 %, effektiver Jahreszinssatz (vorbehaltlich abweichender Vereinbarung): 20,90 %. Die monatliche Rate beträgt mindestens 2,8 % der jeweils höchsten, auf volle 100 € gerundeten Inanspruchnahme des Kreditrahmens, mindestens 9,10 €."
   },
   {
     "Issuer": "Girokonto Klassik 1822direkt",
@@ -1645,7 +1624,9 @@
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz</span>, herausgegeben von der Deutschen Bank AG, Teilzahlung auf Antrag, kein inkludiertes Reiseversicherungspaket, unbefristeter Meilenschutz.",
     "adlink": "//financeads.net/tc.php?t=39323C54524631T",
     "link": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-blue-credit-card.html",
-    "image": "img/miles-more-blue.png"
+    "image": "img/miles-more-blue.png",
+    "legalnotes": "Bei Nutzung der Teilzahlungsfunktion Ihrer Lufthansa Miles & More Credit Card fallen monatlich Zinsen an. Diese Zinsen werden zusammen mit dem von Ihnen gewählten Tilgungsbetrag in Ihrer monatlichen Kreditkartenabrechnung ausgewiesen. Der aktuelle Zinssatz sowie weitere anfallende Kosten und Entgelte sind im <a href=\"https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Preis- und Leistungsverzeichnis</a> aufgeführt. Bitte beachten Sie, dass bei fortlaufender Nutzung der Teilzahlungsfunktion regelmäßig Zinskosten entstehen. Bei einer Kreditkarte mit Teilzahlungsfunktion handelt es sich um einen Allgemein-Verbraucherdarlehensvertrag als Tilgungsdarlehen, das bis zum Kreditkartenverfügungsrahmen revolvierend in Anspruch genommen werden kann. Kreditkarten mit Teilzahlungsfunktion können nur von natürlichen Personen beantragt werden, die nicht selbstständig oder freiberuflich tätig sind. Dies gilt auch für die Miles & More Kreditkarten zur privaten Nutzung.",
+    "creditTermsUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf"
   },
   {
     "Issuer": "Miles & More Gold Credit Card",
@@ -1670,7 +1651,9 @@
     "notes": "<span class='text-success'>1 Meile pro 2 Euro Umsatz, Reiseversicherungspaket</span>, herausgegeben von der Deutschen Bank AG, Teilzahlung auf Antrag, 3x1GB Flexiroam Datenvolumen.",
     "adlink": "//financeads.net/tc.php?t=39323C54524632T",
     "link": "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-gold-credit-card.html",
-    "image": "img/miles-more-gold.png"
+    "image": "img/miles-more-gold.png",
+    "legalnotes": "Bei Nutzung der Teilzahlungsfunktion Ihrer Lufthansa Miles & More Credit Card fallen monatlich Zinsen an. Diese Zinsen werden zusammen mit dem von Ihnen gewählten Tilgungsbetrag in Ihrer monatlichen Kreditkartenabrechnung ausgewiesen. Der aktuelle Zinssatz sowie weitere anfallende Kosten und Entgelte sind im <a href=\"https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Preis- und Leistungsverzeichnis</a> aufgeführt. Bitte beachten Sie, dass bei fortlaufender Nutzung der Teilzahlungsfunktion regelmäßig Zinskosten entstehen. Bei einer Kreditkarte mit Teilzahlungsfunktion handelt es sich um einen Allgemein-Verbraucherdarlehensvertrag als Tilgungsdarlehen, das bis zum Kreditkartenverfügungsrahmen revolvierend in Anspruch genommen werden kann. Kreditkarten mit Teilzahlungsfunktion können nur von natürlichen Personen beantragt werden, die nicht selbstständig oder freiberuflich tätig sind. Dies gilt auch für die Miles & More Kreditkarten zur privaten Nutzung.",
+    "creditTermsUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf"
   },
   {
     "Issuer": "Miles & More MyFlex Credit Card",
@@ -1697,18 +1680,18 @@
     "image": "img/miles-more-myflex.png"
   },
   {
-    "Issuer": "Payback Visa Flex",
+    "Issuer": "PAYBACK Visa",
     "scheme": "visa",
     "yearlyFee": 29,
     "withChecking": false,
     "offlinepin": false,
     "offlinetrx": false,
-    "applepay": false,
-    "googlepay": false,
+    "applepay": true,
+    "googlepay": true,
     "contactless": true,
     "secure": true,
-    "charge": "credit",
-    "fees_atm_de": 0,
+    "charge": "charge",
+    "fees_atm_de": "2%, mind. 5 EUR",
     "fees_atm_eur": 0,
     "fees_atm_foreign": 0,
     "fees_pos_eur": 0,
@@ -1716,7 +1699,7 @@
     "pinfirst": true,
     "insurance": false,
     "miles": true,
-    "notes": "<span class='text-success'>1 Payback-Punkt pro 5€</span>, nur Online-PIN",
+    "notes": "<span class='text-success'>1 PAYBACK-Punkt pro 5 €</span>. Monatliche Abrechnung mit vollständigem Lastschrifteinzug. Keine Teilzahlung bei der hier dargestellten aktuellen Karte. Für ältere Karten gelten gegebenenfalls andere Vertragsbedingungen.",
     "link": "https://www.payback.de/info/visa",
     "image": "/img/payback-visa-flex.webp"
   },

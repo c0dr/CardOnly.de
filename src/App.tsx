@@ -10,6 +10,7 @@ import CookieConsent from './components/ui/CookieConsent';
 import ComparePage from './Compare/ComparePage';
 import Impressum from './Legal/Impressum';
 import Datenschutz from './Legal/Datenschutz';
+import CreditNotice from './CommonComponents/CreditNotice';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-background font-sans antialiased">
         <div className="relative flex min-h-screen flex-col">
           <Header/>
+          <div className="container px-4 pt-4"><CreditNotice /></div>
           <div className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
@@ -46,7 +48,7 @@ const App: React.FC = () => {
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Vergleich</p>
                     <ul className="mt-3 space-y-2.5 text-sm">
-                      <li><Link to="/best" className="transition-colors hover:text-white">Bestenlisten</Link></li>
+                      <li><Link to="/best" className="transition-colors hover:text-white">Karten nach Kriterien</Link></li>
                       <li><a href="/topic/" className="transition-colors hover:text-white">Themen</a></li>
                       <li><a href="/card/" className="transition-colors hover:text-white">Karten</a></li>
                       <li><Link to="/aktionen" className="transition-colors hover:text-white">Aktionen</Link></li>

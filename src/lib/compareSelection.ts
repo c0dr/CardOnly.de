@@ -1,5 +1,10 @@
 const COMPARE_STORAGE_KEY = 'card_compare_selection';
 const MAX_COMPARE = 3;
+const issuerAliases: Record<string, string> = {
+  'Payback Visa Flex': 'PAYBACK Visa',
+  'Santander BestCard Basic (früher 1plus Visa) Card': 'Openbank BestCard Basic',
+  'Consorsfinanz EC Debit MasterCard': 'Consors Finanz Mastercard',
+};
 
 export const getCompareIssuers = (): string[] => {
   try {
@@ -7,7 +12,7 @@ export const getCompareIssuers = (): string[] => {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
-    return parsed.filter((entry): entry is string => typeof entry === 'string').slice(0, MAX_COMPARE);
+    return parsed.filter((entry): entry is string => typeof entry === 'string' && entry !== 'Targobank Visa Online Classic').map((entry) => issuerAliases[entry] || entry).filter((entry, index, all) => all.indexOf(entry) === index).slice(0, MAX_COMPARE);
   } catch (error) {
     return [];
   }

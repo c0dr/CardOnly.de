@@ -91,7 +91,7 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
       <div className="mb-3 flex items-center justify-between gap-3">
         <div>
           <h3 className="text-xl font-bold text-foreground">Vergleich ({cards.length}/3)</h3>
-          <p className="text-sm text-muted-foreground">Beste Werte sind gruen markiert.</p>
+          <p className="text-sm text-muted-foreground">Niedrigere Gebühren und vorhandene Leistungen sind grün markiert.</p>
         </div>
         {onClear && (
           <Button variant="outline" className="rounded-md border-border" onClick={onClear}>

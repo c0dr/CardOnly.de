@@ -1,0 +1,436 @@
+{
+  "checkedOn": "2026-11-24",
+  "jurisdiction": "Germany",
+  "scope": "Research and follow-up changes for original 21 credit entries: TARGOBANK removed, PAYBACK current full-repayment product distinguished, Openbank SECCI example displayed. Other unresolved entries retained.",
+  "limitations": [
+    "Source retrieval is not issuer approval for our placement. No legal certification.",
+    "Examples describe assumed borrowing and repayment, not necessarily the credit-card contract duration.",
+    "No missing APR, final installment, total payable or card-fee treatment has been invented.",
+    "A published example is not automatically suitable for a different product, issuer, market or existing-customer cohort."
+  ],
+  "entries": [
+    {
+      "card": "easybank Visa",
+      "status": "issuer_example_found",
+      "sources": [
+        "https://www.easybank.de/easybank-de/kreditkarten/easybank-kreditkarte"
+      ],
+      "observations": [
+        "Issuer publishes these figures for installment repayment. Displayed installments multiplied by 12 are EUR 0.04 below the published total; preserve issuer figures and do not invent a final installment."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 19.64,
+        "borrowingRateType": "variable",
+        "aprPercent": 21.51,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.69,
+        "totalPayable": 1664.32
+      }
+    },
+    {
+      "card": "easybank Eurowings Classic",
+      "status": "fee_treatment_needs_confirmation",
+      "sources": [
+        "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic"
+      ],
+      "observations": [
+        "Issuer publishes these figures for installment repayment. Displayed installments multiplied by 12 are EUR 0.04 below the published total; preserve issuer figures and do not invent a final installment.",
+        "Paid card publishes the same example as the no-annual-fee card, without explaining treatment of its card fee in this example. Obtain confirmation for this product rather than assuming fee inclusion."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 19.64,
+        "borrowingRateType": "variable",
+        "aprPercent": 21.51,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.69,
+        "totalPayable": 1664.32
+      }
+    },
+    {
+      "card": "easybank Eurowings Premium",
+      "status": "fee_treatment_needs_confirmation",
+      "sources": [
+        "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium"
+      ],
+      "observations": [
+        "Issuer publishes these figures for installment repayment. Displayed installments multiplied by 12 are EUR 0.04 below the published total; preserve issuer figures and do not invent a final installment.",
+        "Paid card publishes the same example as the no-annual-fee card, without explaining treatment of its card fee in this example. Obtain confirmation for this product rather than assuming fee inclusion."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 19.64,
+        "borrowingRateType": "variable",
+        "aprPercent": 21.51,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.69,
+        "totalPayable": 1664.32
+      }
+    },
+    {
+      "card": "easybank Gold Visa",
+      "status": "closed_to_new_customers",
+      "sources": [
+        "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold"
+      ],
+      "observations": [
+        "Issuer publishes these figures for installment repayment. Displayed installments multiplied by 12 are EUR 0.04 below the published total; preserve issuer figures and do not invent a final installment.",
+        "Paid card publishes the same example as the no-annual-fee card, without explaining treatment of its card fee in this example. Obtain confirmation for this product rather than assuming fee inclusion.",
+        "Product page explicitly states unavailable for new contracts. Dataset still presents this card and quotes 18.38% without distinguishing rate type."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 19.64,
+        "borrowingRateType": "variable",
+        "aprPercent": 21.51,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.69,
+        "totalPayable": 1664.32
+      }
+    },
+    {
+      "card": "easybank Platinum",
+      "status": "fee_treatment_needs_confirmation",
+      "sources": [
+        "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum"
+      ],
+      "observations": [
+        "Issuer publishes these figures for installment repayment. Displayed installments multiplied by 12 are EUR 0.04 below the published total; preserve issuer figures and do not invent a final installment.",
+        "Paid card publishes the same example as the no-annual-fee card, without explaining treatment of its card fee in this example. Obtain confirmation for this product rather than assuming fee inclusion.",
+        "Dataset quotes 18.38% without rate type; issuer currently shows 19.64% variable borrowing rate / 21.51% APR."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 19.64,
+        "borrowingRateType": "variable",
+        "aprPercent": 21.51,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.69,
+        "totalPayable": 1664.32
+      }
+    },
+    {
+      "card": "Hanseatic Bank GenialCard",
+      "status": "issuer_example_found",
+      "sources": [
+        "https://www.hanseaticbank.de/kreditkarte/genialcard"
+      ],
+      "observations": [
+        "11 regular installments plus the stated final installment reconcile to total."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 18.3,
+        "borrowingRateType": "variable",
+        "aprPercent": 19.92,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138,
+        "totalPayable": 1652.55,
+        "regularInstallmentCount": 11,
+        "finalInstallment": 134.55
+      }
+    },
+    {
+      "card": "Hanseatic Bank GoldCard",
+      "status": "issuer_example_found",
+      "sources": [
+        "https://www.hanseaticbank.de/kreditkarte/goldcard"
+      ],
+      "observations": [
+        "Issuer total explicitly includes EUR 4.90 per month card fee. Arithmetic reconciliation: 11 x 137 + 128.08 + 12 x 4.90 = 1693.88. Do not describe 12 installments of EUR 137 as the entire repayment."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 16.3,
+        "borrowingRateType": "variable",
+        "aprPercent": 25.79,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 137,
+        "totalPayable": 1693.88,
+        "regularInstallmentCount": 11,
+        "finalInstallment": 128.08,
+        "cardFeePerMonth": 4.9,
+        "totalIncludesCardFee": true
+      }
+    },
+    {
+      "card": "Openbank BestCard Basic",
+      "status": "issuer_secci_example_added",
+      "sources": [
+        "https://www.openbank.de/produkte/konten-und-karten/karten/kostenlose-kreditkarte/",
+        "https://www.openbank.de/produkte/konditionen/",
+        "https://www.openbank.de/content/dam/openbank/dokumente/informationen/secci-basic-card.pdf.coredownload.pdf"
+      ],
+      "observations": [
+        "User supplied repayment terms and SECCI link. PDF downloaded, relevant text extracted and page 4 visually inspected.",
+        "Issuer example uses EUR 2000 principal plus EUR 311.20 interest, total EUR 2311.20; assumes immediate full drawdown and one year. No fixed installment count or fixed monthly example installment is stated; none invented.",
+        "Published example and repayment rules now displayed, with source link. This is not independent certification of advertising-law sufficiency."
+      ],
+      "previousCardName": "Santander BestCard Basic (früher 1plus Visa) Card",
+      "imageSource": "https://assets.santandermedia.com/adobe/assets/urn%3Aaaid%3Aaem%3Aeaba75fe-45b7-4edd-8e79-a87cb0cffb02/as/BestCard%252520Basic_BG_1_1.avif",
+      "localImage": "public/img/openbank-bestcard-basic.avif",
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 2000,
+        "borrowingRatePercent": 15.56,
+        "borrowingRateType": "variable",
+        "aprPercent": 16.72,
+        "assumedTermMonths": 12,
+        "interestCosts": 311.2,
+        "totalPayable": 2311.2,
+        "contractTerm": "indefinite",
+        "minimumMonthlyRepaymentPercent": 5,
+        "minimumMonthlyRepaymentEur": 25,
+        "sourceDate": "2026-11",
+        "sourcePages": [
+          1,
+          2,
+          4
+        ],
+        "installmentCount": null,
+        "regularInstallment": null
+      }
+    },
+    {
+      "card": "Commerzbank ClassicKreditkarte",
+      "status": "repayment_classification_needs_review",
+      "sources": [
+        "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/"
+      ],
+      "observations": [
+        "Reviewed product page does not publish an installment-credit representative example. Dataset charge=credit is not enough to establish a revolving facility or advertising duty. Check contractual repayment model and any credit-cost disclosure trigger before adding an example."
+      ]
+    },
+    {
+      "card": "Commerzbank GoldKreditkarte",
+      "status": "repayment_classification_needs_review",
+      "sources": [
+        "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/"
+      ],
+      "observations": [
+        "Reviewed product page does not publish an installment-credit representative example. Dataset charge=credit is not enough to establish a revolving facility or advertising duty. Check contractual repayment model and any credit-cost disclosure trigger before adding an example."
+      ]
+    },
+    {
+      "card": "Advanzia Mastercard Gold",
+      "status": "conflicting_issuer_sources",
+      "sources": [
+        "https://support.gebuhrenfrei.com/faq?anchor=allgemein",
+        "https://gateway.gebuhrenfrei.com/faq?anchor=einsatz",
+        "https://www.gebuhrenfrei.com/konditionen"
+      ],
+      "observations": [
+        "Support FAQ publishes 22.48% fixed / 24.95% APR and the example recorded here.",
+        "Another issuer FAQ endpoint publishes 22.90% fixed / 24.69% APR, EUR 94.29 monthly and EUR 1131.48 total for EUR 1000 / 12 months. Confirm applicable current German new-customer offer before publishing.",
+        "Main conditions extraction omits some dynamic rate values."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1000,
+        "borrowingRatePercent": 22.48,
+        "borrowingRateType": "fixed",
+        "aprPercent": 24.95,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 94.4,
+        "totalPayable": 1132.75,
+        "interestCosts": 132.75
+      }
+    },
+    {
+      "card": "Advanzia Hilton Honors",
+      "status": "product_fee_and_example_conflict",
+      "sources": [
+        "https://www.hiltonhonorscreditcard.de/",
+        "https://www.hiltonhonorscreditcard.de/konditionen?campaignID=psp1"
+      ],
+      "observations": [
+        "Landing page shows EUR 0 annual fee, while conditions explicitly list EUR 6 per month for Hilton.",
+        "Landing page publishes same EUR 1132.75 example as no-fee Advanzia, with costs described solely as EUR 132.75 interest. Treatment of Hilton card fee is unexplained. Need Hilton-specific issuer confirmation; do not reuse generic Advanzia example as cleared.",
+        "User supplied the exact landing-page example on 24 November 2026. This confirms its text but does not resolve monthly card fee treatment. Not added to website disclosures pending clarification."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1000,
+        "borrowingRatePercent": 22.48,
+        "borrowingRateType": "fixed",
+        "aprPercent": 24.95,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 94.4,
+        "totalPayable": 1132.75,
+        "interestCosts": 132.75
+      },
+      "userSuppliedDisclosure": "Repräsentatives Beispiel nach § 17 PAngV: Nettodarlehensbetrag: EUR 1.000. Fester Sollzinssatz: 22,48% p. a. In die Gesamtkosten einbezogene Kosten: Zinsen in Höhe von insgesamt EUR 132,75. Effektiver Jahreszins: 24,95%. Vertragslaufzeit: 1 Jahr. Höhe der monatlichen Raten: EUR 94,40. Zu zahlender Gesamtbetrag: EUR 1.132,75. Annahmen: Der Kredit wird ab dem ersten Tag vollständig in Anspruch genommen und für ein Jahr gewährt. Der Betrag wird mit 12 gleich hohen monatlichen Zahlungen zurückgezahlt, beginnend einen Monat nach dem ersten Tag. Mit der letzten Zahlung sind Saldo und Zinsen ausgeglichen."
+    },
+    {
+      "card": "Consors Finanz Mastercard",
+      "status": "issuer_representative_disclosure_confirmed",
+      "sources": [
+        "https://www.consorsfinanz.de/karte-kredite/mastercard",
+        "https://www.consorsfinanz.de/service/fragen-und-antworten/mastercard"
+      ],
+      "observations": [
+        "Current product page describes credit limit up to EUR 5000, indefinite term, variable borrowing rate 19.13%, APR 20.90%, monthly payment at least 2.8% of highest utilization rounded to EUR 100, minimum EUR 9.10. Calls this its representative example.",
+        "No fixed-term total / amortization schedule provided there. Do not synthesize a 12-month example. Older FAQ gives 17.43% / 18.90% and inconsistent minimum payment wording.",
+        "Dataset name says EC Debit but current linked product is a credit facility; verify product identity.",
+        "User confirmed issuer disclosure. Added to website legalnotes as the issuer representative disclosure, with indefinite term and percentage repayment intact. No invented fixed-term schedule. The old paragraph reference is not reproduced in the website disclosure."
+      ],
+      "previousCardName": "Consorsfinanz EC Debit MasterCard",
+      "userSuppliedDisclosure": "Für die Nutzung des Kreditrahmens fallen Zinsen und ggf. Beiträge für eine etwaig nachträglich abgeschlossene Restschuldversicherung an. Bonitätsabhängiger Kreditrahmen; Nettokreditbetrag bis 5.000 €; Vertragslaufzeit auf unbestimmte Zeit. Veränderlicher Sollzinssatz (jährlich): 19,13 %, effektiver Jahreszinssatz (vorbehaltlich abweichender Vereinbarung): 20,90 %. Die monatliche Rate beträgt mindestens 2,8 % der jeweils höchsten, auf volle 100 € gerundeten Inanspruchnahme des Kreditrahmens, mindestens 9,10 €. Angaben zugleich repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV (Zahlart Ratenzahlung)"
+    },
+    {
+      "card": "Targobank Visa Online Classic",
+      "status": "removed_from_site_at_user_request",
+      "sources": [
+        "https://www.targobank.de/de/konto-karten/kreditkarte-classic.html",
+        "https://www.targobank.de/de/download/Preisubersicht.pdf"
+      ],
+      "observations": [
+        "Product page offers full or partial repayment; no complete example located there.",
+        "Issuer price-list search result lists 16.35% APR and 1.27% monthly borrowing rate for Online-Classic. Full advertising example not verified. Secondary-site payment examples not treated as issuer-approved evidence.",
+        "Removed from dataset, generated product pages and indexes at user request."
+      ]
+    },
+    {
+      "card": "TF Bank MasterCard Gold",
+      "status": "issuer_example_found",
+      "sources": [
+        "https://tfbank.de/mastercard-gold"
+      ],
+      "observations": [
+        "Published monthly installments multiplied by 12 differ from total by EUR 0.04; retain issuer figures, no invented final payment."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1000,
+        "borrowingRatePercent": 22.6,
+        "borrowingRateType": "variable",
+        "aprPercent": 25.09,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 93.88,
+        "totalPayable": 1126.6
+      }
+    },
+    {
+      "card": "Miles & More Blue Credit Card",
+      "status": "rate_verified_example_not_found",
+      "sources": [
+        "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-blue-credit-card.html",
+        "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
+        "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/vorvertragliche-informationen.pdf",
+        "https://www.miles-and-more-kreditkarte.com/de/service/fragen-antworten/karten--und-kontoleistungen/was-bedeutet-flexible-teilzahlung.html"
+      ],
+      "observations": [
+        "October 2026 price list shows variable borrowing rate 10.30% p.a.; no APR or complete representative example located in reviewed issuer materials. Do not label borrowing rate as APR.",
+        "Follow-up check after user reported no partial repayment: current Deutsche Bank Miles & More FAQ explicitly names Blue and Gold as eligible for optional Flexible Teilzahlung selected at application, with repayment percentages 10/20/30/40/50 and switch to 100%. Interest applies to balances carried through a billing cycle. Do not infer universal availability for every customer or Business variant. Complete representative example still not verified.",
+        "User-approved issuer note added visibly to website: monthly interest, linked current price list, revolving-loan nature and exclusion of self-employed/freelance applicants. General disclosure only; not a complete numerical representative example and not evidence of full legal compliance."
+      ],
+      "generalDisclosureAdded": true
+    },
+    {
+      "card": "Miles & More Gold Credit Card",
+      "status": "rate_verified_example_not_found",
+      "sources": [
+        "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-gold-credit-card.html",
+        "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
+        "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/vorvertragliche-informationen.pdf",
+        "https://www.miles-and-more-kreditkarte.com/de/service/fragen-antworten/karten--und-kontoleistungen/was-bedeutet-flexible-teilzahlung.html"
+      ],
+      "observations": [
+        "October 2026 price list shows variable borrowing rate 10.30% p.a.; no APR or complete representative example located in reviewed issuer materials. Do not label borrowing rate as APR.",
+        "Follow-up check after user reported no partial repayment: current Deutsche Bank Miles & More FAQ explicitly names Blue and Gold as eligible for optional Flexible Teilzahlung selected at application, with repayment percentages 10/20/30/40/50 and switch to 100%. Interest applies to balances carried through a billing cycle. Do not infer universal availability for every customer or Business variant. Complete representative example still not verified.",
+        "User-approved issuer note added visibly to website: monthly interest, linked current price list, revolving-loan nature and exclusion of self-employed/freelance applicants. General disclosure only; not a complete numerical representative example and not evidence of full legal compliance."
+      ],
+      "generalDisclosureAdded": true
+    },
+    {
+      "card": "Miles & More MyFlex Credit Card",
+      "status": "stored_rate_and_fee_incorrect_example_not_found",
+      "sources": [
+        "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-myflex-credit-card.html",
+        "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis-myflex.pdf"
+      ],
+      "observations": [
+        "October 2026 issuer price list: EUR 0 monthly card fee; variable borrowing rate 16.15% p.a. No complete representative example found in reviewed current product page and price list.",
+        "Dataset instead has EUR 50 yearly fee, fixed 22.90% borrowing rate and 24.69% APR. These do not match the current issuer document.",
+        "DKB subdomain contains older examples for a different issuing bank. Exclude those from the current Deutsche Bank product.",
+        "User says we do not have the example. Interpreted as missing disclosure, not an instruction to remove this listing. Listing retained; example remains unresolved."
+      ]
+    },
+    {
+      "card": "PAYBACK Visa",
+      "status": "current_full_repayment_product",
+      "sources": [
+        "https://www.payback.de/info/visa",
+        "https://www.bw-bank.de/content/dam/myif/bwbank/work/dokumente/pdf/public/onlinedienste/paybackvisa-verbraucherinfo.pdf"
+      ],
+      "observations": [
+        "User confirmed no partial payment for current product. Current PAYBACK FAQ independently states monthly full direct-debit collection; separates pre-spring-2025 cards.",
+        "Current listing renamed and classified charge, with full repayment note. Older separate Flexible Repayment documents do not establish that the current listed product offers partial repayment. No installment-credit example attached.",
+        "Current FAQ also confirms Apple Pay/Google Pay and domestic ATM fee 2%, minimum EUR 5; matching fields corrected."
+      ],
+      "previousCardName": "Payback Visa Flex"
+    },
+    {
+      "card": "Bank Norwegian",
+      "status": "published_example_has_unexplained_payment_difference",
+      "sources": [
+        "https://www.banknorwegian.de/kreditkarte/"
+      ],
+      "observations": [
+        "Issuer states 12 monthly payments of EUR 140 and a EUR 1685 total. 12 x 140 = 1680. No different final installment is specified. Request a reconciled issuer example.",
+        "Page still labels the example with old PAngV section 6a; do not reproduce obsolete section reference."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 21.99,
+        "borrowingRateType": "variable",
+        "aprPercent": 24.4,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 140,
+        "totalPayable": 1685
+      }
+    },
+    {
+      "card": "Instabank",
+      "status": "issuer_example_found",
+      "sources": [
+        "https://instabank.de/kreditkarte"
+      ],
+      "observations": [
+        "Published monthly installments multiplied by 12 differ from total by EUR 0.04; retain issuer figures.",
+        "Current page lists cash withdrawals and transfers at 2.69%, transfers capped at EUR 100; stored dataset instead quotes 2% / EUR 50 cap."
+      ],
+      "issuerPublishedExample": {
+        "currency": "EUR",
+        "principal": 1500,
+        "borrowingRatePercent": 18.9,
+        "borrowingRateType": "fixed",
+        "aprPercent": 20.63,
+        "termMonths": 12,
+        "installmentCount": 12,
+        "regularInstallment": 138.16,
+        "totalPayable": 1657.96
+      }
+    }
+  ]
+}

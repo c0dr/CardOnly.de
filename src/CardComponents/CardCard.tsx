@@ -1,15 +1,15 @@
 import React, { useMemo, useState } from 'react';
 import { Button } from '../components/ui/button';
 import { Table, TableBody, TableRow, TableCell } from '../components/ui/table';
-import { BadgePercent, Check, X, ChevronDown, Clock3, Star } from 'lucide-react';
+import { BadgePercent, Check, X, ChevronDown, Clock3 } from 'lucide-react';
 import { getCardDetailPath } from '../lib/seo';
-import { getRecommendedCardProfile } from '../lib/recommendedCards';
 import { cardHighlights } from '../lib/cardHighlights';
 import { formatOfferDeadline, getActiveCardOffer, getOfferTimingLabel } from '../lib/cardOffers';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
 import SchemeBadge from './SchemeBadge';
 import UsageFees from './UsageFees';
+import { creditWarning } from '../lib/creditNotice';
 
 const chargeLabels: Record<string, string> = {
   charge: 'Charge',
@@ -49,11 +49,11 @@ const hasConditionalFreeAtm = (value: string | number | undefined | null) => {
 
 const formatAtmFee = (value: string | number | undefined | null, card: Card) => {
   if (value === 0) {
-    return { label: 'Kostenlos', highlight: true, note: card.cashAdvanceImmediate ? '**' : '' };
+    return { label: '0 € Gebühr', highlight: true, note: card.cashAdvanceImmediate ? '**' : '' };
   }
 
   if (hasConditionalFreeAtm(value)) {
-    return { label: 'Kostenlos', highlight: true, note: '*' };
+    return { label: '0 € Gebühr', highlight: true, note: '*' };
   }
 
   if (value === undefined || value === null || value === '' || value === 'null') {
@@ -93,15 +93,15 @@ interface CardCardProps {
   isCompared?: boolean;
   compareDisabled?: boolean;
   simple?: boolean;
+  ratingProfileKey?: string;
 }
 
-const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare, isCompared = false, compareDisabled = false, simple = false }) => {
+const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare, isCompared = false, compareDisabled = false, simple = false, ratingProfileKey = 'overall' }) => {
   const [isOpen, setIsOpen] = useState(false);
   const nonAffiliateLink = card.link || null;
-  const recommendedProfile = useMemo(() => getRecommendedCardProfile(card.Issuer), [card.Issuer]);
   const atmEur = useMemo(() => formatAtmFee(card.fees_atm_eur, card), [card]);
   const atmForeign = useMemo(() => formatAtmFee(card.fees_atm_foreign, card), [card]);
-  const rating = useMemo(() => getCardRating(card), [card]);
+  const rating = useMemo(() => getCardRating(card, ratingProfileKey), [card, ratingProfileKey]);
   const highlights = useMemo(() => (simple ? cardHighlights(card) : []), [card, simple]);
   const activeOffer = useMemo(() => getActiveCardOffer(card), [card]);
 
@@ -178,16 +178,13 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         </div>
       )}
 
+      {card.charge === 'credit' && (
+        <p className="border-b border-amber-300 bg-amber-50 px-4 py-3 text-base font-bold text-amber-950 sm:px-5">{creditWarning}</p>
+      )}
+
       {/* Main row */}
       <div className="p-4 sm:p-5">
         <div className="comparison-heading flex items-center gap-3 sm:gap-4">
-          {/* Rank */}
-          {!simple && (
-            <span className="hidden w-6 flex-shrink-0 text-center text-sm font-medium tabular-nums text-slate-400 sm:block">
-              {index + 1}
-            </span>
-          )}
-
           {/* Card image */}
           <div className="comparison-image relative flex-shrink-0">
             {nonAffiliateLink ? (
@@ -219,15 +216,9 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
               {simple && (
                 <span
                   className="inline-flex flex-shrink-0 items-center gap-1 text-[11px] font-semibold tabular-nums text-accent"
-                  title={rating.label}
+                  title={`CardOnly-Score (${rating.profile.navLabel}): ${rating.label}`}
                 >
-                  <Star className="h-3 w-3" />
-                  {rating.score}
-                </span>
-              )}
-              {recommendedProfile && (
-                <span className="flex-shrink-0 text-[10px] font-semibold uppercase tracking-wider text-accent">
-                  Empfehlung
+                  Score {rating.label}
                 </span>
               )}
               {!simple && <SchemeBadge scheme={card.scheme} />}
@@ -261,9 +252,9 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             <div className="hidden items-start divide-x divide-border lg:flex">
               <Metric
                 label="Score"
-                value={String(rating.score)}
+                value={rating.label}
                 size="sm"
-                title={rating.label}
+                title={`CardOnly-Score (${rating.profile.navLabel}): ${rating.label}`}
               />
               <div className="px-5"><Metric label="Jahresgebühr" value={card.yearlyFee === 0 ? '0 €' : `${card.yearlyFee} €`} highlight={card.yearlyFee === 0} /></div>
               <div className="px-5"><Metric label="ATM Euro" value={`${atmEur.label}${atmEur.note}`} highlight={atmEur.highlight} /></div>
@@ -303,8 +294,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             <div className="sm:hidden">
               <p className="text-xs font-medium text-slate-400">Bewertung</p>
               <p className="mt-0.5 inline-flex items-center gap-1 text-sm font-semibold tabular-nums text-foreground">
-                <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
-                {rating.score}
+                {rating.label}
               </p>
             </div>
             <Metric size="sm" label="Jahresgebühr" value={card.yearlyFee === 0 ? '0 €' : `${card.yearlyFee} €`} highlight={card.yearlyFee === 0} />
@@ -358,7 +348,7 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
             </p>
           )}
           {card.legalnotes && (
-            <p className="mt-1 text-[11px] leading-relaxed text-muted-foreground">
+            <p className="mt-1 text-sm leading-relaxed text-foreground/90">
               <span dangerouslySetInnerHTML={{ __html: card.legalnotes }} />
             </p>
           )}

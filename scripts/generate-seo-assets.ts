@@ -1,8 +1,9 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getCardRating, getCardsForRatingProfile, ratingProfiles } from '../src/lib/cardRatings';
+import { getCardRating, getCardsForRatingProfile, getScoreMethodology, scoreMethodNotes, ratingProfiles } from '../src/lib/cardRatings';
 import { formatOfferDeadline, getActiveCardOffer, getOfferTimingLabel } from '../src/lib/cardOffers';
+import { creditWarning, creditCostExplanation } from '../src/lib/creditNotice';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -19,6 +20,9 @@ const chargeLabels: Record<string, string> = {
 };
 
 const legacyCardRedirects: Record<string, string> = {
+  'payback-visa-flex': 'payback-visa',
+  'santander-bestcard-basic-fruher-1plus-visa-card': 'openbank-bestcard-basic',
+  'consorsfinanz-ec-debit-mastercard': 'consors-finanz-mastercard',
   'easybank-platinum-double': 'easybank-platinum',
   'tomorrow-zero': 'tomorrow-plus',
 };
@@ -373,6 +377,10 @@ const pageShell = ({ title, description, canonicalPath, bodyHtml, jsonLd }: any)
   </head>
   <body>
     <main class="container">
+      <aside aria-label="Hinweis zu Kreditkosten" style="margin-bottom:20px;padding:16px;border:1px solid #fcd34d;border-radius:8px;background:#fffbeb;color:#451a03;font-size:16px;line-height:1.5">
+        <strong>${escapeHtml(creditWarning)}</strong>
+        <p>${escapeHtml(creditCostExplanation)}</p>
+      </aside>
       ${bodyHtml}
       <footer>
         Datenquelle: <a href="${siteUrl}/data/cards.json">cards.json</a> · Letztes Update: ${today}
@@ -464,6 +472,7 @@ ${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot" tit
       </div>
 
       ${notes ? `<p style="margin-top:14px"><strong>Hinweise:</strong> ${escapeHtml(notes)}</p>` : ''}
+${card.creditTermsUrl ? `      <p><a href="${escapeHtml(card.creditTermsUrl)}" target="_blank" rel="noopener noreferrer">Informationen zu Kreditkosten und Rückzahlung</a></p>` : ''}
 
       ${topicTags.length > 0 ? `<p style="margin-top:14px"><strong>Passende Themen:</strong> ${topicTags
         .map((topic) => `<a href="/topic/${topic.slug}/">${escapeHtml(topic.linkLabel)}</a>`)
@@ -526,6 +535,13 @@ ${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot" tit
   });
 };
 
+const renderScoreMethodology = (profileKey: string) => `
+  <details class="card" style="margin-top:14px">
+    <summary>So berechnen wir den CardOnly-Score</summary>
+    <dl>${getScoreMethodology(profileKey).map((metric) => `<dt><strong>${escapeHtml(metric.label)}: maximal ${metric.points} Punkte</strong></dt><dd>${escapeHtml(metric.explanation)}</dd>`).join('')}</dl>
+    ${scoreMethodNotes.map((note) => `<p>${escapeHtml(note)}</p>`).join('')}
+  </details>`;
+
 const createTopicPage = (topic: any) => {
   const title = `${topic.title} | CardOnly.de`;
 
@@ -559,6 +575,7 @@ const createTopicPage = (topic: any) => {
       <p><strong>${topic.cards.length}</strong> Karten im Thema.</p>
     </section>
 
+${topic.ratingProfileKey ? renderScoreMethodology(topic.ratingProfileKey) : ''}
     <section style="margin-top:14px">${itemsHtml}</section>
   `;
 

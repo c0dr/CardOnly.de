@@ -8,9 +8,10 @@ interface CardsProps {
   comparedIssuers: string[];
   onToggleCompare: (issuer: string) => void;
   simple?: boolean;
+  ratingProfileKey?: string;
 }
 
-const CardComponents: React.FC<CardsProps> = ({ cards, cols, comparedIssuers, onToggleCompare, simple = false }) => {
+const CardComponents: React.FC<CardsProps> = ({ cards, cols, comparedIssuers, onToggleCompare, simple = false, ratingProfileKey = 'overall' }) => {
   return (
     <section>
       <div className="mb-4 flex flex-col gap-2 pb-3 sm:flex-row sm:items-end sm:justify-between">
@@ -35,6 +36,7 @@ const CardComponents: React.FC<CardsProps> = ({ cards, cols, comparedIssuers, on
             isCompared={comparedIssuers.includes(card.Issuer)}
             compareDisabled={!comparedIssuers.includes(card.Issuer) && comparedIssuers.length >= 3}
             simple={simple}
+            ratingProfileKey={ratingProfileKey}
           />
         ))}
       </div>
