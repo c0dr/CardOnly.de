@@ -37,15 +37,17 @@ describe('credit disclosures on listings', () => {
   it('does not invent installments for Openbank or a numerical example for Miles & More', () => {
     const openbank = renderToStaticMarkup(<CreditDetails card={find('Openbank BestCard Basic')} />);
     expect(openbank).toContain('2.311,20 €');
-    expect(openbank).not.toContain('<dt>Monatliche Kreditrate</dt>');
+    expect(openbank).not.toContain('Monatliche Kreditrate');
     const blue = renderToStaticMarkup(<CreditDetails card={find('Miles & More Blue Credit Card')} />);
-    expect(blue).toContain('Ein vollständiges numerisches Beispiel');
+    expect(blue).toContain('monatlich Zinsen');
     expect(blue).not.toContain('Repräsentatives Beispiel – Anbieterangaben');
   });
 
-  it('keeps issuer inconsistencies visible and does not add a loan example to debit cards', () => {
+  it('preserves issuer figures without exposing internal verification commentary', () => {
     const html = renderToStaticMarkup(<CreditDetails card={find('Bank Norwegian')} />);
-    expect(html).toContain('nicht vollständig stimmig');
+    expect(html).not.toContain('nicht vollständig stimmig');
+    expect(html).toContain('1.685,00 €');
+    expect(html).toContain('140,00 €');
     expect(renderToStaticMarkup(<CreditDetails card={{ id: 'debit', Issuer: 'Debit', charge: 'debit' }} />)).toBe('');
   });
 });

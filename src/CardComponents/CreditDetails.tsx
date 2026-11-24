@@ -23,19 +23,22 @@ const CreditDetails: React.FC<{ card: Card }> = ({ card }) => {
     rows.push(['Gesamtbetrag', `${number(example.totalPayable)} €${example.totalIncludesCardFee ? ' inkl. Kartenentgelt' : ''}`]);
   }
   return (
-    <section aria-label={`Kreditkosten und Rückzahlung: ${card.Issuer}`} style={{ marginTop: 16, marginBottom: 16, padding: 16, border: '1px solid #cbd5e1', borderRadius: 8, background: '#f8fafc', color: '#0f172a', fontSize: 14, lineHeight: 1.6, textAlign: 'left' }}>
-      <h4 style={{ fontSize: 16, fontWeight: 700, margin: 0 }}>Kreditkosten und Rückzahlung</h4>
-      <p style={{ fontSize: 16, fontWeight: 700, marginTop: 8 }}>{creditWarning}</p>
+    <section aria-label={`Kreditkosten und Rückzahlung: ${card.Issuer}`} style={{ marginTop: 10, marginBottom: 10, paddingTop: 10, borderTop: '1px solid #e2e8f0', color: '#334155', fontSize: 13, lineHeight: 1.5, textAlign: 'left' }}>
+      <h4 style={{ fontSize: 14, fontWeight: 600, margin: 0 }}>Kreditkosten und Rückzahlung</h4>
+      <p style={{ fontSize: 14, fontWeight: 700, margin: '4px 0' }}>{creditWarning}</p>
       {example && <>
-        <p style={{ marginTop: 8, marginBottom: 12, fontWeight: 600 }}>Repräsentatives Beispiel – Anbieterangaben</p>
-        <dl style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px 20px', margin: 0 }}>
-          {rows.map(([label, value]) => <div key={label}><dt>{label}</dt><dd style={{ margin: 0, fontWeight: 700 }}>{value}</dd></div>)}
+        <p style={{ margin: '4px 0', fontWeight: 600 }}>Repräsentatives Beispiel – Anbieterangaben</p>
+        <dl style={{ margin: 0 }}>
+          {rows.map(([label, value], index) => <div key={label} style={{ display: 'inline' }}>
+            <dt style={{ display: 'inline' }}>{label}: </dt>
+            <dd style={{ display: 'inline', margin: 0, fontWeight: label.startsWith('Sollzins') || label === 'Effektiver Jahreszins' ? 600 : 400 }}>{value}{index < rows.length - 1 ? '; ' : '.'}</dd>
+          </div>)}
         </dl>
-        <p style={{ marginTop: 12 }}>Die Beispielannahmen sind keine Zusage für deinen individuellen Kreditrahmen oder Zahlungsplan.</p>
+        <p style={{ margin: '4px 0' }}>Die Beispielannahmen sind keine Zusage für deinen individuellen Kreditrahmen oder Zahlungsplan.</p>
       </>}
-      {disclosure.paragraphs.map((text) => <p key={text} style={{ marginTop: 12 }}>{text}</p>)}
-      {disclosure.notices.map((text) => <p key={text} style={{ marginTop: 12, fontWeight: 600 }}>{text}</p>)}
-      <p style={{ marginTop: 12, marginBottom: 0 }}>
+      {disclosure.paragraphs.length > 0 && <p style={{ margin: '4px 0' }}>{disclosure.paragraphs.join(' ')}</p>}
+      {disclosure.notices.length > 0 && <p style={{ margin: '4px 0' }}>{disclosure.notices.join(' ')}</p>}
+      <p style={{ marginTop: 6, marginBottom: 0, fontSize: 12 }}>
         <a href={disclosure.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}>Kreditinformationen des Anbieters</a>
         {' · '}Quellenstand: {disclosure.checkedOn.split('-').reverse().join('.')}
       </p>

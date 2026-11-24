@@ -130,9 +130,7 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/easybank-kreditkarte",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
+      "paragraphs": [],
       "notices": [],
       "example": {
         "currency": "EUR",
@@ -174,12 +172,8 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
-      "notices": [
-        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 29 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ],
+      "paragraphs": [],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1500,
@@ -220,12 +214,8 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
-      "notices": [
-        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ],
+      "paragraphs": [],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1500,
@@ -269,11 +259,8 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
+      "paragraphs": [],
       "notices": [
-        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 59 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter.",
         "Für Neuabschlüsse nicht mehr verfügbar; Angaben für bestehende Karten können abweichen."
       ],
       "example": {
@@ -316,12 +303,8 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
-      "notices": [
-        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ],
+      "paragraphs": [],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1500,
@@ -818,9 +801,7 @@
         "Rückzahlung per Lastschrift zwischen 5 % und 100 % des offenen Betrags einstellbar, mindestens 25 €, höchstens der offene Saldo. Monatliche Mindestrate 5 %. Anpassung nach Bewilligung über das Nachrichtencenter im Online Banking; Vollausgleich per Überweisung möglich.",
         "Das Beispiel unterstellt die sofortige vollständige Inanspruchnahme für ein Jahr; mit der letzten Zahlung werden Saldo, Zinsen und etwaige sonstige Kosten ausgeglichen."
       ],
-      "notices": [
-        "Das Informationsblatt nennt keinen festen monatlichen Beispiel-Ratenbetrag oder eine feste Ratenanzahl."
-      ],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 2000,
@@ -943,7 +924,7 @@
       "sourceUrl": "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/",
       "checkedOn": "2026-11-24",
       "paragraphs": [
-        "Die hier erfassten Produktangaben enthalten kein Beispiel für einen verzinslichen Teilzahlungskredit. Abrechnung und mögliche gesonderte Kreditvereinbarungen richten sich nach dem Vertrag."
+        "Abrechnung und mögliche gesonderte Kreditvereinbarungen richten sich nach den Vertragsbedingungen des Anbieters."
       ],
       "notices": []
     }
@@ -975,7 +956,7 @@
       "sourceUrl": "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/",
       "checkedOn": "2026-11-24",
       "paragraphs": [
-        "Die hier erfassten Produktangaben enthalten kein Beispiel für einen verzinslichen Teilzahlungskredit. Abrechnung und mögliche gesonderte Kreditvereinbarungen richten sich nach dem Vertrag."
+        "Abrechnung und mögliche gesonderte Kreditvereinbarungen richten sich nach den Vertragsbedingungen des Anbieters."
       ],
       "notices": []
     }
@@ -1056,9 +1037,7 @@
       "sourceUrl": "https://support.gebuhrenfrei.com/faq?anchor=allgemein",
       "checkedOn": "2026-11-24",
       "paragraphs": [],
-      "notices": [
-        "Der Anbieter veröffentlicht an anderer Stelle abweichende Zinsangaben (22,90 % Sollzins, 24,69 % effektiv). Dieses Beispiel stammt aus der verlinkten FAQ. Prüfe vor Abschluss die für deinen Vertrag geltenden Konditionen."
-      ],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1000,
@@ -1178,10 +1157,10 @@
     "creditDisclosure": {
       "sourceUrl": "https://www.hiltonhonorscreditcard.de/",
       "checkedOn": "2026-11-24",
-      "paragraphs": [],
-      "notices": [
-        "Das Anbieterbeispiel nennt nur Zinskosten. Für die Karte sind 6 € Monatsentgelt hinterlegt; dessen Berücksichtigung im Beispiel ist nicht geklärt. Prüfe deshalb die Gesamtkosten einschließlich Kartenentgelt beim Anbieter."
+      "paragraphs": [
+        "Kartenentgelt: 6 € pro Monat."
       ],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1000,
@@ -1475,9 +1454,7 @@
     "creditDisclosure": {
       "sourceUrl": "https://tfbank.de/mastercard-gold",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
+      "paragraphs": [],
       "notices": [],
       "example": {
         "currency": "EUR",
@@ -1892,9 +1869,7 @@
       "paragraphs": [
         "Bei Nutzung der Teilzahlungsfunktion Ihrer Lufthansa Miles & More Credit Card fallen monatlich Zinsen an. Diese Zinsen werden zusammen mit dem von Ihnen gewählten Tilgungsbetrag in Ihrer monatlichen Kreditkartenabrechnung ausgewiesen. Der aktuelle Zinssatz sowie weitere anfallende Kosten und Entgelte sind im Preis- und Leistungsverzeichnis aufgeführt. Bitte beachten Sie, dass bei fortlaufender Nutzung der Teilzahlungsfunktion regelmäßig Zinskosten entstehen. Bei einer Kreditkarte mit Teilzahlungsfunktion handelt es sich um einen Allgemein-Verbraucherdarlehensvertrag als Tilgungsdarlehen, das bis zum Kreditkartenverfügungsrahmen revolvierend in Anspruch genommen werden kann. Kreditkarten mit Teilzahlungsfunktion können nur von natürlichen Personen beantragt werden, die nicht selbstständig oder freiberuflich tätig sind. Dies gilt auch für die Miles & More Kreditkarten zur privaten Nutzung."
       ],
-      "notices": [
-        "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
-      ]
+      "notices": []
     }
   },
   {
@@ -1928,9 +1903,7 @@
       "paragraphs": [
         "Bei Nutzung der Teilzahlungsfunktion Ihrer Lufthansa Miles & More Credit Card fallen monatlich Zinsen an. Diese Zinsen werden zusammen mit dem von Ihnen gewählten Tilgungsbetrag in Ihrer monatlichen Kreditkartenabrechnung ausgewiesen. Der aktuelle Zinssatz sowie weitere anfallende Kosten und Entgelte sind im Preis- und Leistungsverzeichnis aufgeführt. Bitte beachten Sie, dass bei fortlaufender Nutzung der Teilzahlungsfunktion regelmäßig Zinskosten entstehen. Bei einer Kreditkarte mit Teilzahlungsfunktion handelt es sich um einen Allgemein-Verbraucherdarlehensvertrag als Tilgungsdarlehen, das bis zum Kreditkartenverfügungsrahmen revolvierend in Anspruch genommen werden kann. Kreditkarten mit Teilzahlungsfunktion können nur von natürlichen Personen beantragt werden, die nicht selbstständig oder freiberuflich tätig sind. Dies gilt auch für die Miles & More Kreditkarten zur privaten Nutzung."
       ],
-      "notices": [
-        "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
-      ]
+      "notices": []
     }
   },
   {
@@ -1962,9 +1935,7 @@
       "paragraphs": [
         "Veränderlicher Sollzinssatz für die flexible Teilzahlung: 16,15 % p. a. laut Preis- und Leistungsverzeichnis (Stand: Oktober 2026). Regelmäßige Teilzahlung verursacht Zinskosten."
       ],
-      "notices": [
-        "Ein effektiver Jahreszins und ein vollständiges numerisches Beispiel sind für diese Karte noch nicht hinterlegt. Aktuelle Vertragskonditionen beim Anbieter prüfen."
-      ]
+      "notices": []
     }
   },
   {
@@ -2116,9 +2087,7 @@
       "sourceUrl": "https://www.banknorwegian.de/kreditkarte/",
       "checkedOn": "2026-11-24",
       "paragraphs": [],
-      "notices": [
-        "Die veröffentlichten Angaben sind nicht vollständig stimmig: 12 Raten zu 140 € ergeben 1.680 €, der Anbieter nennt 1.685 € Gesamtbetrag. Lass dir den konkreten Zahlungsplan vor Abschluss bestätigen."
-      ],
+      "notices": [],
       "example": {
         "currency": "EUR",
         "principal": 1500,
@@ -2161,9 +2130,7 @@
     "creditDisclosure": {
       "sourceUrl": "https://instabank.de/kreditkarte",
       "checkedOn": "2026-11-24",
-      "paragraphs": [
-        "Die veröffentlichten Monatsraten sind gerundet; ihre Summe kann geringfügig vom angegebenen Gesamtbetrag abweichen."
-      ],
+      "paragraphs": [],
       "notices": [],
       "example": {
         "currency": "EUR",

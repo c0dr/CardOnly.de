@@ -32,7 +32,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/easybank-kreditkarte",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "easybank Eurowings Classic",
@@ -58,9 +60,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 29 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "easybank Eurowings Premium",
@@ -86,9 +90,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "easybank Gold Visa",
@@ -116,9 +122,13 @@
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold",
       "displayedCaveats": [
+        "Für Neuabschlüsse nicht mehr verfügbar; Angaben für bestehende Karten können abweichen."
+      ],
+      "internalReviewNotes": [
         "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 59 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter.",
         "Für Neuabschlüsse nicht mehr verfügbar; Angaben für bestehende Karten können abweichen."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "easybank Platinum",
@@ -145,9 +155,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Hanseatic Bank GenialCard",
@@ -174,7 +186,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.hanseaticbank.de/kreditkarte/genialcard",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Hanseatic Bank GoldCard",
@@ -203,7 +217,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.hanseaticbank.de/kreditkarte/goldcard",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Openbank BestCard Basic",
@@ -245,9 +261,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.openbank.de/content/dam/openbank/dokumente/informationen/secci-basic-card.pdf.coredownload.pdf",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Das Informationsblatt nennt keinen festen monatlichen Beispiel-Ratenbetrag oder eine feste Ratenanzahl."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Commerzbank ClassicKreditkarte",
@@ -261,7 +279,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Commerzbank GoldKreditkarte",
@@ -275,7 +295,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Advanzia Mastercard Gold",
@@ -305,9 +327,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://support.gebuhrenfrei.com/faq?anchor=allgemein",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Der Anbieter veröffentlicht an anderer Stelle abweichende Zinsangaben (22,90 % Sollzins, 24,69 % effektiv). Dieses Beispiel stammt aus der verlinkten FAQ. Prüfe vor Abschluss die für deinen Vertrag geltenden Konditionen."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Advanzia Hilton Honors",
@@ -337,9 +361,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.hiltonhonorscreditcard.de/",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Das Anbieterbeispiel nennt nur Zinskosten. Für die Karte sind 6 € Monatsentgelt hinterlegt; dessen Berücksichtigung im Beispiel ist nicht geklärt. Prüfe deshalb die Gesamtkosten einschließlich Kartenentgelt beim Anbieter."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Consors Finanz Mastercard",
@@ -359,7 +385,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.consorsfinanz.de/karte-kredite/mastercard",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Targobank Visa Online Classic",
@@ -399,7 +427,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://tfbank.de/mastercard-gold",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Miles & More Blue Credit Card",
@@ -419,9 +449,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Miles & More Gold Credit Card",
@@ -441,9 +473,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Miles & More MyFlex Credit Card",
@@ -462,9 +496,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": false,
       "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis-myflex.pdf",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Ein effektiver Jahreszins und ein vollständiges numerisches Beispiel sind für diese Karte noch nicht hinterlegt. Aktuelle Vertragskonditionen beim Anbieter prüfen."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "PAYBACK Visa",
@@ -506,9 +542,11 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://www.banknorwegian.de/kreditkarte/",
-      "displayedCaveats": [
+      "displayedCaveats": [],
+      "internalReviewNotes": [
         "Die veröffentlichten Angaben sind nicht vollständig stimmig: 12 Raten zu 140 € ergeben 1.680 €, der Anbieter nennt 1.685 € Gesamtbetrag. Lass dir den konkreten Zahlungsplan vor Abschluss bestätigen."
-      ]
+      ],
+      "publicVerificationCommentaryRemoved": true
     },
     {
       "card": "Instabank",
@@ -534,7 +572,9 @@
       "creditSectionDisplayed": true,
       "numericalExampleDisplayed": true,
       "displayedSourceUrl": "https://instabank.de/kreditkarte",
-      "displayedCaveats": []
+      "displayedCaveats": [],
+      "internalReviewNotes": [],
+      "publicVerificationCommentaryRemoved": true
     }
   ]
 }
