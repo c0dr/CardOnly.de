@@ -1,3 +1,6 @@
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import CreditDetails from '../src/CardComponents/CreditDetails';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -377,11 +380,11 @@ const pageShell = ({ title, description, canonicalPath, bodyHtml, jsonLd }: any)
   </head>
   <body>
     <main class="container">
+      ${bodyHtml}
       <aside aria-label="Hinweis zu Kreditkosten" style="margin-bottom:20px;padding:16px;border:1px solid #fcd34d;border-radius:8px;background:#fffbeb;color:#451a03;font-size:16px;line-height:1.5">
         <strong>${escapeHtml(creditWarning)}</strong>
         <p>${escapeHtml(creditCostExplanation)}</p>
       </aside>
-      ${bodyHtml}
       <footer>
         Datenquelle: <a href="${siteUrl}/data/cards.json">cards.json</a> · Letztes Update: ${today}
       </footer>
@@ -428,6 +431,8 @@ const createCardRedirectPage = (targetSlug: string) => {
 </html>`;
 };
 
+const renderCreditDetails = (card: any) => renderToStaticMarkup(React.createElement(CreditDetails, { card }));
+
 const createCardPage = (card: any, allTopics: any[]) => {
   const notes = [stripHtml(card.notes || ''), stripHtml(card.legalnotes || '')].filter(Boolean).join(' ');
   const activeOffer = getActiveCardOffer(card);
@@ -471,8 +476,9 @@ ${activeOffer ? `      <aside class="offer" aria-label="Befristetes Angebot" tit
         <div class="item"><div class="label">Google Pay</div><div class="value">${escapeHtml(asText(card.googlepay))}</div></div>
       </div>
 
+${renderCreditDetails(card)}
       ${notes ? `<p style="margin-top:14px"><strong>Hinweise:</strong> ${escapeHtml(notes)}</p>` : ''}
-${card.creditTermsUrl ? `      <p><a href="${escapeHtml(card.creditTermsUrl)}" target="_blank" rel="noopener noreferrer">Informationen zu Kreditkosten und Rückzahlung</a></p>` : ''}
+${card.creditTermsUrl && !card.creditDisclosure ? `      <p><a href="${escapeHtml(card.creditTermsUrl)}" target="_blank" rel="noopener noreferrer">Informationen zu Kreditkosten und Rückzahlung</a></p>` : ''}
 
       ${topicTags.length > 0 ? `<p style="margin-top:14px"><strong>Passende Themen:</strong> ${topicTags
         .map((topic) => `<a href="/topic/${topic.slug}/">${escapeHtml(topic.linkLabel)}</a>`)
@@ -557,7 +563,7 @@ const createTopicPage = (topic: any) => {
                 cardDescription(card)
               )}</p><p class="muted">${escapeHtml(ratingText)}Jahresgebuehr: ${escapeHtml(asCurrency(card.yearlyFee))} · Ausland: ${escapeHtml(
                 asText(card.fees_atm_foreign)
-              )}</p></li>`;
+              )}</p>${renderCreditDetails(card)}</li>`;
           })
           .join('')}</ul>`;
 
@@ -629,6 +635,7 @@ const createCardIndexPage = (cards: any[]) => {
               <p class="muted">Jahresgebuehr: ${escapeHtml(asCurrency(card.yearlyFee))} · ${escapeHtml(
                 chargeLabels[card.charge] || 'Karte'
               )}</p>
+${renderCreditDetails(card)}
             </li>`
           )
           .join('')}

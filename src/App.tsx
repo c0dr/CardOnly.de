@@ -18,7 +18,6 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-background font-sans antialiased">
         <div className="relative flex min-h-screen flex-col">
           <Header/>
-          <div className="container px-4 pt-4"><CreditNotice /></div>
           <div className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
@@ -33,6 +32,7 @@ const App: React.FC = () => {
               <Route path="/compare" element={<ComparePage />} />
             </Routes>
           </div>
+          <div className="container px-4 pt-8"><CreditNotice /></div>
           <footer className="mt-20 bg-[#0b1220] text-slate-400">
             <div className="container px-4 py-12">
               <div className="flex flex-col gap-10 md:flex-row md:justify-between">

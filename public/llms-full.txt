@@ -79,6 +79,7 @@
 - [ING Visa Debit](https://cardonly.de/card/ing-visa-debit/)
 - [Instabank](https://cardonly.de/card/instabank/)
 - [Klarna Konto](https://cardonly.de/card/klarna-konto/)
+- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [Monese Simple Debit MasterCard](https://cardonly.de/card/monese-simple-debit-mastercard/)
 - [N26 Standard](https://cardonly.de/card/n26-standard/)
 - [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/)
@@ -121,6 +122,7 @@
 - [C24 Plus](https://cardonly.de/card/c24-plus/)
 - [easybank Platinum](https://cardonly.de/card/easybank-platinum/)
 - [American Express Payback](https://cardonly.de/card/american-express-payback/)
+- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [Wise Debit](https://cardonly.de/card/wise-debit/)
 - [VimPAY](https://cardonly.de/card/vimpay/)
 - [Deutsche Bank Card Plus](https://cardonly.de/card/deutsche-bank-card-plus/)
@@ -148,7 +150,6 @@
 - [Instabank](https://cardonly.de/card/instabank/)
 - [Monese Simple Debit MasterCard](https://cardonly.de/card/monese-simple-debit-mastercard/)
 - [N26 Metal](https://cardonly.de/card/n26-metal/)
-- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [Klarna Everywhere](https://cardonly.de/card/klarna-everywhere/)
 - [Tomorrow Plus](https://cardonly.de/card/tomorrow-plus/)
 - [American Express Green](https://cardonly.de/card/american-express-green/)
@@ -179,6 +180,7 @@
 - [American Express Blue](https://cardonly.de/card/american-express-blue/)
 - [easybank Eurowings Premium](https://cardonly.de/card/easybank-eurowings-premium/)
 - [easybank Eurowings Classic](https://cardonly.de/card/easybank-eurowings-classic/)
+- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [Advanzia Hilton Honors](https://cardonly.de/card/advanzia-hilton-honors/)
 - [Klarna Premium](https://cardonly.de/card/klarna-premium/)
 - [Klarna Max](https://cardonly.de/card/klarna-max/)
@@ -187,7 +189,6 @@
 - [easybank Gold Visa](https://cardonly.de/card/easybank-gold-visa/)
 - [American Express Green](https://cardonly.de/card/american-express-green/)
 - [Miles & More Blue Credit Card](https://cardonly.de/card/miles-more-blue-credit-card/)
-- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [Miles & More Gold Credit Card](https://cardonly.de/card/miles-more-gold-credit-card/)
 - [American Express Gold](https://cardonly.de/card/american-express-gold/)
 - [American Express Platinum](https://cardonly.de/card/american-express-platinum/)
@@ -251,6 +252,7 @@
 - [Wise Debit](https://cardonly.de/card/wise-debit/)
 - [American Express Blue](https://cardonly.de/card/american-express-blue/)
 - [consorsbank Visa Debit](https://cardonly.de/card/consorsbank-visa-debit/)
+- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/)
 - [American Express Payback](https://cardonly.de/card/american-express-payback/)
 - [Openbank BestCard Basic](https://cardonly.de/card/openbank-bestcard-basic/)
 - [ING Visa Debit](https://cardonly.de/card/ing-visa-debit/)
@@ -311,7 +313,7 @@
 - [Klarna Premium](https://cardonly.de/card/klarna-premium/) | Jahresgebuehr: 239.88 EUR | Meilen: Nein | Ausland ATM: Nicht möglich | Ausland POS: 0
 - [Miles & More Blue Credit Card](https://cardonly.de/card/miles-more-blue-credit-card/) | Jahresgebuehr: 66 EUR | Meilen: Ja | Ausland ATM: 2%, mind. 5EUR + 1.95% AEE | Ausland POS: 1.95%
 - [Miles & More Gold Credit Card](https://cardonly.de/card/miles-more-gold-credit-card/) | Jahresgebuehr: 138 EUR | Meilen: Ja | Ausland ATM: 2%, mind. 5EUR + 1.95% AEE | Ausland POS: 1.95%
-- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/) | Jahresgebuehr: 50 EUR | Meilen: Ja | Ausland ATM: 2%, mind. 5 EUR + 1,95% Auslandseinsatzentgelt | Ausland POS: 1,95%
+- [Miles & More MyFlex Credit Card](https://cardonly.de/card/miles-more-myflex-credit-card/) | Jahresgebuehr: 0 EUR | Meilen: Ja | Ausland ATM: 2%, mind. 5 EUR + 1,95% Auslandseinsatzentgelt | Ausland POS: 1,95%
 - [Monese Simple Debit MasterCard](https://cardonly.de/card/monese-simple-debit-mastercard/) | Jahresgebuehr: 0 EUR | Meilen: Nein | Ausland ATM: 4% | Ausland POS: 3%
 - [N26 Go](https://cardonly.de/card/n26-go/) | Jahresgebuehr: 118.8 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0
 - [N26 Metal](https://cardonly.de/card/n26-metal/) | Jahresgebuehr: 202.8 EUR | Meilen: Nein | Ausland ATM: 0 | Ausland POS: 0

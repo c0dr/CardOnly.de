@@ -1,7 +1,7 @@
 {
   "checkedOn": "2026-11-24",
   "jurisdiction": "Germany",
-  "scope": "Research and follow-up changes for original 21 credit entries: TARGOBANK removed, PAYBACK current full-repayment product distinguished, Openbank SECCI example displayed. Other unresolved entries retained.",
+  "scope": "Shared credit sections implemented for all 19 current credit-tagged listings; 13 issuer-published numerical examples displayed with source-specific caveats. General and unresolved disclosures remain distinct. Includes main and featured listings, comparison table and generated card/index/topic pages.",
   "limitations": [
     "Source retrieval is not issuer approval for our placement. No legal certification.",
     "Examples describe assumed borrowing and repayment, not necessarily the credit-card contract duration.",
@@ -28,7 +28,11 @@
         "installmentCount": 12,
         "regularInstallment": 138.69,
         "totalPayable": 1664.32
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/easybank-kreditkarte",
+      "displayedCaveats": []
     },
     {
       "card": "easybank Eurowings Classic",
@@ -50,7 +54,13 @@
         "installmentCount": 12,
         "regularInstallment": 138.69,
         "totalPayable": 1664.32
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-classic",
+      "displayedCaveats": [
+        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 29 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
+      ]
     },
     {
       "card": "easybank Eurowings Premium",
@@ -72,7 +82,13 @@
         "installmentCount": 12,
         "regularInstallment": 138.69,
         "totalPayable": 1664.32
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/eurowings-kreditkarte-premium",
+      "displayedCaveats": [
+        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
+      ]
     },
     {
       "card": "easybank Gold Visa",
@@ -95,7 +111,14 @@
         "installmentCount": 12,
         "regularInstallment": 138.69,
         "totalPayable": 1664.32
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-gold",
+      "displayedCaveats": [
+        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 59 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter.",
+        "Für Neuabschlüsse nicht mehr verfügbar; Angaben für bestehende Karten können abweichen."
+      ]
     },
     {
       "card": "easybank Platinum",
@@ -118,7 +141,13 @@
         "installmentCount": 12,
         "regularInstallment": 138.69,
         "totalPayable": 1664.32
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.easybank.de/easybank-de/kreditkarten/kreditkarte-platinum",
+      "displayedCaveats": [
+        "Das veröffentlichte Beispiel erläutert nicht, wie das Kartenentgelt von 99 € pro Jahr berücksichtigt wird. Prüfe die gesamten Kredit- und Kartenkosten beim Anbieter."
+      ]
     },
     {
       "card": "Hanseatic Bank GenialCard",
@@ -141,7 +170,11 @@
         "totalPayable": 1652.55,
         "regularInstallmentCount": 11,
         "finalInstallment": 134.55
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.hanseaticbank.de/kreditkarte/genialcard",
+      "displayedCaveats": []
     },
     {
       "card": "Hanseatic Bank GoldCard",
@@ -166,7 +199,11 @@
         "finalInstallment": 128.08,
         "cardFeePerMonth": 4.9,
         "totalIncludesCardFee": true
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.hanseaticbank.de/kreditkarte/goldcard",
+      "displayedCaveats": []
     },
     {
       "card": "Openbank BestCard Basic",
@@ -204,7 +241,13 @@
         ],
         "installmentCount": null,
         "regularInstallment": null
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.openbank.de/content/dam/openbank/dokumente/informationen/secci-basic-card.pdf.coredownload.pdf",
+      "displayedCaveats": [
+        "Das Informationsblatt nennt keinen festen monatlichen Beispiel-Ratenbetrag oder eine feste Ratenanzahl."
+      ]
     },
     {
       "card": "Commerzbank ClassicKreditkarte",
@@ -214,7 +257,11 @@
       ],
       "observations": [
         "Reviewed product page does not publish an installment-credit representative example. Dataset charge=credit is not enough to establish a revolving facility or advertising duty. Check contractual repayment model and any credit-cost disclosure trigger before adding an example."
-      ]
+      ],
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/",
+      "displayedCaveats": []
     },
     {
       "card": "Commerzbank GoldKreditkarte",
@@ -224,7 +271,11 @@
       ],
       "observations": [
         "Reviewed product page does not publish an installment-credit representative example. Dataset charge=credit is not enough to establish a revolving facility or advertising duty. Check contractual repayment model and any credit-cost disclosure trigger before adding an example."
-      ]
+      ],
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.commerzbank.de/privatkunden/kreditkarten/gold-kreditkarte/",
+      "displayedCaveats": []
     },
     {
       "card": "Advanzia Mastercard Gold",
@@ -250,7 +301,13 @@
         "regularInstallment": 94.4,
         "totalPayable": 1132.75,
         "interestCosts": 132.75
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://support.gebuhrenfrei.com/faq?anchor=allgemein",
+      "displayedCaveats": [
+        "Der Anbieter veröffentlicht an anderer Stelle abweichende Zinsangaben (22,90 % Sollzins, 24,69 % effektiv). Dieses Beispiel stammt aus der verlinkten FAQ. Prüfe vor Abschluss die für deinen Vertrag geltenden Konditionen."
+      ]
     },
     {
       "card": "Advanzia Hilton Honors",
@@ -276,7 +333,13 @@
         "totalPayable": 1132.75,
         "interestCosts": 132.75
       },
-      "userSuppliedDisclosure": "Repräsentatives Beispiel nach § 17 PAngV: Nettodarlehensbetrag: EUR 1.000. Fester Sollzinssatz: 22,48% p. a. In die Gesamtkosten einbezogene Kosten: Zinsen in Höhe von insgesamt EUR 132,75. Effektiver Jahreszins: 24,95%. Vertragslaufzeit: 1 Jahr. Höhe der monatlichen Raten: EUR 94,40. Zu zahlender Gesamtbetrag: EUR 1.132,75. Annahmen: Der Kredit wird ab dem ersten Tag vollständig in Anspruch genommen und für ein Jahr gewährt. Der Betrag wird mit 12 gleich hohen monatlichen Zahlungen zurückgezahlt, beginnend einen Monat nach dem ersten Tag. Mit der letzten Zahlung sind Saldo und Zinsen ausgeglichen."
+      "userSuppliedDisclosure": "Repräsentatives Beispiel nach § 17 PAngV: Nettodarlehensbetrag: EUR 1.000. Fester Sollzinssatz: 22,48% p. a. In die Gesamtkosten einbezogene Kosten: Zinsen in Höhe von insgesamt EUR 132,75. Effektiver Jahreszins: 24,95%. Vertragslaufzeit: 1 Jahr. Höhe der monatlichen Raten: EUR 94,40. Zu zahlender Gesamtbetrag: EUR 1.132,75. Annahmen: Der Kredit wird ab dem ersten Tag vollständig in Anspruch genommen und für ein Jahr gewährt. Der Betrag wird mit 12 gleich hohen monatlichen Zahlungen zurückgezahlt, beginnend einen Monat nach dem ersten Tag. Mit der letzten Zahlung sind Saldo und Zinsen ausgeglichen.",
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.hiltonhonorscreditcard.de/",
+      "displayedCaveats": [
+        "Das Anbieterbeispiel nennt nur Zinskosten. Für die Karte sind 6 € Monatsentgelt hinterlegt; dessen Berücksichtigung im Beispiel ist nicht geklärt. Prüfe deshalb die Gesamtkosten einschließlich Kartenentgelt beim Anbieter."
+      ]
     },
     {
       "card": "Consors Finanz Mastercard",
@@ -292,7 +355,11 @@
         "User confirmed issuer disclosure. Added to website legalnotes as the issuer representative disclosure, with indefinite term and percentage repayment intact. No invented fixed-term schedule. The old paragraph reference is not reproduced in the website disclosure."
       ],
       "previousCardName": "Consorsfinanz EC Debit MasterCard",
-      "userSuppliedDisclosure": "Für die Nutzung des Kreditrahmens fallen Zinsen und ggf. Beiträge für eine etwaig nachträglich abgeschlossene Restschuldversicherung an. Bonitätsabhängiger Kreditrahmen; Nettokreditbetrag bis 5.000 €; Vertragslaufzeit auf unbestimmte Zeit. Veränderlicher Sollzinssatz (jährlich): 19,13 %, effektiver Jahreszinssatz (vorbehaltlich abweichender Vereinbarung): 20,90 %. Die monatliche Rate beträgt mindestens 2,8 % der jeweils höchsten, auf volle 100 € gerundeten Inanspruchnahme des Kreditrahmens, mindestens 9,10 €. Angaben zugleich repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV (Zahlart Ratenzahlung)"
+      "userSuppliedDisclosure": "Für die Nutzung des Kreditrahmens fallen Zinsen und ggf. Beiträge für eine etwaig nachträglich abgeschlossene Restschuldversicherung an. Bonitätsabhängiger Kreditrahmen; Nettokreditbetrag bis 5.000 €; Vertragslaufzeit auf unbestimmte Zeit. Veränderlicher Sollzinssatz (jährlich): 19,13 %, effektiver Jahreszinssatz (vorbehaltlich abweichender Vereinbarung): 20,90 %. Die monatliche Rate beträgt mindestens 2,8 % der jeweils höchsten, auf volle 100 € gerundeten Inanspruchnahme des Kreditrahmens, mindestens 9,10 €. Angaben zugleich repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV (Zahlart Ratenzahlung)",
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.consorsfinanz.de/karte-kredite/mastercard",
+      "displayedCaveats": []
     },
     {
       "card": "Targobank Visa Online Classic",
@@ -305,7 +372,9 @@
         "Product page offers full or partial repayment; no complete example located there.",
         "Issuer price-list search result lists 16.35% APR and 1.27% monthly borrowing rate for Online-Classic. Full advertising example not verified. Secondary-site payment examples not treated as issuer-approved evidence.",
         "Removed from dataset, generated product pages and indexes at user request."
-      ]
+      ],
+      "creditSectionDisplayed": false,
+      "numericalExampleDisplayed": false
     },
     {
       "card": "TF Bank MasterCard Gold",
@@ -326,7 +395,11 @@
         "installmentCount": 12,
         "regularInstallment": 93.88,
         "totalPayable": 1126.6
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://tfbank.de/mastercard-gold",
+      "displayedCaveats": []
     },
     {
       "card": "Miles & More Blue Credit Card",
@@ -342,7 +415,13 @@
         "Follow-up check after user reported no partial repayment: current Deutsche Bank Miles & More FAQ explicitly names Blue and Gold as eligible for optional Flexible Teilzahlung selected at application, with repayment percentages 10/20/30/40/50 and switch to 100%. Interest applies to balances carried through a billing cycle. Do not infer universal availability for every customer or Business variant. Complete representative example still not verified.",
         "User-approved issuer note added visibly to website: monthly interest, linked current price list, revolving-loan nature and exclusion of self-employed/freelance applicants. General disclosure only; not a complete numerical representative example and not evidence of full legal compliance."
       ],
-      "generalDisclosureAdded": true
+      "generalDisclosureAdded": true,
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
+      "displayedCaveats": [
+        "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
+      ]
     },
     {
       "card": "Miles & More Gold Credit Card",
@@ -358,11 +437,17 @@
         "Follow-up check after user reported no partial repayment: current Deutsche Bank Miles & More FAQ explicitly names Blue and Gold as eligible for optional Flexible Teilzahlung selected at application, with repayment percentages 10/20/30/40/50 and switch to 100%. Interest applies to balances carried through a billing cycle. Do not infer universal availability for every customer or Business variant. Complete representative example still not verified.",
         "User-approved issuer note added visibly to website: monthly interest, linked current price list, revolving-loan nature and exclusion of self-employed/freelance applicants. General disclosure only; not a complete numerical representative example and not evidence of full legal compliance."
       ],
-      "generalDisclosureAdded": true
+      "generalDisclosureAdded": true,
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis.pdf",
+      "displayedCaveats": [
+        "Ein vollständiges numerisches Beispiel ist für diese Karte noch nicht hinterlegt. Die allgemeinen Zinshinweise ersetzen kein solches Beispiel."
+      ]
     },
     {
       "card": "Miles & More MyFlex Credit Card",
-      "status": "stored_rate_and_fee_incorrect_example_not_found",
+      "status": "rate_and_fee_corrected_example_not_found",
       "sources": [
         "https://www.miles-and-more-kreditkarte.com/de/privatkunden/kreditkarten/miles-and-more-myflex-credit-card.html",
         "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis-myflex.pdf"
@@ -371,7 +456,14 @@
         "October 2026 issuer price list: EUR 0 monthly card fee; variable borrowing rate 16.15% p.a. No complete representative example found in reviewed current product page and price list.",
         "Dataset instead has EUR 50 yearly fee, fixed 22.90% borrowing rate and 24.69% APR. These do not match the current issuer document.",
         "DKB subdomain contains older examples for a different issuing bank. Exclude those from the current Deutsche Bank product.",
-        "User says we do not have the example. Interpreted as missing disclosure, not an instruction to remove this listing. Listing retained; example remains unresolved."
+        "User says we do not have the example. Interpreted as missing disclosure, not an instruction to remove this listing. Listing retained; example remains unresolved.",
+        "Follow-up implementation corrected annual card fee to EUR 0 and notes to variable borrowing rate 16.15%, per reviewed issuer document. No APR or repayment example invented."
+      ],
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": false,
+      "displayedSourceUrl": "https://www.miles-and-more-kreditkarte.com/dam/milesandmore/dokumente/pdf/legal/preis-und-leistungsverzeichnis-myflex.pdf",
+      "displayedCaveats": [
+        "Ein effektiver Jahreszins und ein vollständiges numerisches Beispiel sind für diese Karte noch nicht hinterlegt. Aktuelle Vertragskonditionen beim Anbieter prüfen."
       ]
     },
     {
@@ -386,7 +478,9 @@
         "Current listing renamed and classified charge, with full repayment note. Older separate Flexible Repayment documents do not establish that the current listed product offers partial repayment. No installment-credit example attached.",
         "Current FAQ also confirms Apple Pay/Google Pay and domestic ATM fee 2%, minimum EUR 5; matching fields corrected."
       ],
-      "previousCardName": "Payback Visa Flex"
+      "previousCardName": "Payback Visa Flex",
+      "creditSectionDisplayed": false,
+      "numericalExampleDisplayed": false
     },
     {
       "card": "Bank Norwegian",
@@ -408,7 +502,13 @@
         "installmentCount": 12,
         "regularInstallment": 140,
         "totalPayable": 1685
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://www.banknorwegian.de/kreditkarte/",
+      "displayedCaveats": [
+        "Die veröffentlichten Angaben sind nicht vollständig stimmig: 12 Raten zu 140 € ergeben 1.680 €, der Anbieter nennt 1.685 € Gesamtbetrag. Lass dir den konkreten Zahlungsplan vor Abschluss bestätigen."
+      ]
     },
     {
       "card": "Instabank",
@@ -430,7 +530,11 @@
         "installmentCount": 12,
         "regularInstallment": 138.16,
         "totalPayable": 1657.96
-      }
+      },
+      "creditSectionDisplayed": true,
+      "numericalExampleDisplayed": true,
+      "displayedSourceUrl": "https://instabank.de/kreditkarte",
+      "displayedCaveats": []
     }
   ]
 }

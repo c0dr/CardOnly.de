@@ -9,7 +9,7 @@ import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
 import SchemeBadge from './SchemeBadge';
 import UsageFees from './UsageFees';
-import { creditWarning } from '../lib/creditNotice';
+import CreditDetails from './CreditDetails';
 
 const chargeLabels: Record<string, string> = {
   charge: 'Charge',
@@ -178,10 +178,6 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         </div>
       )}
 
-      {card.charge === 'credit' && (
-        <p className="border-b border-amber-300 bg-amber-50 px-4 py-3 text-base font-bold text-amber-950 sm:px-5">{creditWarning}</p>
-      )}
-
       {/* Main row */}
       <div className="p-4 sm:p-5">
         <div className="comparison-heading flex items-center gap-3 sm:gap-4">
@@ -338,6 +334,8 @@ const CardCard: React.FC<CardCardProps> = ({ card, cols, index, onToggleCompare,
         {/* Provider button row for small screens */}
         {!simple && <div className="mt-4 sm:hidden">{providerButton}</div>}
       </div>
+
+      {card.creditDisclosure && <div className="px-4 sm:px-5"><CreditDetails card={card} /></div>}
 
       {/* Legal/Notes - visible without expansion */}
       {(card.notes || card.legalnotes) && (

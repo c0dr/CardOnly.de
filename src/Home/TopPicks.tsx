@@ -3,11 +3,11 @@ import { ArrowUpRight, Check } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import SchemeBadge from '../CardComponents/SchemeBadge';
 import UsageFees from '../CardComponents/UsageFees';
+import CreditDetails from '../CardComponents/CreditDetails';
 import { recommendedCardProfiles } from '../lib/recommendedCards';
 import { cardHighlights } from '../lib/cardHighlights';
 import { getCardRating } from '../lib/cardRatings';
 import { Card } from '../types';
-import { creditWarning } from '../lib/creditNotice';
 
 interface TopPicksProps {
   cards: Card[];
@@ -92,8 +92,8 @@ const TopPicks: React.FC<TopPicksProps> = ({ cards }) => {
                 </div>
 
                 <UsageFees card={card} compact />
+                <CreditDetails card={card} />
 
-                {card.charge === 'credit' && <p className="mb-3 text-base font-bold text-amber-950">{creditWarning}</p>}
 
                 <Button asChild className="pick-provider h-11 w-full rounded-md text-sm font-semibold shadow-none">
                   <a href={card.adlink || card.link || '#'} target="_blank" rel="noopener noreferrer">

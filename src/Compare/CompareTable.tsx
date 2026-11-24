@@ -3,6 +3,7 @@ import { Button } from '../components/ui/button';
 import { Table, TableBody, TableCell, TableRow } from '../components/ui/table';
 import { Card } from '../types';
 import SchemeBadge from '../CardComponents/SchemeBadge';
+import CreditDetails from '../CardComponents/CreditDetails';
 
 const parseNumber = (value: any): number | null => {
   if (typeof value === 'number') return value;
@@ -146,6 +147,10 @@ const CompareTable: React.FC<CompareTableProps> = ({ cards, onRemove, onClear })
               })}
             </TableRow>
           ))}
+          {cards.some((card) => card.creditDisclosure) && <TableRow>
+            <TableCell className="align-top">Kreditkosten und Rückzahlung</TableCell>
+            {cards.map((card) => <TableCell key={card.Issuer} className="align-top"><CreditDetails card={card} /></TableCell>)}
+          </TableRow>}
         </TableBody>
       </Table>
     </section>

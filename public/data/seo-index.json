@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:27:22.806Z",
+  "generatedAt": "2026-11-24T13:21:46.103Z",
   "site": "https://cardonly.de",
   "topics": [
     {
@@ -305,7 +305,7 @@
       "title": "Kreditkarten ohne Jahresgebuehr",
       "description": "Kreditkarten mit 0 EUR Jahresgebuehr laut hinterlegten Kartendaten.",
       "url": "https://cardonly.de/topic/no-annual-fee/",
-      "cardCount": 29,
+      "cardCount": 30,
       "cards": [
         {
           "issuer": "Advanzia Mastercard Gold",
@@ -391,6 +391,11 @@
           "issuer": "Klarna Konto",
           "slug": "klarna-konto",
           "url": "https://cardonly.de/card/klarna-konto/"
+        },
+        {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
           "issuer": "Monese Simple Debit MasterCard",
@@ -602,6 +607,11 @@
           "url": "https://cardonly.de/card/american-express-payback/"
         },
         {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
           "issuer": "Wise Debit",
           "slug": "wise-debit",
           "url": "https://cardonly.de/card/wise-debit/"
@@ -735,11 +745,6 @@
           "issuer": "N26 Metal",
           "slug": "n26-metal",
           "url": "https://cardonly.de/card/n26-metal/"
-        },
-        {
-          "issuer": "Miles & More MyFlex Credit Card",
-          "slug": "miles-more-myflex-credit-card",
-          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
           "issuer": "Klarna Everywhere",
@@ -891,6 +896,11 @@
           "url": "https://cardonly.de/card/easybank-eurowings-classic/"
         },
         {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
+        },
+        {
           "issuer": "Advanzia Hilton Honors",
           "slug": "advanzia-hilton-honors",
           "url": "https://cardonly.de/card/advanzia-hilton-honors/"
@@ -929,11 +939,6 @@
           "issuer": "Miles & More Blue Credit Card",
           "slug": "miles-more-blue-credit-card",
           "url": "https://cardonly.de/card/miles-more-blue-credit-card/"
-        },
-        {
-          "issuer": "Miles & More MyFlex Credit Card",
-          "slug": "miles-more-myflex-credit-card",
-          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
           "issuer": "Miles & More Gold Credit Card",
@@ -1136,7 +1141,7 @@
       "title": "Karten ohne Jahresgebühr",
       "description": "Vergleich von Karten ohne Jahresgebühr nach den angegebenen Kriterien. Weitere Nutzungskosten können anfallen.",
       "url": "https://cardonly.de/topic/best-free-cards/",
-      "cardCount": 29,
+      "cardCount": 30,
       "cards": [
         {
           "issuer": "Hanseatic Bank GenialCard",
@@ -1247,6 +1252,11 @@
           "issuer": "consorsbank Visa Debit",
           "slug": "consorsbank-visa-debit",
           "url": "https://cardonly.de/card/consorsbank-visa-debit/"
+        },
+        {
+          "issuer": "Miles & More MyFlex Credit Card",
+          "slug": "miles-more-myflex-credit-card",
+          "url": "https://cardonly.de/card/miles-more-myflex-credit-card/"
         },
         {
           "issuer": "American Express Payback",
@@ -2060,7 +2070,7 @@
       "issuer": "Miles & More MyFlex Credit Card",
       "slug": "miles-more-myflex-credit-card",
       "url": "https://cardonly.de/card/miles-more-myflex-credit-card/",
-      "yearlyFee": 50,
+      "yearlyFee": 0,
       "charge": "credit",
       "miles": true,
       "withChecking": false,

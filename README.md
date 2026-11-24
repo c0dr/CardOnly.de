@@ -138,10 +138,18 @@ not certified for overall EU legal compliance. The app and generated pages now
 show “Achtung! Kreditaufnahme kostet Geld”. Withdrawal fee explanations distinguish
 fees from interest. These changes do not resolve the following outstanding issues:
 
-- Credit offers quote rates in `public/data/cards.json` without complete, verified
-  representative examples (including Hanseatic GenialCard/GoldCard, Advanzia,
-  TF Bank, Miles & More MyFlex and Instabank). Obtain current issuer-approved
-  advertising disclosures; do not invent examples from the stored APRs.
+- Listings, featured cards, comparisons and generated card pages now share a
+  visible credit-information section. Thirteen cards display issuer-published
+  numerical examples; existing source inconsistencies are shown alongside them.
+  Consors displays the issuer's indefinite-term disclosure. Miles & More
+  Blue/Gold/MyFlex still have no complete numerical examples; the two Commerzbank
+  cards still need repayment classification review. These general sections and
+  caveats do not establish complete advertising-law compliance.
+- Paid easybank card examples do not explain card-fee treatment. Advanzia sources
+  conflict, Hilton's monthly-fee treatment remains unclear and Norwegian's stated
+  installments do not reconcile to its total. These remain unresolved despite
+  displaying the published figures. Research details are in
+  `research/credit-examples-2026-11-24.json`.
 - Under [§ 17 PAngV](https://www.gesetze-im-internet.de/pangv_2022/__17.html),
   advertising credit rates or cost figures can require principal, borrowing rate
   and rate type, included charges, APR and a representative example; term,

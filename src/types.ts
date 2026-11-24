@@ -4,6 +4,31 @@ export interface CardOffer {
   endsAt: string;
 }
 
+export interface CreditExample {
+  principal: number;
+  borrowingRatePercent: number;
+  borrowingRateType: 'fixed' | 'variable';
+  aprPercent: number;
+  termMonths?: number;
+  assumedTermMonths?: number;
+  installmentCount?: number | null;
+  regularInstallment?: number | null;
+  regularInstallmentCount?: number;
+  finalInstallment?: number;
+  totalPayable: number;
+  interestCosts?: number;
+  cardFeePerMonth?: number;
+  totalIncludesCardFee?: boolean;
+}
+
+export interface CreditDisclosure {
+  sourceUrl: string;
+  checkedOn: string;
+  example?: CreditExample;
+  paragraphs: string[];
+  notices: string[];
+}
+
 export interface Card {
   id: string;
   Issuer: string;
@@ -12,6 +37,7 @@ export interface Card {
   notes?: string;
   legalnotes?: string;
   creditTermsUrl?: string;
+  creditDisclosure?: CreditDisclosure;
   yearlyFee?: string | number;
   fees_pos_foreign?: string | number;
   fees_atm_foreign?: string | number;
